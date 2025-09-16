@@ -1,4 +1,4 @@
-/* ===================== root variables ==============================*/
+/* ===================== root variables ============================= */
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 
@@ -14,7 +14,7 @@
   --text-color: #495057;
 }
 
-/* ===================== html elements ==============================*/
+/* ===================== html elements ============================= */
 
 body {
   margin: 0;
