@@ -1,16 +1,27 @@
+/* ===================== root variables ==============================*/
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  background-color: whitesmoke;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  
+  /* ========= colors =========== */
+  --bg-color: #ffffff;
+  --accent-bg-color: #192d45;
+  --accent-text-color: #e2dccc;
+  --text-color: #495057;
 }
 
+/* ===================== html elements ==============================*/
+
 body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
   margin: 0;
   padding: 0;
 }
