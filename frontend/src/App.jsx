@@ -1,6 +1,6 @@
 
 
-import { Overlayheader } from "./components/overlay-items/overlay.jsx"
+import * as Overlay from "./components/overlay-items/overlay.jsx"
 
 // Import Router helpers
 import { Routes, Route } from "react-router-dom";
@@ -15,7 +15,7 @@ function App() {
     return (
         <>
 
-            <Overlayheader headerlinks={Links.overlayheaderlink} />
+            <Overlay.Overlayheader headerlinks={Links.overlayheaderlink} />
             <Suspense fallback={<div>Loading...</div>}>
                 <Routes>
                     {routes.map(({ path, element }, index) => (
