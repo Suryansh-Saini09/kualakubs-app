@@ -37,10 +37,10 @@ export function Overlayheader({ headerlinks }) {
             <div className="row pe-2">
                 <div
                     className="col-12 mb-1 d-flex justify-content-center align-content-center"
-                    style={{ backgroundColor: "var(--link-color)", opacity: 0.75 }}
+                    style={{ backgroundColor: "var(--accent-text-color)", opacity: 0.75 }}
                 >
                     <img
-                        src="/assets/headerlogo.png"
+                        src={HeaderLogo}
                         alt="Header Logo"
                         className="mt-4 mt-md-3 mb-4 mb-md-3 img-fluid"
                     />
@@ -48,21 +48,21 @@ export function Overlayheader({ headerlinks }) {
 
                 {/* Dynamic Links */}
                 {headerlinks.map((section, index) => (
-                    <div
+                    <Link
                         key={index}
-                        className="col-12 mb-1 overlay-row-bg p-2 d-flex justify-content-between align-content-center"
+                        to={section?.path || "#"}
+                        style={{ textDecoration: "none", color: "inherit", padding: "0" }}
                     >
-                        <Link
-                            to={section?.path || "#"}
-                            className="overlay-row-element"
-                            style={{ textDecoration: "none" }}
-                        >
-                            {section?.pathname || "Disabled"}
-                        </Link>
-                        <span>
-                            <i className="bi bi-arrow-right-square overlay-row-element"></i>
-                        </span>
-                    </div>
+                        <div className="col-12 mb-1 overlay-row-bg p-2 d-flex justify-content-between align-content-center">
+                            <span className="overlay-row-element">
+                                {section?.pathname || "Disabled"}
+                            </span>
+                            <span>
+                                <i className="bi bi-arrow-right-square overlay-row-element"></i>
+                            </span>
+                        </div>
+                    </Link>
+
                 ))}
             </div>
         </div>
@@ -75,7 +75,7 @@ export function Overlaylogo() {
     //
     return (
         <>
-           
+
         </>
     );
 }
