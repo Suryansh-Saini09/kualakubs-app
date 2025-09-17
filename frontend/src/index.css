@@ -117,3 +117,34 @@ body {
     color: var(--accent-text-color);
 }
 
+/* =========================================================
+   Bottom Strip
+========================================================= */
+.bottom-strip {
+    height: 50px;
+    width: 40%;
+    clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);
+    background-color: var(--accent-bg-color);
+    opacity: 0.85;
+    z-index: 2;
+    bottom: 0;
+}
+
+.bottom-strip a {
+    text-decoration: none;
+    color: var(--accent-text-color);
+    font-size: large;
+}
+
+@media (max-width: 768px) {
+    .bottom-strip {
+        width: 100%;
+        height: 30px;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .bottom-strip a {
+        font-size: small;
+    }
+}
+
