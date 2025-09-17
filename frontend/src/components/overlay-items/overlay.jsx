@@ -4,7 +4,7 @@
 import HeaderLogo from "../../assets/headerlogo.png";
 import "./overlay.css";
 import { Link } from "react-router-dom";
-import React from "react";  // use later if needed.
+// import React from "react";  // use later if needed.
 
 
 function toggle_name() {
@@ -139,24 +139,6 @@ export function Overlaylist({ Overlaylistlinks }) {
     );
 }
 
-export function OverlaybottomstripA() {
-    return (
-        <>
-           
-        </>
-    );
-}
-
-export function OverlaybottomstripH() {
-    return (
-        <>
-            <div className="bottom-strip-h position-absolute d-flex justify-content-center">
-                <Link to="/co-education" className="mt-2 mb-2 m-md-2 m-sm-1">Co-Education and Pre-Prep from 2026 &#8594</Link>
-            </div>
-        </>
-    );
-}
-
 export function Overlaymiddleheading() {
     return (
         <>
@@ -177,7 +159,5 @@ export default {
     Overlaylist,
     Overlaylogo,
     Overlaymiddleheading,
-    OverlaybottomstripH,
-    OverlaybottomstripA
 }
 
