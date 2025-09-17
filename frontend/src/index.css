@@ -25,3 +25,89 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* =========================================================
+   Corners
+========================================================= */
+.round-top-left {
+    border-top-left-radius: 15px;
+    /* adjust px as needed */
+}
+
+.round-top-right {
+    border-top-right-radius: 15px;
+}
+
+.round-bottom-left {
+    border-bottom-left-radius: 15px;
+}
+
+.round-bottom-right {
+    border-bottom-right-radius: 15px;
+}
+
+
+/* =========================================================
+   Buttons
+========================================================= */
+
+/* light */
+.custom-button-effect {
+    position: relative;
+    background-size: 1.5rem;
+    z-index: 1;
+    color: var(--link-color);
+}
+
+/* Button hover fill effect */
+.custom-button-effect::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--link-color);
+    border-color: var(--link-color);
+    z-index: -1;
+    transition: width 0.4s ease;
+}
+
+.custom-button-effect:hover::before {
+    width: 100%;
+}
+
+.custom-button-effect:hover {
+    color: black;
+}
+
+/* dark */
+.custom-button-effect-dark {
+    position: relative;
+    background-size: 1.5rem;
+    z-index: 1;
+    color: var(--bg-color);
+}
+
+/* Button hover fill effect */
+.custom-button-effect-dark::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--bg-color);
+    border-color: var(--bg-color);
+    z-index: -1;
+    transition: width 0.4s ease;
+}
+
+.custom-button-effect-dark:hover::before {
+    width: 100%;
+}
+
+.custom-button-effect-dark:hover {
+    color: white;
+}
+
