@@ -56,7 +56,7 @@ body {
     position: relative;
     background-size: 1.5rem;
     z-index: 1;
-    color: var(--link-color);
+    color: var(--accent-text-color);
 }
 
 /* Button hover fill effect */
@@ -67,8 +67,8 @@ body {
     left: 0;
     width: 0;
     height: 100%;
-    background: var(--link-color);
-    border-color: var(--link-color);
+    background: var(--accent-text-color);
+    border-color: var(--accent-text-color);
     z-index: -1;
     transition: width 0.4s ease;
 }
@@ -86,7 +86,7 @@ body {
     position: relative;
     background-size: 1.5rem;
     z-index: 1;
-    color: var(--bg-color);
+    color: var(--accent-bg-color);
 }
 
 /* Button hover fill effect */
@@ -97,8 +97,8 @@ body {
     left: 0;
     width: 0;
     height: 100%;
-    background: var(--bg-color);
-    border-color: var(--bg-color);
+    background: var(--accent-bg-color);
+    border-color: var(--accent-bg-color);
     z-index: -1;
     transition: width 0.4s ease;
 }
@@ -109,5 +109,11 @@ body {
 
 .custom-button-effect-dark:hover {
     color: white;
+}
+
+/* Custom Icon Color for bootstrap icons */
+
+.bi-color {
+    color: var(--accent-text-color);
 }
 

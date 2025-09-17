@@ -1,7 +1,10 @@
+import Navbar from "../components/navbar/Navbar";
+
 export default function About() {
     return (
         <>
-        <h1>about page</h1>
+        <Navbar/>
+        <h1 className="text-center">about page</h1>
         </>
     );
 }
