@@ -114,9 +114,9 @@
 }
 
 /* =========================================================
-   Bottom Strip
+   Bottom Strip Home page
 ========================================================= */
-.bottom-strip {
+.bottom-strip-h {
     height: 50px;
     width: 40%;
     clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);
@@ -126,20 +126,20 @@
     bottom: 0;
 }
 
-.bottom-strip a {
+.bottom-strip-h a {
     text-decoration: none;
     color: var(--accent-text-color);
     font-size: large;
 }
 
 @media (max-width: 768px) {
-    .bottom-strip {
+    .bottom-strip-h {
         width: 100%;
         height: 30px;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
 
-    .bottom-strip a {
+    .bottom-strip-h a {
         font-size: small;
     }
 }

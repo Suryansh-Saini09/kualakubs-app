@@ -3,3 +3,8 @@ export const overlayheaderlink = [
     {pathname : "about", path: "/about"},
     {pathname : "contact", path: "/contact"}
 ]
+
+
+export default {
+    overlayheaderlink
+}

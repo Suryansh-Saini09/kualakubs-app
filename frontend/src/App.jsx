@@ -8,14 +8,14 @@ import { Suspense } from "react";
 import routes from "./config/urls.js";  
 
 // import links 
-import {overlayheaderlink } from "./config/links.js";
+import * as Links from "./config/links.js";
 
 function App() {
 
     return (
         <>
 
-            <Overlayheader headerlinks={overlayheaderlink} />
+            <Overlayheader headerlinks={Links.overlayheaderlink} />
             <Suspense fallback={<div>Loading...</div>}>
                 <Routes>
                     {routes.map(({ path, element }, index) => (

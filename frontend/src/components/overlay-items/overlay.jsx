@@ -6,6 +6,20 @@ import "./overlay.css";
 import { Link } from "react-router-dom";
 import React from "react";  // use later if needed.
 
+
+function toggle_name() {
+
+    const btn = document.getElementById('overlay-btn-toggler');
+
+    if (btn.innerText === "Open") {
+        btn.innerHTML = "Close";
+    }
+    else {
+        btn.innerText = "Open";
+    }
+
+}
+
 export function Overlayheader({ headerlinks }) {
 
     const hasLinks = Array.isArray(headerlinks) && headerlinks.length > 0;
@@ -72,26 +86,73 @@ export function Overlayheader({ headerlinks }) {
 
 export function Overlaylogo() {
 
-    //
     return (
         <>
+            <div className="overlay overlay-container position-absolute text-white">
+                <div className="row pe-2">
+                    <div className="col-12 mb-1 d-flex justify-content-center align-content-center"
+                        style={{ backgroundColor: "var(--accent-text-color)", opacity: "0.75" }}>
+                        <img src="./assets/headerlogo.png" alt="" className="mt-4 mt-md-3 mb-4 mb-md-3 img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </>
+    );
+}
+
+export function Overlaylist({ Overlaylistlinks }) {
+
+    const hasLinks = Array.isArray(Overlaylistlinks) && Overlaylistlinks.length > 0;
+
+    if (!hasLinks) {
+        return;
+    }
+    return (
+        <>
+            <button class="btn overlay-btn position-absolute rounded-0 overlay d-lg-none w-100 bottom-0" type="button"
+                data-bs-toggle="collapse" data-bs-target="#overlayList" aria-expanded="false" aria-controls="overlayList"
+                style={{ backgroundColor: "var(--accent-bg-color)", color: "var(--accent-text-color)" }} id="overlay-btn-toggler"
+                onclick={() => toggle_name()}>
+                Open
+            </button>
+
+            <div class="overlay overlay-list collapse d-lg-block position-absolute text-white" id="overlayList">
+                <div class="list-group list-group-flush">
+
+
+                    {Overlaylistlinks.map((section, index) => (
+                        <Link
+                            to={section.path}
+                            key={index}
+                            className="list-group-item overlay-row-bg d-flex justify-content-between align-items-center text-white text-decoration-none"
+                        >
+                            {section.pathname}
+                            <i className="bi bi-arrow-right-square"></i>
+                        </Link>
+                    ))}
+
+                </div>
+            </div>
+
 
         </>
     );
 }
 
-export function Overlaylist() {
+export function OverlaybottomstripA() {
     return (
         <>
-
+           
         </>
     );
 }
 
-export function Overlaybottomstrip() {
+export function OverlaybottomstripH() {
     return (
         <>
-
+            <div className="bottom-strip-h position-absolute d-flex justify-content-center">
+                <Link to="/co-education" className="mt-2 mb-2 m-md-2 m-sm-1">Co-Education and Pre-Prep from 2026 &#8594</Link>
+            </div>
         </>
     );
 }
@@ -99,8 +160,24 @@ export function Overlaybottomstrip() {
 export function Overlaymiddleheading() {
     return (
         <>
-
+            <div className="position-absolute overlay overlay-hero">
+                <h4 className="hero-heading-h4 text-white"><i>Welcome to</i></h4>
+                <h1 className="hero-heading-h6 text-white">KUALAKUBS <br /> SCHOOL</h1>
+                <a href="#slidedown" className="btn rounded-circle text-dark" style="background-color: white;">
+                    <i className="bi d-inline-block bi-chevron-double-down arrow-animation" style="font-size: larger;"></i>
+                </a>
+            </div>
         </>
     );
+}
+
+
+export default {
+    Overlayheader,
+    Overlaylist,
+    Overlaylogo,
+    Overlaymiddleheading,
+    OverlaybottomstripH,
+    OverlaybottomstripA
 }
 
