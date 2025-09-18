@@ -1,29 +1,29 @@
 /* ===================== root variables ============================= */
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 
-  /* ========= colors =========== */
-  --bg-color: #ffffff;
-  --accent-bg-color: #192d45;
-  --accent-text-color: #e2dccc;
-  --text-color: #495057;
+    /* ========= colors =========== */
+    --bg-color: #ffffff;
+    --accent-bg-color: #192d45;
+    --accent-text-color: #e2dccc;
+    --text-color: #495057;
 }
 
 /* ===================== html elements ============================= */
 
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 #root {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /* =========================================================
@@ -158,12 +158,47 @@ body {
     font-size: large;
     text-transform: uppercase;
 }
+
 @media (max-width: 768px) {
     .divider {
         font-size: medium;
     }
 }
 
+.header-container {
+    background: url('https://www.westminster.org.uk/wp-content/uploads/2024/10/IMG_1172-scaled.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 90vh;
+    /* at least full screen */
+    height: auto;
+    /* allow to expand */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 80px;
+    /* spacing from top */
+    padding-bottom: 60px;
+    /* spacing above footer */
+}
 
+.content-layout {
+    column-count: 2;
+    column-gap: 50px;
+    text-align: justify;
+    width: 1200px;
+    max-width: 90%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
+@media (max-width: 768px) {
 
+    .content-layout {
+        column-count: 1;
+    }
+}

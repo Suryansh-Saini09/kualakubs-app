@@ -1,6 +1,5 @@
 
 // library imports 
-import Spinner from 'react-bootstrap/Spinner';
 import HeaderLogo from "../../assets/headerlogo.png";
 import "./overlay.css";
 import { Link } from "react-router-dom";
@@ -92,7 +91,7 @@ export function Overlaylogo() {
                 <div className="row pe-2">
                     <div className="col-12 mb-1 d-flex justify-content-center align-content-center"
                         style={{ backgroundColor: "var(--accent-text-color)", opacity: "0.75" }}>
-                        <img src="./assets/headerlogo.png" alt="" className="mt-4 mt-md-3 mb-4 mb-md-3 img-fluid" />
+                        <img src={HeaderLogo} alt="" className="mt-4 mt-md-3 mb-4 mb-md-3 img-fluid" />
                     </div>
                 </div>
             </div>
@@ -109,15 +108,15 @@ export function Overlaylist({ Overlaylistlinks }) {
     }
     return (
         <>
-            <button class="btn overlay-btn position-absolute rounded-0 overlay d-lg-none w-100 bottom-0" type="button"
+            <button className="btn position-absolute rounded-0 overlay d-lg-none w-100 bottom-0" type="button"
                 data-bs-toggle="collapse" data-bs-target="#overlayList" aria-expanded="false" aria-controls="overlayList"
                 style={{ backgroundColor: "var(--accent-bg-color)", color: "var(--accent-text-color)" }} id="overlay-btn-toggler"
-                onclick={() => toggle_name()}>
+                onClick={() => toggle_name()}>
                 Open
             </button>
 
-            <div class="overlay overlay-list collapse d-lg-block position-absolute text-white" id="overlayList">
-                <div class="list-group list-group-flush">
+            <div className="overlay overlay-list collapse d-lg-block position-absolute text-white" id="overlayList">
+                <div className="list-group list-group-flush">
 
 
                     {Overlaylistlinks.map((section, index) => (

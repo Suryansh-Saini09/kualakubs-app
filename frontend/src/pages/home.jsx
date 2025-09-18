@@ -1,24 +1,15 @@
-import Navbar from "../components/navbar/Navbar";
-import Footer from "../components/footer/Footer";
-import Carousel from "../components/carousel/carousel";
-import * as Overlay from "../components/overlay-items/overlay";
-import Cardslider from "../components/card-slider/cardslider";
-import ContactBox from "../components/contect-box/contectbox";
-import Videobox from "../components/video-box/videobox";
-import * as Contentlayout from "../components/content-layout/contentlayout";
-import Gallery from "../components/gallery/gallery";
-// import links 
+import Components from "../components/manage.js";
 import * as Links from "../config/links.js";
 
 export default function Home() {
     return (
         <>
             <main>
-                <Navbar />
+                <Components.Navbar />
                 <div className="container-fluid position-relative p-0">
-                    <Carousel />
-                    <Overlay.Overlayheader headerlinks={Links.overlayheaderlink} />
-                    <Overlay.Overlaymiddleheading />
+                    <Components.Carousel />
+                    <Components.Overlay.Overlayheader headerlinks={Links.overlayheaderlink} />
+                    <Components.Overlay.Overlaymiddleheading />
                     <div className="bottom-strip position-absolute d-flex justify-content-center">
                         <a href="/co-education" className="mt-2 mb-2 m-md-2 m-sm-1">Co-Education and Pre-Prep from 2026 &#8594</a>
                     </div>
@@ -30,15 +21,15 @@ export default function Home() {
 
                 <Contentlayout.AboutContentLayout/>
             
-                <Videobox />
+                <Components.Videobox />
 
                 <Contentlayout.LatestNewsSection/>
                 <div className="container " style={{ width: "75%" }} >
-                    <Cardslider />
+                    <Components.Cardslider />
                 </div>
-                <Gallery/>
-                <ContactBox />
-                <Footer footerLinks={Links.footerLinks} />
+                <Components.Gallery/>
+                <Components.ContactBox />
+                <Components.Footer footerLinks={Links.footerLinks} />
             </main>
         </>
     );

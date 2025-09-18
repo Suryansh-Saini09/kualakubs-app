@@ -143,3 +143,39 @@
         font-size: small;
     }
 }
+
+/* =========================================================
+   Overlay link list
+========================================================= */
+
+.overlay-list {
+    bottom: 6%;
+    right: 4%;
+    width: 25%;
+
+}
+
+@media (max-width: 768px) {
+    .overlay-list {
+        bottom: 6%;
+        right: inherit;
+        margin: 0 auto;
+        /* Ensures div is centered */
+        width: 40%;
+
+    }
+    .content-layout {
+        column-count: 1;
+    }
+}
+
+@media (max-width: 576px) {
+    .overlay-list {
+        bottom: 6%;
+        right: inherit;
+        margin: 0 auto;
+        /* Ensures div is centered */
+        width: 70%;
+
+    }
+}
