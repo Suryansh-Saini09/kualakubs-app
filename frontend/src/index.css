@@ -148,3 +148,22 @@ body {
     }
 }
 
+/* =========================================================
+   Divider Section
+========================================================= */
+.divider {
+    background-color: var(--accent-text-color);
+    color: var(--accent-bg-color);
+    min-height: 70px;
+    font-size: large;
+    text-transform: uppercase;
+}
+@media (max-width: 768px) {
+    .divider {
+        font-size: medium;
+    }
+}
+
+
+
+

@@ -154,8 +154,6 @@ export function Overlaymiddleheading() {
 }
 
 
-
-
 export default {
     Overlayheader,
     Overlaylist,
