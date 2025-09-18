@@ -1,5 +1,4 @@
-import Navbar from "../components/navbar/Navbar";
-import * as Overlay from "../components/overlay-items/overlay";
+
 import { Link } from "react-router-dom";
 import Components from "../components/manage.js";
 import * as Links from "../config/links.js";
@@ -19,11 +18,11 @@ export default function Contact() {
     ]
     return (
         <>
-            <Navbar />
+            <Components.Navbar />
 
             <div className="container-fluid header-container d-flex">
-                <Overlay.Overlaylogo />
-                <Overlay.Overlaylist Overlaylistlinks={overlayListLinks} />
+                <Components.Overlay.Overlaylogo />
+                <Components.Overlay.Overlaylist Overlaylistlinks={overlayListLinks} />
                 <div className="round-top-right bg-white d-none p-4 d-lg-block position-absolute bottom-0 start-0"
                     style={{width: "35%"}}>
                     <nav aria-label="breadcrumb">

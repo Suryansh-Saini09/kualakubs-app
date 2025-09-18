@@ -19,11 +19,11 @@ export default function Home() {
                     A progressive school on an ancient site in the heart of the world's most vibrant city
                 </div>
 
-                <Contentlayout.AboutContentLayout/>
+                <Components.Contentlayout.AboutContentLayout/>
             
                 <Components.Videobox />
 
-                <Contentlayout.LatestNewsSection/>
+                <Components.Contentlayout.LatestNewsSection/>
                 <div className="container " style={{ width: "75%" }} >
                     <Components.Cardslider />
                 </div>
