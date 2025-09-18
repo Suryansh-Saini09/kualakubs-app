@@ -2,6 +2,7 @@ import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
 import Carousel from "../components/carousel/carousel";
 import * as Overlay from "../components/overlay-items/overlay";
+import Cardslider from "../components/card-slider/cardslider"
 // import links 
 import * as Links from "../config/links.js";
 
@@ -19,6 +20,9 @@ export default function Home() {
                     </div>
                 </div>
                 <h1 className="text-center">Home page</h1>
+                <div className="container " style={{ width: "75%" }} >
+                <Cardslider/>
+                </div>
                 <Footer footerLinks={Links.footerLinks} />
             </main>
         </>

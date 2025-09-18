@@ -12,7 +12,8 @@ function App() {
     return (
         <>
             <Suspense fallback={
-                <div className='container-fluid d-flex justify-content-center align-items-center'>
+                <div className='container-fluid d-flex justify-content-center'>
+                    <h1 className="text-center">Loading</h1>
                     <Spinner animation="grow" variant="success" />
                     <Spinner animation="grow" variant="danger" />
                     <Spinner animation="grow" variant="warning" />
