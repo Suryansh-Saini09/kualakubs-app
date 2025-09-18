@@ -1,6 +1,8 @@
 import "./contentlayout.css";
 import aboutlogo from "../../assets/logowhite.png";
 import { Link } from "react-router-dom";
+import slide1 from "../../assets/college-5757815_1280.jpg"
+
 
 export function AboutContentLayout() {
     return (
@@ -30,6 +32,41 @@ export function AboutContentLayout() {
 }
 
 
+export function LatestNewsSection() {
+    return (
+        <>
+        { /* News section */}
+            <div className="container card mb-3  border-0" style={{ width: "75%" }}>
+                <div className="row" style={{ backgroundColor: "var(--accent-bg-color)" }}>
+                    <div className="col-lg-6 col-md-12 p-0 position-relative">
+                        <div className="triangle position-absolute"><span className="triangle-text">Latests <br /> News</span></div>
+                        <img src={slide1} className="img-fluid h-100 w-100 object-fit-cover" alt="..." />
+                    </div>
+                    <div className="col-lg-6 col-md-12">
+                        <div className="card-body">
+                            <h2 className="card-title mt-3 text-center" style={{ color: "var(--accent-text-color)" }}>
+                                  Latest News
+                            </h2>
+
+                            <p style={{ color: "var(--accent-text-color)" }} className="mt-3"><b>21 August 2025</b></p>
+                            <p className="card-text mb-2" style={{ color: "var(--accent-text-color)" }}>Individual success; institutional
+                                love of
+                                learning — KUALACUBS GCSE Results 2025</p>
+                            <span className="btn btn-sm me-2 mb-2 border rounded-0 custom-button-effect">READ NEWS ITEM
+                                {"\u2192"}</span>
+                            <span className="btn btn-sm mb-2 border rounded-0 custom-button-effect">READ ALL REWS
+                                {"\u2192"}</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+    );
+}
+
+
 export default {
-    AboutContentLayout
+    AboutContentLayout,
+    LatestNewsSection
 }

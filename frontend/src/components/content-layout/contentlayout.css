@@ -23,3 +23,50 @@
     line-height: 1.6;
     letter-spacing: 0.3px;
 }
+
+
+/* =========================================================
+   Triangle Badge
+========================================================= */
+.triangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 25%;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    background: var(--accent-bg-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.triangle-text {
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    transform: rotate(-35deg);
+    font-size: clamp(0.6rem, 1vw, 1rem);
+    white-space: nowrap;
+}
+
+/* Triangle Responsiveness */
+@media (max-width: 576px) {
+    .triangle {
+        width: 40%;
+        height: 40%;
+    }
+}
+@media (max-width: 768px) and (min-width: 577px) {
+    .triangle {
+        width: 35%;
+        height: 35%;
+    }
+}
+@media (max-width: 1024px) and (min-width: 769px) {
+    .triangle {
+        width: 30%;
+        height: 30%;
+    }
+}

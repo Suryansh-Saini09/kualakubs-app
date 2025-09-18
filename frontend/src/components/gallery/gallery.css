@@ -1,0 +1,33 @@
+
+/* =========================================================
+   Gallery Cards
+========================================================= */
+.gallery-card-bg {
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+}
+.gallery-card-bg img {
+    transition: opacity 0.5s ease-in-out;
+}
+.gallery-card-bg:hover img {
+    opacity: 0;
+}
+.gallery-card-bg:hover {
+    background-color: var(--accent-bg-color);
+}
+
+.gallery-img-text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    z-index: 2;
+    transition: color 0.5s ease-in-out;
+}
+.gallery-card-bg:hover .gallery-img-text {
+    color: white;
+}

@@ -5,7 +5,8 @@ import * as Overlay from "../components/overlay-items/overlay";
 import Cardslider from "../components/card-slider/cardslider";
 import ContactBox from "../components/contect-box/contectbox";
 import Videobox from "../components/video-box/videobox";
-import * as Contentlayout from "../components/content-layout/contentlayout"
+import * as Contentlayout from "../components/content-layout/contentlayout";
+import Gallery from "../components/gallery/gallery";
 // import links 
 import * as Links from "../config/links.js";
 
@@ -30,9 +31,12 @@ export default function Home() {
                 <Contentlayout.AboutContentLayout/>
             
                 <Videobox />
+
+                <Contentlayout.LatestNewsSection/>
                 <div className="container " style={{ width: "75%" }} >
                     <Cardslider />
                 </div>
+                <Gallery/>
                 <ContactBox />
                 <Footer footerLinks={Links.footerLinks} />
             </main>
