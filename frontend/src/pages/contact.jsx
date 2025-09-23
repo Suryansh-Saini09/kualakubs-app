@@ -20,7 +20,8 @@ export default function Contact() {
         <>
             <Components.Navbar />
 
-            <div className="container-fluid header-container d-flex">
+            <div className="container-fluid header-container d-flex"
+             style={{background: "url('https://www.westminster.org.uk/wp-content/uploads/2024/10/IMG_1172-scaled.jpg') no-repeat center center"}}>
                 <Components.Overlay.Overlaylogo />
                 <Components.Overlay.Overlaylist Overlaylistlinks={overlayListLinks} />
                 <div className="round-top-right bg-white d-none p-4 d-lg-block position-absolute bottom-0 start-0"

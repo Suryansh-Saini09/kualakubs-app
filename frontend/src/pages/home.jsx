@@ -2,6 +2,39 @@ import Components from "../components/manage.js";
 import * as Links from "../config/links.js";
 
 export default function Home() {
+
+    const galleryItems = [
+        {
+            img: "https://www.westminster.org.uk/wp-content/uploads/2025/03/Yard-scaled.jpg",
+            text: "ABOUT KUALACUBS",
+            link: "#",
+        },
+        {
+            img: "https://www.westminster.org.uk/wp-content/uploads/2025/03/Greaze-2025-EH-81-scaled.jpg",
+            text: "ADMISSIONS",
+            link: "#",
+        },
+        {
+            img: "https://www.westminster.org.uk/wp-content/uploads/2025/02/MicaelaKarina_WestminsterSchool-385.jpg",
+            text: "ACADEMIC LIFE",
+            link: "#",
+        },
+        {
+            img: "https://www.westminster.org.uk/wp-content/uploads/2025/02/IMG_1086-v2-scaled.jpg",
+            text: "SCHOOL LIFE",
+            link: "#",
+        },
+        {
+            img: "https://www.westminster.org.uk/wp-content/uploads/2024/10/GEORGINA01889-scaled.jpg",
+            text: "CO-CURRICULUM",
+            link: "#",
+        },
+        {
+            img: "https://www.westminster.org.uk/wp-content/uploads/2024/11/IMG_20240709_202243-1-scaled-e1731671780116.jpg",
+            text: "PARTNERSHIPS",
+            link: "#",
+        },
+    ];
     return (
         <>
             <main>
@@ -19,15 +52,18 @@ export default function Home() {
                     A progressive school on an ancient site in the heart of the world's most vibrant city
                 </div>
 
-                <Components.Contentlayout.AboutContentLayout/>
-            
+                <Components.Contentlayout.AboutContentLayout />
+
                 <Components.Videobox />
 
-                <Components.Contentlayout.LatestNewsSection/>
+                <Components.Contentlayout.LatestNewsSection />
                 <div className="container " style={{ width: "75%" }} >
                     <Components.Cardslider />
                 </div>
-                <Components.Gallery/>
+                <Components.Gallery
+                 galleryItems={galleryItems}
+                 h={"Discover more"}
+                 p={"Find out about life at Westminster School, both inside and outside the classroom"} />
                 <Components.ContactBox />
                 <Components.Footer footerLinks={Links.footerLinks} />
             </main>

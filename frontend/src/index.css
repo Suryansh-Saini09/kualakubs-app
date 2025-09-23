@@ -166,7 +166,6 @@ body {
 }
 
 .header-container {
-    background: url('https://www.westminster.org.uk/wp-content/uploads/2024/10/IMG_1172-scaled.jpg') no-repeat center center;
     background-size: cover;
     min-height: 90vh;
     /* at least full screen */
