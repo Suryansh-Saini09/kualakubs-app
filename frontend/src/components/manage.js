@@ -7,6 +7,7 @@ import Overlay from "./overlay-items/overlay";
 import Footer from "./footer/Footer";
 import Gallery from "./gallery/gallery";
 import Videobox from "./video-box/videobox";
+import Table from "./Table/table";
 
 
 export default {
@@ -18,5 +19,6 @@ export default {
     Overlay,
     Footer,
     Gallery,
-    Videobox
+    Videobox,
+    Table
 };
