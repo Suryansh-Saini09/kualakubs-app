@@ -44,7 +44,7 @@ export default function Home() {
                     <Components.Overlay.Overlayheader headerlinks={Links.overlayheaderlink} />
                     <Components.Overlay.Overlaymiddleheading />
                     <div className="bottom-strip position-absolute d-flex justify-content-center">
-                        <a href="/co-education" className="mt-2 mb-2 m-md-2 m-sm-1">Co-Education and Pre-Prep from 2026 &#8594</a>
+                        <a href="/co-education" className="mt-2 mb-2 m-md-2 m-sm-1">Co-Education and Pre-Prep from 2026 &#8594;</a>
                     </div>
                 </div>
                 { /* Divider section */}
