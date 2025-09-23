@@ -13,7 +13,7 @@ def get_table_data():
         {"id": 4, "name": "Item 4", "value": 100, "data": "sample_data_4"}
     ]
 
-    columns = ["id", "name", "value", "data"]  # 👈 define order here
+    columns = ["id", "name", "value", "data"]  # 👈 columns 
     return jsonify({"columns": columns, "rows": data})
 
 @app.route('/table/2', methods=['GET'])
@@ -24,7 +24,7 @@ def table_data():
       
     ]
 
-    columns = ["id", "name", "value"]  # 👈 define order here
+    columns = ["id", "name", "value"]  # 👈 columns
     return jsonify({"columns": columns, "rows": data})
 
 if __name__ == '__main__':
