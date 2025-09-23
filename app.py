@@ -16,5 +16,16 @@ def get_table_data():
     columns = ["id", "name", "value", "data"]  # 👈 define order here
     return jsonify({"columns": columns, "rows": data})
 
+@app.route('/table/2', methods=['GET'])
+def table_data():
+    data = [
+        {"id": 1, "name": "Item 1", "value": 100},
+        {"id": 2, "name": "Item 2", "value": 200}
+      
+    ]
+
+    columns = ["id", "name", "value"]  # 👈 define order here
+    return jsonify({"columns": columns, "rows": data})
+
 if __name__ == '__main__':
     app.run(debug=True)

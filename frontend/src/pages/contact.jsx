@@ -53,7 +53,8 @@ export default function Contact() {
                     17 Dean's Yard <br />
                     London SW1P 3PF</p>
 
-                <Components.Table Table apiUrl={"http://127.0.0.1:5000/table"} />    
+                <Components.Table Table apiUrl={"http://127.0.0.1:5000/table"} />  
+                 
 
                 <div className=" container mt-4 p-0">
                     <p className="text-center">Direction & Map</p>
