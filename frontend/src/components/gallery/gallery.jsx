@@ -1,7 +1,5 @@
 import "./gallery.css";
 
-
-
 export default function Gallery({ galleryItems, h, p}) {
     return (
         <>
