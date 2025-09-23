@@ -124,7 +124,7 @@ export default function SchoolLife() {
             </div>
 
             {/* Gallery */}
-            <Components.Gallery galleryItems={galleryItems} h={"Discover more"} p={"Find out more about School Life at Westminster"} />
+            <Components.Gallery galleryItems={galleryItems} h={"DISCOVER MORE"} p={"Find out more about School Life at Westminster"} />
 
             <Components.ContactBox />
             <Components.Footer footerLinks={Links.footerLinks} />
