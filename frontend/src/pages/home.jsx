@@ -49,18 +49,20 @@ export default function Home() {
                 </div>
                 { /* Divider section */}
                 <div className="divider container-fluid d-flex justify-content-center align-items-center p-3 p-sm-1 p-md-2" id="slidedown" >
-                    A progressive school on an ancient site in the heart of the world's most vibrant city
+                    A new-age school built on timeless values nurturing intellect, creativity, and character in the heart of Gurugram.
                 </div>
 
                 <Components.Contentlayout.AboutContentLayout />
 
-                <Components.Videobox />
+                { /** <Components.Videobox /> */}
 
                 <Components.Contentlayout.LatestNewsSection />
                 <div className="container " style={{ width: "75%" }} >
                     <Components.Cardslider />
                 </div>
-                <Components.Gallery
+
+                <Components.Gallery.GalleryWithImg/>
+                <Components.Gallery.Gallery
                  galleryItems={galleryItems}
                  h={"DISCOVER MORE"}
                  p={"Find out about life at Westminster School, both inside and outside the classroom"} />

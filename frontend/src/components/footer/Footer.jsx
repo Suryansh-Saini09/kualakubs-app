@@ -41,8 +41,7 @@ const Footer = ({footerLinks}) => {
             <div className="row">
                 <div className="col text-center small">
                     Copyright © 2025 Kualacubs School
-                    <br />
-                    Registered Charity No 312728
+                   
                 </div>
             </div>
         </footer>
