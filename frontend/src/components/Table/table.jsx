@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function TableComponent() {
   const data = [
     { id: 1, name: "Item 1", value: 100, data: "sample_data_1" },
@@ -9,25 +10,25 @@ export default function TableComponent() {
   ];
 
   return (
-    <div className="container mx-auto mt-8">
-      <h2 className="text-2xl font-semibold mb-4 text-center">Data Table</h2>
-      <div className="overflow-x-auto">
-        <table className="min-w-full border border-gray-300 rounded-lg">
-          <thead className="bg-gray-200">
+    <div className="container mt-5">
+      <h2 className="text-center mb-4">Data Table</h2>
+      <div className="table-responsive">
+        <table className="table table-bordered table-striped table-hover align-middle">
+          <thead className="table-light">
             <tr>
-              <th className="px-4 py-2 border">ID</th>
-              <th className="px-4 py-2 border">Name</th>
-              <th className="px-4 py-2 border">Value</th>
-              <th className="px-4 py-2 border">Data</th>
+              <th scope="col">ID</th>
+              <th scope="col">Name</th>
+              <th scope="col">Value</th>
+              <th scope="col">Data</th>
             </tr>
           </thead>
           <tbody>
             {data.map((item) => (
-              <tr key={item.id} className="hover:bg-gray-100">
-                <td className="px-4 py-2 border text-center">{item.id}</td>
-                <td className="px-4 py-2 border">{item.name}</td>
-                <td className="px-4 py-2 border text-center">{item.value}</td>
-                <td className="px-4 py-2 border">{item.data}</td>
+              <tr key={item.id}>
+                <td className="text-center">{item.id}</td>
+                <td>{item.name}</td>
+                <td className="text-center">{item.value}</td>
+                <td>{item.data}</td>
               </tr>
             ))}
           </tbody>
