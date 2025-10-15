@@ -1,47 +1,38 @@
-import React, { useEffect, useState } from "react";
-import Table from "react-bootstrap/Table";
+import React from "react";
 
-function DynamicTable({ apiUrl }) {
-  const [columns, setColumns] = useState([]);
-  const [rows, setRows] = useState([]);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const res = await fetch(apiUrl);
-        const json = await res.json();
-
-        setColumns(json.columns); // 👈 use backend-defined order
-        setRows(json.rows);
-      } catch (err) {
-        console.error("Error fetching data:", err);
-      }
-    };
-    fetchData();
-  }, [apiUrl]);
-
-  if (rows.length === 0) return <p>Loading...</p>;
+export default function TableComponent() {
+  const data = [
+    { id: 1, name: "Item 1", value: 100, data: "sample_data_1" },
+    { id: 2, name: "Item 2", value: 200, data: "sample_data_2" },
+    { id: 3, name: "Item 3", value: 300, data: "sample_data_3" },
+    { id: 4, name: "Item 4", value: 100, data: "sample_data_4" },
+  ];
 
   return (
-    <Table responsive bordered striped hover>
-      <thead>
-        <tr>
-          {columns.map((col, index) => (
-            <th key={index}>{col.toUpperCase()}</th>
-          ))}
-        </tr>
-      </thead>
-      <tbody>
-        {rows.map((row, rowIndex) => (
-          <tr key={rowIndex}>
-            {columns.map((col, colIndex) => (
-              <td key={colIndex}>{row[col]}</td>
+    <div className="container mx-auto mt-8">
+      <h2 className="text-2xl font-semibold mb-4 text-center">Data Table</h2>
+      <div className="overflow-x-auto">
+        <table className="min-w-full border border-gray-300 rounded-lg">
+          <thead className="bg-gray-200">
+            <tr>
+              <th className="px-4 py-2 border">ID</th>
+              <th className="px-4 py-2 border">Name</th>
+              <th className="px-4 py-2 border">Value</th>
+              <th className="px-4 py-2 border">Data</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.map((item) => (
+              <tr key={item.id} className="hover:bg-gray-100">
+                <td className="px-4 py-2 border text-center">{item.id}</td>
+                <td className="px-4 py-2 border">{item.name}</td>
+                <td className="px-4 py-2 border text-center">{item.value}</td>
+                <td className="px-4 py-2 border">{item.data}</td>
+              </tr>
             ))}
-          </tr>
-        ))}
-      </tbody>
-    </Table>
+          </tbody>
+        </table>
+      </div>
+    </div>
   );
 }
-
-export default DynamicTable;
