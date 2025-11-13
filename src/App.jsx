@@ -6,7 +6,6 @@ import routes from "./config/urls.js";
 import Spinner from 'react-bootstrap/Spinner';
 
 function App() {
-
     return (
         <>
             <Suspense fallback={
