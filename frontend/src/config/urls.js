@@ -11,7 +11,7 @@ const routes = [
   { path: "/", element: createElement(Home) },
   { path: "/about", element: createElement(About)},
   { path: "/contact", element: createElement(Contect)},
-  { path: "/schoollife", element: createElement(SchoolLife)},
+  { path: "/school-life", element: createElement(SchoolLife)},
   // ... add more routes here
 ];
 

@@ -6,6 +6,12 @@ import * as Links from "../config/links.js";
 // school life page
 
 export default function SchoolLife() {
+
+    console.log(Components.Overlay);
+    console.log("Navbar:", Components.Navbar);
+    console.log("Gallery:", Components.Gallery);
+    console.log("ContactBox:", Components.ContactBox);
+    console.log("Footer:", Components.Footer);
     const overlayListLinks = [
         { path: "#", pathname: "Link 1" },
         { path: "#", pathname: "Link 2" },
@@ -55,6 +61,7 @@ export default function SchoolLife() {
 
         <>
             <Components.Navbar />
+
 
             <div className="container-fluid header-container d-flex"
                 style={{ background: "url('https://www.westminster.org.uk/wp-content/uploads/2025/02/IMG_1086-v2-scaled.jpg') no-repeat center center" }}>
@@ -124,7 +131,7 @@ export default function SchoolLife() {
             </div>
 
             {/* Gallery */}
-            <Components.Gallery galleryItems={galleryItems} h={"DISCOVER MORE"} p={"Find out more about School Life at Westminster"} />
+            <Components.Gallery.Gallery galleryItems={galleryItems} h={"DISCOVER MORE"} p={"Find out more about School Life at Westminster"} />
 
             <Components.ContactBox />
             <Components.Footer footerLinks={Links.footerLinks} />

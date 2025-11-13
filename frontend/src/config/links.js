@@ -1,7 +1,7 @@
 export const overlayheaderlink = [
     { pathname: "about", path: "/about" },
     { pathname: "contact", path: "/contact" },
-    { pathname: "school life", path: "/schoollife" }
+    { pathname: "school life", path: "/school-life" }
 ];
 
 export const footerLinks = [
