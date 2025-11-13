@@ -1,4 +1,4 @@
-// mport Navbar from "../components/navbar/Navbar";
+// import Navbar from "../components/navbar/Navbar";
 // import * as Overlay from "../components/overlay-items/overlay";
 // import * as Links from "../config/links.js";
 import { Link } from "react-router-dom";
