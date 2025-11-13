@@ -5,8 +5,6 @@ import { Suspense } from "react";
 import routes from "./config/urls.js";
 import Spinner from 'react-bootstrap/Spinner';
 
-
-
 function App() {
 
     return (
