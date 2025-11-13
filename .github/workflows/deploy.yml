@@ -1,4 +1,4 @@
-name: Deploy React App to Hostinger
+name: Deploy React web App to Hostinger
 
 on:
   push:
