@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Components from "../components/manage.js";
 import * as Links from "../config/links.js";
+import PageHeader from "../components/PageHeader.jsx";
 
 
 // school life page
@@ -12,17 +13,7 @@ export default function SchoolLife() {
     console.log("Gallery:", Components.Gallery);
     console.log("ContactBox:", Components.ContactBox);
     console.log("Footer:", Components.Footer);
-    const overlayListLinks = [
-        { path: "#", pathname: "Link 1" },
-        { path: "#", pathname: "Link 2" },
-        { path: "#", pathname: "Link 3" },
-        { path: "#", pathname: "Link 4" },
-        { path: "#", pathname: "Link 5" },
-        { path: "#", pathname: "Link 6" },
-        { path: "#", pathname: "Link 7" },
-        { path: "#", pathname: "Link 8" }
 
-    ]
 
     const galleryItems = [
         {
@@ -60,35 +51,16 @@ export default function SchoolLife() {
     return (
 
         <>
-            <Components.Navbar />
 
 
-            <div className="container-fluid header-container d-flex"
-                style={{ background: "url('https://www.westminster.org.uk/wp-content/uploads/2025/02/IMG_1086-v2-scaled.jpg') no-repeat center center" }}>
-                <Components.Overlay.Overlaylogo />
-                <Components.Overlay.Overlaylist Overlaylistlinks={overlayListLinks} />
-                <div className="round-top-right bg-white d-none p-4 d-lg-block position-absolute bottom-0 start-0"
-                    style={{ width: "35%" }}>
-                    <nav aria-label="breadcrumb">
-                        <ol className="breadcrumb">
-                            <li className="breadcrumb-item"><Link to="/" className=" text-decoration-none">Home</Link></li>
-                        </ol>
-                    </nav>
-                    <h1 className="text-dark-emphasis">School Life</h1>
-                </div>
-            </div>
-
-
-            {/* breadcrumb */}
-            <div className="mt-3 d-flex justify-content-center">
-                <nav aria-label="breadcrumb">
-                    <ol className="breadcrumb">
-                        <li className="breadcrumb-item"><Link to={"/"} className=" text-decoration-none">Home</Link></li>
-                        <li className="breadcrumb-item active" aria-current="page">School Life</li>
-                    </ol>
-                </nav>
-            </div>
-
+            <PageHeader
+                title="School Life"
+                backgroundImage="https://www.westminster.org.uk/wp-content/uploads/2025/02/IMG_1086-v2-scaled.jpg"
+                breadcrumb={[
+                    { label: "Home", link: "/" },
+                    { label: "School Life", active: true }
+                ]}
+            />
             {/* Co-Education */}
 
             <div className="container-fluid mt-3 py-5" style={{ backgroundColor: "var(--accent-text-color)" }}>

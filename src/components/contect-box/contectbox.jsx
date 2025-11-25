@@ -35,7 +35,7 @@ export default function ContactBox() {
                             <h3 className="mb-0 fw-bold">SUPPORT US</h3>
                         </div>
                         <p className="mb-2">
-                            Kualacubs School gratefully welcomes donations to support fundraising efforts across the School
+                            Kualakubs School gratefully welcomes donations to support fundraising efforts across the School
                             community.
                         </p>
                         <a href="#" className="text-decoration-none fw-semibold">Read More {"\u2192"}</a>

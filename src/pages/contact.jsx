@@ -5,25 +5,15 @@ import * as Links from "../config/links.js";
 
 
 export default function Contact() {
-    const overlayListLinks = [
-        { path: "#", pathname: "Link 1" },
-        { path: "#", pathname: "Link 2" },
-        { path: "#", pathname: "Link 3" },
-        { path: "#", pathname: "Link 4" },
-        { path: "#", pathname: "Link 5" },
-        { path: "#", pathname: "Link 6" },
-        { path: "#", pathname: "Link 7" },
-        { path: "#", pathname: "Link 8" }
 
-    ]
     return (
         <>
-            <Components.Navbar />
+          
 
             <div className="container-fluid header-container d-flex"
              style={{background: "url('https://www.westminster.org.uk/wp-content/uploads/2024/10/IMG_1172-scaled.jpg') no-repeat center center"}}>
-                <Components.Overlay.Overlaylogo />
-                <Components.Overlay.Overlaylist Overlaylistlinks={overlayListLinks} />
+             
+                
                 <div className="round-top-right bg-white d-none p-4 d-lg-block position-absolute bottom-0 start-0"
                     style={{ width: "35%" }}>
                     <nav aria-label="breadcrumb">
