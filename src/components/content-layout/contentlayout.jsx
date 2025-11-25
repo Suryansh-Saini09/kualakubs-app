@@ -15,18 +15,8 @@ export function AboutContentLayout() {
                 <img src={aboutlogo} className="about-section-img img-fluid" alt="" />
 
                 <p className="about-text" style={{ fontSize: "medium", textAlign: "justify" }}>
-                    At Kualakubs World School, education is not confined to textbooks or classrooms it’s a living experience of discovery, creativity, and character-building.
-                    We believe that every child possesses a natural curiosity to explore, question, and innovate, and our role as educators is to nurture that spark into lifelong learning.
-
-                    Our progressive academic framework, inspired by India’s National Education Policy (NEP 2020) and National Curriculum Framework (NCF 2023), integrates concept-based learning, multidisciplinary projects, and hands-on experiences.
-                    Students learn to connect knowledge across subjects — science with art, technology with design, and values with leadership  helping them see the world as a place of endless possibilities.
-
-                    Beyond academics, we focus on holistic development, ensuring every learner grows intellectually, emotionally, socially, and ethically.
-                    Through programs in AI, coding, STEAM, performing arts, sports, and community service, Kualakubs equips its learners with the critical 21st-century skills required to thrive in an ever-evolving world.
-
-                    Our campus culture celebrates confidence, compassion, and collaboration  encouraging every student to express themselves, respect others, and act responsibly.
-                    Each day at Kualakubs is a step towards building responsible global citizens  individuals who think deeply, work passionately, and contribute meaningfully to their communities and the world.
-
+                    Welcome to Kualakubs World School, a CBSE formal school committed to building strong academic foundations, essential life skills, and a future-ready mindset in every child.
+                    With a blend of modern pedagogy, global teaching standards, and a safe, nurturing environment, Kualakubs empowers learners from Playgroup to Grade 8 to excel academically and grow holistically.
                 </p>
 
                 <Link to="/about" className="d-block z-2 text-decoration-none d-none" style={{ color: "var(--accent-text-color)", fontSize: "large" }}>
@@ -57,7 +47,7 @@ export function LatestNewsSection() {
                             <p style={{ color: "var(--accent-text-color)" }} className="mt-3"><b>15 October 2025</b></p>
                             <p className="card-text mb-2" style={{ color: "var(--accent-text-color)" }}>
                                 Team CodeKubs from Grade VIII brought laurels by winning First Prize at the National Robotics Championship 2025 held in Delhi NCR.</p>
-                           {/** <span className="btn btn-sm me-2 mb-2 border rounded-0 custom-button-effect">READ NEWS ITEM
+                            {/** <span className="btn btn-sm me-2 mb-2 border rounded-0 custom-button-effect">READ NEWS ITEM
                                 {"\u2192"}</span>
                             <span className="btn btn-sm mb-2 border rounded-0 custom-button-effect">READ ALL REWS
                                 {"\u2192"}</span> */}
