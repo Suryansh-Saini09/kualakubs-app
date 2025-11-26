@@ -45,25 +45,7 @@ export default function Principal() {
           <h2 className="mb-3">Dear Parents and Students,</h2>
 
           <p style={{ textAlign: "justify" }}>
-            It gives me immense pleasure to welcome you to Kualakubs World
-            School, where we believe education must empower, inspire and
-            transform.
-          </p>
-
-          <p style={{ textAlign: "justify" }}>
-            Our school focuses on strong academics aligned with CBSE guidelines,
-            combined with life skills, values, sports, technology and
-            creativity.
-          </p>
-
-          <p style={{ textAlign: "justify" }}>
-            We aim to create confident, disciplined and responsible individuals
-            who excel in every sphere of life.
-          </p>
-
-          <p style={{ textAlign: "justify" }}>
-            At Kualakubs, learning is meaningful, joyful and future-oriented.
-            Together, let us shape strong futures.
+            At Kulakubs World School, we are committed to providing a nurturing environment where every student is encouraged to explore their potential and make thoughtful choices. Our dedicated team is devoted to promoting academic excellence, personal growth, and character development, ensuring students are equipped with the skills and values needed to make a positive impact on society. We value the strong partnership between our school, parents, and students in this shared journey of learning and growth.
           </p>
 
           <p className="mt-4" style={{ textAlign: "justify" }}>

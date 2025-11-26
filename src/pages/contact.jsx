@@ -45,8 +45,6 @@ export default function Contact() {
                 <Link to={"/about"} className=" text-decoration-none" style={{ color: "var(--accent-text-color)" }}><i
                     className="bi bi-arrow-left me-1"></i>back to About Westminster</Link>
             </div>
-            <Components.ContactBox />
-            <Components.Footer footerLinks={Links.footerLinks} />
 
         </>
     );
