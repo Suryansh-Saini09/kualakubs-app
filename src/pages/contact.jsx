@@ -39,7 +39,7 @@ export default function Contact() {
                                             <i className="bi bi-telephone-fill fs-3 text-primary"></i>
                                             <div>
                                                 <div className="fw-semibold">Phone</div>
-                                                <div className="text-muted">9996648317</div>
+                                                <div className="text-muted">+91 9996648317</div>
                                             </div>
                                         </div>
                                     </div>
