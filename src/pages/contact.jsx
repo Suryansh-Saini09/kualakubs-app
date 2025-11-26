@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 import Components from "../components/manage.js";
 import * as Links from "../config/links.js";
+import PageHeader from "../components/PageHeader.jsx";  
 
 
 export default function Contact() {
@@ -10,33 +11,14 @@ export default function Contact() {
         <>
           
 
-            <div className="container-fluid header-container d-flex"
-             style={{background: "url('https://www.westminster.org.uk/wp-content/uploads/2024/10/IMG_1172-scaled.jpg') no-repeat center center"}}>
-             
-                
-                <div className="round-top-right bg-white d-none p-4 d-lg-block position-absolute bottom-0 start-0"
-                    style={{ width: "35%" }}>
-                    <nav aria-label="breadcrumb">
-                        <ol className="breadcrumb">
-                            <li className="breadcrumb-item"><Link to="/" className=" text-decoration-none">Home</Link></li>
-                            <li className="breadcrumb-item"><Link to="/about" className=" text-decoration-none">About Kualakubs</Link></li>
-                        </ol>
-                    </nav>
-                    <h1 style={{ color: "rgb(82, 82, 82)" }}>Contact Us</h1>
-                </div>
-            </div>
-
-
-            {/* breadcrumb */}
-            <div className="mt-3 d-flex justify-content-center">
-                <nav aria-label="breadcrumb">
-                    <ol className="breadcrumb">
-                        <li className="breadcrumb-item"><Link to={"/"} className=" text-decoration-none">Home</Link></li>
-                        <li className="breadcrumb-item"><Link to={"/about"} className=" text-decoration-none">About Kualakubs</Link></li>
-                        <li className="breadcrumb-item active" aria-current="page">Contact Us</li>
-                    </ol>
-                </nav>
-            </div>
+               <PageHeader
+                title="Contact Us"
+                backgroundImage="https://www.westminster.org.uk/wp-content/uploads/2025/02/IMG_1086-v2-scaled.jpg"
+                breadcrumb={[
+                    { label: "Home", link: "/" },
+                    { label: "Contact", active: true }
+                ]}
+            />
 
             <div className="container my-5" style={{ maxWidth: "75%" }}>
                 <p className="text-center">

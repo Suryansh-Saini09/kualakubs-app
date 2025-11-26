@@ -8,12 +8,6 @@ import PageHeader from "../components/PageHeader.jsx";
 
 export default function SchoolLife() {
 
-    console.log(Components.Overlay);
-    console.log("Navbar:", Components.Navbar);
-    console.log("Gallery:", Components.Gallery);
-    console.log("ContactBox:", Components.ContactBox);
-    console.log("Footer:", Components.Footer);
-
 
     const galleryItems = [
         {
