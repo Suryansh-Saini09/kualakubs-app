@@ -6,23 +6,23 @@ export default function Home() {
     const galleryItems = [
         {
             img: "https://www.westminster.org.uk/wp-content/uploads/2025/03/Yard-scaled.jpg",
-            text: "ABOUT KUALACUBS",
-            link: "#",
+            text: "ABOUT KUALAKUBS",
+            link: "/about",
         },
         {
             img: "https://www.westminster.org.uk/wp-content/uploads/2025/03/Greaze-2025-EH-81-scaled.jpg",
             text: "ADMISSIONS",
-            link: "#",
+            link: "/admissions",
         },
         {
             img: "https://www.westminster.org.uk/wp-content/uploads/2025/02/MicaelaKarina_WestminsterSchool-385.jpg",
             text: "ACADEMIC LIFE",
-            link: "#",
+            link: "/campus-facilities",
         },
         {
             img: "https://www.westminster.org.uk/wp-content/uploads/2025/02/IMG_1086-v2-scaled.jpg",
             text: "SCHOOL LIFE",
-            link: "#",
+            link: "/school-life",
         },
         {
             img: "https://www.westminster.org.uk/wp-content/uploads/2024/10/GEORGINA01889-scaled.jpg",
@@ -65,7 +65,7 @@ export default function Home() {
                 <Components.Gallery.Gallery
                  galleryItems={galleryItems}
                  h={"DISCOVER MORE"}
-                 p={"Find out about life at Westminster School, both inside and outside the classroom"} />
+                 p={"Find out about life at KualaKubs School, both inside and outside the classroom"} />
             </main>
         </>
     );
