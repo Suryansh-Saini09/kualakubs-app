@@ -44,9 +44,9 @@ export function LatestNewsSection() {
                                 Latest News
                             </h2>
 
-                            <p style={{ color: "var(--accent-text-color)" }} className="mt-3"><b>15 October 2025</b></p>
+                            {/*<p style={{ color: "var(--accent-text-color)" }} className="mt-3"><b>15 October 2025</b></p>*/}
                             <p className="card-text mb-2" style={{ color: "var(--accent-text-color)" }}>
-                                Team CodeKubs from Grade VIII brought laurels by winning First Prize at the National Robotics Championship 2025 held in Delhi NCR.</p>
+                                A new formal CBSE school is coming soon, and admissions for 2026–27 will open shortly. Further updates will be shared soon.</p>
                             {/** <span className="btn btn-sm me-2 mb-2 border rounded-0 custom-button-effect">READ NEWS ITEM
                                 {"\u2192"}</span>
                             <span className="btn btn-sm mb-2 border rounded-0 custom-button-effect">READ ALL REWS

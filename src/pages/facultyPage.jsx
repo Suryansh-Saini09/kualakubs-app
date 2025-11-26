@@ -6,7 +6,7 @@ export default function FacultyPage() {
     <>
       <PageHeader
         title="Our Educators"
-        backgroundImage="https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=1200&auto=format&fit=crop"
+        backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"
         breadcrumb={[
           { label: "Home", link: "/" },
           { label: "Faculty", active: true },

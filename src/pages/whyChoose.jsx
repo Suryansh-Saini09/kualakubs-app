@@ -19,7 +19,7 @@ export default function WhyChoose() {
       {/* TOP HEADER SECTION */}
       <PageHeader
         title="Why Choose Kualakubs?"
-        backgroundImage="https://www.westminster.org.uk/wp-content/uploads/2025/03/Greaze-2025-EH-81-scaled.jpg"
+        backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"
         breadcrumb={[
           { label: "Home", link: "/" },
           { label: "Why Kualakubs?", active: true },

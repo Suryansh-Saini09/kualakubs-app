@@ -8,7 +8,7 @@ export default function Principal() {
     <>
       <PageHeader
         title="Principal’s Message "
-        backgroundImage={headImg}
+        backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"
         breadcrumb={[
           { label: "Home", link: "/" },
           { label: "Principal’s Message", active: true },

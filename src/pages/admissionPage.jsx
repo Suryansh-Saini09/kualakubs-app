@@ -21,7 +21,7 @@ export default function Admissions() {
     <main>
       <PageHeader
         title="Admissions"
-        backgroundImage="https://images.unsplash.com/photo-1544531585-9847b68c8c86?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0"
+        backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"
         breadcrumb={[
           { label: "Home", link: "/" },
           { label: "Admissions", active: true },
