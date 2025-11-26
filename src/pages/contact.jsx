@@ -22,9 +22,9 @@ export default function Contact() {
 
             <div className="container my-5" style={{ maxWidth: "75%" }}>
                 <p className="text-center">
-                    Westminster School <br />
-                    17 Dean's Yard <br />
-                    London SW1P 3PF</p>
+                    Kulakubs World School <br />
+                    DLF New Town Heights,  <br />
+                    Sec -86, Gurugram, 122505</p>
 
                 <Components.TableComponent />  
                  
@@ -42,8 +42,8 @@ export default function Contact() {
             {/* divider */}
             <div className="divider container-fluid d-flex justify-content-center align-items-center p-3 p-sm-1 p-md-2"
                 style={{ color: "var(--accent-text-color)", backgroundColor: "var(--accent-bg-color)" }}>
-                <Link to={"/about"} className=" text-decoration-none" style={{ color: "var(--accent-text-color)" }}><i
-                    className="bi bi-arrow-left me-1"></i>back to About Westminster</Link>
+                <Link to={"/"} className=" text-decoration-none" style={{ color: "var(--accent-text-color)" }}><i
+                    className="bi bi-arrow-left me-1"></i>back to home</Link>
             </div>
 
         </>
