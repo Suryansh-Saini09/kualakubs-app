@@ -66,8 +66,6 @@ export default function Home() {
                  galleryItems={galleryItems}
                  h={"DISCOVER MORE"}
                  p={"Find out about life at Westminster School, both inside and outside the classroom"} />
-                <Components.ContactBox />
-                <Components.Footer footerLinks={Links.footerLinks} />
             </main>
         </>
     );

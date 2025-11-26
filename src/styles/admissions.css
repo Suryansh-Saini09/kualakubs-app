@@ -1,0 +1,113 @@
+.admissions-hero-overlay {
+  z-index: 5;
+  color: #fff;
+  max-width: 650px;
+  padding: 2rem 2.5rem;
+  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 6px;
+  text-align: center;
+}
+
+.hero-small-title {
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+.hero-title {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 600;
+}
+
+.admission-block {
+  padding: 5rem 0;
+  background: #faf7f2;
+}
+
+.bg-light-alt {
+  background: #f4efe7;
+}
+
+.admission-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.admission-list {
+  line-height: 1.9;
+  font-size: 1.05rem;
+  color: #333;
+}
+
+.admissions-wrapper img {
+  max-width: 30vw;
+  width: 100%;
+  border-radius: 4px;
+  object-fit: cover;
+  height: auto;
+}
+
+
+/* Tablet - medium screens */
+@media (max-width: 992px) {
+    .admissions-hero-overlay {
+
+    top: 70% !important;
+  }
+  .admission-block {
+    padding: 3.5rem 0;
+  }
+
+  .admissions-wrapper img {
+    max-width: 40vw;
+  }
+
+  .admission-title {
+    font-size: 1.6rem;
+  }
+
+  .admission-list {
+    font-size: 1rem;
+  }
+}
+
+/* Small tablets + large phones */
+@media (max-width: 768px) {
+  .admissions-wrapper img {
+    max-width: 60vw;
+  }
+
+  .admission-block {
+    padding: 3rem 0;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .admissions-hero-overlay {
+    width: 90%;
+    padding: 1.5rem;
+    top: 70% !important;
+  }
+
+  .admissions-wrapper img {
+    max-width: 90vw;
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .admission-title {
+    font-size: 1.45rem;
+  }
+
+  .admission-list {
+    font-size: 0.95rem;
+  }
+
+  .admission-block {
+    padding: 2.5rem 0;
+  }
+}

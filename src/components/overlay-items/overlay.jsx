@@ -52,11 +52,13 @@ export function Overlayheader({ headerlinks }) {
                     className="col-12 mb-1 d-flex justify-content-center align-content-center"
                     style={{ backgroundColor: "var(--accent-text-color)", opacity: 0.75 }}
                 >
+                    <Link to="/">
                     <img
                         src={HeaderLogo}
                         alt="Header Logo"
                         className="mt-4 mt-md-3 mb-4 mb-md-3 img-fluid"
                     />
+                    </Link>
                 </div>
 
                 {/* Dynamic Links */}

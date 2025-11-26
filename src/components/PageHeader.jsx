@@ -7,8 +7,7 @@ const PageHeader = ({ title, backgroundImage, breadcrumb }) => {
       <div
         className="container-fluid header-container d-flex position-relative"
         style={{
-          background: `url('${backgroundImage}') no-repeat center center`,
-          backgroundSize: "cover",
+          background: `url(${backgroundImage}) center / cover no-repeat`,
         }}
       >
         <div
