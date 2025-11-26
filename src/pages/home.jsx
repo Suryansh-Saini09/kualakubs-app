@@ -47,7 +47,7 @@ export default function Home() {
                         <a href="/co-education" className="mt-2 mb-2 m-md-2 m-sm-1">Co-Education and Pre-Prep from 2026 &#8594;</a>
                     </div>
                 </div>
-                { /* Divider section */}
+                { /* Dividersection */}
                 <div className="divider container-fluid d-flex justify-content-center align-items-center p-3 p-sm-1 p-md-2" id="slidedown" >
                     A new-age school built on timeless values nurturing intellect, creativity, and character in the heart of Gurugram.
                 </div>
