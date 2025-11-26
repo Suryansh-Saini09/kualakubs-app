@@ -4,7 +4,10 @@ import img1 from "../../assets/section_img_1.png";
 import img2 from "../../assets/section_img_2.png";
 import img3 from "../../assets/section_img_3.png";
 import img4 from "../../assets/section_img_4.png";
-
+import React, { useEffect } from "react";
+// AOS
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export function Gallery({ galleryItems, h, p }) {
     return (
@@ -43,20 +46,28 @@ export function Gallery({ galleryItems, h, p }) {
 }
 
 export function GalleryWithImg() {
+      useEffect(() => {
+        AOS.init({
+          duration: 1000,
+          easing: "ease-out-cubic",
+          once: true,
+          offset: 90,
+        });
+      }, []);
     return (
         <>
             {/** section part 1 */}
             <div className="container-fluid" style={{ background: "#f5f4ef" }}>
                 <div className="container py-5" style={{ maxWidth: "75%" }}>
                     <div className="row featurette">
-                        <div className="col-md-7 ">
+                        <div className="col-md-7 " data-aos="fade-right">
                             <h2 className="fw-semibold  lh-1">Our Legacy &amp; Vision</h2>
                             <h3 className=" fw-normal lh-1">Leaming Designed for the Future</h3>
                             <p className="lead">Kualakub’s onward journey in the sector drives us here — our preschools set new benchmarks in early childhood education.</p>
                             <p className="lead">Building on this trust, we are now expanding into a world-class K–12 institution dedicated to nurturing real innovation, wellness, and values — empowering every child to learn, create, and lead with confidence.</p>
                             <h5 className=" fw-semibold">– Er. Lakshay Gupta, Managing Director</h5>
                         </div>
-                        <div className="col-md-5">
+                        <div className="col-md-5" data-aos="fade-left">
                             <img src={img1} alt="student image" className=" img-fluid object-fit-cover" width="400" height='400' />
                         </div>
                     </div>
@@ -67,11 +78,11 @@ export function GalleryWithImg() {
             <div className=" container-fluid" style={{ background: "#ede9e0" }}>
                 <div className="container py-5" style={{ maxWidth: "75%" }}>
                     <div className="row featurette">
-                        <div className="col-md-5">
+                        <div className="col-md-5" data-aos="fade-right">
                             <img src={img2} alt="student image" className=" img-fluid object-fit-cover" width="400" height='400' />
                         </div>
 
-                        <div className="col-md-7">
+                        <div className="col-md-7" data-aos="fade-left">
                             <h2 className="fw-semibold  lh-1">Innovation & Learning Spaces</h2>
                             <h3 className=" fw-normal lh-1">State-of-theArt Infrastructure</h3>
                             <p className="lead">“Our NEP-aligned campus is designed to nurture future zest.”</p>
@@ -93,7 +104,7 @@ export function GalleryWithImg() {
             <div className=" container-fluid" style={{ background: "#f5f4ef" }}>
                 <div className="container  py-5" style={{ maxWidth: "75%" }}>
                     <div className="row ">
-                        <div className="col-md-7">
+                        <div className="col-md-7" data-aos="fade-right">
                             <h2 className="fw-semibold  lh-1">Safety, Wellness & Values</h2>
                             <h3 className=" fw-normal lh-1">A Safe, Caring, and Value-Based Campus</h3>
                             <ul className="mt-2">
@@ -105,7 +116,7 @@ export function GalleryWithImg() {
                                 <li>Indian values and ethics embedded in learning</li>
                             </ul>
                         </div>
-                        <div className="col-md-5">
+                        <div className="col-md-5" data-aos="fade-left">
                             <img src={img3} alt="student image" className=" img-fluid object-fit-cover" width="400" height='400' />
                         </div>
                     </div>
@@ -118,11 +129,11 @@ export function GalleryWithImg() {
             <div className=" container-fluid mb-3" style={{ background: "#edeae1" }}>
                 <div className="container py-5" style={{ maxWidth: "75%" }}>
                     <div className="row featurette">
-                        <div className="col-md-5">
+                        <div className="col-md-5"   data-aos="fade-right">
                             <img src={img4} alt="student image" className=" img-fluid object-fit-cover" width="400" height='400' />
                         </div>
 
-                        <div className="col-md-7">
+                        <div className="col-md-7" data-aos="fade-left">
                             <h2 className=" fw-semibold lh-1">Our Promise</h2>
 
                             <ul className="mt-2">
