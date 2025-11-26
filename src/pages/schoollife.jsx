@@ -99,8 +99,6 @@ export default function SchoolLife() {
             {/* Gallery */}
             <Components.Gallery.Gallery galleryItems={galleryItems} h={"DISCOVER MORE"} p={"Find out more about School Life at Westminster"} />
 
-            <Components.ContactBox />
-            <Components.Footer footerLinks={Links.footerLinks} />
 
         </>
     );
