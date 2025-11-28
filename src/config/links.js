@@ -6,8 +6,8 @@ export const overlayheaderlink = [
     { pathname: "Campus Facilities", path: "/campus-facilities" },
     { pathname: "Admissions", path: "/admissions" },
     { pathname: "Why Kualakubs?", path: "/why-kualakubs" },
-    { pathname: "Our Faculty", path: "/faculty" },
-    { pathname: "Principal’s Message", path: "/principal" },
+   // { pathname: "Our Faculty", path: "/faculty" },
+   // { pathname: "Principal’s Message", path: "/principal" },
 ];
 
 export const footerLinks = [
