@@ -1,13 +1,15 @@
 export const overlayheaderlink = [
     { pathname: "About Us", path: "/about" },
-    { pathname: "Contact", path: "/contact" },
+    
+    { pathname: "Admissions", path: "/admissions" },
+    { pathname: "Why Kualakubs?", path: "/why-kualakubs" },
    // { pathname: "School Life", path: "/school-life" },
    // { pathname: "Life Skills", path: "/life-skills" },
     { pathname: "Campus Facilities", path: "/campus-facilities" },
-    { pathname: "Admissions", path: "/admissions" },
-    { pathname: "Why Kualakubs?", path: "/why-kualakubs" },
-    { pathname: "Our Faculty", path: "/faculty" },
-    { pathname: "Principal’s Message", path: "/principal" },
+    { pathname: "Contact", path: "/contact" },
+    
+   // { pathname: "Our Faculty", path: "/faculty" },
+   // { pathname: "Principal’s Message", path: "/principal" },
 ];
 
 export const footerLinks = [

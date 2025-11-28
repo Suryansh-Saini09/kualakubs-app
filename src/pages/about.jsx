@@ -57,39 +57,42 @@ export default function About() {
 
           {/* Principal's Message */}
           <div
-            className="position-relative d-flex flex-column justify-content-center align-items-center text-center"
-            style={{ background: "var(--accent-bg-color)", minHeight: "500px" }}
+            className="container-fluid d-flex align-items-center justify-content-center"
+            style={{
+              backgroundColor: "#e2dccc",
+              minHeight: "500px",
+              width: "100%",
+            }}
           >
-            <img src={aboutlogo} className="about-section-img img-fluid" alt="" />
-
-            {/* Black Overlay */}
             <div
+              className="text-center w-100 px-3"
               style={{
-                position: "absolute",
-                inset: 0,
-                background: "rgba(0, 0, 0, 0.58)",
-                zIndex: "2",
-              }}
-            ></div>
-
-            {/* Text Content */}
-            <div
-              className="about-text"
-              style={{
-                fontSize: "medium",
-                textAlign: "start",
-                zIndex: "3",
-                color: "white",
                 maxWidth: "700px",
               }}
             >
-              <h2 className="mb-3">Dear Parents and Students,</h2>
+              <h2 className="mb-4 fw-bold">Dear Parents and Students,</h2>
 
-              <p style={{ textAlign: "justify" }}>
-                At Kulakubs World School, we are committed to providing a nurturing environment where every student is encouraged to explore their potential and make thoughtful choices. Our dedicated team is devoted to promoting academic excellence, personal growth, and character development, ensuring students are equipped with the skills and values needed to make a positive impact on society. We value the strong partnership between our school, parents, and students in this shared journey of learning and growth.
+              <p
+                className="mb-3"
+                style={{
+                  textAlign: "justify",
+                }}
+              >
+                At Kulakubs World School, we are committed to providing a nurturing
+                environment where every student is encouraged to explore their potential
+                and make thoughtful choices. Our dedicated team is devoted to promoting
+                academic excellence, personal growth, and character development, ensuring
+                students are equipped with the skills and values needed to make a positive
+                impact on society. We value the strong partnership between our school,
+                parents, and students in this shared journey of learning and growth.
               </p>
 
-              <p className="mt-4" style={{ textAlign: "justify" }}>
+              <p
+                className="mt-4"
+                style={{
+                  textAlign: "justify",
+                }}
+              >
                 <strong>Warm regards,</strong>
                 <br />
                 <strong>Principal</strong>
@@ -98,6 +101,9 @@ export default function About() {
               </p>
             </div>
           </div>
+
+
+
           <hr className="my-5" />
           {/* Our Curriculum */}
           <div className="mb-5">
@@ -173,38 +179,28 @@ export default function About() {
 
           <hr className="my-5" />
 
-          {/* Faculty message */}
+          {/* Faculty Message */}
           <div
-            className="position-relative d-flex flex-column justify-content-center align-items-center text-center"
-            style={{ background: "var(--accent-bg-color)", minHeight: "500px" }}
+            className="container-fluid d-flex align-items-center justify-content-center py-5"
+            style={{
+              backgroundColor: "#e2dccc",
+              minHeight: "500px",
+            }}
           >
-            <img src={aboutlogo} className="about-section-img img-fluid " alt="" />
             <div
+              className="w-100 px-3"
               style={{
-                position: "absolute",
-                inset: 0,
-                background: "rgba(0, 0, 0, 0.58)", // black overlay
-                zIndex: "2",
-              }}
-            ></div>
-
-            <div
-              className="about-text"
-              style={{
-                fontSize: "medium",
-                textAlign: "start",
+                maxWidth: "700px",
               }}
             >
-              <h2>
-                Our teachers are trained, certified and passionate educators with
-                expertise in:
+              <h2 className="mb-4 fw-bold text-center">
+                Our teachers are trained, certified and passionate educators with expertise in:
               </h2>
 
               <ul
+                className="mb-4"
                 style={{
                   textAlign: "left",
-                  margin: "1rem auto",
-                  maxWidth: "600px",
                   lineHeight: "1.8",
                 }}
               >
@@ -216,12 +212,18 @@ export default function About() {
                 <li>Project-based learning</li>
               </ul>
 
-              <p style={{ marginTop: "1.5rem", textAlign: "justify" }}>
+              <p
+                className="text-center fw-semibold"
+                style={{
+                  textAlign: "justify",
+                }}
+              >
                 We believe great teachers create great futures.
               </p>
             </div>
           </div>
-           <hr className="my-5" />
+
+          <hr className="my-5" />
 
           {/* Core Values */}
           <div className="text-center">
@@ -246,9 +248,6 @@ export default function About() {
               )}
             </div>
           </div>
-
-
-
         </div>
       </section>
 
