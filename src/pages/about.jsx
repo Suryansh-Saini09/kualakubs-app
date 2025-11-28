@@ -127,6 +127,8 @@ export default function About() {
 
         <hr className="my-5" />
 
+        
+
         {/* Core Values */}
         <div className="text-center">
           <h3 className="fw-semibold mb-4" style={{ color: "var(--accent-bg-color)" }}>
@@ -150,6 +152,8 @@ export default function About() {
             )}
           </div>
         </div>
+
+
 
       </div>
     </section>

@@ -1,8 +1,8 @@
 export const overlayheaderlink = [
     { pathname: "About Us", path: "/about" },
     { pathname: "Contact", path: "/contact" },
-    { pathname: "School Life", path: "/school-life" },
-    { pathname: "Life Skills", path: "/life-skills" },
+   // { pathname: "School Life", path: "/school-life" },
+   // { pathname: "Life Skills", path: "/life-skills" },
     { pathname: "Campus Facilities", path: "/campus-facilities" },
     { pathname: "Admissions", path: "/admissions" },
     { pathname: "Why Kualakubs?", path: "/why-kualakubs" },
