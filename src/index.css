@@ -203,7 +203,7 @@ body {
 }
 
 
-.magic-card {
+/* .magic-card {
   height: 100%;
 }
 
@@ -224,4 +224,59 @@ body {
 .magic-overlay p {
   font-size: 15px;
   line-height: 1.6;
+} */
+
+.magic-card {
+  position: relative;
+  overflow: hidden;
+  transition: height 0.4s ease;
+}
+
+/* Fix image height */
+.magic-card img {
+        /* You can adjust */
+  object-fit: cover;
+
+}
+
+/* Overlay starts hidden */
+.magic-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: #e2dccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  transform: translateY(100%);
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+  overflow-y: auto;
+}
+
+/* On hover the card grows and overlay appears */
+.magic-card:hover {
+  min-height: 360px;   /* Card grows to fit text */
+}
+
+.magic-card:hover .magic-overlay {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Make text readable */
+.magic-overlay p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+@media (max-width: 768px) {
+  .magic-overlay {
+    transform: translateY(0);
+    opacity: 1;
+    position: relative;
+  }
+
+  .magic-card:hover {
+    min-height: auto;
+  }
 }

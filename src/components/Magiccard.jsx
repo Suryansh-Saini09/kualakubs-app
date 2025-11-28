@@ -3,13 +3,14 @@ import React from "react";
 
 const MagicCard = ({ image, icon, heading, paragraph }) => {
   return (
-    <div className="magic-card position-relative overflow-hidden rounded-3 shadow-sm">
+    <div className="magic-card position-relative overflow-hidden rounded-3 shadow-sm"
+    style={{height: 'fit-content'}}>
       
       {/* Image */}
       <img
         src={image} 
         alt={heading}
-        className="img-fluid w-100"
+        className="img-fluid w-auto"
       />
 
       {/* Hover Overlay */}
