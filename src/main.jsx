@@ -13,8 +13,8 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
       {/**<Navbar /> */}
-       <OffcanvasNavbar />
-      <Overlay.Overlayheader headerlinks={Links.overlayheaderlink} />
+        <OffcanvasNavbar />
+      <Overlay.Overlayheader headerlinks={Links.overlayheaderlink}/>
       <App />
     </BrowserRouter>
     <Components.ContactBox />

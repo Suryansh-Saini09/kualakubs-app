@@ -1,6 +1,6 @@
 import Components from "../components/manage.js";
 import * as Links from "../config/links.js";
-import Example from "../components/navbar/offcanvas.jsx";
+
 
 export default function Home() {
 

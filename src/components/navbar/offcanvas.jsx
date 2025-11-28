@@ -30,7 +30,9 @@ function OffcanvasNavbar() {
             </button>
 
             <Offcanvas show={show} onHide={handleClose}
-            style={{ backgroundColor: "var(--accent-bg-color)" }}>
+            style={{ backgroundColor: "var(--accent-bg-color)" }}
+            
+            >
                 <Offcanvas.Header closeButton style={{color: "var(--accent-text-color)"}}>
                     <Offcanvas.Title>Kualakubs World School</Offcanvas.Title>
                 </Offcanvas.Header>
