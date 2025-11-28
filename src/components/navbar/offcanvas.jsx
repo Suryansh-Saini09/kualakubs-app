@@ -31,6 +31,7 @@ function OffcanvasNavbar() {
 
             <Offcanvas show={show} onHide={handleClose}
             style={{ backgroundColor: "var(--accent-bg-color)" }}
+            scroll={true}
             
             >
                 <Offcanvas.Header closeButton style={{color: "var(--accent-text-color)"}}>
