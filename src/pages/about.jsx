@@ -1,6 +1,6 @@
 
 import PageHeader from "../components/PageHeader";
-
+import aboutlogo from "../assets/logowhite.png";
 export default function About() {
   return (
     <>
