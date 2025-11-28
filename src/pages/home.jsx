@@ -1,5 +1,6 @@
 import Components from "../components/manage.js";
 import * as Links from "../config/links.js";
+import Example from "../components/navbar/offcanvas.jsx";
 
 export default function Home() {
 
@@ -38,7 +39,6 @@ export default function Home() {
     return (
         <>
             <main>
-                <Components.Navbar />
                 <div className="container-fluid position-relative p-0">
                     <Components.Carousel />
                     <Components.Overlay.Overlayheader headerlinks={Links.overlayheaderlink} />

@@ -56,7 +56,7 @@ export default function About() {
           <hr className="my-5" />
 
           {/* Principal's Message */}
-          <div
+          {/* <div
             className="container-fluid d-flex align-items-center justify-content-center"
             style={{
               backgroundColor: "#e2dccc",
@@ -100,13 +100,51 @@ export default function About() {
                 <strong>Kualakubs World School</strong>
               </p>
             </div>
+          </div> */}
+
+          <div className="row align-items-center py-4 mt-4" style={{ background: "#ede9e0", borderRadius: "24px" }}>
+            <div className="col-lg-6 order-lg-2 p-4">
+              <i className="bi bi-chat-text-fill fs-2 mb-3"></i>
+              <h2 className="mb-4 fw-bold">Dear Parents and Students,</h2>
+              <p
+                className="mb-3"
+                style={{
+                  textAlign: "justify",
+                }}
+              >
+                At Kulakubs World School, we are committed to providing a nurturing
+                environment where every student is encouraged to explore their potential
+                and make thoughtful choices. Our dedicated team is devoted to promoting
+                academic excellence, personal growth, and character development, ensuring
+                students are equipped with the skills and values needed to make a positive
+                impact on society. We value the strong partnership between our school,
+                parents, and students in this shared journey of learning and growth.
+              </p>
+              <p
+                className="mt-4"
+                style={{
+                  textAlign: "justify",
+                }}
+              >
+                <strong>Warm regards,</strong>
+                <br />
+                <strong>Principal</strong>
+                <br />
+                <strong>Kualakubs World School</strong>
+              </p>
+            </div>
+            <div className="col-lg-6 order-lg-1 p-4">
+              <img
+                src="https://images.unsplash.com/photo-1552664730-d307ca884978"
+                className="img-fluid rounded-4 shadow-sm"
+                alt=""
+              />
+            </div>
           </div>
 
-
-
-          <hr className="my-5" />
+          <hr className="my-5" style={{ display: "none" }} />
           {/* Our Curriculum */}
-          <div className="mb-5">
+          <div className="mb-5" style={{ display: "none" }}    >
             <h3
               className="fw-semibold text-center mb-4"
               style={{ color: "var(--accent-bg-color)" }}
@@ -180,7 +218,7 @@ export default function About() {
           <hr className="my-5" />
 
           {/* Faculty Message */}
-          <div
+          {/* <div
             className="container-fluid d-flex align-items-center justify-content-center py-5"
             style={{
               backgroundColor: "#e2dccc",
@@ -221,8 +259,47 @@ export default function About() {
                 We believe great teachers create great futures.
               </p>
             </div>
-          </div>
+          </div> */}
 
+          <div className="row align-items-center py-4" style={{ background: "#f5f4ef", borderRadius: "24px" }}>
+            <div className="col-lg-6 p-4">
+              <i className="bi bi-people-fill fs-2 mb-3" style={{ color: "var(--accent-bg-color)" }}></i>
+               <h2 className="mb-4 fw-bold text-start">
+                Our teachers are trained, certified and passionate educators with expertise in:
+              </h2>
+
+              <ul
+                className="mb-4"
+                style={{
+                  textAlign: "left",
+                  lineHeight: "1.8",
+                }}
+              >
+                <li>CBSE Pedagogy</li>
+                <li>Subject-specific mastery</li>
+                <li>Child psychology & classroom management</li>
+                <li>NEP 2020 aligned teaching</li>
+                <li>Technology-enabled instruction</li>
+                <li>Project-based learning</li>
+              </ul>
+
+              <p
+                className="text-center fw-semibold"
+                style={{
+                  textAlign: "justify",
+                }}
+              >
+                We believe great teachers create great futures.
+              </p>
+            </div>
+            <div className="col-lg-6 p-4">
+              <img
+                src="https://images.unsplash.com/photo-1588072432836-e10032774350"
+                className="img-fluid rounded-4 shadow-sm"
+                alt=""
+              />
+            </div>
+          </div>
           <hr className="my-5" />
 
           {/* Core Values */}

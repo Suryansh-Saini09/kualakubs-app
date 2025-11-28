@@ -201,3 +201,27 @@ body {
         column-count: 1;
     }
 }
+
+
+.magic-card {
+  height: 100%;
+}
+
+.magic-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: #e2dccc;
+  transform: translateY(100%);
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+}
+
+.magic-card:hover .magic-overlay {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.magic-overlay p {
+  font-size: 15px;
+  line-height: 1.6;
+}

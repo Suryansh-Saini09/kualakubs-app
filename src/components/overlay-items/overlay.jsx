@@ -26,7 +26,8 @@ export function Overlayheader({ headerlinks }) {
     if (!hasLinks) {
         return (
             <>
-                <div className="overlay overlay-container position-absolute text-white">
+               <div className="overlay overlay-container position-absolute text-white"
+                >
                     <div className="row pe-2">
                         <div
                             className="col-12 mb-1 d-flex justify-content-center align-content-center"
@@ -40,13 +41,16 @@ export function Overlayheader({ headerlinks }) {
                         </div>
                     </div>
                 </div>
+          
+            
             </>
         );
     }
 
     return (
 
-        <div className="overlay overlay-container position-absolute text-white">
+        <div className="overlay overlay-container position-absolute text-white"
+        >
             <div className="row pe-2">
                 <div
                     className="col-12 mb-1 d-flex justify-content-center align-content-center"
@@ -145,7 +149,7 @@ export function Overlaymiddleheading() {
         <>
             <div className="position-absolute overlay overlay-hero">
                 <h4 className="hero-heading-h4 text-white"><i>Welcome to</i></h4>
-                <h1 className="hero-heading-h6 text-white">KUALAKUBS SCHOOL</h1>
+                <h1 className="hero-heading-h6 text-white">KUALAKUBS <br/> WORLD SCHOOL</h1>
                 <a href="#slidedown" className="btn rounded-circle text-dark" style={{backgroundColor: "white"}}>
                     <i className="bi d-inline-block bi-chevron-double-down arrow-animation" style={{fontSize: "larger"}}></i>
                 </a>
@@ -153,7 +157,6 @@ export function Overlaymiddleheading() {
         </>
     );
 }
-
 
 export default {
     Overlayheader,

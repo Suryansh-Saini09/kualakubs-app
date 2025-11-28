@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import logo from "../../assets/navbarlogo.png"; // adjust path to your logo
 import "./Navbar.css";
 
@@ -27,12 +27,16 @@ export default function Navbar() {
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
             style={{ backgroundColor: "var(--accent-bg-color)" }}
+            
           >
             {/* Offcanvas Header */}
             <div className="offcanvas-header ms-md-3 ms-sm-2">
-              <span className="btn me-2 border rounded-0 custom-button-effect">
+              
+              {/* Offcanvas Header
+               <span className="btn me-2 border rounded-0 custom-button-effect">
                 TERM DATES {"\u2192"}
-              </span>
+              </span> */}
+             
 
               <button
                 type="button"
@@ -52,68 +56,38 @@ export default function Navbar() {
               {/* Nav Links */}
               <ul className="navbar-nav justify-content-end d-inline-block pe-5 ps-md-3 ps-sm-2">
                 <li className="nav-item">
-                  <Link className="nav-link custom-nav-link-color" to="/">
+                  <a className="nav-link custom-nav-link-color" href="/">
                     Home
-                  </Link>
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link custom-nav-link-color" to="/about">
+                  <a className="nav-link custom-nav-link-color" href="/about">
                     About
-                  </Link>
+                  </a>
                 </li>
 
-                <li className="nav-item dropdown" data-bs-theme="dark">
+                <li className="nav-item">
                   <a
-                    className="nav-link custom-nav-link-color dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
+                    className="nav-link custom-nav-link-color"
+                    href="/admissions">
                     ADMISSIONS
                   </a>
-                  <ol className="dropdown-menu bg-transparent border-0 list-group-numbered">
-                    <li>
-                      <Link
-                        className="dropdown-item custom-nav-link-color bg-transparent"
-                        to="/admissions"
-                      >
-                        Admissions
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="dropdown-item custom-nav-link-color bg-transparent"
-                        to="/fees"
-                      >
-                        School Fee
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="dropdown-item custom-nav-link-color bg-transparent"
-                        to="/registration"
-                      >
-                        Registration
-                      </Link>
-                    </li>
-                  </ol>
                 </li>
 
                 <li className="nav-item">
-                  <Link className="nav-link custom-nav-link-color" to="/support">
-                    SUPPORT US
-                  </Link>
+                  <a className="nav-link custom-nav-link-color" href="/campus-facilities">
+                   Campus facilities
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link custom-nav-link-color" to="/life">
-                    SCHOOL LIFE
-                  </Link>
+                  <a className="nav-link custom-nav-link-color" href="/why-kualakubs">
+                    Why kualakubs
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link custom-nav-link-color" to="/contact">
-                    CONTACT US
-                  </Link>
+                  <a className="nav-link custom-nav-link-color" href="/contact">
+                    Contact US
+                  </a>
                 </li>
               </ul>
 
