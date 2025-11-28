@@ -30,7 +30,7 @@ function OffcanvasNavbar() {
             </button>
 
             <Offcanvas show={show} onHide={handleClose}
-            style={{ backgroundColor: "var(--accent-bg-color)" }}
+            style={{ backgroundColor: "var(--accent-bg-color)", width: "300px" }}
             scroll={true}
             
             >
