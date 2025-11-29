@@ -3,7 +3,7 @@ export const overlayheaderlink = [
     { pathname: "Admissions", path: "/admissions" },
     { pathname: "Our Campus", path: "/campus-facilities" },
     { pathname: "Contact Us", path: "/contact" },
-    //{ pathname: "About Us", path: "/about" },
+    { pathname: "About Us", path: "/about" },
 
     // { pathname: "School Life", path: "/school-life" },
     // { pathname: "Life Skills", path: "/life-skills" },
