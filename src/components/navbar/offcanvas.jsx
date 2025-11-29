@@ -47,7 +47,7 @@ function OffcanvasNavbar() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link custom-nav-link-color" to="/about" type='button' closeButton>
+                  <Link className="nav-link custom-nav-link-color" to="/about" onClick={handleClose}>
                     About
                   </Link>
                 </li>
