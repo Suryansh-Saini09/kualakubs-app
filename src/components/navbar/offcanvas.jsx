@@ -42,7 +42,7 @@ function OffcanvasNavbar() {
                                   {/* Nav Links */}
               <ul className="navbar-nav justify-content-end d-inline-block pe-5 ps-md-3 ps-sm-2">
                 <li className="nav-item">
-                  <a className="nav-link custom-nav-link-color" href="/">
+                  <a className="nav-link custom-nav-link-color" href="/" onClick={handleClose}>
                     Home
                   </a>
                 </li>
@@ -55,23 +55,23 @@ function OffcanvasNavbar() {
                 <li className="nav-item">
                   <Link
                     className="nav-link custom-nav-link-color"
-                    to="/admissions">
+                    to="/admissions" onClick={handleClose}>
                     ADMISSIONS
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link className="nav-link custom-nav-link-color" to="/campus-facilities">
+                  <Link className="nav-link custom-nav-link-color" to="/campus-facilities" onClick={handleClose}>
                    Campus facilities
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link custom-nav-link-color" to="/why-kualakubs">
+                  <Link className="nav-link custom-nav-link-color" to="/why-kualakubs" onClick={handleClose}>
                     Why kualakubs
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link custom-nav-link-color" to="/contact">
+                  <Link className="nav-link custom-nav-link-color" to="/contact" onClick={handleClose}>
                     Contact US
                   </Link>
                 </li>
