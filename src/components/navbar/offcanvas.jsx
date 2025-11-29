@@ -47,33 +47,33 @@ function OffcanvasNavbar() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link custom-nav-link-color" to="/about">
+                  <Link className="nav-link custom-nav-link-color" to="/about" closeButton>
                     About
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link custom-nav-link-color"
-                    href="/admissions">
+                    to="/admissions">
                     ADMISSIONS
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link custom-nav-link-color" href="/campus-facilities">
+                  <Link className="nav-link custom-nav-link-color" to="/campus-facilities">
                    Campus facilities
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link custom-nav-link-color" href="/why-kualakubs">
+                  <Link className="nav-link custom-nav-link-color" to="/why-kualakubs">
                     Why kualakubs
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link custom-nav-link-color" href="/contact">
+                  <Link className="nav-link custom-nav-link-color" to="/contact">
                     Contact US
-                  </a>
+                  </Link>
                 </li>
               </ul>
 
