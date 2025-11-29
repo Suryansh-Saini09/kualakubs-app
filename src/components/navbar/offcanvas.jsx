@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { Link } from 'react-router-dom';
 
 function OffcanvasNavbar() {
     const [show, setShow] = useState(false);
@@ -46,9 +47,9 @@ function OffcanvasNavbar() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link custom-nav-link-color" href="/about">
+                  <Link className="nav-link custom-nav-link-color" to="/about">
                     About
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item">
