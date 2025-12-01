@@ -13,6 +13,103 @@ export default function About() {
         ]}
       />
 
+      {/* About us */}
+      <section
+        className="py-5"
+        style={{
+          backgroundColor: "var(--bg-color)",
+          color: "var(--text-color)"
+        }}
+      >
+        <div className="container">
+
+          {/* Heading */}
+          <div className="text-center mb-5">
+            <h2
+              className="fw-bold"
+              style={{ color: "var(--accent-bg-color)" }}
+            >
+              About Us
+            </h2>
+            <p className="mt-2" style={{ color: "var(--text-color)" }}>
+              Where a 40-Year Legacy Meets the Future of Learning
+            </p>
+          </div>
+
+          <div className="row g-4">
+
+            {/* Column 1 */}
+            <div className="col-lg-6">
+              <div className="p-4 h-100 rounded-3 shadow-sm"
+                style={{ backgroundColor: "var(--accent-bg-color)", color: "var(--accent-text-color)" }}
+              >
+                <h4 className="fw-semibold mb-3">
+                  <i className="bi bi-award-fill me-2"></i>
+                  A Legacy of 40+ Years
+                </h4>
+                <p>
+                  Welcome to Kualakubs World School, a visionary learning space built on the strong educational foundation of the Geeta Group of Institutions that has proudly served the community for over 40 years. Kualakubs continues this legacy, blending tradition with innovation.
+                </p>
+
+                <h5 className="fw-semibold mt-4 mb-2">
+                  <i className="bi bi-stars me-2"></i>
+                  Our Beginning in Gurugram
+                </h5>
+                <p>
+                  Our journey began with the much-loved Kualakubs Preschool—now a preferred choice for early childhood education rooted in creativity, warmth, and experiential learning.
+                </p>
+              </div>
+            </div>
+
+            {/* Column 2 */}
+            <div className="col-lg-6">
+              <div className="p-4 h-100 rounded-3 shadow-sm" style={{ backgroundColor: "var(--bg-color)" }}>
+                <h4 className="fw-semibold mb-3" style={{ color: "var(--accent-bg-color)" }}>
+                  <i className="bi bi-building me-2"></i>
+                  Expanding Into a CBSE Formal School
+                </h4>
+                <p>
+                  Building on our preschool’s success, we proudly introduce the Kualakubs CBSE Formal School, offering classes from Playgroup to Grade 12—ensuring a seamless educational journey from foundational to formative years.
+                </p>
+
+                <h5 className="fw-semibold mt-4 mb-2" style={{ color: "var(--accent-bg-color)" }}>
+                  <i className="bi bi-lightbulb-fill me-2"></i>
+                  Designed for the Future
+                </h5>
+                <p>
+                  Our curriculum integrates 21st-century skills such as critical thinking, creativity, collaboration, digital literacy, and socio-emotional learning.
+                </p>
+
+                <h5 className="fw-semibold mt-4 mb-2" style={{ color: "var(--accent-bg-color)" }}>
+                  <i className="bi bi-mortarboard-fill me-2"></i>
+                  A Space That Inspires Learning
+                </h5>
+                <p>
+                  With interactive classrooms, well-equipped labs, outdoor play zones, and activity areas, we create an environment where learning is joyful, engaging, and holistic.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+          {/* Bottom Vision Box */}
+          <div className="mt-5 p-4 rounded-3 shadow-sm text-center"
+            style={{ backgroundColor: "var(--accent-bg-color)", color: "var(--accent-text-color)" }}
+          >
+            <h4 className="fw-semibold mb-3">
+              <i className="bi bi-compass-fill me-2"></i>
+              Our Vision
+            </h4>
+            <p className="mb-0">
+              To empower every child to become an independent thinker,
+              a compassionate human being, and a confident global citizen.
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+
       <section className="py-5" style={{ backgroundColor: "var(--bg-color)" }}>
         <div className="container">
 
@@ -264,7 +361,7 @@ export default function About() {
           <div className="row align-items-center py-4" style={{ background: "#f5f4ef", borderRadius: "24px" }}>
             <div className="col-lg-6 p-4">
               <i className="bi bi-people-fill fs-2 mb-3" style={{ color: "var(--accent-bg-color)" }}></i>
-               <h2 className="mb-4 fw-bold text-start">
+              <h2 className="mb-4 fw-bold text-start">
                 Our teachers are trained, certified and passionate educators with expertise in:
               </h2>
 
@@ -301,6 +398,8 @@ export default function About() {
             </div>
           </div>
           <hr className="my-5" />
+
+
 
           {/* Core Values */}
           <div className="text-center">

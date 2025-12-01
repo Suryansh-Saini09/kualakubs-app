@@ -6,9 +6,9 @@
 }
 
 .overlay-container {
-    width: 15%;
+    width: 10%;
     top: 1%;
-    right: 4%;
+    right: 2%;
 }
 
 .overlay-hero {
@@ -21,11 +21,24 @@
 
 /* Overlay Headings */
 .hero-heading-h4 {
-    font-size: 40px;
+    font-size: 28px;
+    font-family: "'Playfair Display', serif";
+    font-style: italic; 
+    margin: 0,
+  
 }
 
 .hero-heading-h6 {
-    font-size: 70px;
+    font-family: "'Montserrat', sans-serif";
+    font-weight: 800;
+    font-size: 60px;
+    margin: 0;
+}
+.hero-heading-h5{
+    font-family: "'Montserrat', sans-serif";
+    font-weight: 800;
+    font-size: 45px;
+    margin: 0;
 }
 
 /* =========================================================
@@ -34,7 +47,7 @@
 @media (max-width: 768px) {
     .overlay-container {
         width: 25%;
-        right: 4%;
+        right: 3%;
     }
 
     .overlay-hero {
@@ -52,8 +65,8 @@
 
 @media (max-width: 576px) {
     .overlay-container {
-        width: 45%;
-        right: 4%;
+        width: 40%;
+        right: 3%;
     }
 
     .overlay-hero {
