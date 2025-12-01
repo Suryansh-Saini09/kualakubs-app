@@ -1,7 +1,7 @@
 import "./contentlayout.css";
 import aboutlogo from "../../assets/logowhite.png";
 import { Link } from "react-router-dom";
-import slide1 from "../../assets/latest_news_KK.jpg"
+import slide1 from "../../assets/school.png";
 
 
 export function AboutContentLayout() {
