@@ -1,5 +1,5 @@
 import "./contentlayout.css";
-import aboutlogo from "../../assets/logowhite.png";
+import aboutlogo from "../../assets/logo_rbg.png";
 import { Link } from "react-router-dom";
 import slide1 from "../../assets/school.png";
 

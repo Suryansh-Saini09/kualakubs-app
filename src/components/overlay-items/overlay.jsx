@@ -1,6 +1,6 @@
 
 // library imports 
-import HeaderLogo from "../../assets/headerlogo.png";
+import HeaderLogo from "../../assets/kulakubs_new_logo.png";
 import "./overlay.css";
 import { Link } from "react-router-dom";
 // import React from "react";  // use later if needed.
