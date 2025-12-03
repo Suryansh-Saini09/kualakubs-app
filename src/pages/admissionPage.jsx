@@ -39,7 +39,7 @@ export default function Admissions() {
 
         <h1 className="hero-title mb-2">Admissions 2026–27</h1>
 
-        <p className="lead mb-4">Playgroup to Class 8</p>
+        <p className="lead mb-4">Playgroup to Class 12</p>
 
         <a
           href="#process"
