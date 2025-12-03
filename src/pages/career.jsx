@@ -244,7 +244,6 @@ export default function Career() {
                                     Apply
                                 </button>
                             </div>
-
                         </div>
                     </form>
                 </div>
