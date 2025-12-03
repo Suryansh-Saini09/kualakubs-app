@@ -221,10 +221,10 @@ export default function Career() {
                             {/* Reference */}
                             <div className="col-md-12">
                                 <div className="form-group">
-                                    <label className="mb-1">Reference / Source of Information</label>
+                                    <label className="mb-1">Reference</label>
                                     <input
                                         type="text"
-                                        name="reference/_source_of_information"
+                                        name="reference"
                                         className="form-control"
                                     />
                                 </div>
