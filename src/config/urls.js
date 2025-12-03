@@ -10,7 +10,8 @@ const WhyChoose = lazy(() => import("../pages/whyChoose"));
 //const FacultyPage = lazy(() => import("../pages/facultyPage"));
 //const Principal = lazy(() => import("../pages/principal"));
 //const LifeSkills = lazy(() => import("../pages/lifeskillspage"));
-const Campus_Facilities = lazy(() => import("../pages/Campus_Facilities"))
+const Campus_Facilities = lazy(() => import("../pages/Campus_Facilities"));
+const Career = lazy(() => import("../pages/career"));
 // ... repeat for other pages
 
 const routes = [
@@ -23,7 +24,8 @@ const routes = [
  // { path: "/faculty", element: createElement(FacultyPage) },
   //{ path: "/principal", element: createElement(Principal) },
   //{path: "/life-skills", element: createElement(LifeSkills)},
-  {path: "/campus-facilities", element: createElement(Campus_Facilities)}
+  {path: "/campus-facilities", element: createElement(Campus_Facilities)},
+  {path: "/career", element: createElement(Career)},
   // ... add more routes here
 ];
 
