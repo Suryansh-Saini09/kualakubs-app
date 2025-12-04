@@ -402,28 +402,71 @@ export default function About() {
 
 
           {/* Core Values */}
-          <div className="text-center">
-            <h3 className="fw-semibold mb-4" style={{ color: "var(--accent-bg-color)" }}>
-              Core Values
+          <div className="container py-5">
+            <h3
+              className="fw-semibold text-center mb-5"
+              style={{ color: "var(--accent-bg-color)" }}
+            >
+              Our Foundational Values
             </h3>
 
-            <div className="d-flex flex-wrap justify-content-center gap-3">
-              {["Integrity", "Curiosity", "Respect", "Empathy", "Discipline", "Excellence"].map(
-                (value, index) => (
-                  <span
-                    key={index}
-                    className="badge px-4 py-2"
+            <div
+              className="row g-4 justify-content-center"
+              style={{ color: "var(--text-color)" }}
+            >
+              {[
+                {
+                  title: "Integrity",
+                  text: "Upholding honesty and ethical conduct. We build trust by acting transparently and responsibly in all we do.",
+                },
+                {
+                  title: "Curiosity",
+                  text: "Igniting a passion for learning and exploration. We empower students to ask questions and engage deeply with the world.",
+                },
+                {
+                  title: "Respect",
+                  text: "Valuing dignity, diversity, and unique viewpoints. We foster a safe and inclusive atmosphere built on mutual respect.",
+                },
+                {
+                  title: "Empathy",
+                  text: "Understanding and appreciating others' emotions and experiences, strengthening community bonds.",
+                },
+                {
+                  title: "Discipline",
+                  text: "Cultivating responsibility, focus, and resilience for long-term personal and academic success.",
+                },
+                {
+                  title: "Excellence",
+                  text: "Pursuing continuous improvement in academics, character, and contributions to society.",
+                },
+              ].map((item, index) => (
+                <div className="col-md-6 col-lg-4" key={index}>
+                  <div
+                    className="value-card p-4 h-100"
                     style={{
-                      backgroundColor: "var(--accent-bg-color)",
-                      color: "var(--accent-text-color)",
+                      backgroundColor: "var(--accent-text-color)",
+                      borderRadius: "12px",
+                      borderLeft: "6px solid var(--accent-bg-color)",
+                      transition: "all 0.3s ease",
+                      cursor: "pointer",
                     }}
                   >
-                    {value}
-                  </span>
-                )
-              )}
+                    <h5
+                      className="fw-bold mb-2"
+                      style={{ color: "var(--accent-bg-color)" }}
+                    >
+                      {item.title}
+                    </h5>
+                    <p className="mb-0">{item.text}</p>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
+
+
+
+
         </div>
       </section>
 

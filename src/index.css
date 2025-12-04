@@ -280,3 +280,18 @@ body {
     min-height: auto;
   }
 }
+.value-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(25, 45, 69, 0.25);
+  border-left-color: #0f1e31; /* slightly darker for effect */
+}
+
+.facility-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(25, 45, 69, 0.18);
+  border-color: var(--accent-bg-color);
+}
+
+.facility-card:hover h5 {
+  color: #0f1e31; /* slightly darker for emphasis */
+}

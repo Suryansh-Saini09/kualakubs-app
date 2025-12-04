@@ -16,7 +16,7 @@ export function AboutContentLayout() {
 
                 <p className="about-text" style={{ fontSize: "medium", textAlign: "justify" }}>
                     Welcome to Kualakubs World School, a CBSE formal school committed to building strong academic foundations, essential life skills, and a future-ready mindset in every child.
-                    With a blend of modern pedagogy, global teaching standards, and a safe, nurturing environment, Kualakubs empowers learners from Playgroup to Grade 8 to excel academically and grow holistically.
+                    With a blend of modern pedagogy, global teaching standards, and a safe, nurturing environment, Kualakubs empowers learners from Playgroup to Grade 12 to excel academically and grow holistically.
                 </p>
 
                 <Link to="/about" className="d-block z-2 text-decoration-none d-none" style={{ color: "var(--accent-text-color)", fontSize: "large" }}>

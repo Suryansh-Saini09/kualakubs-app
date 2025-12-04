@@ -56,7 +56,7 @@ function OffcanvasNavbar() {
                   <Link
                     className="nav-link custom-nav-link-color"
                     to="/admissions" onClick={handleClose}>
-                    ADMISSIONS
+                    Admissions
                   </Link>
                 </li>
 
