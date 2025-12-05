@@ -32,7 +32,7 @@ const Footer = ({footerLinks}) => {
                     <h6 className="mb-2">Social</h6>
                     <a href="#" className="bi-color me-2"><i className="bi bi-facebook"></i></a>
                     <a href="#" className="bi-color me-2"><i className="bi bi-twitter"></i></a>
-                    <a href="#" className="bi-color me-2"><i className="bi bi-instagram"></i></a>
+                    <a href="https://www.instagram.com/kualakubsworldschool?igsh=MTRocGJla2x6ZjhyOA==" className="bi-color me-2"><i className="bi bi-instagram"></i></a>
                     <a href="#" className="bi-color"><i className="bi bi-linkedin"></i></a>
                 </div>
             </div>
