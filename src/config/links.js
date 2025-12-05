@@ -14,45 +14,29 @@ export const overlayheaderlink = [
 
 export const footerLinks = [
     {
-        category: "ABOUT",
+        category: "ABOUT US",
         links: [
-            // { path: "/about", pathname: "About us" },
-            // { path: "/about", pathname: "About us" },
+             { path: "/about", pathname: "About us" },
+             { path: "/admissions", pathname: "Admissions" },
             // { path: "/about", pathname: "About us" },
             // { path: "/about", pathname: "About us" },
         ],
     },
-    {
-        category: "ADMISSIONS",
-        links: [
-            // { path: "/about", pathname: "About us" },
-            // { path: "/about", pathname: "About us" },
-            // { path: "/about", pathname: "About us" },
-            // { path: "/about", pathname: "About us" },
-        ],
-    },
-    {
-        category: "SCHOOL LIFE",
-        links: [
-            // { path: "/about", pathname: "About us" },
-            // { path: "/about", pathname: "About us" },
-            // { path: "/about", pathname: "About us" },
-            // { path: "/about", pathname: "About us" },
-        ],
-    },
+  
+ 
     {
         category: "QUICK LINKS",
         links: [
-            // { path: "/about", pathname: "About us" },
-            // { path: "/about", pathname: "About us" },
+             { path: "/campus-facilities", pathname: "Campus facilities" },
+             { path: "/why-kualakubs", pathname: "Why kualakubs" },
             // { path: "/about", pathname: "About us" },
             // { path: "/about", pathname: "About us" },
         ],
     },
     {
-        category: "WEBSITES",
+        category: "CONTACT US",
         links: [
-            // { path: "/about", pathname: "About us" },
+             { path: "/contact", pathname: "contact" },
             // { path: "/about", pathname: "About us" },
             // { path: "/about", pathname: "About us" },
             // { path: "/about", pathname: "About us" },

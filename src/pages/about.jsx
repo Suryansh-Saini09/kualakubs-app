@@ -115,9 +115,9 @@ export default function About() {
 
           {/* Who We Are */}
           <div className="text-center mb-5">
-            <h2 className="fw-bold" style={{ color: "var(--accent-bg-color)" }}>
+            {/* <h2 className="fw-bold" style={{ color: "var(--accent-bg-color)" }}>
               Who We Are
-            </h2>
+            </h2> */}
             <p className="mt-3" style={{ color: "var(--text-color)" }}>
               Kualakubs World School is a progressive CBSE school offering a structured,
               holistic and future-ready education for students from Playgroup to Class 8.
@@ -463,14 +463,8 @@ export default function About() {
               ))}
             </div>
           </div>
-
-
-
-
         </div>
       </section>
-
-
     </>
   );
 }

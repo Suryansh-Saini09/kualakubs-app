@@ -17,7 +17,7 @@ createRoot(document.getElementById("root")).render(
       <Overlay.Overlayheader headerlinks={Links.overlayheaderlink}/>
       <App />
     </BrowserRouter>
-    <Components.ContactBox />
+    {/* <Components.ContactBox /> */}
 
     <Components.Footer footerLinks={Links.footerLinks} />
   </StrictMode>

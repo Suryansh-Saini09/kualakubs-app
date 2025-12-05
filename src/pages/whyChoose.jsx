@@ -35,6 +35,7 @@ export default function WhyChoose() {
 
                     <div className="row g-4 justify-content-center">
                         {[
+
                             "CBSE Academic Excellence",
                             "Strong Focus on Life Skills & Values",
                             "Experienced & Trained Faculty",
@@ -43,8 +44,9 @@ export default function WhyChoose() {
                             "Sports, Arts & Co-Curricular Exposure",
                             "Leadership, Competitions & Olympiads",
                             "Future-ready Skills: ICT, Communication, Creativity",
-                            "Balanced Development of Academics & Personality",
+                            // "Balanced Development of Academics & Personality",
                             "D.E.A.R. (Drop Everything & Read) Period",
+                            
                         ].map((item, index) => (
                             <div
                                 className="col-lg-4 col-md-6"
