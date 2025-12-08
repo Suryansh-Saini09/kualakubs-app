@@ -87,7 +87,7 @@ export default function Campus_Facilities() {
                         },
                         {
                             title: "Arts & Athletics",
-                            text: "Studios for Art & Music, plus Outdoor & Indoor Sports Arenas and multi-sport courts for fitness and teamwork.",
+                            text: "Art & Music Studios with Indoor–Outdoor Sports Arenas and multi-sport courts for creativity, fitness, and teamwork.",
                         },
                         {
                             title: "Essential Life Skills",
