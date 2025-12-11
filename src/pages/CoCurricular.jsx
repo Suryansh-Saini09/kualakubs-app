@@ -1,20 +1,20 @@
 import PageHeader from "../components/PageHeader";
 
-export default function Campus_Facilities() {
+export default function CoCurricular() {
 
     return (
         <>
 
             <PageHeader
-                title="Campus Facilites"
+                title="Co-Curricular Programs"
                 backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"
                 breadcrumb={[
                     { label: "Home", link: "/" },
-                    { label: "Campus Facilites", active: true }
+                    { label: "Co-Curricular Programs", active: true }
                 ]}
             />
 
-            {/* <div className="container my-5">
+            {/* {/* <div className="container my-5">
                 <div className="bg-light p-4 rounded shadow-sm">
                     <h2 className="fw-bold mb-3">A Modern, World-Class School Campus</h2>
 
@@ -44,8 +44,7 @@ export default function Campus_Facilities() {
                     </p>
                 </div>
             </div> */}
-            
-            <div className="container py-5">
+            {/* <div className="container py-5">
 
                 <div className="text-center mb-4">
                     <h3
@@ -124,7 +123,104 @@ export default function Campus_Facilities() {
                         </div>
                     ))}
                 </div>
-            </div>
+            </div> */}
+            <section className="py-5 bg-light">
+                <div className="container">
+
+                    {/* Title */}
+                    <div className="text-center mb-5">
+                        <h2 className="fw-bold">Co-Curricular Programmes at Kualakubs World School</h2>
+                        <p className="text-muted mt-2">
+                            At Kualakubs World School, co-curricular activities are an essential part
+                            of holistic learning. Students explore creativity, leadership, teamwork,
+                            and real-world skills beyond the classroom.
+                        </p>
+                    </div>
+
+                    <div className="row g-4">
+
+                        {/* STEM & Innovation */}
+                        <div className="col-md-6">
+                            <div className="p-4 border rounded bg-white h-100 shadow-sm">
+                                <h4 className="fw-semibold mb-3">STEM & Innovation</h4>
+                                <ul className="mb-0">
+                                    <li>Robotics & coding</li>
+                                    <li>Hands-on experiments</li>
+                                    <li>Design thinking challenges</li>
+                                    <li>Innovation projects and showcases</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        {/* Sports & Physical Education */}
+                        <div className="col-md-6">
+                            <div className="p-4 border rounded bg-white h-100 shadow-sm">
+                                <h4 className="fw-semibold mb-3">Sports & Physical Education</h4>
+                                <ul className="mb-0">
+                                    <li>Indoor and outdoor sports</li>
+                                    <li>Structured physical training</li>
+                                    <li>Yoga and fitness sessions</li>
+                                    <li>Inter-house sports events and tournaments</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        {/* Visual & Performing Arts */}
+                        <div className="col-md-6">
+                            <div className="p-4 border rounded bg-white h-100 shadow-sm">
+                                <h4 className="fw-semibold mb-3">Visual & Performing Arts</h4>
+                                <ul className="mb-0">
+                                    <li>Music (vocal & instrumental)</li>
+                                    <li>Dance</li>
+                                    <li>Fine arts & crafts</li>
+                                    <li>Drama and theatre activities</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        {/* Clubs & Activity Groups */}
+                        <div className="col-md-6">
+                            <div className="p-4 border rounded bg-white h-100 shadow-sm">
+                                <h4 className="fw-semibold mb-3">Clubs & Activity Groups</h4>
+                                <ul className="mb-0">
+                                    <li>Reading & Literature Club</li>
+                                    <li>Eco & Gardening Club</li>
+                                    <li>Debate & Public Speaking Club</li>
+                                    <li>Coding & Tech Club</li>
+                                    <li>Art & Creative Club</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        {/* Cultural & Community Engagement */}
+                        <div className="col-md-6">
+                            <div className="p-4 border rounded bg-white h-100 shadow-sm">
+                                <h4 className="fw-semibold mb-3">Cultural & Community Engagement</h4>
+                                <ul className="mb-0">
+                                    <li>Celebrations and themed weeks</li>
+                                    <li>Cultural performances</li>
+                                    <li>Community outreach initiatives</li>
+                                    <li>Value-based activities and assemblies</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        {/* Skill-Building & Enrichment */}
+                        <div className="col-md-6">
+                            <div className="p-4 border rounded bg-white h-100 shadow-sm">
+                                <h4 className="fw-semibold mb-3">Skill-Building & Enrichment</h4>
+                                <ul className="mb-0">
+                                    <li>Communication and confidence-building sessions</li>
+                                    <li>Leadership workshops</li>
+                                    <li>Financial literacy basics</li>
+                                    <li>Collaborative learning projects</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
 
         </>
     );

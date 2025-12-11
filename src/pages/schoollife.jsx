@@ -17,38 +17,38 @@ export default function SchoolLife() {
         });
     }, []);
 
-    const galleryItems = [
-        {
-            img: "https://www.westminster.org.uk/wp-content/uploads/2025/01/27NovemberAccidentalDeathofanAnarchistimages1105-2048x1370.jpg",
-            text: "WATCH KUALAKUBS",
-            link: "#",
-        },
-        {
-            img: "https://www.westminster.org.uk/wp-content/uploads/2025/03/IMG_5424-2048x1365.jpg",
-            text: "PUPIL WELFARE",
-            link: "#",
-        },
-        {
-            img: "https://www.westminster.org.uk/wp-content/uploads/2025/03/580A3848-2048x1365.jpg",
-            text: "THE SIXTH FORM",
-            link: "#",
-        },
-        {
-            img: "https://www.westminster.org.uk/wp-content/uploads/2022/11/GWL_4116_gwl-scaled-e1669392893306.jpg",
-            text: "THE ABBEY",
-            link: "#",
-        },
-        {
-            img: "https://www.westminster.org.uk/wp-content/uploads/2024/10/GEORGINA01889-2048x1365.jpg",
-            text: "CO-CURRICULUM",
-            link: "#",
-        },
-        {
-            img: "https://www.westminster.org.uk/wp-content/uploads/2025/01/MicaelaKarina_WestminsterSchool-202-e1741696569873.jpg",
-            text: "BOAR",
-            link: "#",
-        },
-    ];
+    // const galleryItems = [
+    //     {
+    //         img: "https://www.westminster.org.uk/wp-content/uploads/2025/01/27NovemberAccidentalDeathofanAnarchistimages1105-2048x1370.jpg",
+    //         text: "WATCH KUALAKUBS",
+    //         link: "#",
+    //     },
+    //     {
+    //         img: "https://www.westminster.org.uk/wp-content/uploads/2025/03/IMG_5424-2048x1365.jpg",
+    //         text: "PUPIL WELFARE",
+    //         link: "#",
+    //     },
+    //     {
+    //         img: "https://www.westminster.org.uk/wp-content/uploads/2025/03/580A3848-2048x1365.jpg",
+    //         text: "THE SIXTH FORM",
+    //         link: "#",
+    //     },
+    //     {
+    //         img: "https://www.westminster.org.uk/wp-content/uploads/2022/11/GWL_4116_gwl-scaled-e1669392893306.jpg",
+    //         text: "THE ABBEY",
+    //         link: "#",
+    //     },
+    //     {
+    //         img: "https://www.westminster.org.uk/wp-content/uploads/2024/10/GEORGINA01889-2048x1365.jpg",
+    //         text: "CO-CURRICULUM",
+    //         link: "#",
+    //     },
+    //     {
+    //         img: "https://www.westminster.org.uk/wp-content/uploads/2025/01/MicaelaKarina_WestminsterSchool-202-e1741696569873.jpg",
+    //         text: "BOAR",
+    //         link: "#",
+    //     },
+    // ];
 
     return (
 
@@ -174,7 +174,7 @@ export default function SchoolLife() {
                 </div>
             </section>
             {/* Gallery */}
-            < Components.Gallery.Gallery galleryItems={galleryItems} h={"DISCOVER MORE"} p={"Find out more about School Life at Westminster"} />
+            {/* < Components.Gallery.Gallery galleryItems={galleryItems} h={"DISCOVER MORE"} p={"Find out more about School Life at Westminster"} /> */}
         </>
     );
 }

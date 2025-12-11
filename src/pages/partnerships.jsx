@@ -1,20 +1,20 @@
 import PageHeader from "../components/PageHeader";
 
-export default function Campus_Facilities() {
+export default function Partnerships() {
 
     return (
         <>
 
             <PageHeader
-                title="Campus Facilites"
+                title="Our Partnerships"
                 backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"
                 breadcrumb={[
                     { label: "Home", link: "/" },
-                    { label: "Campus Facilites", active: true }
+                    { label: "Our Partnerships", active: true }
                 ]}
             />
 
-            {/* <div className="container my-5">
+            {/* {/* <div className="container my-5">
                 <div className="bg-light p-4 rounded shadow-sm">
                     <h2 className="fw-bold mb-3">A Modern, World-Class School Campus</h2>
 
@@ -44,8 +44,7 @@ export default function Campus_Facilities() {
                     </p>
                 </div>
             </div> */}
-            
-            <div className="container py-5">
+            {/* <div className="container py-5">
 
                 <div className="text-center mb-4">
                     <h3
@@ -124,7 +123,100 @@ export default function Campus_Facilities() {
                         </div>
                     ))}
                 </div>
-            </div>
+            </div> */}
+            <section className="py-5">
+                <div className="container">
+
+                    {/* Title */}
+                    <div className="text-center mb-5">
+                        <h2 className="fw-bold">Our Partnerships</h2>
+                        <p className="text-muted mt-2">
+                            At Kualakubs World School, our collaborations with leading educational
+                            organisations, industry experts, and community groups help broaden
+                            learning opportunities and bring global exposure to our students.
+                        </p>
+                    </div>
+
+                    <div className="row g-4">
+
+                        {/* Academic & Educational Collaborations */}
+                        <div className="col-md-6">
+                            <div className="p-4 border rounded bg-white shadow-sm h-100">
+                                <h4 className="fw-semibold mb-3">Academic & Educational Collaborations</h4>
+                                <ul className="mb-0">
+                                    <li>Expert-led workshops and training</li>
+                                    <li>Enrichment programmes in STEM, literacy, and life skills</li>
+                                    <li>Access to updated learning resources and digital tools</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        {/* Technology & Innovation Partners */}
+                        <div className="col-md-6">
+                            <div className="p-4 border rounded bg-white shadow-sm h-100">
+                                <h4 className="fw-semibold mb-3">Technology & Innovation Partners</h4>
+                                <ul className="mb-0">
+                                    <li>Robotics and coding programmes</li>
+                                    <li>Digital learning solutions</li>
+                                    <li>Smart classroom infrastructure</li>
+                                    <li>Future-ready skill development</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        {/* Sports & Wellness Associations */}
+                        <div className="col-md-6">
+                            <div className="p-4 border rounded bg-white shadow-sm h-100">
+                                <h4 className="fw-semibold mb-3">Sports & Wellness Associations</h4>
+                                <ul className="mb-0">
+                                    <li>Professional sports training</li>
+                                    <li>Fitness and yoga sessions</li>
+                                    <li>Health and wellness programmes</li>
+                                    <li>Inter-school competitions and sporting events</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        {/* Arts, Culture & Creative Collaborations */}
+                        <div className="col-md-6">
+                            <div className="p-4 border rounded bg-white shadow-sm h-100">
+                                <h4 className="fw-semibold mb-3">Arts, Culture & Creative Collaborations</h4>
+                                <ul className="mb-0">
+                                    <li>Art, music & dance workshops</li>
+                                    <li>Theatre and performance training</li>
+                                    <li>Cultural events and exhibition opportunities</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        {/* Community & Outreach Partners */}
+                        <div className="col-md-6">
+                            <div className="p-4 border rounded bg-white shadow-sm h-100">
+                                <h4 className="fw-semibold mb-3">Community & Outreach Partners</h4>
+                                <ul className="mb-0">
+                                    <li>Social awareness campaigns</li>
+                                    <li>Environmental initiatives</li>
+                                    <li>Community service and outreach programmes</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        {/* Final Statement */}
+                        <div className="col-md-6">
+                            <div className="p-4 border rounded bg-white shadow-sm h-100">
+                                <h4 className="fw-semibold mb-3">Commitment to Quality Through Collaboration</h4>
+                                <p className="mb-0">
+                                    Every partnership at KWS is carefully selected to support our mission
+                                    of providing holistic, future-ready education. These collaborations
+                                    strengthen our academic ecosystem and prepare students to thrive in
+                                    an interconnected world.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
 
         </>
     );

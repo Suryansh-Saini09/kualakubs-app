@@ -17,7 +17,7 @@ export function Gallery({ galleryItems, h, p }) {
                 <h5 className="text-center">{h}</h5>
                 <p className="text-center">
                     {p}
-                    Find out more about School Life at Kualakubs
+                    {/* Find out more about School Life at Kualakubs */}
                 </p>
 
                 <div className="container mt-4" style={{ width: "75%" }}>

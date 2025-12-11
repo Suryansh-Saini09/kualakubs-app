@@ -28,12 +28,12 @@ export default function Home() {
         {
             img: "https://www.westminster.org.uk/wp-content/uploads/2024/10/GEORGINA01889-scaled.jpg",
             text: "CO-CURRICULUM",
-            link: "#",
+            link: "/Co-Curricular",
         },
         {
             img: "https://www.westminster.org.uk/wp-content/uploads/2024/11/IMG_20240709_202243-1-scaled-e1731671780116.jpg",
             text: "PARTNERSHIPS",
-            link: "#",
+            link: "our-partnerships",
         },
     ];
     return (
