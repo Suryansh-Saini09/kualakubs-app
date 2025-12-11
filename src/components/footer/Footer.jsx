@@ -18,7 +18,7 @@ const Footer = ({footerLinks}) => {
                                 <li className="mb-2">{section.category}</li>
                                 {section.links.map((link, i) => (
                                     <li key={i}>
-                                        <Link to={link.path} className="footer-link text-decoration-none">{link.pathname}</Link>
+                                        <a to={link.path} className="footer-link text-decoration-none">{link.pathname}</a>
                                     </li>
                                 ))}
                             </ul>
