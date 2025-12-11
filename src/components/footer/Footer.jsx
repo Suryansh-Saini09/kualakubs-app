@@ -1,5 +1,6 @@
 
 import "./Footer.css"
+import {Link} from "react-router-dom"
 
 
 const Footer = ({footerLinks}) => {
@@ -17,7 +18,7 @@ const Footer = ({footerLinks}) => {
                                 <li className="mb-2">{section.category}</li>
                                 {section.links.map((link, i) => (
                                     <li key={i}>
-                                        <a href={link.path} className="footer-link text-decoration-none">{link.pathname}</a>
+                                        <Link to={link.path} className="footer-link text-decoration-none">{link.pathname}</Link>
                                     </li>
                                 ))}
                             </ul>
