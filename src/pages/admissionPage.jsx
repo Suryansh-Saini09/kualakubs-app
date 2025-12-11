@@ -49,6 +49,230 @@ export default function Admissions() {
         </a>
       </div>
 
+
+      <section className="py-5 bg-light">
+        <div className="container">
+
+          <h2 className="fw-bold mb-4 text-center">Enquiry Form</h2>
+
+          <form className="p-4 border rounded bg-white shadow-sm">
+
+            {/* Student Details */}
+            <h4 className="fw-semibold mb-3">Student Details</h4>
+            <div className="row g-3">
+
+              <div className="col-md-6">
+                <label className="form-label">Child’s Name</label>
+                <input type="text" className="form-control" required />
+              </div>
+
+              <div className="col-md-3">
+                <label className="form-label">Date of Birth</label>
+                <input type="date" className="form-control" required />
+              </div>
+
+              <div className="col-md-3">
+                <label className="form-label">Age</label>
+                <input type="number" className="form-control" min={3} required />
+              </div>
+
+              <div className="col-md-12">
+                <label className="form-label d-block">Gender</label>
+                <div className="d-flex gap-4">
+                  <div className="form-check">
+                    <input className="form-check-input" type="radio" name="gender" />
+                    <label className="form-check-label">Male</label>
+                  </div>
+                  <div className="form-check">
+                    <input className="form-check-input" type="radio" name="gender" />
+                    <label className="form-check-label">Female</label>
+                  </div>
+                  <div className="form-check">
+                    <input className="form-check-input" type="radio" name="gender" />
+                    <label className="form-check-label">Other</label>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-6">
+                <label className="form-label">Class Seeking Admission</label>
+                <input type="text" className="form-control" required />
+              </div>
+            </div>
+
+            <hr className="my-4" />
+
+            {/* Parents' Details */}
+            <h4 className="fw-semibold mb-3">Parents’ Details</h4>
+            <div className="row g-3">
+
+              <div className="col-md-6">
+                <label className="form-label">Father’s Name</label>
+                <input type="text" className="form-control" required />
+              </div>
+
+              <div className="col-md-3">
+                <label className="form-label">Mobile Number</label>
+                <input type="text" className="form-control" required />
+              </div>
+
+              <div className="col-md-3">
+                <label className="form-label">Email ID</label>
+                <input type="email" className="form-control" />
+              </div>
+
+              <div className="col-md-6">
+                <label className="form-label">Profession / Workplace</label>
+                <input type="text" className="form-control" />
+              </div>
+
+              <div className="col-md-6">
+                <label className="form-label">Mother’s Name</label>
+                <input type="text" className="form-control" required />
+              </div>
+
+              <div className="col-md-3">
+                <label className="form-label">Mobile Number</label>
+                <input type="text" className="form-control" />
+              </div>
+
+              <div className="col-md-3">
+                <label className="form-label">Email ID</label>
+                <input type="email" className="form-control" />
+              </div>
+
+              <div className="col-md-6">
+                <label className="form-label">Profession / Workplace</label>
+                <input type="text" className="form-control" />
+              </div>
+
+            </div>
+
+            <hr className="my-4" />
+
+            {/* Residential Address */}
+            <h4 className="fw-semibold mb-3">Residential Address</h4>
+            <div className="row g-3">
+
+              <div className="col-md-12">
+                <textarea className="form-control" rows="2" placeholder="Address Line 1" required></textarea>
+              </div>
+
+              <div className="col-md-12">
+                <textarea className="form-control" rows="2" placeholder="Address Line 2"></textarea>
+              </div>
+
+              <div className="col-md-3">
+                <label className="form-label">Pin Code</label>
+                <input type="text" className="form-control" />
+              </div>
+            </div>
+
+            <hr className="my-4" />
+
+            {/* Previous School */}
+            <h4 className="fw-semibold mb-3">Previous School</h4>
+            <div className="row g-3">
+
+              <div className="col-md-6">
+                <label className="form-label">School Name</label>
+                <input type="text" className="form-control" required />
+              </div>
+
+              <div className="col-md-6">
+                <label className="form-label">Class Attended</label>
+                <input type="text" className="form-control" required />
+              </div>
+
+              <div className="col-md-12">
+                <label className="form-label">Reason for Leaving / Change</label>
+                <textarea className="form-control" rows="2"></textarea>
+              </div>
+
+            </div>
+
+            <hr className="my-4" />
+
+            {/* How Did You Hear About Us */}
+            <h4 className="fw-semibold mb-3">How Did You Hear About Us?</h4>
+            <div className="row g-2">
+
+              <div className="col-md-12 d-flex flex-wrap gap-4">
+                <div className="form-check">
+                  <input className="form-check-input" type="checkbox" />
+                  <label className="form-check-label">Social Media</label>
+                </div>
+
+                <div className="form-check">
+                  <input className="form-check-input" type="checkbox" />
+                  <label className="form-check-label">Pamphlet / Brochure</label>
+                </div>
+
+                <div className="form-check">
+                  <input className="form-check-input" type="checkbox" />
+                  <label className="form-check-label">Hoarding</label>
+                </div>
+
+                <div className="form-check">
+                  <input className="form-check-input" type="checkbox" />
+                  <label className="form-check-label">Reference</label>
+                </div>
+
+                <div className="form-check">
+                  <input className="form-check-input" type="checkbox" />
+                  <label className="form-check-label">Walk-in</label>
+                </div>
+              </div>
+
+              <div className="col-md-6">
+                <input type="text" className="form-control" placeholder="Other (specify)" />
+              </div>
+
+            </div>
+
+            <hr className="my-4" />
+
+            {/* Area of Interest / Queries */}
+            <h4 className="fw-semibold mb-3">Area of Interest / Queries</h4>
+            <div className="row g-3">
+
+              <div className="col-md-12 d-flex flex-wrap gap-4">
+                <div className="form-check">
+                  <input className="form-check-input" type="checkbox" />
+                  <label className="form-check-label">Admissions</label>
+                </div>
+                <div className="form-check">
+                  <input className="form-check-input" type="checkbox" />
+                  <label className="form-check-label">School Tour</label>
+                </div>
+                <div className="form-check">
+                  <input className="form-check-input" type="checkbox" />
+                  <label className="form-check-label">Fee Structure</label>
+                </div>
+                <div className="form-check">
+                  <input className="form-check-input" type="checkbox" />
+                  <label className="form-check-label">Transport Facility</label>
+                </div>
+                <div className="form-check">
+                  <input className="form-check-input" type="checkbox" />
+                  <label className="form-check-label">Curriculum / Activities</label>
+                </div>
+              </div>
+
+              <div className="col-md-8">
+                <input type="text" className="form-control" placeholder="Others (specify)" />
+              </div>
+
+            </div>
+
+            <div className="text-center mt-5">
+              <button type="submit" className="btn btn-primary px-5 py-2">Submit</button>
+            </div>
+
+          </form>
+        </div>
+      </section>
+      
       {/* MAIN CONTENT */}
       <div className="admissions-wrapper">
         {/* Admission Process */}
@@ -134,6 +358,7 @@ export default function Admissions() {
           </div>
         </section>
       </div>
+
     </main>
   );
 }
