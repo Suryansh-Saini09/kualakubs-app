@@ -40,7 +40,7 @@ const Footer = ({footerLinks}) => {
             {/* Row 3: Copyright */}
             <div className="row">
                 <div className="col text-center small">
-                    Copyright © 2025 Kualakubs School
+                    Copyright © 2025 Kualakubs World School
                    
                 </div>
             </div>
