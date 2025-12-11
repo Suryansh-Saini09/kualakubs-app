@@ -1,6 +1,6 @@
 import "./contentlayout.css";
 import aboutlogo from "../../assets/logo_rbg.png";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import slide1 from "../../assets/school.png";
 
 
@@ -19,9 +19,9 @@ export function AboutContentLayout() {
                     With a blend of modern pedagogy, global teaching standards, and a safe, nurturing environment, Kualakubs empowers learners from Playgroup to Grade 12 to excel academically and grow holistically.
                 </p>
 
-                <Link to="/about" className="d-block z-2 text-decoration-none" style={{ color: "var(--accent-text-color)", fontSize: "large" }}>
+                <a to="/about" className="d-block z-2 text-decoration-none" style={{ color: "var(--accent-text-color)", fontSize: "large" }}>
                     Read More {"\u2192"}
-                </Link>
+                </a>
             </div>
         </>
     );
