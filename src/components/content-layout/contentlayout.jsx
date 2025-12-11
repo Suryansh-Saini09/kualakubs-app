@@ -20,7 +20,7 @@ export function AboutContentLayout() {
                     With a blend of modern pedagogy, global teaching standards, and a safe, nurturing environment, Kualakubs empowers learners from Playgroup to Grade 12 to excel academically and grow holistically.
                 </p>
 
-                <a to="/about" className="d-block z-2 text-decoration-none" style={{ color: "var(--accent-text-color)", fontSize: "large" }}>
+                <a to="/about" className="d-block z-2 text-decoration-none d-none" style={{ color: "var(--accent-text-color)", fontSize: "large" }}>
                     Read More {"\u2192"}
                 </a>
             </div>
