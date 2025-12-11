@@ -1,6 +1,6 @@
 
-import "./Footer.css"
-import {Link} from "react-router-dom"
+import "./Footer.css";
+import {Link} from "react-router-dom";
 
 
 const Footer = ({footerLinks}) => {
@@ -17,8 +17,9 @@ const Footer = ({footerLinks}) => {
                             <ul className="list-unstyled text-start">
                                 <li className="mb-2">{section.category}</li>
                                 {section.links.map((link, i) => (
+                                     
                                     <li key={i}>
-                                        <a to={link.path} className="footer-link text-decoration-none">{link.pathname}</a>
+                                        <a herf={link.path} className="footer-link text-decoration-none">{link.pathname}</a>
                                     </li>
                                 ))}
                             </ul>

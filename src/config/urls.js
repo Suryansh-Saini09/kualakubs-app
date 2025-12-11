@@ -3,7 +3,7 @@ import {lazy, createElement } from  "react";
 
 const Home = lazy(() => import("../pages/home"));
 const About = lazy(() => import("../pages/about"));
-const Contect = lazy(() => import("../pages/contact"));
+const Contact = lazy(() => import("../pages/contact"));
 const SchoolLife = lazy(() => import("../pages/schoollife"));
 const CoCurricular = lazy(() => import("../pages/CoCurricular"));
 const Admissions = lazy(() => import("../pages/admissionPage"));
@@ -21,7 +21,7 @@ const Career = lazy(() => import("../pages/career"));
 const routes = [
   { path: "/", element: createElement(Home) },
   { path: "/about", element: createElement(About)},
-  { path: "/contact", element: createElement(Contect)},
+  { path: "/contact", element: createElement(Contact)},
   { path: "/school-life", element: createElement(SchoolLife)},
   { path: "/admissions", element: createElement(Admissions)},
    { path: "/Co-Curricular", element: createElement(CoCurricular)},
