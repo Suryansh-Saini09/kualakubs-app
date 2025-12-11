@@ -36,7 +36,7 @@ const CardCarousel = () => {
             >
                 {/* Card 1 */}
                 <div className="card m-2 position-relative rounded-0 border-0">
-                    <a href="#">
+                    <a href="/co-education">
                         <img
                             src="https://www.westminster.org.uk/wp-content/uploads/2024/01/Girl-microscope-2-scaled.jpg"
                             className="card-img-top rounded-0 " style={{ height: "250px" }}
@@ -52,7 +52,7 @@ const CardCarousel = () => {
 
                 {/* Card 2 */}
                 <div className="card m-2 position-relative rounded-0 border-0">
-                    <a href="#">
+                    <a href="/our-future">
                         <img
                             src="https://www.westminster.org.uk/wp-content/uploads/2025/06/250522-Library-03-scaled.jpg"
                             className="card-img-top rounded-0 " style={{ height: "250px" }}
@@ -68,7 +68,7 @@ const CardCarousel = () => {
 
                 {/* Card 3 */}
                 <div className="card m-2 position-relative rounded-0 border-0">
-                    <a href="#">
+                    <a href="/admissions">
                         <img
                             src="https://www.westminster.org.uk/wp-content/uploads/2025/03/Greaze-2025-EH-81-scaled.jpg"
                             className="card-img-top rounded-0 " style={{ height: "250px" }}
