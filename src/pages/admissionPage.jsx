@@ -113,7 +113,7 @@ export default function Admissions() {
 
               <div className="col-md-3">
                 <label className="form-label">Mobile Number</label>
-                <input type="text" className="form-control" required />
+                <input type="tel" className="form-control" required />
               </div>
 
               <div className="col-md-3">
@@ -133,7 +133,7 @@ export default function Admissions() {
 
               <div className="col-md-3">
                 <label className="form-label">Mobile Number</label>
-                <input type="text" className="form-control" />
+                <input type="tel" className="form-control" />
               </div>
 
               <div className="col-md-3">
@@ -164,7 +164,7 @@ export default function Admissions() {
 
               <div className="col-md-3">
                 <label className="form-label">Pin Code</label>
-                <input type="text" className="form-control" />
+                <input type="tel" className="form-control" />
               </div>
             </div>
 
