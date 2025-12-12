@@ -13,12 +13,12 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
       {/**<Navbar /> */}
-        <OffcanvasNavbar />
-      <Overlay.Overlayheader headerlinks={Links.overlayheaderlink}/>
+      <OffcanvasNavbar />
+      <Overlay.Overlayheader headerlinks={Links.overlayheaderlink} />
       <App />
+      <Components.Footer footerLinks={Links.footerLinks} />
     </BrowserRouter>
     {/* <Components.ContactBox /> */}
 
-    <Components.Footer footerLinks={Links.footerLinks} />
   </StrictMode>
 );

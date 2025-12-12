@@ -36,7 +36,7 @@ export const footerLinks = [
     {
         category: "CONTACT US",
         links: [
-            //  { path: "/contact", pathname: "contact" },
+              { path: "/contact", pathname: "contact" },
             // { path: "/about", pathname: "About us" },
             // { path: "/about", pathname: "About us" },
             // { path: "/about", pathname: "About us" },

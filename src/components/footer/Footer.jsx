@@ -1,9 +1,9 @@
 
 import "./Footer.css";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
-const Footer = ({footerLinks}) => {
+const Footer = ({ footerLinks }) => {
     return (
         <footer
             className="container-fluid py-4"
@@ -16,12 +16,21 @@ const Footer = ({footerLinks}) => {
                         <div key={index} className="col d-flex justify-content-center">
                             <ul className="list-unstyled text-start">
                                 <li className="mb-2">{section.category}</li>
-                                {section.links.map((link, i) => (
-                                     
-                                    <li key={i}>
-                                        <a herf={link.path} className="footer-link text-decoration-none">{link.pathname}</a>
-                                    </li>
-                                ))}
+                                {section.links.map((link, i) => {
+                                    console.log("Link item:", link);   // 👈 console log added here
+
+                                    return (
+                                        <li key={i}>
+                                            <Link
+                                                to={link?.path ?? ""}
+                                                className="footer-link text-decoration-none"
+                                            >
+                                                {link.pathname}
+                                            </Link>
+                                        </li>
+                                    );
+                                })}
+
                             </ul>
                         </div>
                     ))}
@@ -43,7 +52,7 @@ const Footer = ({footerLinks}) => {
             <div className="row">
                 <div className="col text-center small">
                     Copyright © 2025 Kualakubs World School
-                   
+
                 </div>
             </div>
         </footer>
