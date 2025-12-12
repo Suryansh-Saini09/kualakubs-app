@@ -39,6 +39,7 @@ export default function Home() {
     return (
         <>
             <main>
+               
                 <div className="container-fluid position-relative p-0">
                     <Components.Carousel />
                     <Components.Overlay.Overlayheader headerlinks={Links.overlayheaderlink} />
@@ -56,16 +57,35 @@ export default function Home() {
 
                 { /** <Components.Videobox /> */}
 
-                <Components.Contentlayout.LatestNewsSection />
+                {/* <Components.Contentlayout.LatestNewsSection /> */}
+                {/* <div className="container py-2 my-2">
+                    <div className="scroll-wrapper bg-primary text-white py-2 rounded">
+                        <p className="scroll-text m-0">
+                            Latest updates: A new formal CBSE school is coming soon, and admissions
+                            will open for the academic year 2026–27, from Playgroup to Grade 12.
+                            For more details, please contact us at +91-9996648317
+                        </p>
+                    </div>
+                </div> */}
+                <div className="container my-2" style={{maxWidth: "1200px"}}>
+                    <h4 className=" text-start fw-semibold d-block">Latest Updates</h4>
+                    <marquee width="100%" direction="left" height="100px">
+                    A new formal CBSE school is coming soon, and admissions
+                    will open for the academic year 2026–27, from Playgroup to Grade 12.
+                    For more details, please contact us at +91-9996648317
+                </marquee>
+                </div>
+                
+
                 <div className="container " style={{ width: "75%" }} >
                     <Components.Cardslider />
                 </div>
 
-                <Components.Gallery.GalleryWithImg/>
+                {/* <Components.Gallery.GalleryWithImg/> */}
                 <Components.Gallery.Gallery
-                 galleryItems={galleryItems}
-                 h={"DISCOVER MORE"}
-                 p={"Find out about life at KualaKubs School, both inside and outside the classroom"} />
+                    galleryItems={galleryItems}
+                    h={"DISCOVER MORE"}
+                    p={"Find out about life at KualaKubs School, both inside and outside the classroom"} />
             </main>
         </>
     );

@@ -17,6 +17,7 @@ createRoot(document.getElementById("root")).render(
       <Overlay.Overlayheader headerlinks={Links.overlayheaderlink} />
       <App />
       <Components.Footer footerLinks={Links.footerLinks} />
+       <Components.Overlay.EnquireNowButton/>
     </BrowserRouter>
     {/* <Components.ContactBox /> */}
 

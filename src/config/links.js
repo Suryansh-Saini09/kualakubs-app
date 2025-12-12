@@ -14,7 +14,7 @@ export const overlayheaderlink = [
 
 export const footerLinks = [
     {
-        category: "ABOUT US",
+        category: "ABOUT",
         links: [
              { path: "/about", pathname: "About us" },
              { path: "/admissions", pathname: "Admissions" },
@@ -34,11 +34,11 @@ export const footerLinks = [
         ],
     },
     {
-        category: "CONTACT US",
+        category: "CONTACT",
         links: [
-              { path: "/contact", pathname: "contact" },
-            // { path: "/about", pathname: "About us" },
-            // { path: "/about", pathname: "About us" },
+              { path: "/contact", pathname: "Contact Us" },
+             { path: null, pathname: "+91 - 9996648317" },
+             { path: null, pathname: "info@kualakubsworldschool.in" },
             // { path: "/about", pathname: "About us" },
         ],
     },

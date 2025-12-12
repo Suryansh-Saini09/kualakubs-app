@@ -159,10 +159,29 @@ export function Overlaymiddleheading() {
     );
 }
 
+export function EnquireNowButton() {
+  return (
+    <Link 
+      to="/admissions" 
+      className="btn-warning btn position-fixed"
+      style={{
+       zIndex: 999,
+       top: "50%",
+       rotate: "-90deg",
+       translate: -50,
+       border: "0 0 6px, 6px"
+      }}
+    >
+      Enquire Now
+    </Link>
+  );
+};
+
 export default {
     Overlayheader,
     Overlaylist,
     Overlaylogo,
     Overlaymiddleheading,
+    EnquireNowButton
 }
 

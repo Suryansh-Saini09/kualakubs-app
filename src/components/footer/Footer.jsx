@@ -17,12 +17,12 @@ const Footer = ({ footerLinks }) => {
                             <ul className="list-unstyled text-start">
                                 <li className="mb-2">{section.category}</li>
                                 {section.links.map((link, i) => {
-                                    console.log("Link item:", link);   // 👈 console log added here
+                                    // console.log("Link item:", link);   // 👈 console log added here
 
                                     return (
                                         <li key={i}>
                                             <Link
-                                                to={link?.path ?? ""}
+                                                to={link?.path ?? null}
                                                 className="footer-link text-decoration-none"
                                             >
                                                 {link.pathname}

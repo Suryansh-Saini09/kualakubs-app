@@ -48,7 +48,7 @@ function OffcanvasNavbar() {
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link custom-nav-link-color" to="/about" onClick={handleClose}>
-                    About
+                    About Us
                   </Link>
                 </li>
 
@@ -72,7 +72,7 @@ function OffcanvasNavbar() {
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link custom-nav-link-color" to="/contact" onClick={handleClose}>
-                    Contact US
+                    Contact Us
                   </Link>
                 </li>
                 <li className="nav-item">
