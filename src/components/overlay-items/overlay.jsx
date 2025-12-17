@@ -163,7 +163,7 @@ export function EnquireNowButton() {
   return (
     <Link 
       to="/admissions" 
-      className="btn-warning btn position-fixed"
+      className="btn-success btn position-fixed"
       style={{
        zIndex: 999,
        top: "50%",
