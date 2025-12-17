@@ -1,9 +1,13 @@
 
 // library imports 
 import HeaderLogo from "../../assets/kulakubs_new_logo.png";
+import PopUpimg from "../../assets/kbws_popup.png";
 import "./overlay.css";
 import { Link } from "react-router-dom";
 // import React from "react";  // use later if needed.
+import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
+
 
 
 function toggle_name() {
@@ -19,6 +23,67 @@ function toggle_name() {
 
 }
 
+export function HomePopup() {
+    const [show, setShow] = useState(false);
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.pathname !== "/") return;
+
+        const timer = setTimeout(() => {
+            setShow(true);
+        }, 600);
+
+        return () => clearTimeout(timer);
+    }, [location.pathname]);
+
+
+    if (!show) return null;
+
+    return (
+      
+        <>
+            {show && (
+                <div className="popup-overlay">
+                    <div className="popup-box shadow-lg">
+
+                        {/* <button
+                            className="btn-close popup-close"
+                            onClick={() => setShow(false)}
+                            aria-label="Close"
+                        /> */}
+
+                        <img
+                            src={PopUpimg}
+                            alt="Popup"
+                            className="popup-image"
+                        />
+
+                        <div className="d-flex justify-content-end mt-3 gap-2">
+
+                            <button
+                                className="btn btn-outline-secondary btn-sm"
+                                onClick={() => setShow(false)}
+                            >
+                                Close
+                            </button>
+
+                            <Link
+                                to="/admissions"
+                                onClick={() => setShow(false)}
+                                className="btn btn-primary btn-sm"
+                            >
+                                Enquire Now
+                            </Link>
+
+                        </div>
+                    </div>
+                </div>
+            )}
+        </>
+    );
+}
+
 export function Overlayheader({ headerlinks }) {
 
     const hasLinks = Array.isArray(headerlinks) && headerlinks.length > 0;
@@ -26,7 +91,7 @@ export function Overlayheader({ headerlinks }) {
     if (!hasLinks) {
         return (
             <>
-               <div className="overlay overlay-container position-absolute text-white"
+                <div className="overlay overlay-container position-absolute text-white"
                 >
                     <div className="row pe-2">
                         <div
@@ -41,8 +106,8 @@ export function Overlayheader({ headerlinks }) {
                         </div>
                     </div>
                 </div>
-          
-            
+
+
             </>
         );
     }
@@ -57,11 +122,11 @@ export function Overlayheader({ headerlinks }) {
                     style={{ backgroundColor: "var(--accent-text-color)", opacity: 0.75 }}
                 >
                     <Link to="/">
-                    <img
-                        src={HeaderLogo}
-                        alt="Header Logo"
-                        className="mt-4 mt-md-3 mb-4 mb-md-3 img-fluid"
-                    />
+                        <img
+                            src={HeaderLogo}
+                            alt="Header Logo"
+                            className="mt-4 mt-md-3 mb-4 mb-md-3 img-fluid"
+                        />
                     </Link>
                 </div>
 
@@ -151,8 +216,8 @@ export function Overlaymiddleheading() {
                 <h4 className="hero-heading-h4 text-white"><i>Welcome to</i></h4>
                 <h1 className="hero-heading-h6 text-white">KUALAKUBS</h1>
                 <h1 className="hero-heading-h5 text-white">WORLD SCHOOL</h1>
-                <a href="#slidedown" className="btn rounded-circle text-dark" style={{backgroundColor: "white"}}>
-                    <i className="bi d-inline-block bi-chevron-double-down arrow-animation" style={{fontSize: "larger"}}></i>
+                <a href="#slidedown" className="btn rounded-circle text-dark" style={{ backgroundColor: "white" }}>
+                    <i className="bi d-inline-block bi-chevron-double-down arrow-animation" style={{ fontSize: "larger" }}></i>
                 </a>
             </div>
         </>
@@ -160,28 +225,32 @@ export function Overlaymiddleheading() {
 }
 
 export function EnquireNowButton() {
-  return (
-    <Link 
-      to="/admissions" 
-      className="btn-success btn position-fixed"
-      style={{
-       zIndex: 999,
-       top: "50%",
-       rotate: "-90deg",
-       translate: -50,
-       border: "0 0 6px, 6px"
-      }}
-    >
-      Enquire Now
-    </Link>
-  );
+    return (
+        <Link
+            to="/admissions"
+            className="btn-success btn position-fixed"
+            style={{
+                zIndex: 999,
+                top: "50%",
+                rotate: "-90deg",
+                translate: -50,
+                border: "0 0 6px, 6px"
+            }}
+        >
+            Enquire Now
+        </Link>
+    );
 };
+
+
+
 
 export default {
     Overlayheader,
     Overlaylist,
     Overlaylogo,
     Overlaymiddleheading,
-    EnquireNowButton
+    EnquireNowButton,
+    HomePopup
 }
 

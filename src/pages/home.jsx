@@ -39,7 +39,7 @@ export default function Home() {
     return (
         <>
             <main>
-               
+               <Components.Overlay.HomePopup />
                 <div className="container-fluid position-relative p-0">
                     <Components.Carousel />
                     <Components.Overlay.Overlayheader headerlinks={Links.overlayheaderlink} />

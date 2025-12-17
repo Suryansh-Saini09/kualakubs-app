@@ -1,49 +1,49 @@
 /* ===================== root variables ============================= */
 :root {
-    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
-    /* ========= colors =========== */
-    --bg-color: #ffffff;
-    --accent-bg-color: #192d45;
-    --accent-text-color: #e2dccc;
-    --text-color: #495057;
+  /* ========= colors =========== */
+  --bg-color: #ffffff;
+  --accent-bg-color: #192d45;
+  --accent-text-color: #e2dccc;
+  --text-color: #495057;
 }
 
 /* ===================== html elements ============================= */
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #root {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* =========================================================
    Corners
 ========================================================= */
 .round-top-left {
-    border-top-left-radius: 15px;
-    /* adjust px as needed */
+  border-top-left-radius: 15px;
+  /* adjust px as needed */
 }
 
 .round-top-right {
-    border-top-right-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .round-bottom-left {
-    border-bottom-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .round-bottom-right {
-    border-bottom-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 
@@ -53,153 +53,153 @@ body {
 
 /* light */
 .custom-button-effect {
-    position: relative;
-    background-size: 1.5rem;
-    z-index: 1;
-    color: var(--accent-text-color);
+  position: relative;
+  background-size: 1.5rem;
+  z-index: 1;
+  color: var(--accent-text-color);
 }
 
 /* Button hover fill effect */
 .custom-button-effect::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: var(--accent-text-color);
-    border-color: var(--accent-text-color);
-    z-index: -1;
-    transition: width 0.4s ease;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: var(--accent-text-color);
+  border-color: var(--accent-text-color);
+  z-index: -1;
+  transition: width 0.4s ease;
 }
 
 .custom-button-effect:hover::before {
-    width: 100%;
+  width: 100%;
 }
 
 .custom-button-effect:hover {
-    color: black;
+  color: black;
 }
 
 /* dark */
 .custom-button-effect-dark {
-    position: relative;
-    background-size: 1.5rem;
-    z-index: 1;
-    color: var(--accent-bg-color);
+  position: relative;
+  background-size: 1.5rem;
+  z-index: 1;
+  color: var(--accent-bg-color);
 }
 
 /* Button hover fill effect */
 .custom-button-effect-dark::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: var(--accent-bg-color);
-    border-color: var(--accent-bg-color);
-    z-index: -1;
-    transition: width 0.4s ease;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: var(--accent-bg-color);
+  border-color: var(--accent-bg-color);
+  z-index: -1;
+  transition: width 0.4s ease;
 }
 
 .custom-button-effect-dark:hover::before {
-    width: 100%;
+  width: 100%;
 }
 
 .custom-button-effect-dark:hover {
-    color: white;
+  color: white;
 }
 
 /* Custom Icon Color for bootstrap icons */
 
 .bi-color {
-    color: var(--accent-text-color);
+  color: var(--accent-text-color);
 }
 
 /* =========================================================
    Bottom Strip
 ========================================================= */
 .bottom-strip {
-    height: 50px;
-    width: 40%;
-    clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);
-    background-color: var(--accent-bg-color);
-    opacity: 0.85;
-    z-index: 2;
-    bottom: 0;
+  height: 50px;
+  width: 40%;
+  clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);
+  background-color: var(--accent-bg-color);
+  opacity: 0.85;
+  z-index: 2;
+  bottom: 0;
 }
 
 .bottom-strip a {
-    text-decoration: none;
-    color: var(--accent-text-color);
-    font-size: large;
+  text-decoration: none;
+  color: var(--accent-text-color);
+  font-size: large;
 }
 
 @media (max-width: 768px) {
-    .bottom-strip {
-        width: 100%;
-        height: 30px;
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    }
+  .bottom-strip {
+    width: 100%;
+    height: 30px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
 
-    .bottom-strip a {
-        font-size: small;
-    }
+  .bottom-strip a {
+    font-size: small;
+  }
 }
 
 /* =========================================================
    Divider Section
 ========================================================= */
 .divider {
-    background-color: var(--accent-text-color);
-    color: var(--accent-bg-color);
-    min-height: 70px;
-    font-size: large;
-    text-transform: uppercase;
+  background-color: var(--accent-text-color);
+  color: var(--accent-bg-color);
+  min-height: 70px;
+  font-size: large;
+  text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
-    .divider {
-        font-size: medium;
-    }
+  .divider {
+    font-size: medium;
+  }
 }
 
 .header-container {
-    background-size: cover;
-    min-height: 90vh;
-    /* at least full screen */
-    height: auto;
-    /* allow to expand */
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding-top: 80px;
-    /* spacing from top */
-    padding-bottom: 60px;
-    /* spacing above footer */
+  background-size: cover;
+  min-height: 90vh;
+  /* at least full screen */
+  height: auto;
+  /* allow to expand */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 80px;
+  /* spacing from top */
+  padding-bottom: 60px;
+  /* spacing above footer */
 }
 
 .content-layout {
-    column-count: 2;
-    column-gap: 50px;
-    text-align: justify;
-    width: 1200px;
-    max-width: 90%;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  column-count: 2;
+  column-gap: 50px;
+  text-align: justify;
+  width: 1200px;
+  max-width: 90%;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 768px) {
 
-    .content-layout {
-        column-count: 1;
-    }
+  .content-layout {
+    column-count: 1;
+  }
 }
 
 
@@ -234,7 +234,7 @@ body {
 
 /* Fix image height */
 .magic-card img {
-        /* You can adjust */
+  /* You can adjust */
   object-fit: cover;
 
 }
@@ -256,7 +256,8 @@ body {
 
 /* On hover the card grows and overlay appears */
 .magic-card:hover {
-  min-height: 360px;   /* Card grows to fit text */
+  min-height: 360px;
+  /* Card grows to fit text */
 }
 
 .magic-card:hover .magic-overlay {
@@ -269,6 +270,7 @@ body {
   font-size: 15px;
   line-height: 1.6;
 }
+
 @media (max-width: 768px) {
   .magic-overlay {
     transform: translateY(0);
@@ -280,10 +282,12 @@ body {
     min-height: auto;
   }
 }
+
 .value-card:hover {
   transform: translateY(-6px) scale(1.02);
   box-shadow: 0 8px 20px rgba(25, 45, 69, 0.25);
-  border-left-color: #0f1e31; /* slightly darker for effect */
+  border-left-color: #0f1e31;
+  /* slightly darker for effect */
 }
 
 .facility-card:hover {
@@ -293,7 +297,8 @@ body {
 }
 
 .facility-card:hover h5 {
-  color: #0f1e31; /* slightly darker for emphasis */
+  color: #0f1e31;
+  /* slightly darker for emphasis */
 }
 
 .scroll-wrapper {
@@ -313,7 +318,73 @@ body {
   0% {
     transform: translateX(100%);
   }
+
   100% {
     transform: translateX(-100%);
+  }
+}
+
+
+/* Overlay – completely detached from layout */
+.popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1055;
+  /* Higher than navbar, bootstrap modals */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Popup container */
+.popup-box {
+  position: relative;
+  background: #ffffff;
+  padding: 14px;
+  border-radius: 10px;
+
+  width: 90%;
+  max-width: 400px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Close icon */
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+/* Responsive image */
+.popup-image {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+
+  display: block;
+  margin: 0 auto;
+
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+@media (max-width: 576px) {
+  .popup-box {
+    padding: 12px;
+    border-radius: 8px;
+  }
+
+  .popup-image {
+    max-width: 280px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .popup-box {
+    max-width: 420px;
   }
 }
