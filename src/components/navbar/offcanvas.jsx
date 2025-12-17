@@ -80,6 +80,11 @@ function OffcanvasNavbar() {
                     Career
                   </Link>
                 </li>
+                  <li className="nav-item">
+                  <Link className="nav-link custom-nav-link-color" to="/gallery" onClick={handleClose}>
+                    Gallery
+                  </Link>
+                </li>
               </ul>
 
               {/* Social Icons */}

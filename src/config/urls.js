@@ -1,6 +1,7 @@
 // src/routes.js
 import {lazy, createElement } from  "react";
 
+
 const Home = lazy(() => import("../pages/home"));
 const About = lazy(() => import("../pages/about"));
 const Contact = lazy(() => import("../pages/contact"));
@@ -11,6 +12,7 @@ const WhyChoose = lazy(() => import("../pages/whyChoose"));
 const OurPartnerships = lazy(() => import("../pages/partnerships"));
 const OurFuture = lazy(() => import("../pages/ourfuture"));
 const CoEducation = lazy(() => import("../pages/coeducation"));
+const Gallery = lazy(() => import("../pages/gallery"));
 //const FacultyPage = lazy(() => import("../pages/facultyPage"));
 //const Principal = lazy(() => import("../pages/principal"));
 //const LifeSkills = lazy(() => import("../pages/lifeskillspage"));
@@ -29,7 +31,7 @@ const routes = [
   { path: "/our-partnerships", element: createElement(OurPartnerships) },
   { path: "/our-future", element: createElement(OurFuture) },
   { path: "/co-education", element: createElement(CoEducation) },
- // { path: "/faculty", element: createElement(FacultyPage) },
+  { path: "/gallery", element: createElement(Gallery) },
   //{ path: "/principal", element: createElement(Principal) },
   //{path: "/life-skills", element: createElement(LifeSkills)},
   {path: "/campus-facilities", element: createElement(Campus_Facilities)},
