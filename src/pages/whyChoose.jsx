@@ -161,7 +161,7 @@ export default function WhyChoose() {
 
                             <div className="col-lg-6 col-md-12">
                                 <MagicCard
-                                    image="https://images.unsplash.com/photo-1508804185872-d7badad00f7d"
+                                    image="https://snworksceo.imgix.net/tms/e40bd6f7-c469-4575-89f8-3872715ca6d6.sized-1000x1000.jpg?w=1000"
                                     icon="bi bi-dribbble"
                                     heading="Physical and Outdoor Activities"
                                     paragraph="Physical development is encouraged through age-appropriate sports, movement exercises, and outdoor play. These activities are designed to improve motor skills, coordination, and overall well-being, while also instilling healthy habits from an early age."
