@@ -1,6 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
+import { HashRouter  } from "react-router-dom";
 import "./index.css";
 import App from "./App.jsx";
 
@@ -14,8 +15,24 @@ import ScrollToTop from "./components/scoller.jsx";
 
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <BrowserRouter>
+  // <StrictMode>
+  //   <BrowserRouter>
+     
+  //   <ScrollToTop />
+  //     {/**<Navbar /> */}
+  //     <OffcanvasNavbar />
+      
+  //     <Overlay.Overlayheader headerlinks={Links.overlayheaderlink} />
+  //     <App />
+  //     <Components.Footer footerLinks={Links.footerLinks} />
+  //      <Components.Overlay.EnquireNowButton/>
+  //   </BrowserRouter>
+  //   {/* <Components.ContactBox /> */}
+
+  // </StrictMode>
+
+   <StrictMode>
+    <HashRouter>
      
     <ScrollToTop />
       {/**<Navbar /> */}
@@ -25,7 +42,7 @@ createRoot(document.getElementById("root")).render(
       <App />
       <Components.Footer footerLinks={Links.footerLinks} />
        <Components.Overlay.EnquireNowButton/>
-    </BrowserRouter>
+    </HashRouter>
     {/* <Components.ContactBox /> */}
 
   </StrictMode>
