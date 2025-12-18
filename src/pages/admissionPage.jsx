@@ -342,7 +342,7 @@ export default function Admissions() {
                 <p className="mb-0">
                   📍 Kualakubs World School,
                   <br />
-                  New Town Heights, Sector–86
+                  DLF New Town Heights, Sec–86
                 </p>
               </div>
 
