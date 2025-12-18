@@ -46,7 +46,7 @@ export default function WhyChoose() {
                             "Future-ready Skills: ICT, Communication, Creativity",
                             // "Balanced Development of Academics & Personality",
                             "D.E.A.R. (Drop Everything & Read) Period",
-                            
+
                         ].map((item, index) => (
                             <div
                                 className="col-lg-4 col-md-6"
@@ -70,22 +70,22 @@ export default function WhyChoose() {
             </section>
 
             {/* LIFE SKILLS SECTION */}
-            <div className="container py-5" style={{ backgroundColor: "var(--bg-color)" }}>
+            {/* <div className="container py-5" style={{ backgroundColor: "var(--bg-color)" }}>
                 <div className="row justify-content-center">
                     <div className="col-lg-10 text-center">
 
-                        {/* Heading */}
+                      
                         <h3 className="fw-bold mb-4" style={{ color: "var(--accent-bg-color)" }}>
                             Essential Life Skills We Teach
                         </h3>
 
-                        {/* Intro Text */}
+                       
                         <p className="mb-4" style={{ color: "var(--text-color)" }}>
                             Kualakubs integrates WHO-recommended life skills into daily learning to build confident,
                             capable, and responsible individuals.
                         </p>
 
-                        {/* Skills Grid */}
+                       
                         <div className="row g-3">
 
                             {[
@@ -114,14 +114,82 @@ export default function WhyChoose() {
 
                         </div>
 
-                        {/* Footer Text */}
+                      
                         <p className="mt-4 fw-semibold" style={{ color: "var(--accent-bg-color)" }}>
                             We prepare students not just for exams — but to excel in life.
                         </p>
 
                     </div>
                 </div>
-            </div>
+            </div> */}
+            {/* LIFE SKILLS SECTION */}
+            <section className="py-5" style={{ backgroundColor: "#f8fbff" }}>
+                <div className="container">
+                    <div className="row justify-content-center">
+                        <div className="col-lg-10 text-center">
+
+                            {/* Heading */}
+                            <h2 className="fw-bold mb-3 text-primary">
+                                Essential Life Skills We Teach
+                            </h2>
+
+                            {/* Intro */}
+                            <p className="text-muted mb-4">
+                                Kualakubs integrates WHO-recommended life skills into daily learning to build
+                                confident, capable, and responsible individuals.
+                            </p>
+
+                            {/* Divider */}
+                            <div className="d-flex justify-content-center mb-4">
+                                <span
+                                    style={{
+                                        width: "60px",
+                                        height: "4px",
+                                        backgroundColor: "#4f7cff",
+                                        borderRadius: "10px"
+                                    }}
+                                />
+                            </div>
+
+                            {/* Skills Grid */}
+                            <div className="row g-4">
+
+                                {[
+                                    { title: "Critical & Creative Thinking", icon: "bi-lightbulb" },
+                                    { title: "Decision Making", icon: "bi-check2-circle" },
+                                    { title: "Problem-solving", icon: "bi-wrench-adjustable" },
+                                    { title: "Leadership & Responsibility", icon: "bi-people" },
+                                    { title: "Effective Communication", icon: "bi-chat-dots" },
+                                    { title: "Empathy & Emotional EQ", icon: "bi-heart" },
+                                    { title: "Digital Literacy", icon: "bi-laptop" },
+                                    { title: "Time Management", icon: "bi-clock" },
+                                    { title: "Collaboration & Teamwork", icon: "bi-diagram-3" },
+                                    { title: "Stress & Emotion Management", icon: "bi-emoji-smile" },
+                                    { title: "Goal Setting & Motivation", icon: "bi-flag" },
+                                    { title: "Social Behavior & Etiquette", icon: "bi-hand-thumbs-up" }
+                                ].map((item, index) => (
+                                    <div key={index} className="col-12 col-sm-6 col-md-4">
+                                        <div className="skill-card h-100 d-flex align-items-center gap-3">
+                                            <div className="icon-wrap">
+                                                <i className={`bi ${item.icon}`} />
+                                            </div>
+                                            <span className="fw-semibold">{item.title}</span>
+                                        </div>
+                                    </div>
+                                ))}
+
+                            </div>
+
+                            {/* Footer Text */}
+                            <p className="mt-5 fw-semibold text-primary">
+                                We prepare students not just for exams — <span className="highlight">but to excel in life.</span>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
 
 
             {/* SCHOOL LIFE SECTION */}
@@ -162,7 +230,7 @@ export default function WhyChoose() {
                             <div className="col-lg-6 col-md-12">
                                 <MagicCard
                                     image="https://snworksceo.imgix.net/tms/e40bd6f7-c469-4575-89f8-3872715ca6d6.sized-1000x1000.jpg?w=1000"
-                                    icon="bi bi-dribbble" 
+                                    icon="bi bi-dribbble"
                                     heading="Physical and Outdoor Activities"
                                     paragraph="Physical development is encouraged through age-appropriate sports, movement exercises, and outdoor play. These activities are designed to improve motor skills, coordination, and overall well-being, while also instilling healthy habits from an early age."
                                 />

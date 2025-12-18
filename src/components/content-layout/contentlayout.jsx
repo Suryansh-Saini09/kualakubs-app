@@ -10,7 +10,7 @@ export function AboutContentLayout() {
         <>
             { /* About section */}
 
-            <div className="position-relative d-flex flex-column justify-content-center align-items-center text-center p-4 mb-4"
+            <div className="position-relative d-flex flex-column justify-content-center align-items-center text-center p-4 mb-0"
                 style={{ background: "var(--accent-bg-color)", minHeight: "500px" }}>
 
                 <img src={aboutlogo} className="about-section-img img-fluid" alt="" />

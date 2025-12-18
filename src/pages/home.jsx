@@ -39,7 +39,7 @@ export default function Home() {
     return (
         <>
             <main>
-               <Components.Overlay.HomePopup />
+                <Components.Overlay.HomePopup />
                 <div className="container-fluid position-relative p-0">
                     <Components.Carousel />
                     <Components.Overlay.Overlayheader headerlinks={Links.overlayheaderlink} />
@@ -67,15 +67,18 @@ export default function Home() {
                         </p>
                     </div>
                 </div> */}
-                <div className="container my-2" style={{maxWidth: "1200px"}}>
-                    <h4 className=" text-start fw-semibold d-block">Latest Updates</h4>
-                    <marquee width="100%" direction="left" height="100px">
-                    A new formal CBSE school is coming soon, and admissions
-                    will open for the academic year 2026–27, from Playgroup to Grade 12.
-                    For more details, please contact us at +91-9996648317
-                </marquee>
+                <div
+                    className="d-flex align-items-center"
+                    style={{ backgroundColor: "#e2dccc", color: "#192d45", maxWidth: "100%" }}
+                >
+                    <h4 className="me-3 p-2 mb-0 fw-semibold" style={{ whiteSpace: "nowrap" }}>Latest News:</h4>
+                    <marquee width="100%" className="p-2" direction="left" height="50px" style={{ color: "#192d45" }}>
+                        A new formal CBSE school is coming soon, and admissions will open for the academic year 2026–27, from Playgroup to Grade 12. For more details, please contact us at +91-9996648317
+                    </marquee>
                 </div>
-                
+
+
+
 
                 <div className="container " style={{ width: "75%" }} >
                     <Components.Cardslider />

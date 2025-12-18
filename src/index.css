@@ -388,3 +388,33 @@ body {
     max-width: 420px;
   }
 }
+
+.skill-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 16px 18px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+}
+
+.icon-wrap {
+  width: 42px;
+  height: 42px;
+  background: #eef3ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4f7cff;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.highlight {
+  background: linear-gradient(transparent 60%, #fff3a3 60%);
+}
