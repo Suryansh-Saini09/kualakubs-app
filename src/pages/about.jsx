@@ -32,7 +32,7 @@ export default function About() {
               About Us
             </h2>
             <p className="mt-2" style={{ color: "var(--text-color)" }}>
-              Where a 40-Year Legacy Meets the Future of Learning
+              Where a Legacy of 40-Years Meets the Future of Learning
             </p>
           </div>
 
@@ -45,7 +45,7 @@ export default function About() {
               >
                 <h4 className="fw-semibold mb-3">
                   <i className="bi bi-award-fill me-2"></i>
-                  A Legacy of 40+ Years
+                  A Legacy of 40 Years
                 </h4>
                 <p>
                   Welcome to Kualakubs World School, a visionary learning space built on the strong educational foundation of the Geeta Group of Institutions that has proudly served the community for over 40 years. Kualakubs continues this legacy, blending tradition with innovation.
