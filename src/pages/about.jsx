@@ -120,7 +120,7 @@ export default function About() {
             </h2> */}
             <p className="mt-3" style={{ color: "var(--text-color)" }}>
               Kualakubs World School is a progressive CBSE school offering a structured,
-              holistic and future-ready education for students from Playgroup to Class 8.
+              holistic and future-ready education for students from Playgroup to Class 12.
               We combine strong academics with life skills, sports, technology, and values
               education to ensure well-rounded development.
             </p>
