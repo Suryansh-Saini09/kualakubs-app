@@ -189,8 +189,8 @@ export default function Career() {
                             {/* Qualification */}
                             <div className="col-md-6">
                                 <div className="form-group">
-                                    <label className="mb-1">Qualification</label>
-                                    <input type="text" name="qualification" className="form-control" required />
+                                    <label className="mb-1">Qualifications</label>
+                                    <input type="text" name="qualifications" className="form-control" required />
                                 </div>
                             </div>
 
