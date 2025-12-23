@@ -240,7 +240,7 @@ export default function Career() {
                                     />
                                 </div>
                             </div>
-
+ 
                             {/* CV Upload */}
                             <div className="col-md-12">
                                 <div className="form-group">
