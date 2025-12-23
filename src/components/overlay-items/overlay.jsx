@@ -235,6 +235,7 @@ export function Overlaymiddleheading() {
     );
 }
 
+
 export function EnquireNowButton() {
     const [show, setShow] = useState(false);
 
