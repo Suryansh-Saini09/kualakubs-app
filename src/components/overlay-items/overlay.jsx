@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 // import React from "react";  // use later if needed.
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
+// import EnquireForms from "../forms/forms";
 
 
 
@@ -365,6 +366,8 @@ export function EnquireNowButton() {
                                         </div>
                                     </div>
                                 </form>
+
+                                
 
                                 <div className="modal-footer">
                                     <button

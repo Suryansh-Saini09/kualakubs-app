@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import "../styles/admissions.css";
 import PageHeader from "../components/PageHeader.jsx";
+// import EnquireForm from "../components/forms/forms.jsx";
 
 // AOS
 import AOS from "aos";
@@ -298,6 +299,8 @@ export default function Admissions() {
                   alt=""
                   className="img-fluid rounded"
                 />
+                {/* <EnquireForm /> */}
+                
               </div>
             </div>
           </div>
