@@ -235,39 +235,7 @@ export function Overlaymiddleheading() {
     );
 }
 
-// export function EnquireNowButton() {
-//     return (
-//         <>
-//             <Link
-//                 to="/admissions"
-//                 className="btn-success btn position-fixed"
-//                 style={{
-//                     zIndex: 999,
-//                     top: "35%",
-//                     rotate: "-90deg",
-//                     translate: -50,
-//                     border: "0 0 6px, 6px"
-//                 }}
-//             >
-//                 Enquire Now
-//             </Link>
-//             <Link
-//                 to="/contact"
-//                 className="btn-primary btn position-fixed"
-//                 style={{
-//                     zIndex: 999,
-//                     top: "40%",
-//                     rotate: "-90deg",
-//                     translate: -50,
-//                     border: "0 0 6px, 6px"
-//                 }}
-//             >
-//                 Get in Touch
-//             </Link>
-//         </>
 
-//     );
-// };
 export function EnquireNowButton() {
     const [show, setShow] = useState(false);
 
