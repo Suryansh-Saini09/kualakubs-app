@@ -14,251 +14,220 @@ export default function Career() {
                     { label: "career", active: true },
                 ]} />
 
-            <section className="py-5">
+            <section className="py-5 bg-light">
                 <div className="container">
-                    <form
-                        action="#"
-                        method="post"
-                        encType="multipart/form-data"
-                        className="bg-light p-4 rounded shadow-sm"
-                    >
-                        <h3 className="mb-4 text-center fw-bold">Career Application Form</h3>
 
-                        <div className="row g-4">
+                    <div className="text-center mb-5">
+                        <h2 className="fw-bold">Career Application Form</h2>
+                        <p className="text-muted">Please fill all required details carefully</p>
+                    </div>
 
-                            {/* Applicant Name */}
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <label className="mb-1">Applicant Name</label>
-                                    <input type="text" name="applicant_name" className="form-control" required />
+                    <form className="row g-4">
+
+                        {/* ================= PERSONAL INFORMATION ================= */}
+                        <div className="col-12">
+                            <div className="card shadow-sm border-0">
+                                <div className="card-header bg-white fw-bold">
+                                    <i className="bi bi-person-badge text-primary me-2"></i>
+                                    Personal Information
                                 </div>
-                            </div>
 
-                            {/* Father Name */}
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <label className="mb-1">Father Name</label>
-                                    <input type="text" name="father_name" className="form-control" required />
+                                <div className="card-body row g-3">
+                                    <div className="col-md-6">
+                                        <label className="form-label">Applicant Name *</label>
+                                        <input type="text" className="form-control" required />
+                                    </div>
+
+                                    <div className="col-md-6">
+                                        <label className="form-label">Father Name</label>
+                                        <input type="text" className="form-control" />
+                                    </div>
+
+                                    <div className="col-md-6">
+                                        <label className="form-label">Contact Number *</label>
+                                        <div className="input-group">
+                                            <span className="input-group-text"><i className="bi bi-telephone"></i></span>
+                                            <input type="tel" className="form-control" required />
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-6">
+                                        <label className="form-label">Email</label>
+                                        <div className="input-group">
+                                            <span className="input-group-text"><i className="bi bi-envelope"></i></span>
+                                            <input type="email" className="form-control" />
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-4">
+                                        <label className="form-label">Gender</label>
+                                        <select className="form-select" required>
+                                            <option value="">Select Gender</option>
+                                            <option>Male</option>
+                                            <option>Female</option>
+                                            <option>Transgender</option>
+                                        </select>
+                                    </div>
                                 </div>
-                            </div>
-
-                            {/* Phone */}
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <label className="mb-1">Contact Number</label>
-                                    <input type="tel" name="contact_no" className="form-control" required />
-                                </div>
-                            </div>
-
-                            {/* Email */}
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <label className="mb-1">Email</label>
-                                    <input type="email" name="email" className="form-control" />
-                                </div>
-                            </div>
-
-                            {/* Gender */}
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <label className="mb-1">Gender</label>
-                                    <select name="gender" className="form-control" required>
-                                        <option value="">Select Gender</option>
-                                        <option value="Male">Male</option>
-                                        <option value="Female">Female</option>
-                                        <option value="Transgender">Transgender</option>
-                                    </select>
-                                </div>
-                            </div>
-
-                            {/* Address */}
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <label className="mb-1">Address</label>
-                                    <input type="text" name="address" className="form-control" required />
-                                </div>
-                            </div>
-
-                            {/* City */}
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <label className="mb-1">Current City</label>
-                                    <input type="text" name="current_city" className="form-control"  />
-                                </div>
-                            </div>
-
-                            {/* State */}
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <label className="mb-1">Current State</label>
-                                    <input type="text" name="current_state" className="form-control"  />
-                                </div>
-                            </div>
-
-                            {/* Home City */}
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <label className="mb-1">Home City</label>
-                                    <input type="text" name="home_city" className="form-control"  />
-                                </div>
-                            </div>
-
-                            {/* Home State */}
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <label className="mb-1">Home State</label>
-                                    <input type="text" name="home_state" className="form-control"  />
-                                </div>
-                            </div>
-
-
-                            {/* Country */}
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <label className="mb-1">Country</label>
-                                    <input type="text" name="country" className="form-control" />
-                                </div>
-                            </div>
-
-                            {/* Department */}
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <label className="mb-1">Department</label>
-                                    <select name="department" className="form-control" required>
-                                        <option value="">Select Department</option>
-                                        <option value="Teaching">Teaching</option>
-                                        <option value="Non-Teaching">Non-Teaching</option>
-                                    </select>
-                                </div>
-                            </div>
-
-                            {/* Previous Employer */}
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <label className="mb-1">Previous Employer</label>
-                                    <input type="text" name="previous_employer" className="form-control" required
-                                        placeholder="Write N/A if not aplicable" />
-                                </div>
-                            </div>
-
-                            {/* Designation */}
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <label className="mb-1">Designation</label>
-                                    <input type="text" name="designation" className="form-control" required
-                                        placeholder="Write N/A if not aplicable" />
-
-                                </div>
-                            </div>
-
-                            {/* Key Skills */}
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <label className="mb-1">Key Skills</label>
-                                    <input type="text" name="key_skills" className="form-control" />
-                                </div>
-                            </div>
-
-                            {/* Current Employer */}
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <label className="mb-1">Current Employer</label>
-                                    <input type="text" name="current_employer" className="form-control" />
-                                    {/* <select name="current_employer" className="form-control" required>
-                                        <option value="">Select</option>
-                                        <option value="Corporate Job">Corporate Job</option>
-                                        <option value="Public Sector/Govt. Job">Govt Job</option>
-                                        <option value="Banking Job">Banking Job</option>
-                                        <option value="Defence Job">Defence Job</option>
-                                        <option value="Pursuing Higher Studies">Higher Studies</option>
-                                        <option value="Self Employed">Self Employed</option>
-                                        <option value="Freelancer">Freelancer</option>
-                                        <option value="not-working">Not Working</option>
-                                    </select> */}
-                                </div>
-                            </div>
-
-                            {/* Notice Period */}
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <label className="mb-1">Notice Period</label>
-                                    <input type="text" name="notice_period" className="form-control"  />
-                                </div>
-                            </div>
-
-                            {/* Qualification */}
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <label className="mb-1">Qualifications</label>
-                                    <input type="text" name="qualifications" className="form-control" required />
-                                </div>
-                            </div>
-
-                            {/* Total Experience */}
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <label className="mb-1">Total Experience</label>
-                                    <input type="text" name="total_experience" className="form-control" 
-                                        placeholder="Write fresher if not working" />
-
-                                </div>
-                            </div>
-
-                            {/* Expected CTC */}
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <label className="mb-1">Expected CTC</label>
-                                    <input type="text" name="expected_ctc" className="form-control"  />
-                                </div>
-                            </div>
-
-                            {/* Current CTC */}
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <label className="mb-1">Current CTC</label>
-                                    <input type="text" name="current_ctc" className="form-control" 
-                                        placeholder="Write N/A if not applicable" />
-                                </div>
-                            </div>
-                            {/* Post Applied for */}
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <label className="mb-1">Post Applied for</label>
-                                    <input type="text" name="post_applied_for" className="form-control" 
-                                    />
-                                </div>
-                            </div>
-
-                            {/* Reference */}
-                            <div className="col-md-12">
-                                <div className="form-group">
-                                    <label className="mb-1">Reference</label>
-                                    <input
-                                        type="text"
-                                        name="reference"
-                                        className="form-control"
-                                    />
-                                </div>
-                            </div>
- 
-                            {/* CV Upload */}
-                            <div className="col-md-12">
-                                <div className="form-group">
-                                    <label className="mb-1">Upload CV</label>
-                                    <input type="file" name="cv" className="form-control" required />
-                                </div>
-                            </div>
-
-                            {/* Submit */}
-                            <div className="col-md-12 text-center mt-3">
-                                <button type="submit" className="btn btn-primary px-4 py-2">
-                                    Apply
-                                </button>
                             </div>
                         </div>
+
+                        {/* ================= ADDRESS DETAILS ================= */}
+                        <div className="col-12">
+                            <div className="card shadow-sm border-0">
+                                <div className="card-header bg-white fw-bold">
+                                    <i className="bi bi-geo-alt-fill text-success me-2"></i>
+                                    Address Details
+                                </div>
+
+                                <div className="card-body row g-3">
+                                    <div className="col-md-12">
+                                        <label className="form-label">Address</label>
+                                        <input type="text" className="form-control" />
+                                    </div>
+
+                                    <div className="col-md-3">
+                                        <label className="form-label">Current City</label>
+                                        <input type="text" className="form-control" />
+                                    </div>
+
+                                    <div className="col-md-3">
+                                        <label className="form-label">Current State</label>
+                                        <input type="text" className="form-control" />
+                                    </div>
+
+                                    <div className="col-md-3">
+                                        <label className="form-label">Home City</label>
+                                        <input type="text" className="form-control" />
+                                    </div>
+
+                                    <div className="col-md-3">
+                                        <label className="form-label">Home State</label>
+                                        <input type="text" className="form-control" />
+                                    </div>
+
+                                    <div className="col-md-4">
+                                        <label className="form-label">Country</label>
+                                        <input type="text" className="form-control" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* ================= EMPLOYMENT DETAILS ================= */}
+                        <div className="col-12">
+                            <div className="card shadow-sm border-0">
+                                <div className="card-header bg-white fw-bold">
+                                    <i className="bi bi-briefcase-fill text-warning me-2"></i>
+                                    Employment Details
+                                </div>
+
+                                <div className="card-body row g-3">
+                                    <div className="col-md-6">
+                                        <label className="form-label">Department *</label>
+                                        <select className="form-select" required>
+                                            <option value="">Select Department</option>
+                                            <option>Teaching</option>
+                                            <option>Non-Teaching</option>
+                                        </select>
+                                    </div>
+
+                                    <div className="col-md-6">
+                                        <label className="form-label">Post Applied For</label>
+                                        <input type="text" className="form-control" />
+                                    </div>
+
+                                    <div className="col-md-6">
+                                        <label className="form-label">Previous Employer</label>
+                                        <input type="text" className="form-control" placeholder="Write N/A if not applicable" />
+                                    </div>
+
+                                    <div className="col-md-6">
+                                        <label className="form-label">Designation</label>
+                                        <input type="text" className="form-control" placeholder="Write N/A if not applicable" />
+                                    </div>
+
+                                    <div className="col-md-6">
+                                        <label className="form-label">Current Employer</label>
+                                        <input type="text" className="form-control" />
+                                    </div>
+
+                                    <div className="col-md-6">
+                                        <label className="form-label">Notice Period</label>
+                                        <input type="text" className="form-control" />
+                                    </div>
+
+                                    <div className="col-md-6">
+                                        <label className="form-label">Key Skills</label>
+                                        <input type="text" className="form-control" />
+                                    </div>
+
+                                    <div className="col-md-6">
+                                        <label className="form-label">Qualifications *</label>
+                                        <input type="text" className="form-control" required />
+                                    </div>
+
+                                    <div className="col-md-6">
+                                        <label className="form-label">Total Experience</label>
+                                        <input type="text" className="form-control" placeholder="Fresher / Years" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* ================= SALARY DETAILS ================= */}
+                        <div className="col-12">
+                            <div className="card shadow-sm border-0">
+                                <div className="card-header bg-white fw-bold">
+                                    <i className="bi bi-currency-rupee text-danger me-2"></i>
+                                    Salary Details
+                                </div>
+
+                                <div className="card-body row g-3">
+                                    <div className="col-md-6">
+                                        <label className="form-label">Current CTC</label>
+                                        <input type="text" className="form-control" placeholder="N/A if not applicable" />
+                                    </div>
+
+                                    <div className="col-md-6">
+                                        <label className="form-label">Expected CTC</label>
+                                        <input type="text" className="form-control" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* ================= REFERENCE & CV ================= */}
+                        <div className="col-12">
+                            <div className="card shadow-sm border-0">
+                                <div className="card-body row g-3 align-items-center">
+                                    <div className="col-md-6">
+                                        <label className="form-label">Reference</label>
+                                        <input type="text" className="form-control" />
+                                    </div>
+
+                                    <div className="col-md-6">
+                                        <label className="form-label">
+                                            <i className="bi bi-upload me-2"></i>Upload CV *
+                                        </label>
+                                        <input type="file" className="form-control" required />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* ================= SUBMIT ================= */}
+                        <div className="col-12 text-center mt-4">
+                            <button className="btn btn-primary btn-lg px-5 shadow">
+                                <i className="bi bi-send me-2"></i>Apply Now
+                            </button>
+                        </div>
+
                     </form>
                 </div>
             </section>
+
+
         </>
     );
 }
