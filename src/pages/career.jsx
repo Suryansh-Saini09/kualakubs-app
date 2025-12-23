@@ -38,7 +38,7 @@ export default function Career() {
                             <div className="col-md-6">
                                 <div className="form-group">
                                     <label className="mb-1">Father Name</label>
-                                    <input type="text" name="father_name"  className="form-control" required />
+                                    <input type="text" name="father_name" className="form-control" required />
                                 </div>
                             </div>
 
@@ -46,7 +46,7 @@ export default function Career() {
                             <div className="col-md-6">
                                 <div className="form-group">
                                     <label className="mb-1">Contact Number</label>
-                                    <input type="tel" name="contact_no" className="form-control" required/>
+                                    <input type="tel" name="contact_no" className="form-control" required />
                                 </div>
                             </div>
 
@@ -54,7 +54,7 @@ export default function Career() {
                             <div className="col-md-6">
                                 <div className="form-group">
                                     <label className="mb-1">Email</label>
-                                    <input type="email" name="email" className="form-control" required/>
+                                    <input type="email" name="email" className="form-control" />
                                 </div>
                             </div>
 
@@ -66,6 +66,7 @@ export default function Career() {
                                         <option value="">Select Gender</option>
                                         <option value="Male">Male</option>
                                         <option value="Female">Female</option>
+                                        <option value="Transgender">Transgender</option>
                                     </select>
                                 </div>
                             </div>
@@ -82,7 +83,7 @@ export default function Career() {
                             <div className="col-md-6">
                                 <div className="form-group">
                                     <label className="mb-1">Current City</label>
-                                    <input type="text" name="current_city" className="form-control" required />
+                                    <input type="text" name="current_city" className="form-control"  />
                                 </div>
                             </div>
 
@@ -90,23 +91,7 @@ export default function Career() {
                             <div className="col-md-6">
                                 <div className="form-group">
                                     <label className="mb-1">Current State</label>
-                                    <input type="text" name="current_state" className="form-control" required />
-                                </div>
-                            </div>
-
-                            {/* Country */}
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <label className="mb-1">Country</label>
-                                    <input type="text" name="country" className="form-control" />
-                                </div>
-                            </div>
-
-                            {/* Home State */}
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <label className="mb-1">Home State</label>
-                                    <input type="text" name="home_state" className="form-control" required />
+                                    <input type="text" name="current_state" className="form-control"  />
                                 </div>
                             </div>
 
@@ -114,7 +99,24 @@ export default function Career() {
                             <div className="col-md-6">
                                 <div className="form-group">
                                     <label className="mb-1">Home City</label>
-                                    <input type="text" name="home_city" className="form-control" required />
+                                    <input type="text" name="home_city" className="form-control"  />
+                                </div>
+                            </div>
+
+                            {/* Home State */}
+                            <div className="col-md-6">
+                                <div className="form-group">
+                                    <label className="mb-1">Home State</label>
+                                    <input type="text" name="home_state" className="form-control"  />
+                                </div>
+                            </div>
+
+
+                            {/* Country */}
+                            <div className="col-md-6">
+                                <div className="form-group">
+                                    <label className="mb-1">Country</label>
+                                    <input type="text" name="country" className="form-control" />
                                 </div>
                             </div>
 
@@ -134,18 +136,18 @@ export default function Career() {
                             <div className="col-md-6">
                                 <div className="form-group">
                                     <label className="mb-1">Previous Employer</label>
-                                    <input type="text" name="previous_employer" className="form-control" required 
-                                    placeholder="Write N/A if not aplicable"/>
+                                    <input type="text" name="previous_employer" className="form-control" required
+                                        placeholder="Write N/A if not aplicable" />
                                 </div>
                             </div>
 
-                               {/* Designation */}
+                            {/* Designation */}
                             <div className="col-md-6">
                                 <div className="form-group">
                                     <label className="mb-1">Designation</label>
-                                    <input type="text" name="designation" className="form-control" required 
-                                    placeholder="Write N/A if not aplicable"/>
-                                    
+                                    <input type="text" name="designation" className="form-control" required
+                                        placeholder="Write N/A if not aplicable" />
+
                                 </div>
                             </div>
 
@@ -161,7 +163,8 @@ export default function Career() {
                             <div className="col-md-6">
                                 <div className="form-group">
                                     <label className="mb-1">Current Employer</label>
-                                    <select name="current_employer" className="form-control" required>
+                                    <input type="text" name="current_employer" className="form-control" />
+                                    {/* <select name="current_employer" className="form-control" required>
                                         <option value="">Select</option>
                                         <option value="Corporate Job">Corporate Job</option>
                                         <option value="Public Sector/Govt. Job">Govt Job</option>
@@ -171,7 +174,7 @@ export default function Career() {
                                         <option value="Self Employed">Self Employed</option>
                                         <option value="Freelancer">Freelancer</option>
                                         <option value="not-working">Not Working</option>
-                                    </select>
+                                    </select> */}
                                 </div>
                             </div>
 
@@ -179,7 +182,7 @@ export default function Career() {
                             <div className="col-md-6">
                                 <div className="form-group">
                                     <label className="mb-1">Notice Period</label>
-                                    <input type="text" name="notice_period" className="form-control" required />
+                                    <input type="text" name="notice_period" className="form-control"  />
                                 </div>
                             </div>
 
@@ -187,7 +190,7 @@ export default function Career() {
                             <div className="col-md-6">
                                 <div className="form-group">
                                     <label className="mb-1">Qualification</label>
-                                    <input type="text" name="qualification" className="form-control" required/>
+                                    <input type="text" name="qualification" className="form-control" required />
                                 </div>
                             </div>
 
@@ -195,9 +198,9 @@ export default function Career() {
                             <div className="col-md-6">
                                 <div className="form-group">
                                     <label className="mb-1">Total Experience</label>
-                                    <input type="text" name="total_experience" className="form-control" required
-                                    placeholder="Write fresher if not working"/>
-                                    
+                                    <input type="text" name="total_experience" className="form-control" 
+                                        placeholder="Write fresher if not working" />
+
                                 </div>
                             </div>
 
@@ -205,7 +208,7 @@ export default function Career() {
                             <div className="col-md-6">
                                 <div className="form-group">
                                     <label className="mb-1">Expected CTC</label>
-                                    <input type="text" name="expected_ctc" className="form-control" required />
+                                    <input type="text" name="expected_ctc" className="form-control"  />
                                 </div>
                             </div>
 
@@ -213,8 +216,16 @@ export default function Career() {
                             <div className="col-md-6">
                                 <div className="form-group">
                                     <label className="mb-1">Current CTC</label>
-                                    <input type="text" name="current_ctc" className="form-control" required 
-                                    placeholder="Write N/A if not applicable" />
+                                    <input type="text" name="current_ctc" className="form-control" 
+                                        placeholder="Write N/A if not applicable" />
+                                </div>
+                            </div>
+                            {/* Post Applied for */}
+                            <div className="col-md-6">
+                                <div className="form-group">
+                                    <label className="mb-1">Post Applied for</label>
+                                    <input type="text" name="post_applied_for" className="form-control" 
+                                    />
                                 </div>
                             </div>
 
@@ -234,7 +245,7 @@ export default function Career() {
                             <div className="col-md-12">
                                 <div className="form-group">
                                     <label className="mb-1">Upload CV</label>
-                                    <input type="file" name="cv" className="form-control" required/>
+                                    <input type="file" name="cv" className="form-control" required />
                                 </div>
                             </div>
 
