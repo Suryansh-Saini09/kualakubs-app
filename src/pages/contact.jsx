@@ -91,7 +91,7 @@ export default function Contact() {
                 <div className=" container mt-4 p-0">
                     <p className="text-center">Direction & Map</p>
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1724.7607985169643!2d76.89428252742518!3d29.301069890874597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390dc3b5533b6d9f%3A0x1b563db61bcc0195!2sGEETA%20UNIVERSITY%2C%20NAULTHA%2C%20PANIPAT!5e0!3m2!1sen!2sin!4v1758009601722!5m2!1sen!2sin"
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3509.539620242402!2d76.9358258754924!3d28.402969975790963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDI0JzEwLjciTiA3NsKwNTYnMTguMiJF!5e0!3m2!1sen!2sin!4v1766471425028!5m2!1sen!2sin"
                         width="100%" height="450" style={{ border: "0" }} allowFullScreen="" loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>

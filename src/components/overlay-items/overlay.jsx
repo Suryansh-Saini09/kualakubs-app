@@ -41,7 +41,7 @@ export function HomePopup() {
     if (!show) return null;
 
     return (
-      
+
         <>
             {show && (
                 <div className="popup-overlay">
@@ -216,33 +216,211 @@ export function Overlaymiddleheading() {
                 <h4 className="hero-heading-h4 text-white"><i>Welcome to</i></h4>
                 <h1 className="hero-heading-h6 text-white">KUALAKUBS</h1>
                 <h1 className="hero-heading-h5 text-white">WORLD SCHOOL</h1>
-                <a href="#slidedown" className="btn rounded-circle text-dark" style={{ backgroundColor: "white" }}>
-                    <i className="bi d-inline-block bi-chevron-double-down arrow-animation" style={{ fontSize: "larger" }}></i>
+                <a
+                    href="#"
+                    onClick={(e) => {
+                        e.preventDefault();
+                        document
+                            .getElementById("slidedown")
+                            ?.scrollIntoView({ behavior: "smooth", block: "start" });
+                    }}
+                    className="btn rounded-circle text-dark"
+                    style={{ backgroundColor: "white" }}
+                >
+                    <i className="bi bi-chevron-double-down arrow-animation"></i>
                 </a>
+
             </div>
         </>
     );
 }
 
+// export function EnquireNowButton() {
+//     return (
+//         <>
+//             <Link
+//                 to="/admissions"
+//                 className="btn-success btn position-fixed"
+//                 style={{
+//                     zIndex: 999,
+//                     top: "35%",
+//                     rotate: "-90deg",
+//                     translate: -50,
+//                     border: "0 0 6px, 6px"
+//                 }}
+//             >
+//                 Enquire Now
+//             </Link>
+//             <Link
+//                 to="/contact"
+//                 className="btn-primary btn position-fixed"
+//                 style={{
+//                     zIndex: 999,
+//                     top: "40%",
+//                     rotate: "-90deg",
+//                     translate: -50,
+//                     border: "0 0 6px, 6px"
+//                 }}
+//             >
+//                 Get in Touch
+//             </Link>
+//         </>
+
+//     );
+// };
 export function EnquireNowButton() {
+    const [show, setShow] = useState(false);
+
     return (
-        <Link
-            to="/admissions"
-            className="btn-success btn position-fixed"
-            style={{
-                zIndex: 999,
-                top: "50%",
-                rotate: "-90deg",
-                translate: -50,
-                border: "0 0 6px, 6px"
-            }}
-        >
-            Enquire Now
-        </Link>
+        <>
+            {/* ================= LEFT VERTICAL CTA ================= */}
+            <div
+                className="position-fixed d-flex flex-column gap-2"
+                style={{
+                    top: "50%",
+                    left: "0",
+                    transform: "translateY(-50%)",
+                    zIndex: 999
+                }}
+            >
+                {/* Enquire Now */}
+                <button
+                    onClick={() => setShow(true)}
+                    className="btn btn-sm btn-success px-1 py-3"
+                    style={{
+                        borderRadius: "0 6px 6px 0",
+                        writingMode: "vertical-rl"
+                    }}
+                >
+                    <span
+                        style={{
+                            display: "inline-block",
+                            transform: "rotate(180deg)",
+                            fontSize: "0.8rem",
+                            fontWeight: 600
+                        }}
+                    >
+
+                        Enquire Now
+                    </span>
+                </button>
+
+                {/* Get in Touch */}
+                <Link
+                    to="/contact"
+                    className="btn btn-sm btn-primary px-1 py-3"
+                    style={{
+                        borderRadius: "0 6px 6px 0",
+                        writingMode: "vertical-rl"
+                    }}
+                >
+                    <span
+                        style={{
+                            display: "inline-block",
+                            transform: "rotate(180deg)",
+                            fontSize: "0.8rem",
+                            fontWeight: 600
+                        }}
+                    >
+
+                        Get in Touch
+                    </span>
+                </Link>
+            </div>
+
+            {/* ================= MODAL ================= */}
+            {show && (
+                <>
+                    <div className="modal fade show d-block" tabIndex="-1">
+                        <div className="modal-dialog modal-dialog-centered modal-md">
+                            <div className="modal-content border-0 shadow">
+
+                                <div
+                                    className="modal-header"
+                                    style={{
+                                        background: "var(--accent-bg-color)",
+                                        color: "#fff"
+                                    }}
+                                >
+                                    <h5 className="modal-title">
+                                        <i className="bi bi-info-circle-fill me-2"></i>
+                                        Enquiry Form
+                                    </h5>
+                                    <button
+                                        type="button"
+                                        className="btn-close btn-close-white"
+                                        onClick={() => setShow(false)}
+                                    ></button>
+                                </div>
+
+                                <form className="modal-body row g-3">
+                                    <div className="col-md-6">
+                                        <label className="form-label">Name *</label>
+                                        <input type="text" className="form-control" required />
+                                    </div>
+
+                                    <div className="col-md-6">
+                                        <label className="form-label">Email *</label>
+                                        <input type="email" className="form-control" required />
+                                    </div>
+
+                                    <div className="col-md-6">
+                                        <label className="form-label">Contact *</label>
+                                        <input type="tel" className="form-control" required />
+                                    </div>
+
+                                    <div className="col-md-6">
+                                        <label className="form-label">City *</label>
+                                        <input type="text" className="form-control" required />
+                                    </div>
+
+                                    <div className="col-md-12">
+                                        <label className="form-label">Class Applying For *</label>
+                                        <select className="form-select" required>
+                                            <option value="">Select</option>
+                                            <option>Pre Nursery</option>
+                                            <option>Nursery</option>
+                                            <option>LKG</option>
+                                            <option>UKG</option>
+                                            {[...Array(12)].map((_, i) => (
+                                                <option key={i}>Grade {i + 1}</option>
+                                            ))}
+                                        </select>
+                                    </div>
+
+                                    <div className="col-md-12">
+                                        <div className="form-check">
+                                            <input className="form-check-input" type="checkbox" required />
+                                            <label className="form-check-label">
+                                                I agree to receive information regarding my submitted enquiry on Kualakubs World School*
+                                            </label>
+                                        </div>
+                                    </div>
+                                </form>
+
+                                <div className="modal-footer">
+                                    <button
+                                        className="btn btn-outline-secondary"
+                                        onClick={() => setShow(false)}
+                                    >
+                                        Close
+                                    </button>
+                                    <button className="btn btn-success">
+                                        <i className="bi bi-send me-2"></i>
+                                        Submit
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="modal-backdrop fade show"></div>
+                </>
+            )}
+        </>
     );
-};
-
-
+}
 
 
 export default {

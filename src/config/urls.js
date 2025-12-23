@@ -13,6 +13,7 @@ const OurPartnerships = lazy(() => import("../pages/partnerships"));
 const OurFuture = lazy(() => import("../pages/ourfuture"));
 const CoEducation = lazy(() => import("../pages/coeducation"));
 const Gallery = lazy(() => import("../pages/gallery"));
+const OurCampus = lazy(() => import("../pages/ourcampus"));
 //const FacultyPage = lazy(() => import("../pages/facultyPage"));
 //const Principal = lazy(() => import("../pages/principal"));
 //const LifeSkills = lazy(() => import("../pages/lifeskillspage"));
@@ -32,6 +33,7 @@ const routes = [
   { path: "/our-future", element: createElement(OurFuture) },
   { path: "/co-education", element: createElement(CoEducation) },
   { path: "/gallery", element: createElement(Gallery) },
+  {path: "/our-campus", element: createElement(OurCampus)},
   //{ path: "/principal", element: createElement(Principal) },
   //{path: "/life-skills", element: createElement(LifeSkills)},
   {path: "/campus-facilities", element: createElement(Campus_Facilities)},

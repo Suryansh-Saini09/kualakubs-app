@@ -50,14 +50,14 @@ export default function Admissions() {
       </div>
 
 
-      <section className="py-5 bg-light">
+      {/* <section className="py-5 bg-light">
         <div className="container">
 
           <h2 className="fw-bold mb-4 text-center">Enquiry Form</h2>
 
           <form className="p-4 border rounded bg-white shadow-sm">
 
-            {/* Student Details */}
+           
             <h4 className="fw-semibold mb-3">Student Details</h4>
             <div className="row g-3">
 
@@ -102,7 +102,7 @@ export default function Admissions() {
 
             <hr className="my-4" />
 
-            {/* Parents' Details */}
+           
             <h4 className="fw-semibold mb-3">Parents’ Details</h4>
             <div className="row g-3">
 
@@ -150,7 +150,7 @@ export default function Admissions() {
 
             <hr className="my-4" />
 
-            {/* Residential Address */}
+           
             <h4 className="fw-semibold mb-3">Residential Address</h4>
             <div className="row g-3">
 
@@ -170,7 +170,7 @@ export default function Admissions() {
 
             <hr className="my-4" />
 
-            {/* Previous School */}
+            
             <h4 className="fw-semibold mb-3">Previous School</h4>
             <div className="row g-3">
 
@@ -193,7 +193,7 @@ export default function Admissions() {
 
             <hr className="my-4" />
 
-            {/* How Did You Hear About Us */}
+           
             <h4 className="fw-semibold mb-3">How Did You Hear About Us?</h4>
             <div className="row g-2">
 
@@ -232,7 +232,7 @@ export default function Admissions() {
 
             <hr className="my-4" />
 
-            {/* Area of Interest / Queries */}
+           
             <h4 className="fw-semibold mb-3">Area of Interest / Queries</h4>
             <div className="row g-3">
 
@@ -271,15 +271,15 @@ export default function Admissions() {
 
           </form>
         </div>
-      </section>
+      </section> */}
       
-      {/* MAIN CONTENT */}
+     
       <div className="admissions-wrapper">
-        {/* Admission Process */}
+       
         <section className="admission-block">
           <div className="container">
             <div className="row align-items-center">
-              {/* Text */}
+         
               <div className="col-lg-6" data-aos="fade-right" id="process">
                 <h3 className="admission-title">Admission Process</h3>
 
@@ -291,7 +291,7 @@ export default function Admissions() {
                 </ol>
               </div>
 
-              {/* Image */}
+           
               <div className="col-lg-6 text-center" data-aos="fade-left">
                 <img
                   src="https://www.westminster.org.uk/wp-content/uploads/2025/03/Yard-scaled.jpg"
@@ -342,7 +342,8 @@ export default function Admissions() {
                 <p className="mb-0">
                   📍 Kualakubs World School,
                   <br />
-                  DLF New Town Heights, Sec–86
+                  DLF New Town Heights, Sec–86, <br />
+                  +91 9996648317
                 </p>
               </div>
 

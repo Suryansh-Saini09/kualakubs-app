@@ -175,7 +175,7 @@ export default function About() {
                   textAlign: "justify",
                 }}  
               >
-                – Er. Lakshay Gupta, Managing Director
+                 Lakshay Gupta, Managing Director
               </p>
             </div>
             <div className="col-lg-6 p-4">

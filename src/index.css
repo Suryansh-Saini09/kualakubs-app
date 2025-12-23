@@ -418,3 +418,11 @@ body {
 .highlight {
   background: linear-gradient(transparent 60%, #fff3a3 60%);
 }
+
+.timeline-card {
+  transition: all 0.3s ease;
+}
+
+.timeline-card:hover {
+  transform: translateY(-6px);
+}
