@@ -39,8 +39,8 @@ export default function Career() {
                                     </div>
 
                                     <div className="col-md-6">
-                                        <label className="form-label">Father Name</label>
-                                        <input type="text" className="form-control" />
+                                        <label className="form-label">Father Name *</label>
+                                        <input type="text" className="form-control" required />
                                     </div>
 
                                     <div className="col-md-6">
@@ -60,7 +60,7 @@ export default function Career() {
                                     </div>
 
                                     <div className="col-md-4">
-                                        <label className="form-label">Gender</label>
+                                        <label className="form-label">Gender *</label>
                                         <select className="form-select" required>
                                             <option value="">Select Gender</option>
                                             <option>Male</option>
