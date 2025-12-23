@@ -307,8 +307,8 @@ export function EnquireNowButton() {
                                 <div
                                     className="modal-header"
                                     style={{
-                                        background: "var(--accent-bg-color)",
-                                        color: "#fff"
+                                        background: "var(--accent-text-color)",
+                                        color: "var(--accent-bg-color)",
                                     }}
                                 >
                                     <h5 className="modal-title">
@@ -317,7 +317,7 @@ export function EnquireNowButton() {
                                     </h5>
                                     <button
                                         type="button"
-                                        className="btn-close btn-close-white"
+                                        className="btn-close btn-close-black"
                                         onClick={() => setShow(false)}
                                     ></button>
                                 </div>

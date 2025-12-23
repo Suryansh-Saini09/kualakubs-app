@@ -35,11 +35,11 @@ export default function OurCampus() {
         <>
 
             <PageHeader
-                title="Our Campus"
+                title="Our Campuses"
                 backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"
                 breadcrumb={[
                     { label: "Home", link: "/" },
-                    { label: "Our Campus", active: true }
+                    { label: "Our Campuses", active: true }
                 ]}
             />
             <section className="container py-5 position-relative">

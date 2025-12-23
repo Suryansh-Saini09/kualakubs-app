@@ -33,7 +33,7 @@ const routes = [
   { path: "/our-future", element: createElement(OurFuture) },
   { path: "/co-education", element: createElement(CoEducation) },
   { path: "/gallery", element: createElement(Gallery) },
-  {path: "/our-campus", element: createElement(OurCampus)},
+  {path: "/our-campuses", element: createElement(OurCampus)},
   //{ path: "/principal", element: createElement(Principal) },
   //{path: "/life-skills", element: createElement(LifeSkills)},
   {path: "/campus-facilities", element: createElement(Campus_Facilities)},
