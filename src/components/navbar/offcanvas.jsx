@@ -90,7 +90,7 @@ function OffcanvasNavbar() {
               <hr style={{color: "var(--accent-text-color)"}} />
 
               <div>
-                 <Link to="/contact" className="btn me-2 border rounded-0 custom-button-effect d-none" onClick={handleClose}>
+                 <Link to="https://kakulubuscheeka.gabis.in/" target="_blank" className="btn me-2 border rounded-0 custom-button-effect" onClick={handleClose}>
                 ERP LOGIN {"\u2192"}
               </Link>
               </div>
