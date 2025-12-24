@@ -347,10 +347,10 @@ export function EnquireNowButton() {
                                         <label className="form-label">Class Applying For *</label>
                                         <select className="form-select" required>
                                             <option value="">Select</option>
-                                            <option>Pre Nursery</option>
-                                            <option>Nursery</option>
-                                            <option>LKG</option>
-                                            <option>UKG</option>
+                                            <option>Seedling</option>
+                                            <option>Budding</option>
+                                            <option>Blooming</option>
+                                            <option>Exceeding</option>
                                             {[...Array(12)].map((_, i) => (
                                                 <option key={i}>Grade {i + 1}</option>
                                             ))}
