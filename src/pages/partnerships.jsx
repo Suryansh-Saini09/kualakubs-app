@@ -1,6 +1,5 @@
 import PageHeader from "../components/PageHeader";
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -246,7 +245,6 @@ export default function Partnerships() {
                                     These collaborations prepare students to thrive in an interconnected world.
                                 </p>
 
-                                <Link to="/about">LEARN MORE →</Link>
                             </div>
                         </div>
 
