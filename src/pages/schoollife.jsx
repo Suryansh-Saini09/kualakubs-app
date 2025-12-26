@@ -4,6 +4,7 @@ import PageHeader from "../components/PageHeader.jsx";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import MagicCard from "../components/Magiccard.jsx";
 
 // school life page
 
@@ -61,10 +62,77 @@ export default function SchoolLife() {
                     { label: "School Life", active: true }
                 ]}
             />
+
+            {/* SCHOOL LIFE SECTION */}
             <section className="py-5" style={{ backgroundColor: "var(--bg-color)" }}>
                 <div className="container">
 
                     {/* Header */}
+                    <div className="text-center mb-5" data-aos="fade-down">
+                        <h2 className="fw-bold" style={{ color: "var(--accent-bg-color)" }}>
+                            School Life at Kualakubs
+                        </h2>
+                        <p style={{ color: "var(--text-color)", maxWidth: "800px" }} className="mx-auto">
+                            School life at Kualakubs is thoughtfully designed to provide a balanced and enriching environment that supports the holistic development of every child. Our daily schedule integrates academic readiness, creative expression, physical activity, and value-based learning to ensure that students grow into confident, curious, and responsible individuals.
+                        </p>
+                    </div>
+
+                    <div className="container py-5">
+                        <div className="row g-4">
+
+                            <div className="col-lg-6 col-md-12">
+                                <MagicCard
+                                    image="https://images.unsplash.com/photo-1588072432836-e10032774350"
+                                    icon="bi bi-book-half"
+                                    heading="Academic Foundation"
+                                    paragraph="Our academic programme emphasizes conceptual understanding through activity-based and experiential learning. Early literacy and numeracy skills are developed through structured phonics sessions, thematic learning modules, and interactive classroom experiences. Each concept is introduced in a manner that engages young learners and fosters a genuine interest in learning."
+                                />
+                            </div>
+
+                            <div className="col-lg-6 col-md-12">
+                                <MagicCard
+                                    image="https://images.unsplash.com/photo-1513258496099-48168024aec0"
+                                    icon="bi bi-lightbulb"
+                                    heading="Creative & Cultural Engagement"
+                                    paragraph="Creativity is an integral part of school life at Kualakubs. Students participate in art, craft, music, dance, and storytelling sessions that enhance imagination and self-expression. Cultural celebrations, special assemblies, and thematic events broaden their awareness and help them appreciate diversity and tradition."
+                                />
+                            </div>
+
+                            <div className="col-lg-6 col-md-12">
+                                <MagicCard
+                                    image="https://snworksceo.imgix.net/tms/e40bd6f7-c469-4575-89f8-3872715ca6d6.sized-1000x1000.jpg?w=1000"
+                                    icon="bi bi-dribbble"
+                                    heading="Physical and Outdoor Activities"
+                                    paragraph="Physical development is encouraged through age-appropriate sports, movement exercises, and outdoor play. These activities are designed to improve motor skills, coordination, and overall well-being, while also instilling healthy habits from an early age."
+                                />
+                            </div>
+
+                            <div className="col-lg-6 col-md-12">
+                                <MagicCard
+                                    image="https://images.unsplash.com/photo-1552664730-d307ca884978"
+                                    icon="bi bi-heart-fill"
+                                    heading="Social and Emotional Development"
+                                    paragraph="Our environment supports the social and emotional growth of every child. Through collaborative activities and guided interactions, students learn the values of respect, empathy, teamwork, and responsibility. We work closely with children to help them build confidence, communication skills, and positive relationships."
+                                />
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    {/* Footer */}
+                    <div className="text-center mt-5" data-aos="fade-up">
+                        <p style={{ color: "var(--text-color)", maxWidth: "850px" }} className="mx-auto">
+                            At Kualakubs, school life is shaped by meaningful experiences that inspire learning, encourage creativity, and build strong character. We aim to provide a foundation that supports lifelong success and a love for learning.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+            {/* <section className="py-5" style={{ backgroundColor: "var(--bg-color)" }}>
+                <div className="container">
+
+               
                     <div className="text-center mb-5" data-aos="fade-down">
                         <h2 className="fw-bold" style={{ color: "var(--accent-bg-color)" }}>
                             School Life at Kualakubs
@@ -74,7 +142,6 @@ export default function SchoolLife() {
                         </p>
                     </div>
 
-                    {/* Academic Foundation */}
                     <div className="row align-items-center py-4" style={{ background: "#f5f4ef", borderRadius: "24px" }} data-aos="fade-up">
                         <div className="col-lg-6 p-4">
                             <i className="bi bi-book-half fs-2 mb-3" style={{ color: "var(--accent-bg-color)" }}></i>
@@ -92,7 +159,7 @@ export default function SchoolLife() {
                         </div>
                     </div>
 
-                    {/* Creative & Cultural */}
+                 
                     <div className="row align-items-center py-4 mt-4" style={{ background: "#ede9e0", borderRadius: "24px" }} data-aos="fade-up">
                         <div className="col-lg-6 order-lg-2 p-4">
                             <i className="bi bi-palette fs-2 mb-3" style={{ color: "var(--accent-bg-color)" }}></i>
@@ -110,7 +177,7 @@ export default function SchoolLife() {
                         </div>
                     </div>
 
-                    {/* Physical Activities */}
+            
                     <div className="row align-items-center py-4 mt-4" style={{ background: "#f5f4ef", borderRadius: "24px" }} data-aos="fade-up">
                         <div className="col-lg-6 p-4">
                             <i className="bi bi-activity fs-2 mb-3" style={{ color: "var(--accent-bg-color)" }}></i>
@@ -128,7 +195,6 @@ export default function SchoolLife() {
                         </div>
                     </div>
 
-                    {/* Social & Emotional */}
                     <div className="row align-items-center py-4 mt-4" style={{ background: "#ede9e0", borderRadius: "24px" }} data-aos="fade-up">
                         <div className="col-lg-6 order-lg-2 p-4">
                             <i className="bi bi-heart-fill fs-2 mb-3" style={{ color: "var(--accent-bg-color)" }}></i>
@@ -146,7 +212,7 @@ export default function SchoolLife() {
                         </div>
                     </div>
 
-                    {/* Safe Environment */}
+           
                     <div className="row align-items-center py-4 mt-4" style={{ background: "#f5f4ef", borderRadius: "24px" }} data-aos="fade-up">
                         <div className="col-lg-6 p-4">
                             <i className="bi bi-shield-check fs-2 mb-3" style={{ color: "var(--accent-bg-color)" }}></i>
@@ -164,7 +230,7 @@ export default function SchoolLife() {
                         </div>
                     </div>
 
-                    {/* Footer */}
+        
                     <div className="text-center mt-5" data-aos="fade-up">
                         <p style={{ color: "var(--text-color)", maxWidth: "850px" }} className="mx-auto">
                             At Kualakubs, school life is shaped by meaningful experiences that inspire learning, encourage creativity, and build strong character. We aim to provide a foundation that supports lifelong success and a love for learning.
@@ -172,7 +238,7 @@ export default function SchoolLife() {
                     </div>
 
                 </div>
-            </section>
+            </section> */}
             {/* Gallery */}
             {/* < Components.Gallery.Gallery galleryItems={galleryItems} h={"DISCOVER MORE"} p={"Find out more about School Life at Westminster"} /> */}
         </>
