@@ -1,5 +1,7 @@
 import Components from "../components/manage.js";
 import * as Links from "../config/links.js";
+import CoCurriculum from "../assets/childs_playing.png";
+import Schoolife from "../assets/classroom_activity.png";
 
 
 export default function Home() {
@@ -21,12 +23,12 @@ export default function Home() {
             link: "/campus-facilities",
         },
         {
-            img: "https://www.westminster.org.uk/wp-content/uploads/2025/02/IMG_1086-v2-scaled.jpg",
+            img: Schoolife,
             text: "SCHOOL LIFE",
             link: "/school-life",
         },
         {
-            img: "https://www.westminster.org.uk/wp-content/uploads/2024/10/GEORGINA01889-scaled.jpg",
+            img: CoCurriculum,
             text: "CO-CURRICULUM",
             link: "/Co-Curricular",
         },
