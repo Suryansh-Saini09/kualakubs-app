@@ -226,8 +226,6 @@ export default function Career() {
                     </form>
                 </div>
             </section>
-
-
         </>
     );
 }
