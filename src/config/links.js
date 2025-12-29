@@ -29,7 +29,7 @@ export const footerLinks = [
         links: [
              { path: "/campus-facilities", pathname: "Campus facilities" },
              { path: "/why-kualakubs", pathname: "Why kualakubs" },
-            { path: "/career", pathname: "Career" },
+            { path: "/career", pathname: "Careers" },
             // { path: "/about", pathname: "About us" },
         ],
     },
