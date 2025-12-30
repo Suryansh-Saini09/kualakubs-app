@@ -2,6 +2,8 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Link } from 'react-router-dom';
+import Admissions from "../../assets/Admission_image.png";
+import Sciencelab from "../../assets/sciencelab_image.png"
 
 
 
@@ -39,7 +41,7 @@ const CardCarousel = () => {
                 <div className="card m-2 position-relative rounded-0 border-0">
                     <Link to="/co-education">
                         <img
-                            src="https://www.westminster.org.uk/wp-content/uploads/2024/01/Girl-microscope-2-scaled.jpg"
+                            src={Sciencelab}
                             className="card-img-top rounded-0 " style={{ height: "250px" }}
                             alt="Card 2"
                         />
@@ -71,7 +73,7 @@ const CardCarousel = () => {
                 <div className="card m-2 position-relative rounded-0 border-0">
                     <Link to="/admissions">
                         <img
-                            src="https://www.westminster.org.uk/wp-content/uploads/2025/03/Greaze-2025-EH-81-scaled.jpg"
+                            src={Admissions}
                             className="card-img-top rounded-0 " style={{ height: "250px" }}
                             alt="Card 2"
                         />
