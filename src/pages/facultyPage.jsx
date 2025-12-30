@@ -12,7 +12,7 @@ export default function FacultyPage() {
           { label: "Faculty", active: true },
         ]}
       />
-
+     {/* Main section */}
       <div
         className="position-relative d-flex flex-column justify-content-center align-items-center text-center"
         style={{ background: "var(--accent-bg-color)", minHeight: "500px" }}

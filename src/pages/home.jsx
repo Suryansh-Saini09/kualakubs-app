@@ -43,6 +43,7 @@ export default function Home() {
     ];
     return (
         <>
+        { /* Main section  */}
             <main>
                 <Components.Overlay.HomePopup />
                 <div className="container-fluid position-relative p-0">
