@@ -1,4 +1,5 @@
 import PageHeader from "../components/PageHeader";
+import { Link } from "react-router-dom";
 
 export default function Campus_Facilities() {
 
@@ -44,8 +45,8 @@ export default function Campus_Facilities() {
                     </p>
                 </div>
             </div> */}
-            
-            <div className="container py-5">
+
+            {/* <div className="container py-5">
 
                 <div className="text-center mb-4">
                     <h3
@@ -124,7 +125,156 @@ export default function Campus_Facilities() {
                         </div>
                     ))}
                 </div>
-            </div>
+            </div> */}
+
+            <main className="position-relative py-5 facilities-section">
+
+                {/* Background grid */}
+                <div className="position-absolute top-0 start-0 w-100 h-100 facilities-bg-grid"></div>
+
+                <div className="container position-relative z-1">
+
+                    {/* Heading */}
+                    <div
+                        className="text-center mx-auto mb-5 facilities-float-slow"
+                        style={{ maxWidth: "720px" }}
+                    >
+                        <span
+                            className="d-inline-block py-1 px-4 rounded-pill fw-bold text-primary border border-primary mb-3"
+                            style={{ background: "rgba(84,23,207,0.1)" }}
+                        >
+                            Kualakubs World School Facilities
+                        </span>
+
+                        <h1 className="fw-extrabold display-5 mb-4">
+                            Where Potential Meets <span className="text-primary">Purpose</span>
+                        </h1>
+
+                        <p className="fs-5 text-muted">
+                            Our campus is designed to inspire learning, innovation, creativity,
+                            and holistic growth. Every space empowers students to become future-ready.
+                        </p>
+                    </div>
+
+                    {/* Cards */}
+                    <div className="row g-4">
+
+                        <div className="col-md-6 col-lg-4 facilities-float-medium">
+                            <div className="facilities-card">
+                                <div className="facilities-icon facilities-g1">
+                                    <span className="material-symbols-outlined fs-3">diversity_3</span>
+                                </div>
+                                <h4 className="fw-bold">Interactive Learning Environments</h4>
+                                <p className="text-muted">
+                                    Smart classrooms with digital integration and ergonomic design.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 facilities-float-slow">
+                            <div className="facilities-card facilities-card-highlight">
+                                <div className="facilities-icon facilities-g2">
+                                    <span className="material-symbols-outlined fs-3">biotech</span>
+                                </div>
+                                <h4 className="fw-bold">STEM & Innovation Hub</h4>
+                                <p>
+                                    Dedicated Science Labs, Math Lab, and advanced STEM facilities.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 facilities-float-fast">
+                            <div className="facilities-card">
+                                <div className="facilities-icon facilities-g3 text-dark">
+                                    <span className="material-symbols-outlined fs-3">laptop_chromebook</span>
+                                </div>
+                                <h4 className="fw-bold">Digital Literacy</h4>
+                                <p className="text-muted">
+                                    ICT Lab supporting coding, research, and digital responsibility.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 facilities-float-medium">
+                            <div className="facilities-card">
+                                <div className="facilities-icon facilities-g4">
+                                    <span className="material-symbols-outlined fs-3">lightbulb</span>
+                                </div>
+                                <h4 className="fw-bold">Cultivating Curiosity</h4>
+                                <p className="text-muted">
+                                    Library & Reading Lounge with DROP reading program.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 facilities-float-slow">
+                            <div className="facilities-card">
+                                <div className="facilities-icon facilities-g5">
+                                    <span className="material-symbols-outlined fs-3">palette</span>
+                                </div>
+                                <h4 className="fw-bold">Arts & Athletics</h4>
+                                <p className="text-muted">
+                                    Art & Music studios with indoor and outdoor sports arenas.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 facilities-float-fast">
+                            <div className="facilities-card">
+                                <div className="facilities-icon facilities-g6">
+                                    <span className="material-symbols-outlined fs-3">volunteer_activism</span>
+                                </div>
+                                <h4 className="fw-bold">Essential Life Skills</h4>
+                                <p className="text-muted">
+                                    Language and Life Skills Lab for communication and leadership.
+                                </p>
+                            </div>
+                        </div>
+
+                        {/* Wide card */}
+                        <div className="col-12 d-flex justify-content-center mt-4">
+                            <div className="facilities-card d-flex flex-column flex-md-row align-items-center col-lg-8 facilities-float-slow">
+                                <div className="facilities-icon facilities-g7 me-md-4 mb-3 mb-md-0">
+                                    <span className="material-symbols-outlined fs-2">
+                                        health_and_safety
+                                    </span>
+                                </div>
+                                <div>
+                                    <h4 className="fw-bold">Safety & Well-being First</h4>
+                                    <p className="text-muted mb-0">
+                                        CCTV-enabled campus, trained security, infirmary, and GPS transport.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* CTA */}
+                    <div className="text-center mt-5 facilities-float-medium px-3">
+                        <div  className="text-decoration-none d-inline-block w-100 w-sm-auto">
+                            <div className="facilities-cta d-flex flex-column flex-sm-row align-items-center gap-3 gap-sm-4">
+                                <div>
+                                    <small className="text-muted fw-bold d-block"><Link to="/admissions">READY TO JOIN?</Link></small>
+                                    <div className="fw-bold fs-6 fs-sm-5 text-dark">
+                                        Admissions Open – Schedule a Visit
+                                    </div>
+                                </div>
+                                <div
+                                    className="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center"
+                                    style={{ width: "42px", height: "42px" }}
+                                >
+                                    <span className="material-symbols-outlined">
+                                        calendar_month
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </main>
+
+
 
         </>
     );
