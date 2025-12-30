@@ -5,12 +5,13 @@ import Schoolife from "../assets/classroom_activity.png";
 import Partnership from "../assets/partnership_image.png";
 import Acadmiclife from "../assets/adacimiclife_image.png";
 import Admissions from "../assets/Admission_image.png";
+import Building from "../assets/latest_news_KK.jpg"
 
 export default function Home() {
 
     const galleryItems = [
         {
-            img: "https://www.westminster.org.uk/wp-content/uploads/2025/03/Yard-scaled.jpg",
+            img: Building, 
             text: "ABOUT KUALAKUBS",
             link: "/about",
         },
