@@ -2,7 +2,9 @@ import Components from "../components/manage.js";
 import * as Links from "../config/links.js";
 import CoCurriculum from "../assets/childs_playing.png";
 import Schoolife from "../assets/classroom_activity.png";
-
+import Partnership from "../assets/partnership_image.png";
+import Acadmiclife from "../assets/adacimiclife_image.png";
+import Admissions from "../assets/Admission_image.png";
 
 export default function Home() {
 
@@ -13,12 +15,12 @@ export default function Home() {
             link: "/about",
         },
         {
-            img: "https://www.westminster.org.uk/wp-content/uploads/2025/03/Greaze-2025-EH-81-scaled.jpg",
+            img: Admissions,
             text: "ADMISSIONS",
             link: "/admissions",
         },
         {
-            img: "https://www.westminster.org.uk/wp-content/uploads/2025/02/MicaelaKarina_WestminsterSchool-385.jpg",
+            img: Acadmiclife,
             text: "ACADEMIC LIFE",
             link: "/campus-facilities",
         },
@@ -33,7 +35,7 @@ export default function Home() {
             link: "/Co-Curricular",
         },
         {
-            img: "https://www.westminster.org.uk/wp-content/uploads/2024/11/IMG_20240709_202243-1-scaled-e1731671780116.jpg",
+            img: Partnership,
             text: "PARTNERSHIPS",
             link: "our-partnerships",
         },
