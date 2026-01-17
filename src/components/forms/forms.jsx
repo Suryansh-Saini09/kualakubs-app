@@ -9,8 +9,8 @@ export default function EnquireForm() {
                 </div>
 
                 <div className="col-md-6">
-                    <label className="form-label">Email *</label>
-                    <input type="email" className="form-control" required />
+                    <label className="form-label">Applicant Father Name *</label>
+                    <input type="text" className="form-control" required />
                 </div>
 
                 <div className="col-md-6">
@@ -19,8 +19,8 @@ export default function EnquireForm() {
                 </div>
 
                 <div className="col-md-6">
-                    <label className="form-label">City *</label>
-                    <input type="text" className="form-control" required />
+                    <label className="form-label">Email *</label>
+                    <input type="email" className="form-control" required />
                 </div>
 
                 <div className="col-md-12">
