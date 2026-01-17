@@ -1,58 +1,58 @@
 import React, { useState } from "react";
 
-export default function CareerForm() {
+export default function CareerForm({ onSubmit, loading }) {
 
-    const [loading, setLoading] = useState(false);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-
         const form = e.target;
         const formData = new FormData(form);
 
         const contact = formData.get("contact");
-        const cv = formData.get("cv");
+        const cvFile = formData.get("cv");
 
         // ===== VALIDATIONS =====
-        if (!/^\d{10}$/.test(contact)) {
-            alert("📞 Contact number must be exactly 10 digits");
-            return;
-        }
+        // if (!/^\d{10}$/.test(contact)) {
+        //     alert("📞 Contact number must be exactly 10 digits");
+        //     return;
+        // }
 
-        if (!cv || cv.type !== "application/pdf") {
+        if (!cvFile || cvFile.type !== "application/pdf") {
             alert("📄 CV must be uploaded in PDF format only");
             return;
         }
 
-        setLoading(true);
+        // ===== CONVERT CV TO BASE64 (Backend expects cv in POST) =====
+        const toBase64 = (file) =>
+            new Promise((resolve, reject) => {
+                const reader = new FileReader();
+                reader.readAsDataURL(file);
+                reader.onload = () => resolve(reader.result);
+                reader.onerror = reject;
+            });
 
-        try {
-            const response = await fetch(
-                "https://school.hachetech.com/API/tp/careers",
-                {
-                    method: "POST",
-                    headers: {
-                        "x-api-key": "school@3534dfjh3245dfgjhgdfjgh!dfgjhk89452kdskjg",
-                        // ❗ DO NOT set Content-Type for FormData
-                    },
-                    body: formData,
-                }
-            );
+        const cvBase64 = await toBase64(cvFile);
 
-            const result = await response.json();
+        // ===== CREATE CLEAN PAYLOAD =====
+        const payload = new FormData();
 
-            if (!response.ok) {
-                throw new Error(result.message || "Submission failed");
+        // API key (MANDATORY)
+        payload.append("api_key", "school@3534dfjh3245dfgjhgdfjgh!dfgjhk89452kdskjg");
+
+        // Append all fields
+        for (let [key, value] of formData.entries()) {
+            if (key !== "cv") {
+                payload.append(key, value);
             }
+        }
 
-            alert("✅ Application submitted successfully!");
+        // 👇 VERY IMPORTANT (cv in payload, not files)
+        payload.append("cv", cvBase64);
+
+        const success = await onSubmit(payload);
+
+        if (success) {
             form.reset();
-
-        } catch (error) {
-            console.error("Career API Error:", error);
-            alert(`❌ ${error.message}`);
-        } finally {
-            setLoading(false);
         }
     };
 
@@ -85,7 +85,7 @@ export default function CareerForm() {
                                     <span className="input-group-text">
                                         <i className="bi bi-telephone"></i>
                                     </span>
-                                    <input type="tel" name="contact" className="form-control" required />
+                                    <input type="tel" name="contact_number" className="form-control" required />
                                 </div>
                             </div>
 
@@ -258,11 +258,7 @@ export default function CareerForm() {
 
                 {/* ================= SUBMIT ================= */}
                 <div className="col-12 text-center mt-4">
-                    <button
-                        type="submit"
-                        className="btn btn-primary btn-lg px-5 shadow"
-                        disabled={loading}
-                    >
+                    <button className="btn btn-primary" type="submit" disabled={loading}>
                         {loading ? "Submitting..." : "Apply Now"}
                     </button>
                 </div>

@@ -13,10 +13,6 @@ export default function Career() {
                 "https://school.hachetech.com/API/tp/careers",
                 {
                     method: "POST",
-                    headers: {
-                        "x-api-key": "school@3534dfjh3245dfgjhgdfjgh!dfgjhk89452kdskjg",
-                        // ❗ DO NOT set Content-Type for FormData
-                    },
                     body: formData,
                 }
             );
@@ -53,13 +49,6 @@ export default function Career() {
 
             <section className="py-5 bg-light">
                 <div className="container">
-                    <div className="text-center mb-5">
-                        <h2 className="fw-bold">Career Application Form</h2>
-                        <p className="text-muted">
-                            Please fill all required details carefully
-                        </p>
-                    </div>
-
                     <CareerForm
                         onSubmit={handleCareerSubmit}
                         loading={loading}
