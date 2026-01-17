@@ -1,15 +1,19 @@
 import React, { useState } from "react";
 
+
 export default function CareerForm({ onSubmit, loading }) {
 
-
+    const [cv, setCv] = useState(null);
+    const handleFile = (e) => {
+             setCv(e.target.files[0]);
+           };
     const handleSubmit = async (e) => {
         e.preventDefault();
         const form = e.target;
         const formData = new FormData(form);
-
-        const contact = formData.get("contact");
-        const cvFile = formData.get("cv");
+        
+        //const contact = formData.get("contact");
+        //const cvFile = formData.get("cv");
 
         // ===== VALIDATIONS =====
         // if (!/^\d{10}$/.test(contact)) {
@@ -17,10 +21,12 @@ export default function CareerForm({ onSubmit, loading }) {
         //     return;
         // }
 
-        if (!cvFile || cvFile.type !== "application/pdf") {
-            alert("📄 CV must be uploaded in PDF format only");
-            return;
-        }
+        
+
+        // if (!cvFile || cvFile.type !== "application/pdf") {
+        //     alert("📄 CV must be uploaded in PDF format only");
+        //     return;
+        // }
 
         // ===== CONVERT CV TO BASE64 (Backend expects cv in POST) =====
         const toBase64 = (file) =>
@@ -31,7 +37,7 @@ export default function CareerForm({ onSubmit, loading }) {
                 reader.onerror = reject;
             });
 
-        const cvBase64 = await toBase64(cvFile);
+        const cvBase64 = cv
 
         // ===== CREATE CLEAN PAYLOAD =====
         const payload = new FormData();
@@ -199,7 +205,7 @@ export default function CareerForm({ onSubmit, loading }) {
 
                             <div className="col-md-6">
                                 <label className="form-label">Key Skills</label>
-                                <input type="text" name="skills" className="form-control" />
+                                <input type="text" name="key_skills" className="form-control" />
                             </div>
 
                             <div className="col-md-6">
@@ -209,7 +215,7 @@ export default function CareerForm({ onSubmit, loading }) {
 
                             <div className="col-md-6">
                                 <label className="form-label">Total Experience</label>
-                                <input type="text" name="experience" className="form-control" />
+                                <input type="text" name="total_experience" className="form-control" />
                             </div>
                         </div>
                     </div>
@@ -250,7 +256,7 @@ export default function CareerForm({ onSubmit, loading }) {
                                 <label className="form-label">
                                     <i className="bi bi-upload me-2"></i>Upload CV *
                                 </label>
-                                <input type="file" name="cv" className="form-control" required />
+                                <input type="file" accept=".pdf,.doc,.docx" onChange={handleFile} required />
                             </div>
                         </div>
                     </div>
