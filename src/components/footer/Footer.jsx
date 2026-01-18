@@ -48,7 +48,7 @@ const Footer = ({ footerLinks }) => {
                 </div>
             </div>
 
-            {/* Row 3: Copyright */}
+            {/* Row 3: Copyright  2026-27*/}
             <div className="row">
                 <div className="col text-center small">
                     Copyright © 2026-27 Kualakubs World School, Gurugram.
