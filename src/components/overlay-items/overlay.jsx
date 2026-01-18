@@ -2,6 +2,7 @@
 // library imports 
 import HeaderLogo from "../../assets/kulakubs_new_logo.png";
 import PopUpimg from "../../assets/kbws_popup.png";
+import WPIcon from "../../assets/whatsapp-logo.svg"
 import "./overlay.css";
 import { Link } from "react-router-dom";
 // import React from "react";  // use later if needed.
@@ -393,6 +394,17 @@ export function EnquireNowButton() {
     );
 }
 
+export function WhatsappIcon(){
+    return (
+        <>
+           <a href="https://wa.me/919996648317?text=Hello%20I%20need%20more%20information" target="_blank">
+            <img src={WPIcon} alt="Chat on whatsapp with apwebstack"
+                className='whatsapp-btn img-fluid'/>
+         </a>
+        </>
+    );
+}
+
 
 export default {
     Overlayheader,
@@ -400,6 +412,7 @@ export default {
     Overlaylogo,
     Overlaymiddleheading,
     EnquireNowButton,
-    HomePopup
+    HomePopup,
+    WhatsappIcon
 }
 

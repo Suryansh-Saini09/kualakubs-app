@@ -42,6 +42,7 @@ createRoot(document.getElementById("root")).render(
       <App />
       <Components.Footer footerLinks={Links.footerLinks} />
        <Components.Overlay.EnquireNowButton/>
+       <Components.Overlay.WhatsappIcon/>
     </HashRouter>
     {/* <Components.ContactBox /> */}
 
