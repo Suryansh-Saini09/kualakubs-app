@@ -249,7 +249,7 @@ export default function CareerForm({ onSubmit, loading }) {
                         <div className="card-body row g-3">
                             <div className="col-md-6">
                                 <label className="form-label">Reference</label>
-                                <input type="text" name="reference" className="form-control" />
+                                <input type="text" name="source_of_information" className="form-control" />
                             </div>
 
                             <div className="col-md-6">
