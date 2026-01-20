@@ -10,7 +10,7 @@ export default function Career() {
 
         try {
             const response = await fetch(
-                "https://school.hachetech.com/API/tp/careers",
+                "https://kkws.gabis.in/API/tp/careers",
                 {
                     method: "POST",
                     body: formData,

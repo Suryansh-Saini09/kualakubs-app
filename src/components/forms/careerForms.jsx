@@ -29,13 +29,13 @@ export default function CareerForm({ onSubmit, loading }) {
         // }
 
         // ===== CONVERT CV TO BASE64 (Backend expects cv in POST) =====
-        const toBase64 = (file) =>
-            new Promise((resolve, reject) => {
-                const reader = new FileReader();
-                reader.readAsDataURL(file);
-                reader.onload = () => resolve(reader.result);
-                reader.onerror = reject;
-            });
+        // const toBase64 = (file) =>
+        //     new Promise((resolve, reject) => {
+        //         const reader = new FileReader();
+        //         reader.readAsDataURL(file);
+        //         reader.onload = () => resolve(reader.result);
+        //         reader.onerror = reject;
+        //     });
 
         const cvBase64 = cv
 

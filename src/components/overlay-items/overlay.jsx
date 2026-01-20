@@ -240,6 +240,48 @@ export function Overlaymiddleheading() {
 
 export function EnquireNowButton() {
     const [show, setShow] = useState(false);
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        const form = e.target;
+        const formData = new FormData(form);
+        const payload = new FormData();
+
+        // api key
+        payload.append("api_key", "school@3534dfjh3245dfgjhgdfjgh!dfgjhk89452kdskjg");
+
+        for (let [key, value] of formData.entries()) {
+            if (key !== "consent") {
+                payload.append(key, value);
+            }
+        }
+        console.log(payload);
+        SubmitEnquiry(payload);
+
+
+    };
+    async function SubmitEnquiry(payload) {
+        try {
+            const response = await fetch(
+                "https://kkws.gabis.in/API/API/tp/inquiry",
+                {
+                    method: "POST",
+                    body: payload
+                }
+            );
+
+            const result = await response.json();
+            console.error("Result", result);
+            return result?.status === true;
+
+        } catch (error) {
+            console.error("Submission error:", error);
+            alert("Error", error);
+            return false;
+        }
+    };
+
+
+
 
     return (
         <>
@@ -323,30 +365,30 @@ export function EnquireNowButton() {
                                     ></button>
                                 </div>
 
-                                <form className="modal-body row g-3">
+                                <form className="modal-body row g-3" onSubmit={handleSubmit}>
                                     <div className="col-md-6">
                                         <label className="form-label">Name *</label>
-                                        <input type="text" className="form-control" required />
+                                        <input type="text" name="applicant_name" className="form-control" required />
                                     </div>
 
                                     <div className="col-md-6">
                                         <label className="form-label">Father Name *</label>
-                                        <input type="text" className="form-control" required />
+                                        <input type="text" name="father_name" className="form-control" required />
                                     </div>
 
                                     <div className="col-md-6">
                                         <label className="form-label">Contact *</label>
-                                        <input type="tel" className="form-control" required />
+                                        <input type="tel" name="contact_number" className="form-control" required />
                                     </div>
 
                                     <div className="col-md-6">
                                         <label className="form-label">Email *</label>
-                                        <input type="email" className="form-control" required />
+                                        <input type="email" name="email" className="form-control" required />
                                     </div>
 
                                     <div className="col-md-12">
                                         <label className="form-label">Class Applying For *</label>
-                                        <select className="form-select" required>
+                                        <select className="form-select" name="class" required>
                                             <option value="">Select</option>
                                             <option>Seedling</option>
                                             <option>Budding</option>
@@ -360,29 +402,25 @@ export function EnquireNowButton() {
 
                                     <div className="col-md-12">
                                         <div className="form-check">
-                                            <input className="form-check-input" type="checkbox" required />
+                                            <input className="form-check-input" name="consent" value="yes" type="checkbox" required />
                                             <label className="form-check-label">
                                                 I agree to receive information regarding my submitted enquiry on Kualakubs World School*
                                             </label>
                                         </div>
                                     </div>
+                                    <div className="modal-footer">
+                                        <button
+                                            className="btn btn-outline-secondary"
+                                            onClick={() => setShow(false)}
+                                        >
+                                            Close
+                                        </button>
+                                        <button className="btn btn-success">
+                                            <i className="bi bi-send me-2"></i>
+                                            Submit
+                                        </button>
+                                    </div>
                                 </form>
-
-                                
-
-                                <div className="modal-footer">
-                                    <button
-                                        className="btn btn-outline-secondary"
-                                        onClick={() => setShow(false)}
-                                    >
-                                        Close
-                                    </button>
-                                    <button className="btn btn-success">
-                                        <i className="bi bi-send me-2"></i>
-                                        Submit
-                                    </button>
-                                </div>
-
                             </div>
                         </div>
                     </div>
@@ -394,13 +432,13 @@ export function EnquireNowButton() {
     );
 }
 
-export function WhatsappIcon(){
+export function WhatsappIcon() {
     return (
         <>
-           <a href="https://wa.me/919996648317?text=Hello%20I%20need%20more%20information" target="_blank">
-            <img src={WPIcon} alt="Chat on whatsapp with apwebstack"
-                className='whatsapp-btn img-fluid'/>
-         </a>
+            <a href="https://wa.me/919996648317?text=Hello%20I%20need%20more%20information" target="_blank">
+                <img src={WPIcon} alt="Chat on whatsapp with apwebstack"
+                    className='whatsapp-btn img-fluid' />
+            </a>
         </>
     );
 }

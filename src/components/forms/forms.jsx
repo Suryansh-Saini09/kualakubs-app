@@ -1,8 +1,34 @@
 export default function EnquireForm() {
+
+      const handleSubmit = async (e) => {
+            e.preventDefault();
+            const form = e.target;
+            const formData = new FormData(form);
+            const payload = new FormData();
+            
+            // api key
+            payload.append("api_key", "school@3534dfjh3245dfgjhgdfjgh!dfgjhk89452kdskjg");
+            
+            for(let [key, value] of formData.entries()){
+                payload.append(key, value);
+            }
+            console.log(payload);
+            // const success = await SubmitEnquiry(payload);
+
+            // if (success) {
+            //    form.reset();
+            //  }
+        };
+
+
+        async function SubmitEnquiry(payload) {
+            
+        };
     return (
 
+    
         <>
-            <form className="modal-body row g-3">
+            <form className="modal-body row g-3" onSubmit={handleSubmit}>
                 <div className="col-md-6">
                     <label className="form-label">Name *</label>
                     <input type="text" className="form-control" required />
