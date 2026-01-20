@@ -43,6 +43,7 @@ createRoot(document.getElementById("root")).render(
       <Components.Footer footerLinks={Links.footerLinks} />
        <Components.Overlay.EnquireNowButton/>
        <Components.Overlay.WhatsappIcon/>
+       {/* <Components.chatBot /> */}
     </HashRouter>
     {/* <Components.ContactBox /> */}
 

@@ -8,6 +8,7 @@ import Footer from "./footer/Footer";
 import Gallery from "./gallery/gallery";
 import Videobox from "./video-box/videobox";
 import TableComponent from "./Table/table";
+import chatBot from "./chatbot/SchoolChatBot"
 
 
 export default {
@@ -20,5 +21,6 @@ export default {
     Footer,
     Gallery,
     Videobox,
-    TableComponent
+    TableComponent,
+    chatBot
 };
