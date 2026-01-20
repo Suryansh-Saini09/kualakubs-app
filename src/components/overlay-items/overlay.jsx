@@ -239,6 +239,7 @@ export function Overlaymiddleheading() {
 
 
 export function EnquireNowButton() {
+    const [show, setShow] = useState(false);
     const [loading, setLoading] = useState(false);
 
     const handleSubmit = async (e) => {
@@ -297,7 +298,6 @@ export function EnquireNowButton() {
             setLoading(false);
         }
     };
-
 
     return (
         <>
@@ -431,9 +431,9 @@ export function EnquireNowButton() {
                                         >
                                             Close
                                         </button>
-                                        <button className="btn btn-success" disabled={loading}>
+                                        <button className="btn btn-success">
                                             <i className="bi bi-send me-2"></i>
-                                            {loading ? "Submitting..." : "Submit"}
+                                            Submit
                                         </button>
                                     </div>
                                 </form>
