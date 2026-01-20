@@ -262,7 +262,7 @@ export function EnquireNowButton() {
     async function SubmitEnquiry(payload) {
         try {
             const response = await fetch(
-                "https://kkws.gabis.in/API/API/tp/inquiry",
+                "https://kkws.gabis.in/API/tp/inquiry",
                 {
                     method: "POST",
                     body: payload
