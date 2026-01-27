@@ -331,7 +331,7 @@ export function EnquireNowButton() {
 
                                         width="100%"
 
-                                        height="700"
+                                        height="500"
 
                                         style={{ border: "none", borderRadius: "8px", overflow: "hidden" }}
 
