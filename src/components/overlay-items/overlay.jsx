@@ -253,7 +253,7 @@ export function EnquireNowButton() {
         const formData = new FormData(form);
         const payload = new FormData();
 
-        // API key
+
         payload.append(
             "api_key",
             "school@3534dfjh3245dfgjhgdfjgh!dfgjhk89452kdskjg"
@@ -381,62 +381,25 @@ export function EnquireNowButton() {
                                     ></button>
                                 </div>
 
-                                <form className="modal-body row g-3" onSubmit={handleSubmit}>
-                                    <div className="col-md-6">
-                                        <label className="form-label">Name *</label>
-                                        <input type="text" name="applicant_name" className="form-control" required />
-                                    </div>
+                                <div className="modal-body row g-3" >
 
-                                    <div className="col-md-6">
-                                        <label className="form-label">Father Name *</label>
-                                        <input type="text" name="father_name" className="form-control" required />
-                                    </div>
+                                    <iframe
 
-                                    <div className="col-md-6">
-                                        <label className="form-label">Contact *</label>
-                                        <input type="tel" name="contact_number" className="form-control" required />
-                                    </div>
+                                        src="https://form.edmissioncrm.com/form-preview/91e55576-03df-49a6-9dbc-3d6be49b707f"
 
-                                    <div className="col-md-6">
-                                        <label className="form-label">Email *</label>
-                                        <input type="email" name="email" className="form-control" required />
-                                    </div>
+                                        width="100%"
 
-                                    <div className="col-md-12">
-                                        <label className="form-label">Class Applying For *</label>
-                                        <select className="form-select" name="class" required>
-                                            <option value="">Select</option>
-                                            <option>Seedling</option>
-                                            <option>Budding</option>
-                                            <option>Blooming</option>
-                                            <option>Exceeding</option>
-                                            {[...Array(12)].map((_, i) => (
-                                                <option key={i}>Grade {i + 1}</option>
-                                            ))}
-                                        </select>
-                                    </div>
+                                        height="700"
 
-                                    <div className="col-md-12">
-                                        <div className="form-check">
-                                            <input className="form-check-input" name="consent" value="yes" type="checkbox" required />
-                                            <label className="form-check-label">
-                                                I agree to receive information regarding my submitted enquiry on Kualakubs World School*
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div className="modal-footer">
-                                        <button
-                                            className="btn btn-outline-secondary"
-                                            onClick={() => setShow(false)}
-                                        >
-                                            Close
-                                        </button>
-                                        <button className="btn btn-success">
-                                            <i className="bi bi-send me-2"></i>
-                                            Submit
-                                        </button>
-                                    </div>
-                                </form>
+                                        style={{ border: "none", borderRadius: "8px", overflow: "hidden" }}
+
+                                        allowFullScreen
+
+                                        loading="lazy"
+
+                                    ></iframe>
+
+                                </div>
                             </div>
                         </div>
                     </div>
