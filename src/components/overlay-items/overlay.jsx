@@ -240,65 +240,7 @@ export function Overlaymiddleheading() {
 
 export function EnquireNowButton() {
     const [show, setShow] = useState(false);
-    const [loading, setLoading] = useState(false);
-
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-
-        if (loading) return;
-
-        setLoading(true);
-
-        const form = e.target;
-        const formData = new FormData(form);
-        const payload = new FormData();
-
-
-        payload.append(
-            "api_key",
-            "school@3534dfjh3245dfgjhgdfjgh!dfgjhk89452kdskjg"
-        );
-
-        for (let [key, value] of formData.entries()) {
-            if (key !== "consent") {
-                payload.append(key, value);
-            }
-        }
-
-        try {
-            const response = await fetch(
-                "https://kkws.gabis.in/API/tp/inquiry",
-                {
-                    method: "POST",
-                    body: payload
-                }
-            );
-
-            // If CORS blocks response body, this may fail
-            let result = null;
-            try {
-                result = await response.json();
-            } catch (parseError) {
-                console.warn("Response body blocked by CORS");
-            }
-
-            if (response.ok) {
-                alert("Your enquiry has been submitted successfully.");
-                form.reset();
-                setShow(false);
-            } else {
-                alert("Submission failed. Please try again.");
-                console.error("API error response:", result);
-            }
-
-        } catch (error) {
-            console.error("Network / CORS error:", error);
-            alert("Unable to submit enquiry at the moment.");
-        } finally {
-            setLoading(false);
-        }
-    };
-
+   
     return (
         <>
             {/* ================= LEFT VERTICAL CTA ================= */}
