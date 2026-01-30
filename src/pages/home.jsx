@@ -56,7 +56,7 @@ export default function Home() {
                 </div>
                 { /* Dividersection */}
                 <div className="divider container-fluid d-flex justify-content-center align-items-center p-3 p-sm-1 p-md-2" id="slidedown" >
-                    A new-age school built on timeless values nurturing intellect, creativity, and character in the heart of Gurugram.
+                    A new-age school built on timeless values nurturing intellect, creativity, and character in the heart of DLF New Town Heights,Sector 86, Gurugram.
                 </div>
 
                 <Components.Contentlayout.AboutContentLayout />
