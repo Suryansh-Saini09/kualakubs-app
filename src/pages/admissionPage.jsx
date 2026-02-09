@@ -43,7 +43,13 @@ export default function Admissions() {
         <p className="lead mb-4">Playgroup to Class 12</p>
 
         <a
-          href="#process"
+          href="#"
+                    onClick={(e) => {
+                        e.preventDefault();
+                        document
+                            .getElementById("process")
+                            ?.scrollIntoView({ behavior: "smooth", block: "start" });
+                    }}
           className="btn btn-outline-light rounded-0 px-4 py-2 fw-semibold"
         >
           View Process →
@@ -273,15 +279,15 @@ export default function Admissions() {
           </form>
         </div>
       </section> */}
-      
-     
-      <div className="admissions-wrapper">
-       
+
+
+      <div className="admissions-wrapper" id="process">
+
         <section className="admission-block">
           <div className="container">
             <div className="row align-items-center">
-         
-              <div className="col-lg-6" data-aos="fade-right" id="process">
+
+              <div className="col-lg-6" data-aos="fade-right" >
                 <h3 className="admission-title">Admission Process</h3>
 
                 <ol className="admission-list">
@@ -292,15 +298,30 @@ export default function Admissions() {
                 </ol>
               </div>
 
-           
+
               <div className="col-lg-6 text-center" data-aos="fade-left">
-                <img
+                {/* <img
                   src="https://www.westminster.org.uk/wp-content/uploads/2025/03/Yard-scaled.jpg"
                   alt=""
                   className="img-fluid rounded"
-                />
+                /> */}
+                <iframe
+
+                  src="https://form.edmissioncrm.com/form-preview/7ab0060d-c4d1-4c23-bc52-b9f35527847e"
+
+                  width="100%"
+
+                  height="500"
+
+                  style={{ border: "none", borderRadius: "8px", overflow: "hidden" }}
+
+                  allowFullScreen
+
+                  loading="lazy"
+
+                ></iframe>
                 {/* <EnquireForm /> */}
-                
+
               </div>
             </div>
           </div>
