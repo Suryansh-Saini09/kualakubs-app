@@ -19,6 +19,7 @@ const OurCampus = lazy(() => import("../pages/ourcampus"));
 //const LifeSkills = lazy(() => import("../pages/lifeskillspage"));
 const Campus_Facilities = lazy(() => import("../pages/Campus_Facilities"));
 const Career = lazy(() => import("../pages/career"));
+const Privacy = lazy(() => import("../pages/privacy"));
 // ... repeat for other pages
 
 const routes = [
@@ -38,6 +39,7 @@ const routes = [
   //{path: "/life-skills", element: createElement(LifeSkills)},
   {path: "/campus-facilities", element: createElement(Campus_Facilities)},
   {path: "/career", element: createElement(Career)},
+  {path: "/privacy-policy", element: createElement(Privacy)},
   // ... add more routes here
 ];
 

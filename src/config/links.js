@@ -31,6 +31,7 @@ export const footerLinks = [
              { path: "/why-kualakubs", pathname: "Why kualakubs" },
             { path: "/career", pathname: "Careers" },
             { path: "https://kualakubsgurugram.in/", pathname: "Kualakubs Pre School" },
+            { path: "/privacy-policy", pathname: "Privacy Policy" }
         ],
     },
     {
