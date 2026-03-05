@@ -79,7 +79,7 @@ export default function Home() {
                 >
                     <h4 className="me-3 p-2 mb-0 fw-semibold" style={{ whiteSpace: "nowrap" }}>Latest News:</h4>
                     <marquee width="100%" className="p-2" direction="left" height="50px" style={{ color: "#192d45" }}>
-                        A new formal CBSE school is coming soon, and admissions will open for the academic year 2026–27, from Playgroup to Grade 12. For more details, please contact us at +91-9996648317
+                        🎓 Kualakubs World School Welcomes You! Admissions Open with Limited Period Inaugural Concessions for Early Registrations.
                     </marquee>
                 </div>
 
