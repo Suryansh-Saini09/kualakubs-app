@@ -1,12 +1,13 @@
 
 import PageHeader from "../components/PageHeader";
 import aboutlogo from "../assets/logowhite.png";
+import aboutImg from "../assets/about_image.jpeg";
 export default function About() {
   return (
     <>
       <PageHeader
         title="About Us"
-        backgroundImage="https://kualakubsworldschool.com/assets/about_image.jpeg"
+        backgroundImage={aboutImg}
         breadcrumb={[
           { label: "Home", link: "/" },
           { label: "About Us", active: true },
