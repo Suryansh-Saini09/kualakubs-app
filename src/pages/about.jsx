@@ -6,7 +6,7 @@ export default function About() {
     <>
       <PageHeader
         title="About Us"
-        backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"
+        backgroundImage="https://kualakubsworldschool.com/assets/about_image.jpeg"
         breadcrumb={[
           { label: "Home", link: "/" },
           { label: "About Us", active: true },
