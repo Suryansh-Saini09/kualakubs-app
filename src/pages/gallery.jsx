@@ -21,7 +21,7 @@ export default function Gallery({ folder = "gallery" }) {
           { label: "Gallery", active: true },
         ]}
       />
-        <h4 className="text-center"><i>Coming soon.....</i></h4>
+        {/* <h4 className="text-center"><i>Coming soon.....</i></h4> */}
         <div className="container">
       <div className="row g-3 my-5">
 
