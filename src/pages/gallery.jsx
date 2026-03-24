@@ -1,7 +1,16 @@
 
 import PageHeader from "../components/PageHeader";
 
-export default function Gallery() {
+const allImages = import.meta.glob("/src/assets/**/*.{png,jpg,jpeg,webp}", {
+  eager: true,
+  import: "default",
+});
+
+export default function Gallery({ folder = "gallery" }) {
+    const images = Object.entries(allImages)
+    .filter(([path]) => path.includes(`/assets/${folder}/`))
+    .map(([, src]) => src);
+
   return (
     <>
       <PageHeader
@@ -13,83 +22,19 @@ export default function Gallery() {
         ]}
       />
         <h4 className="text-center"><i>Coming soon.....</i></h4>
-      {/* <section className="py-5">
         <div className="container">
-          <div className="row g-3">
+      <div className="row g-3 my-5">
 
-            <div className="col-6 col-md-4 col-lg-3">
-              <img
-                src="https://dummyimage.com/600x400/000/fff"
-                alt="Gallery"
-                className="img-fluid rounded"
-              />
+        {images.map((src, index) => (
+          <div key={index} className="col-6 col-md-4 col-lg-3">
+            <div className="gallery-item">
+              <img src={src} className="img-fluid rounded" alt={`img-${index}`} />
             </div>
-
-          
-            <div className="col-6 col-md-4 col-lg-3">
-              <img
-                src="https://dummyimage.com/600x400/000/fff"
-                alt="Gallery"
-                className="img-fluid rounded"
-              />
-            </div>
-
-           
-            <div className="col-6 col-md-4 col-lg-3">
-              <img
-                src="https://dummyimage.com/600x400/000/fff"
-                alt="Gallery"
-                className="img-fluid rounded"
-              />
-            </div>
-
-            
-            <div className="col-6 col-md-4 col-lg-3">
-              <img
-                src="https://dummyimage.com/600x400/000/fff"
-                alt="Gallery"
-                className="img-fluid rounded"
-              />
-            </div>
-
-            <div className="col-6 col-md-4 col-lg-3">
-              <img
-                src="https://dummyimage.com/600x400/000/fff"
-                alt="Gallery"
-                className="img-fluid rounded"
-              />
-            </div>
-
-           
-            <div className="col-6 col-md-4 col-lg-3">
-              <img
-                src="https://dummyimage.com/600x400/000/fff"
-                alt="Gallery"
-                className="img-fluid rounded"
-              />
-            </div>
-
-          
-            <div className="col-6 col-md-4 col-lg-3">
-              <img
-                src="https://dummyimage.com/600x400/000/fff"
-                alt="Gallery"
-                className="img-fluid rounded"
-              />
-            </div>
-
-           
-            <div className="col-6 col-md-4 col-lg-3">
-              <img
-                src="https://dummyimage.com/600x400/000/fff"
-                alt="Gallery"
-                className="img-fluid rounded"
-              />
-            </div>
-
           </div>
-        </div>
-      </section> */}
+        ))}
+
+      </div>
+    </div>
 
     </>
   );
