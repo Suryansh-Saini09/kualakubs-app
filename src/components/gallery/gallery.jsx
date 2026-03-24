@@ -30,7 +30,7 @@ export function Gallery({ galleryItems, h, p }) {
                                             src={item.img}
                                             className="img-fluid object-fit-cover h-100 w-100"
                                             alt={item.text}
-                                            style={{minHeight: "226px"}}
+                                            style={{minHeight: "226px", height: "226px"}}
                                         />
                                         <span className="gallery-img-text position-absolute">
                                             {item.text}
