@@ -5,7 +5,7 @@ import Schoolife from "../assets/classroom_activity.png";
 import Partnership from "../assets/partnership_image.png";
 import Acadmiclife from "../assets/adacimiclife_image.png";
 import Admissions from "../assets/Admission_image.png";
-import Building from "../assets/latest_news_KK.jpg"
+import Building from "../assets/about_image.jpeg"
 
 export default function Home() {
 
