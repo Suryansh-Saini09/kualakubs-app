@@ -3,6 +3,7 @@ import PageHeader from "../components/PageHeader.jsx";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../styles/whyChoose.css";
+import SEO from "../components/SEO.jsx";
 
 
 export default function WhyChoose() {
@@ -17,6 +18,9 @@ export default function WhyChoose() {
 
     return (
         <main>
+            <SEO
+            title="Kualakubs World School – Why Choose Us for Holistic Education"
+            description="A balanced approach to education that blends academics, creativity, and life skills to nurture confident, future-ready learners."/>
             {/* TOP HEADER SECTION */}
             <PageHeader
                 title="Why Choose Kualakubs?"
@@ -65,6 +69,7 @@ export default function WhyChoose() {
                     {/* Bottom Statement */}
                     <div className="text-center mt-5" data-aos="fade-up">
                         <h3 className="usp-endline">Kualakubs is where potential becomes success.</h3>
+                        <p>Recognized among the top schools in Gurgaon, Kualakubs nurtures every child with a perfect blend of academic excellence, creativity, and life skills, shaping confident and future-ready learners.</p>
                     </div>
                 </div>
             </section>
@@ -184,6 +189,7 @@ export default function WhyChoose() {
                             <p className="mt-5 fw-semibold text-primary">
                                 We prepare students not just for exams — <span className="highlight">but to excel in life.</span>
                             </p>
+                            <p>As one of the top-rated schools in Gurgaon, we focus on holistic development, empowering students with skills, confidence, and values for lifelong success.</p>
 
                         </div>
                     </div>

@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import SEO from "../components/SEO";
 
 export default function OurCampus() {
     useEffect(() => {
@@ -33,7 +34,10 @@ export default function OurCampus() {
 
     return (
         <>
-
+        <SEO
+            title="KWS Gurgaon – Explore Our Modern Campuses & Learning Spaces"
+            description="Discover well-designed campuses with modern infrastructure, safe environments, and spaces that support learning, creativity, and growth."
+        />
             <PageHeader
                 title="Our Campuses"
                 backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"

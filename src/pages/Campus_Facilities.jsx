@@ -1,11 +1,13 @@
 import PageHeader from "../components/PageHeader";
 import { Link } from "react-router-dom";
+import SEO from "../components/SEO";
 
 export default function Campus_Facilities() {
 
     return (
         <>
-
+        <SEO title="Kualakubs World School – Best Preschool Near Me with Modern Campus Facilities"
+        description="A thoughtfully designed campus that inspires creativity, innovation, and holistic growth through modern infrastructure and student-friendly spaces."/>
             <PageHeader
                 title="Campus Facilites"
                 backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"
@@ -137,7 +139,7 @@ export default function Campus_Facilities() {
                     {/* Heading */}
                     <div
                         className="text-center mx-auto mb-5 facilities-float-slow"
-                        style={{ maxWidth: "720px" }}
+                        style={{ maxWidth: "1080px" }}
                     >
                         <span
                             className="d-inline-block py-1 px-4 rounded-pill fw-bold text-primary border border-primary mb-3"
@@ -151,8 +153,7 @@ export default function Campus_Facilities() {
                         </h1>
 
                         <p className="fs-5 text-muted">
-                            Our campus is designed to inspire learning, innovation, creativity,
-                            and holistic growth. Every space empowers students to become future-ready.
+                            Our campus is designed to inspire learning, innovation, creativity, and holistic growth. Every space empowers students to become future-ready, making us a trusted choice for parents searching for the best preschool near me.
                         </p>
                     </div>
 

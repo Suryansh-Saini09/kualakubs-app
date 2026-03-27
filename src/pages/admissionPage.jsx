@@ -7,6 +7,7 @@ import PageHeader from "../components/PageHeader.jsx";
 // AOS
 import AOS from "aos";
 import "aos/dist/aos.css";
+import SEO from "../components/SEO.jsx";
 
 export default function Admissions() {
   useEffect(() => {
@@ -20,6 +21,13 @@ export default function Admissions() {
 
   return (
     <main>
+
+      <SEO
+        title="Admissions Open 2026–27 | Kualakubs World School Gurugram – Admission Open in Gurgaon School"
+        description="Explore a simple admission process with guided support, campus tours, and easy enrollment for a smooth start to your child’s learning journey."
+      />
+
+
       <PageHeader
         title="Admissions"
         backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"
@@ -38,7 +46,7 @@ export default function Admissions() {
           <i>Admissions Open</i>
         </h5>
 
-        <h1 className="hero-title mb-2">Admissions 2026–27</h1>
+        <h2 className="hero-title mb-2">Admissions 2026–27</h2>
 
         <p className="lead mb-4">Playgroup to Class 12</p>
 
@@ -285,6 +293,7 @@ export default function Admissions() {
 
         <section className="admission-block">
           <div className="container">
+            <h2 className="text-center fs-4 mb-5 fw-bold fst-italic">Admission Open in Gurgaon School – Discover quality education and holistic development at Kualakubs World School, Gurugram.</h2>
             <div className="row align-items-center">
 
               <div className="col-lg-6" data-aos="fade-right" >

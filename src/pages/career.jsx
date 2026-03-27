@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import PageHeader from "../components/PageHeader";
 import CareerForm from "../components/forms/careerForms";
+import SEO from "../components/SEO";
 
 export default function Career() {
     const [loading, setLoading] = useState(false);
@@ -38,6 +39,10 @@ export default function Career() {
 
     return (
         <>
+        <SEO
+            title="Careers at Kualakubs World School | Join Our Teaching & Staff Team"
+            description="Explore career opportunities in teaching and administration. Join a dynamic environment focused on growth, learning, and professional development."
+        />
             <PageHeader
                 title="Career"
                 backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"

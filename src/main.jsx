@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 //import { BrowserRouter } from "react-router-dom";
-import { HashRouter  } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import "./index.css";
 import App from "./App.jsx";
 
@@ -11,17 +11,16 @@ import * as Overlay from "./components/overlay-items/overlay.jsx";
 import * as Links from "./config/links.js";
 import Components from "./components/manage.js";
 import ScrollToTop from "./components/scoller.jsx";
-
-
+import { HelmetProvider } from "react-helmet-async";
 
 createRoot(document.getElementById("root")).render(
   // <StrictMode>
   //   <BrowserRouter>
-     
+
   //   <ScrollToTop />
   //     {/**<Navbar /> */}
   //     <OffcanvasNavbar />
-      
+
   //     <Overlay.Overlayheader headerlinks={Links.overlayheaderlink} />
   //     <App />
   //     <Components.Footer footerLinks={Links.footerLinks} />
@@ -31,21 +30,21 @@ createRoot(document.getElementById("root")).render(
 
   // </StrictMode>
 
-   <StrictMode>
-    <HashRouter>
-     
-    <ScrollToTop />
-      {/**<Navbar /> */}
-      <OffcanvasNavbar />
-      
-      <Overlay.Overlayheader headerlinks={Links.overlayheaderlink} />
-      <App />
-      <Components.Footer footerLinks={Links.footerLinks} />
-       <Components.Overlay.EnquireNowButton/>
-       <Components.Overlay.WhatsappIcon/>
-       {/* <Components.chatBot /> */}
-    </HashRouter>
-    {/* <Components.ContactBox /> */}
+  <StrictMode>
+    <HelmetProvider>
+      <HashRouter>
+        <ScrollToTop />
+        {/**<Navbar /> */}
+        <OffcanvasNavbar />
 
-  </StrictMode>
+        <Overlay.Overlayheader headerlinks={Links.overlayheaderlink} />
+        <App />
+        <Components.Footer footerLinks={Links.footerLinks} />
+        <Components.Overlay.EnquireNowButton />
+        <Components.Overlay.WhatsappIcon />
+        {/* <Components.chatBot /> */}
+      </HashRouter>
+      {/* <Components.ContactBox /> */}
+    </HelmetProvider>
+  </StrictMode>,
 );

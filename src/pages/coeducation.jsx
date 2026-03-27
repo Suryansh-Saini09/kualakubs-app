@@ -13,7 +13,9 @@ export default function CoEducation() {
     }, []);
     return (
         <>
-
+        <SEO
+            title="Kualakubs World School – One of the Best Schools in Gurgaon for Co-Education"
+            description="A balanced co-educational environment where students grow with confidence, respect, and collaboration, building strong social and life skills."/>
             <PageHeader
                 title="Co-Education"
                 backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"
@@ -35,10 +37,7 @@ export default function CoEducation() {
                         <div className="row mt-4">
                             <div className="col-md-10 offset-md-1">
                                 <p className="lead text-center">
-                                    At Kualakubs World School, our co-educational environment encourages
-                                    students to grow together with confidence, respect, and understanding.
-                                    We believe boys and girls learn best when they learn with each other —
-                                    developing social awareness, empathy, and collaborative thinking.
+                                    At Kualakubs World School, our co-educational environment encourages students to grow together with confidence, respect, and understanding. We believe boys and girls learn best when they learn with each other—developing social awareness, empathy, and collaborative thinking, making us one of the best schools in Gurgaon.
                                 </p>
 
                                 <div className="p-4 border rounded bg-white shadow-sm mt-4" data-aos="fade-right">

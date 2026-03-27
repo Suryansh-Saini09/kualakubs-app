@@ -1,7 +1,14 @@
 import PageHeader from "../components/PageHeader";
+import SEO from "../components/SEO";
 export default function Privacy() {
   return (
     <>
+
+    <SEO
+      title=" Privacy Policy | Kualakubs World School"
+      description="Learn how we collect, use, and protect your personal information to ensure a safe and secure experience on our website."
+    />
+
       <PageHeader
         title="Privacy Policy"
         backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"

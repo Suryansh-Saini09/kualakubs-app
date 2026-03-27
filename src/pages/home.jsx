@@ -6,6 +6,7 @@ import Partnership from "../assets/partnership_image.png";
 import Acadmiclife from "../assets/adacimiclife_image.png";
 import Admissions from "../assets/Admission_image.png";
 import Building from "../assets/about_image.jpeg"
+import SEO from "../components/SEO.jsx";
 
 export default function Home() {
 
@@ -22,7 +23,7 @@ export default function Home() {
         },
         {
             img: Acadmiclife,
-            text: "ACADEMIC LIFE",
+            text: "CAMPUS FACILITIES",
             link: "/campus-facilities",
         },
         {
@@ -43,6 +44,10 @@ export default function Home() {
     ];
     return (
         <>
+        <SEO
+        title="Kualakubs World School – best CBSE schools in Gurgaon for Future-Ready Learning"
+        description="A nurturing school focused on academic excellence, life skills, and holistic growth with modern teaching and a safe learning environment."
+      />
         { /* Main section  */}
             <main>
                 <Components.Overlay.HomePopup />

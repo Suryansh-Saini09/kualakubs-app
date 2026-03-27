@@ -2,6 +2,7 @@ import PageHeader from "../components/PageHeader";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import SEO from "../components/SEO";
 
 
 export default function Partnerships() {
@@ -12,7 +13,10 @@ export default function Partnerships() {
 
     return (
         <>
-
+        <SEO
+            title="Kualakubs World School – Strong Partnerships for Enhanced Learning Experiences"
+            description="Collaborations with educators and organizations that enrich learning, broaden exposure, and create meaningful opportunities for students."
+        />
             <PageHeader
                 title="Our Partnerships"
                 backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"

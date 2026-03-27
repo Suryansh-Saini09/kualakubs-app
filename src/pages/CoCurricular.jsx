@@ -1,10 +1,14 @@
 import PageHeader from "../components/PageHeader";
+import SEO from "../components/SEO";
 
 export default function CoCurricular() {
 
     return (
         <>
-
+        <SEO
+         title="Kualakubs World School Gurugram – Co-Curricular Activities for Holistic Development"
+         description="Engaging activities that nurture creativity, confidence, teamwork, and talent beyond academics for well-rounded student growth."
+        />
             <PageHeader
                 title="Co-Curricular Programs"
                 backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"
@@ -131,9 +135,7 @@ export default function CoCurricular() {
                     <div className="text-center mb-5">
                         <h2 className="fw-bold">Co-Curricular Programmes at Kualakubs World School</h2>
                         <p className="text-muted mt-2">
-                            At Kualakubs World School, co-curricular activities are an essential part
-                            of holistic learning. Students explore creativity, leadership, teamwork,
-                            and real-world skills beyond the classroom.
+                            At Kualakubs World School Gurugram, co-curricular activities play a vital role in nurturing creativity, confidence, and overall personality development beyond academics.
                         </p>
                     </div>
 

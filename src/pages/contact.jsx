@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 // import Components from "../components/manage.js";
 // import * as Links from "../config/links.js";
 import PageHeader from "../components/PageHeader.jsx";
+import SEO from "../components/SEO.jsx";
 
 
 export default function Contact() {
@@ -10,6 +11,10 @@ export default function Contact() {
     return (
         <>
 
+        <SEO
+            title="Contact Kualakubs World School | School Admission in Gurgaon – Get in Touch with Our Team"
+            description="Reach out for admissions, queries, or campus visits. Connect with our team for guidance and support on your child’s learning journey."
+        />
 
             <PageHeader
                 title="Contact Us"
@@ -28,10 +33,11 @@ export default function Contact() {
 
                             <div className="bg-white shadow rounded-4 p-5">
 
-                                <h2 className="fw-bold text-center mb-4">Contact Us</h2>
+                                <h2 className="fw-bold text-center mb-2">Contact Us</h2>
+                                <p className="text-center">Searching for a school in Gurugram?<br/> Get in touch with us for admissions details, campus visits, or any help</p>
 
                                 {/* Phone & Email - Same Row */}
-                                <div className="row g-4 mb-4">
+                                <div className="row g-4 my-4">
 
                                     {/* Phone */}
                                     <div className="col-md-6">

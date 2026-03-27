@@ -5,6 +5,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import MagicCard from "../components/Magiccard.jsx";
+import SEO from "../components/SEO.jsx";
 
 // school life page
 
@@ -54,6 +55,11 @@ export default function SchoolLife() {
     return (
 
         <>
+            <SEO
+                title="Kualakubs World School – Among Top CBSE Schools in Gurgaon for Enriching School Life"
+                description="A vibrant school life with meaningful experiences that inspire creativity, build character, and support lifelong learning and overall growth."
+            />
+            
             <PageHeader
                 title="School Life"
                 backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"
@@ -123,7 +129,7 @@ export default function SchoolLife() {
                     {/* Footer */}
                     <div className="text-center mt-5" data-aos="fade-up">
                         <p style={{ color: "var(--text-color)", maxWidth: "850px" }} className="mx-auto">
-                            At Kualakubs, school life is shaped by meaningful experiences that inspire learning, encourage creativity, and build strong character. We aim to provide a foundation that supports lifelong success and a love for learning.
+                            At Kualakubs, school life is shaped by meaningful experiences that inspire learning, encourage creativity, and build strong character. We aim to provide a foundation that supports lifelong success and a love for learning, placing us among the top CBSE schools in Gurgaon.
                         </p>
                     </div>
 
@@ -233,7 +239,7 @@ export default function SchoolLife() {
         
                     <div className="text-center mt-5" data-aos="fade-up">
                         <p style={{ color: "var(--text-color)", maxWidth: "850px" }} className="mx-auto">
-                            At Kualakubs, school life is shaped by meaningful experiences that inspire learning, encourage creativity, and build strong character. We aim to provide a foundation that supports lifelong success and a love for learning.
+                            At Kualakubs, school life is shaped by meaningful experiences that inspire learning, encourage creativity, and build strong character. We aim to provide a foundation that supports lifelong success and a love for learning, placing us among the top CBSE schools in Gurgaon.
                         </p>
                     </div>
 
