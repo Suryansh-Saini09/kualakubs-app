@@ -47,9 +47,7 @@ export default function FutureSection() {
                 children for today, but to empower them for a rapidly changing
                 tomorrow.
               </p>
-              <p className="text-center">
-                We are committed to building a school environment that nurtures innovation, resilience, and lifelong learning. Every initiative, every classroom, and every program is thoughtfully designed with the future in mind, positioning us among the top-rated schools in Gurgaon.
-              </p>
+
             </div>
           </div>
 
@@ -134,6 +132,9 @@ export default function FutureSection() {
               </div>
             </div>
           </div>
+              <p className="text-center mt-4">
+                We are committed to building a school environment that nurtures innovation, resilience, and lifelong learning. Every initiative, every classroom, and every program is thoughtfully designed with the future in mind, positioning us among the top-rated schools in Gurgaon.
+              </p>
         </div>
       </section>
     </>

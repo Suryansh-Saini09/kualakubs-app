@@ -2,6 +2,7 @@ import PageHeader from "../components/PageHeader";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import SEO from "../components/SEO";
 export default function CoEducation() {
     useEffect(() => {
         AOS.init({
