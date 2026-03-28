@@ -1,6 +1,7 @@
 import PageHeader from "../components/PageHeader";
 import aboutlogo from "../assets/logowhite.png";
 import aboutImg from "../assets/about_image.jpeg";
+import SEO from "../components/SEO";
 export default function About() {
   return (
     <>
