@@ -19,7 +19,7 @@ export default function WhyChoose() {
     return (
         <main>
             <SEO
-            title="Kualakubs World School – Why Choose Us for Holistic Education"
+            title="Why Choose Us for Holistic Education"
             description="A balanced approach to education that blends academics, creativity, and life skills to nurture confident, future-ready learners."/>
             {/* TOP HEADER SECTION */}
             <PageHeader

@@ -16,7 +16,7 @@ export default function FutureSection() {
   return (
     <>
       <SEO
-        title="Kualakubs World School – Top Rated Schools in Gurgaon for Future-Ready Learning"
+        title="Top Rated Schools in Gurgaon for Future-Ready Learning"
         description="A forward-thinking school fostering innovation, resilience, and lifelong learning through thoughtfully designed programs and future-focused education."
       />
       <PageHeader

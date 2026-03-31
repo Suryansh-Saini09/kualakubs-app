@@ -15,7 +15,7 @@ export default function CoEducation() {
     return (
         <>
         <SEO
-            title="Kualakubs World School – One of the Best Schools in Gurgaon for Co-Education"
+            title="One of the Best Schools in Gurgaon for Co-Education"
             description="A balanced co-educational environment where students grow with confidence, respect, and collaboration, building strong social and life skills."/>
             <PageHeader
                 title="Co-Education"

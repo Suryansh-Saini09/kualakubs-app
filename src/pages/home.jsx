@@ -45,7 +45,7 @@ export default function Home() {
     return (
         <>
         <SEO
-        title="Kualakubs World School – best CBSE schools in Gurgaon for Future-Ready Learning"
+        title="Best CBSE School in Gurgaon for Future-Ready Learning"
         description="A nurturing school focused on academic excellence, life skills, and holistic growth with modern teaching and a safe learning environment."
       />
         { /* Main section  */}

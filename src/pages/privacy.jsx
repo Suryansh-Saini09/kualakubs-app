@@ -5,7 +5,7 @@ export default function Privacy() {
     <>
 
     <SEO
-      title=" Privacy Policy | Kualakubs World School"
+      title="Privacy Policy | Kualakubs World School"
       description="Learn how we collect, use, and protect your personal information to ensure a safe and secure experience on our website."
     />
 

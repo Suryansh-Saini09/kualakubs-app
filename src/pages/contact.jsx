@@ -12,7 +12,7 @@ export default function Contact() {
         <>
 
         <SEO
-            title="Contact Kualakubs World School | School Admission in Gurgaon – Get in Touch with Our Team"
+            title="School Admission in Gurgaon | Contact Kualakubs"
             description="Reach out for admissions, queries, or campus visits. Connect with our team for guidance and support on your child’s learning journey."
         />
 

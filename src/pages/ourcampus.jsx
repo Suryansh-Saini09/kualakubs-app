@@ -35,7 +35,7 @@ export default function OurCampus() {
     return (
         <>
         <SEO
-            title="KWS Gurgaon – Explore Our Modern Campuses & Learning Spaces"
+            title="KWS Gurgaon – Modern Campuses & Learning Spaces"
             description="Discover well-designed campuses with modern infrastructure, safe environments, and spaces that support learning, creativity, and growth."
         />
             <PageHeader
