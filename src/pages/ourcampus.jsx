@@ -50,6 +50,7 @@ export default function OurCampus() {
                 <div className="text-center mb-5">
                     <h2 className="fw-bold">Our Journey</h2>
                     <p className="text-muted">Milestones of growth and excellence</p>
+                    <p>KWS Gurgaon offers a modern, safe, and engaging learning campus. As a leading CBSE school in Gurgaon, it provides smart classrooms, advanced facilities, and a nurturing environment for holistic growth.</p>
                 </div>
 
                 {/* Vertical Rail (desktop & tablet only) */}
