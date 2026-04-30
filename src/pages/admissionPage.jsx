@@ -24,7 +24,7 @@ export default function Admissions() {
     <main>
 
       <SEO
-        title="Admissions Open 2026–27 | Kualakubs World School Gurugram – Admission Open in Gurgaon School"
+        title="Admission Open Gurgaon School | 2026–27 Admissions"
         description="Explore a simple admission process with guided support, campus tours, and easy enrollment for a smooth start to your child’s learning journey."
       />
 

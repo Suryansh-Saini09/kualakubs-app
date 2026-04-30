@@ -7,7 +7,7 @@ export default function Campus_Facilities() {
 
     return (
         <>
-        <SEO title="Kualakubs World School – Best Preschool Near Me with Modern Campus Facilities"
+        <SEO title="Best Preschool Near Me with Modern Campus Facilities"
         description="A thoughtfully designed campus that inspires creativity, innovation, and holistic growth through modern infrastructure and student-friendly spaces."/>
             <PageHeader
                 title="Campus Facilites"

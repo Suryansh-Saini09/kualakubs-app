@@ -57,7 +57,7 @@ export default function SchoolLife() {
 
         <>
             <SEO
-                title="Kualakubs World School – Among Top CBSE Schools in Gurgaon for Enriching School Life"
+                title="Top CBSE School in Gurgaon for Student Life"
                 description="A vibrant school life with meaningful experiences that inspire creativity, build character, and support lifelong learning and overall growth."
             />
             

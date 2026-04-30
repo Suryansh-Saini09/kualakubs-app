@@ -41,7 +41,7 @@ export default function Career() {
     return (
         <>
         <SEO
-            title="Careers at Kualakubs World School | Join Our Teaching & Staff Team"
+            title="Kualakubs World School Careers | Join Our Team"
             description="Explore career opportunities in teaching and administration. Join a dynamic environment focused on growth, learning, and professional development."
         />
             <PageHeader

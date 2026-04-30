@@ -7,7 +7,7 @@ export default function CoCurricular() {
     return (
         <>
         <SEO
-         title="Kualakubs World School Gurugram – Co-Curricular Activities for Holistic Development"
+         title="Kualakubs World School Gurugram – Co-Curricular Growth"
          description="Engaging activities that nurture creativity, confidence, teamwork, and talent beyond academics for well-rounded student growth."
         />
             <PageHeader
