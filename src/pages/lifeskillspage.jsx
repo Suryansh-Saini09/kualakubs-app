@@ -1,4 +1,5 @@
 import PageHeader from "../components/PageHeader";
+import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg"
 
 export default function Life_Skills_Page() {
     return (
@@ -6,7 +7,7 @@ export default function Life_Skills_Page() {
 
             <PageHeader
                 title="Life Skills"
-                backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"
+                backgroundImage={newBuildingImg}
                 breadcrumb={[
                     { label: "Home", link: "/" },
                     { label: "Life Skills", active: true }

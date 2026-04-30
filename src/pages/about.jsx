@@ -1,6 +1,6 @@
 import PageHeader from "../components/PageHeader";
 import aboutlogo from "../assets/logowhite.png";
-import aboutImg from "../assets/about_image.jpeg";
+import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg"
 import SEO from "../components/SEO";
 export default function About() {
   return (
@@ -11,7 +11,7 @@ export default function About() {
       />
       <PageHeader
         title="About Us"
-        backgroundImage={aboutImg}
+        backgroundImage={newBuildingImg}
         breadcrumb={[
           { label: "Home", link: "/" },
           { label: "About Us", active: true },

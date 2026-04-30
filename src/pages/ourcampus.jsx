@@ -1,6 +1,6 @@
 import PageHeader from "../components/PageHeader";
 import React, { useEffect } from "react";
-
+import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import SEO from "../components/SEO";
@@ -40,7 +40,7 @@ export default function OurCampus() {
         />
             <PageHeader
                 title="Our Campuses"
-                backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"
+                backgroundImage={newBuildingImg}
                 breadcrumb={[
                     { label: "Home", link: "/" },
                     { label: "Our Campuses", active: true }

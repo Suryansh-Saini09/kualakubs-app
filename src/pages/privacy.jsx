@@ -1,5 +1,6 @@
 import PageHeader from "../components/PageHeader";
 import SEO from "../components/SEO";
+import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg"
 export default function Privacy() {
   return (
     <>
@@ -11,7 +12,7 @@ export default function Privacy() {
 
       <PageHeader
         title="Privacy Policy"
-        backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"
+        backgroundImage={newBuildingImg}
         breadcrumb={[
           { label: "Home", link: "/" },
           { label: "Privacy Policy", active: true },

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import PageHeader from "../components/PageHeader";
 import CareerForm from "../components/forms/careerForms";
+import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg"
 import SEO from "../components/SEO";
 
 export default function Career() {
@@ -45,7 +46,7 @@ export default function Career() {
         />
             <PageHeader
                 title="Career"
-                backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"
+                backgroundImage={newBuildingImg}
                 breadcrumb={[
                     { label: "Home", link: "/" },
                     { label: "Career", active: true },

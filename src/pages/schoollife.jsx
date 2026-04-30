@@ -6,6 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import MagicCard from "../components/Magiccard.jsx";
 import SEO from "../components/SEO.jsx";
+import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg"
 
 // school life page
 
@@ -62,7 +63,7 @@ export default function SchoolLife() {
             
             <PageHeader
                 title="School Life"
-                backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"
+                backgroundImage={newBuildingImg}
                 breadcrumb={[
                     { label: "Home", link: "/" },
                     { label: "School Life", active: true }

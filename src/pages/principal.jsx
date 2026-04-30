@@ -1,14 +1,14 @@
 import PageHeader from "../components/PageHeader.jsx";
 import aboutlogo from "../assets/logowhite.png";
 import headImg from "../assets/kualakubs home image 2.png";
-
+import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg"
 
 export default function Principal() {
   return (
     <>
       <PageHeader
         title="Principal’s Message "
-        backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"
+        backgroundImage={newBuildingImg}
         breadcrumb={[
           { label: "Home", link: "/" },
           { label: "Principal’s Message", active: true },

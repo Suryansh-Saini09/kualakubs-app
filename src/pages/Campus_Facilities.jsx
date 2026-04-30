@@ -1,6 +1,7 @@
 import PageHeader from "../components/PageHeader";
 import { Link } from "react-router-dom";
 import SEO from "../components/SEO";
+import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg"
 
 export default function Campus_Facilities() {
 
@@ -10,7 +11,7 @@ export default function Campus_Facilities() {
         description="A thoughtfully designed campus that inspires creativity, innovation, and holistic growth through modern infrastructure and student-friendly spaces."/>
             <PageHeader
                 title="Campus Facilites"
-                backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"
+                backgroundImage={newBuildingImg}
                 breadcrumb={[
                     { label: "Home", link: "/" },
                     { label: "Campus Facilites", active: true }

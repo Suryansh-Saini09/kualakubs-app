@@ -3,6 +3,8 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import SEO from "../components/SEO";
+import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg"
+
 export default function CoEducation() {
     useEffect(() => {
         AOS.init({
@@ -19,7 +21,7 @@ export default function CoEducation() {
             description="A balanced co-educational environment where students grow with confidence, respect, and collaboration, building strong social and life skills."/>
             <PageHeader
                 title="Co-Education"
-                backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"
+                backgroundImage={newBuildingImg}
                 breadcrumb={[
                     { label: "Home", link: "/" },
                     { label: "Co-Education", active: true }

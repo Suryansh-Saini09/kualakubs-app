@@ -7,12 +7,13 @@ import Acadmiclife from "../assets/adacimiclife_image.png";
 import Admissions from "../assets/Admission_image.png";
 import Building from "../assets/about_image.jpeg"
 import SEO from "../components/SEO.jsx";
+import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg"
 
 export default function Home() {
 
     const galleryItems = [
         {
-            img: Building, 
+            img: newBuildingImg, 
             text: "ABOUT KUALAKUBS",
             link: "/about",
         },

@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import "../styles/admissions.css";
 import PageHeader from "../components/PageHeader.jsx";
 // import EnquireForm from "../components/forms/forms.jsx";
+import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg"
 
 // AOS
 import AOS from "aos";
@@ -30,7 +31,7 @@ export default function Admissions() {
 
       <PageHeader
         title="Admissions"
-        backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"
+        backgroundImage={newBuildingImg}
         breadcrumb={[
           { label: "Home", link: "/" },
           { label: "Admissions", active: true },

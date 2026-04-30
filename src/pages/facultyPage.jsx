@@ -1,12 +1,13 @@
 import aboutlogo from "../assets/logowhite.png";
 import PageHeader from "../components/PageHeader.jsx";
+import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg"
 
 export default function FacultyPage() {
   return (
     <>
       <PageHeader
         title="Our Educators"
-        backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"
+        backgroundImage={newBuildingImg}
         breadcrumb={[
           { label: "Home", link: "/" },
           { label: "Faculty", active: true },

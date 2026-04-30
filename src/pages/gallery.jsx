@@ -1,5 +1,6 @@
 
 import PageHeader from "../components/PageHeader";
+import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg"
 
 const allImages = import.meta.glob("/src/assets/**/*.{png,jpg,jpeg,webp}", {
   eager: true,
@@ -15,7 +16,7 @@ export default function Gallery({ folder = "gallery" }) {
     <>
       <PageHeader
         title="Gallery"
-        backgroundImage="https://kualakubsworldschool.com/assets/kualakubs%20home%20image%202-DokhlqL5.png"
+        backgroundImage={newBuildingImg}
         breadcrumb={[
           { label: "Home", link: "/" },
           { label: "Gallery", active: true },
