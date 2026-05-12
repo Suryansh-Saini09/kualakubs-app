@@ -7,7 +7,30 @@ const SEO = ({
   keywords = "react, website",
   url = window.location.href,
   image = "/default-image.png",
+  schemaMarkup = null,
 }) => {
+  // Default Educational Organization Schema for Kualakubs World School
+  const defaultSchema = {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "Kualakubs World School",
+    "url": "https://kualakubsworldschool.com",
+    "logo": "https://kualakubsworldschool.com/webicon.png",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Gurugram",
+      "addressRegion": "Haryana",
+      "addressCountry": "IN"
+    },
+    "telephone": "+91-9996648317",
+    "sameAs": [
+      "https://www.facebook.com/kualakubsworldschool",
+      "https://www.instagram.com/kualakubsworldschool"
+    ]
+  };
+
+  const finalSchema = schemaMarkup || defaultSchema;
+
   return (
     <Helmet>
       {/* Basic */}
@@ -30,6 +53,11 @@ const SEO = ({
 
       {/* Canonical */}
       <link rel="canonical" href={url} />
+
+      {/* JSON-LD Structured Data Schema */}
+      <script type="application/ld+json">
+        {JSON.stringify(finalSchema)}
+      </script>
     </Helmet>
   );
 };

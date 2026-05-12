@@ -14,7 +14,7 @@ export default function OurCampus() {
             offset: 80,
         });
     }, []);
-
+    
     const timeline = [
         { year: "1998", title: "Geeta Vidya Mandir", place: "NHBC, Panipat", icon: "bi-mortarboard" },
         { year: "2001", title: "Geeta Vidya Mandir Public School", place: "Sanoli Road, Panipat", icon: "bi-building" },
@@ -48,12 +48,70 @@ export default function OurCampus() {
             />
             <section className="container py-5 position-relative">
                 <div className="text-center mb-5">
-                    <h2 className="fw-bold">Our Journey</h2>
+                    <h2
+                        className="fw-bold"
+                        style={{
+                            fontFamily: "'Montserrat', 'Segoe UI', Arial, sans-serif",
+                            fontWeight: 800,
+                        }}
+                    >
+                        Our Journey
+                    </h2>
                     <p className="text-muted">Milestones of growth and excellence</p>
                     <p>KWS Gurgaon offers a modern, safe, and engaging learning campus. As a leading CBSE school in Gurgaon, it provides smart classrooms, advanced facilities, and a nurturing environment for holistic growth.</p>
                 </div>
 
-                {/* Vertical Rail (desktop & tablet only) */}
+                {/* About our campus (added after Our Journey) */}
+                <div
+                    className="w-100 min-vh-100 d-flex flex-column justify-content-center align-items-center"
+                    style={{
+                        background: "linear-gradient(135deg, #f8fafc 60%, #e9f0fb 100%)",
+                        borderRadius: "18px",
+                        boxShadow: "0 2px 16px rgba(44, 62, 80, 0.07)",
+                        padding: "2rem 1.5rem",
+                        marginBottom: "2.5rem",
+                    }}
+                >
+                    <div style={{ maxWidth: "720px" }}>
+                        <h3
+                            className="fw-bold mb-3"
+                            style={{
+                                color: "#192d45",
+                                fontFamily: "'Montserrat', 'Segoe UI', Arial, sans-serif",
+                                fontWeight: 800,
+                                letterSpacing: "0.5px",
+                                fontSize: "2.1rem",
+                            }}
+                        >
+                            ABOUT OUR CAMPUS
+                        </h3>
+                        <p className="mb-2"><strong>Built Around the Child.</strong></p>
+                        <p className="mb-3"><strong style={{
+                            fontFamily: "'Montserrat', 'Segoe UI', Arial, sans-serif",
+                            fontWeight: 800,
+                            letterSpacing: "0.5px"
+                        }}>Designed for Discovery.</strong></p>
+
+                        <p style={{ textAlign: "justify" }}>
+                            At Kualakubs World School, every square foot of the campus is intentional. We didn't design a building and then fill it with children — we designed a world around how children actually learn, play, and grow.
+                        </p>
+                        <p style={{ textAlign: "justify" }}>
+                            There's a feeling you get when you walk into the right school. The corridors feel open. The classrooms feel alive. Teachers look like they genuinely want to be there, and children look like they do too. That is the environment we have built at Kualakubs World School — one of the most thoughtfully planned school campuses among the <strong>top CBSE schools in Gurgaon.</strong>
+                        </p>
+                        <p style={{ textAlign: "justify" }}>
+                            Our campus philosophy begins with a simple belief: a child's environment shapes their learning. When spaces are bright, purposeful, and child-friendly, children feel safe enough to take risks, ask questions, and engage deeply. We have created a campus that supports exactly that kind of freedom-within-structure.
+                        </p>
+                        <p style={{ textAlign: "justify" }}>
+                            Academic spaces blend seamlessly into creative zones, outdoor play areas connect with reflection corners, and every classroom has been designed to accommodate different learning styles — visual, auditory, kinesthetic, and collaborative. This is what modern school infrastructure should feel like: human, warm, and purpose-driven.
+                        </p>
+                        <p style={{ textAlign: "justify" }}>
+                            As a leading <strong>school in Gurugram</strong> , we understand that parents want more than a good-looking brochure. They want to see a real environment — one that will nurture their child's growth in every dimension. Our campus is that environment, and we welcome every parent to come and experience it for themselves.
+                        </p>
+                        <p style={{ textAlign: "justify" }}>
+                            <em>"A school campus should feel like a second home — familiar enough to be comforting, rich enough to be endlessly interesting."</em>
+                        </p>
+                    </div>
+                </div>
                 <div
                     className="position-absolute top-0 start-0 h-100 d-none d-md-block"
                     style={{
@@ -96,7 +154,15 @@ export default function OurCampus() {
                                 <span className="badge mb-2" style={{ background: "#192d45" }}>
                                     {item.year}
                                 </span>
-                                <h5 className="fw-semibold mb-1">{item.title}</h5>
+                                <h5
+                                    className="fw-bold mb-1"
+                                    style={{
+                                        fontFamily: "'Montserrat', 'Segoe UI', Arial, sans-serif",
+                                        fontWeight: 800,
+                                    }}
+                                >
+                                    {item.title}
+                                </h5>
                                 <p className="text-muted mb-0">{item.place}</p>
                             </div>
                         </div>

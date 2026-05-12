@@ -1,28 +1,24 @@
-
-// Import Router helpers
+// ...existing code...
 import { Routes, Route } from "react-router-dom";
 import routes from "./config/urls.js";
-import { useEffect } from "react";
-import RedirectHandler from "./utils/RedirectHandler.js";
-
+import { useEffect, Suspense } from "react";
+// ...existing code...
 
 function App() {
     // Prevent browser restoring scroll position
-// ⛔ Prevent browser from restoring previous scroll
     useEffect(() => {
         if ("scrollRestoration" in window.history) {
             window.history.scrollRestoration = "manual";
         }
     }, []);
     return (
-        <>
-        <RedirectHandler/>
+        <Suspense fallback={<div className="d-flex justify-content-center align-items-center vh-100">Loading...</div>}>
             <Routes>
                 {routes.map(({ path, element }, index) => (
                     <Route key={index} path={path} element={element} />
                 ))}
             </Routes>
-        </>
+        </Suspense>
     );
 }
 
