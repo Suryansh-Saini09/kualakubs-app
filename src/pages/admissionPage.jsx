@@ -112,7 +112,7 @@ export default function Admissions() {
                                   border: "1px solid #bae6fd"
                                 }}
                               >
-                                🌟 ADMISSIONS OPEN 2025–26
+                                🌟 ADMISSIONS OPEN 2026–27
                               </span>
                               <h2 className="display-6 fw-bold mb-3" style={{ color: "#0f172a", lineHeight: 1.2 }}>
                                 Where Young Minds <br />
