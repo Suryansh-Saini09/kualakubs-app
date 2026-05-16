@@ -1,14 +1,13 @@
 
 // library imports 
 import HeaderLogo from "../../assets/kulakubs_new_logo.png";
-import PopUpimg from "../../assets/kbws_popup.png";
+import PopUpimg from "../../assets/summerlab.jpeg";
 import WPIcon from "../../assets/whatsapp-logo.svg"
 import "./overlay.css";
 import { Link } from "react-router-dom";
-// import React from "react";  // use later if needed.
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
-// import EnquireForms from "../forms/forms";
+
 
 
 
@@ -240,7 +239,7 @@ export function Overlaymiddleheading() {
 
 export function EnquireNowButton() {
     const [show, setShow] = useState(false);
-   
+
     return (
         <>
             {/* ================= LEFT VERTICAL CTA ================= */}
