@@ -87,7 +87,7 @@ export default function Home() {
                     <marquee width="100%" className="p-2" direction="left" height="50px" style={{ color: "#192d45" }}>
                         🌞 SUMMER CAMP 2026 – REGISTRATIONS OPEN! 🌈 | Dear Parents, we are excited to announce our Summer Camp packed with fun and learning! 🎉 | ✨ Highlights: 🔹 Dates: 1st June to 13th June 🔹 Timings: 07:30 AM to 11:30 AM 🔹 Open for all students | 💰 Registration & Early Bird Offer: Call us 9996648317 | 🍱 Note: Kindly send snacks/tiffin with your child. | 📢 Limited seats available – register soon!
                     </marquee>
-                </div>
+                </div> 
 
 
 
