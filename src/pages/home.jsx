@@ -225,7 +225,7 @@ export default function Home() {
                 </section>
 
                 {/* Parent Testimonials Section */}
-                <section className="testimonials-section">
+                {/* <section className="testimonials-section">
                     <div className="container">
                         <div className="text-center mb-5">
                             <span className="testimonials-subtitle">Voices of Our Community</span>
@@ -282,7 +282,7 @@ export default function Home() {
                             </Carousel>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
                 <div className="container " style={{ width: "75%" }} >
                     <Components.Cardslider />
