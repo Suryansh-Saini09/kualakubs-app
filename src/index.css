@@ -710,3 +710,449 @@ body {
   width: 50px;
   height: 50px;
 }
+
+/* =========================================================
+   Why Choose KWS Section
+========================================================= */
+.why-kws-section {
+  padding: 5rem 0;
+  background: linear-gradient(180deg, #ffffff 0%, #faf8f5 50%, #ffffff 100%);
+}
+
+.why-kws-subtitle {
+  color: #192d45;
+  opacity: 0.8;
+  font-size: 0.9rem;
+  letter-spacing: 2.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+}
+
+.why-kws-title {
+  color: #192d45;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+.why-kws-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background-color: #e2dccc;
+  border-radius: 2px;
+}
+
+.why-kws-intro {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.why-kws-card {
+  background: #ffffff;
+  border: 1px solid rgba(25, 45, 69, 0.08);
+  border-radius: 12px;
+  padding: 2.5rem 2rem;
+  height: 100%;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  box-shadow: 0 10px 30px rgba(25, 45, 69, 0.02);
+  position: relative;
+  overflow: hidden;
+  border-top: 4px solid #e2dccc;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.why-kws-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(25, 45, 69, 0.08);
+  border-top-color: #192d45;
+}
+
+.why-kws-icon-container {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  background-color: #192d45;
+  color: #e2dccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  margin-bottom: 1.5rem;
+  transition: all 0.4s ease;
+}
+
+.why-kws-card:hover .why-kws-icon-container {
+  background-color: #e2dccc;
+  color: #192d45;
+  border-radius: 50%;
+  transform: rotate(360deg);
+}
+
+.why-kws-card-title {
+  color: #192d45;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.4;
+}
+
+.why-kws-card-text {
+  color: #495057;
+  font-size: 0.98rem;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+/* =========================================================
+   Campus & Safety Highlights Section
+========================================================= */
+.safety-highlights-section {
+  padding: 5rem 0;
+  background-color: #192d45; /* Deep blue background */
+  position: relative;
+}
+
+.safety-subtitle {
+  color: #e2dccc; /* Beige */
+  font-size: 0.9rem;
+  letter-spacing: 2.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+}
+
+.safety-title {
+  color: #ffffff; /* White */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+.safety-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background-color: #e2dccc;
+  border-radius: 2px;
+}
+
+.safety-intro {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.safety-card {
+  background: rgba(255, 255, 255, 0.05); /* Translucent glassmorphism */
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(226, 220, 204, 0.15); /* Soft beige border */
+  border-radius: 12px;
+  padding: 2.5rem 2rem;
+  height: 100%;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.safety-card:hover {
+  transform: translateY(-8px);
+  background: rgba(255, 255, 255, 0.09);
+  border-color: #e2dccc;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+.safety-icon-container {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  background-color: #e2dccc; /* Beige background */
+  color: #192d45; /* Deep blue icon */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  margin-bottom: 1.5rem;
+  transition: all 0.4s ease;
+}
+
+.safety-card:hover .safety-icon-container {
+  background-color: #ffffff;
+  color: #192d45;
+  border-radius: 50%;
+  transform: rotate(360deg);
+}
+
+.safety-card-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.4;
+}
+
+.safety-card-text {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.98rem;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+/* =========================================================
+   Co-Curricular Teaser Section
+========================================================= */
+.co-curricular-teaser-section {
+  padding: 5rem 0;
+  background-color: #ffffff;
+}
+
+.teaser-subtitle {
+  color: #192d45;
+  opacity: 0.8;
+  font-size: 0.9rem;
+  letter-spacing: 2.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.teaser-title {
+  color: #192d45;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.teaser-text {
+  color: #495057;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
+.teaser-image-wrapper {
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.teaser-image-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 95%;
+  height: 95%;
+  border: 4px solid #e2dccc; /* Beige border frame */
+  border-radius: 12px;
+  z-index: 1;
+}
+
+.teaser-image {
+  position: relative;
+  z-index: 2;
+  border-radius: 12px;
+  box-shadow: 0 15px 35px rgba(25, 45, 69, 0.15);
+  transition: transform 0.4s ease;
+  width: 100%;
+  object-fit: cover;
+}
+
+.teaser-image-wrapper:hover .teaser-image {
+  transform: translate(-10px, -10px);
+}
+
+.teaser-btn {
+  background-color: #192d45;
+  color: #ffffff;
+  border: 1px solid #192d45;
+  padding: 0.8rem 2rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.teaser-btn:hover {
+  background-color: #e2dccc;
+  color: #192d45;
+  border-color: #e2dccc;
+}
+
+/* =========================================================
+   Parent Testimonials Section
+   ========================================================= */
+.testimonials-section {
+  padding: 5rem 0;
+  background: linear-gradient(180deg, #ffffff 0%, #faf8f5 50%, #ffffff 100%);
+  position: relative;
+}
+
+.testimonials-subtitle {
+  color: #192d45;
+  opacity: 0.8;
+  font-size: 0.9rem;
+  letter-spacing: 2.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+}
+
+.testimonials-title {
+  color: #192d45;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+.testimonials-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background-color: #e2dccc;
+  border-radius: 2px;
+}
+
+.testimonials-intro {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.testimonial-card {
+  background: #ffffff;
+  border: 1px solid rgba(25, 45, 69, 0.08);
+  border-radius: 16px;
+  padding: 3rem 2.5rem 2.5rem 2.5rem;
+  height: 100%;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  box-shadow: 0 10px 30px rgba(25, 45, 69, 0.02);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 15px 10px;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 45px rgba(25, 45, 69, 0.08);
+  border-color: rgba(25, 45, 69, 0.15);
+}
+
+.testimonial-quote-icon {
+  position: absolute;
+  top: -15px;
+  left: 30px;
+  width: 40px;
+  height: 40px;
+  background-color: #e2dccc;
+  color: #192d45;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.testimonial-stars {
+  color: #ffc107; /* gold stars */
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-text {
+  color: #495057;
+  font-size: 1.02rem;
+  line-height: 1.7;
+  font-style: italic;
+  margin-bottom: 1.8rem;
+  flex-grow: 1;
+}
+
+.testimonial-profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-top: 1px solid rgba(25, 45, 69, 0.06);
+  padding-top: 1.2rem;
+}
+
+.testimonial-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #192d45;
+  color: #e2dccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border: 2px solid #e2dccc;
+  box-shadow: 0 4px 8px rgba(25, 45, 69, 0.1);
+  text-transform: uppercase;
+}
+
+.testimonial-info h4 {
+  color: #192d45;
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.testimonial-info p {
+  color: #6c757d;
+  font-size: 0.88rem;
+  margin: 0;
+  margin-top: 2px;
+}
+
+/* Custom React Multi Carousel Dot Override */
+.testimonials-section .react-multi-carousel-dot-list {
+  bottom: -20px;
+}
+
+.testimonials-section .react-multi-carousel-dot button {
+  border: none;
+  background: #e2dccc;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  margin: 0 5px;
+}
+
+.testimonials-section .react-multi-carousel-dot--active button {
+  background: #192d45;
+  width: 25px;
+  border-radius: 5px;
+}

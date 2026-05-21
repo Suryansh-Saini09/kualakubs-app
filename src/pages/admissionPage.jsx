@@ -93,7 +93,7 @@ export default function Admissions() {
                               left: "-50px",
                               width: "200px",
                               height: "200px",
-                              background: "linear-gradient(135deg, rgba(14, 165, 233, 0.1) 0%, rgba(14, 165, 233, 0) 100%)",
+                              background: "linear-gradient(135deg, rgba(226, 220, 204, 0.3) 0%, rgba(226, 220, 204, 0) 100%)",
                               borderRadius: "50%",
                               zIndex: 0,
                               pointerEvents: "none"
@@ -106,25 +106,25 @@ export default function Admissions() {
                                 className="badge mb-3 px-4 py-2 rounded-pill fw-bold shadow-sm" 
                                 style={{ 
                                   letterSpacing: "1.5px", 
-                                  backgroundColor: "#e0f2fe", 
-                                  color: "#0369a1",
+                                  backgroundColor: "#e2dccc", 
+                                  color: "#192d45",
                                   fontSize: "0.9rem",
-                                  border: "1px solid #bae6fd"
+                                  border: "1px solid #e2dccc"
                                 }}
                               >
                                 🌟 ADMISSIONS OPEN 2026–27
                               </span>
-                              <h2 className="display-6 fw-bold mb-3" style={{ color: "#0f172a", lineHeight: 1.2 }}>
+                              <h2 className="display-6 fw-bold mb-3" style={{ color: "#192d45", lineHeight: 1.2 }}>
                                 Where Young Minds <br />
-                                <span style={{ color: "#0284c7", position: "relative" }}>
+                                <span style={{ color: "#192d45", position: "relative" }}>
                                   Discover Their Greatness
                                   <svg style={{ position: "absolute", bottom: "-8px", left: "0", width: "100%", height: "8px" }} viewBox="0 0 100 10" preserveAspectRatio="none">
-                                    <path d="M0 5 Q 50 10 100 5" stroke="#bae6fd" strokeWidth="4" fill="transparent" />
+                                    <path d="M0 5 Q 50 10 100 5" stroke="#e2dccc" strokeWidth="4" fill="transparent" />
                                   </svg>
                                 </span>
                               </h2>
-                              <p className="lead mt-4 mb-4" style={{ color: "#475569", fontSize: "1.1rem", lineHeight: 1.7 }}>
-                                Give your child a <span className="fw-bold" style={{ color: "#0ea5e9" }}>future-ready education</span> at one of Gurgaon's most nurturing CBSE schools — where holistic growth, academic excellence, and joyful learning come together.
+                              <p className="lead mt-4 mb-4" style={{ color: "#495057", fontSize: "1.1rem", lineHeight: 1.7 }}>
+                                Give your child a <span className="fw-bold" style={{ color: "#192d45" }}>future-ready education</span> at one of Gurgaon's most nurturing CBSE schools — where holistic growth, academic excellence, and joyful learning come together.
                               </p>
                             </div>
 
@@ -134,19 +134,19 @@ export default function Admissions() {
                                 className="btn px-4 py-3 fw-bold rounded-pill"
                                 style={{
                                   fontSize: "1.05rem",
-                                  backgroundColor: "#0ea5e9",
+                                  backgroundColor: "#192d45",
                                   color: "#fff",
-                                  boxShadow: "0 10px 15px -3px rgba(14, 165, 233, 0.3)",
+                                  boxShadow: "0 10px 15px -3px rgba(25, 45, 69, 0.25)",
                                   transition: "all 0.3s ease",
                                   border: "none"
                                 }}
                                 onMouseOver={e => {
                                   e.currentTarget.style.transform = "translateY(-3px)";
-                                  e.currentTarget.style.boxShadow = "0 15px 20px -3px rgba(14, 165, 233, 0.4)";
+                                  e.currentTarget.style.boxShadow = "0 15px 20px -3px rgba(25, 45, 69, 0.35)";
                                 }}
                                 onMouseOut={e => {
                                   e.currentTarget.style.transform = "translateY(0)";
-                                  e.currentTarget.style.boxShadow = "0 10px 15px -3px rgba(14, 165, 233, 0.3)";
+                                  e.currentTarget.style.boxShadow = "0 10px 15px -3px rgba(25, 45, 69, 0.25)";
                                 }}
                               >
                                 Apply for Admission
@@ -156,21 +156,21 @@ export default function Admissions() {
                                 className="btn px-4 py-3 fw-bold rounded-pill"
                                 style={{
                                   fontSize: "1.05rem",
-                                  backgroundColor: "#f8fafc",
-                                  color: "#0f172a",
-                                  border: "2px solid #e2e8f0",
+                                  backgroundColor: "#ffffff",
+                                  color: "#192d45",
+                                  border: "2px solid #e2dccc",
                                   boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.05)",
                                   transition: "all 0.3s ease",
                                 }}
                                 onMouseOver={e => {
                                   e.currentTarget.style.transform = "translateY(-3px)";
-                                  e.currentTarget.style.borderColor = "#cbd5e1";
-                                  e.currentTarget.style.backgroundColor = "#f1f5f9";
+                                  e.currentTarget.style.borderColor = "#192d45";
+                                  e.currentTarget.style.backgroundColor = "#e2dccc";
                                 }}
                                 onMouseOut={e => {
                                   e.currentTarget.style.transform = "translateY(0)";
-                                  e.currentTarget.style.borderColor = "#e2e8f0";
-                                  e.currentTarget.style.backgroundColor = "#f8fafc";
+                                  e.currentTarget.style.borderColor = "#e2dccc";
+                                  e.currentTarget.style.backgroundColor = "#ffffff";
                                 }}
                               >
                                 <span role="img" aria-label="tour">🏫</span> Book a Campus Tour
@@ -189,10 +189,10 @@ export default function Admissions() {
                                   key={idx}
                                   className="badge px-3 py-2 fw-medium" 
                                   style={{ 
-                                    backgroundColor: "#f1f5f9", 
-                                    color: "#475569",
+                                    backgroundColor: "#ffffff", 
+                                    color: "#192d45",
                                     fontSize: "0.85rem",
-                                    border: "1px solid #e2e8f0",
+                                    border: "1px solid #e2dccc",
                                     borderRadius: "12px"
                                   }}
                                 >
@@ -224,22 +224,22 @@ export default function Admissions() {
 </div>
 
         {/* Admission Process Section */}
-        <section className="admission-block py-5" style={{ backgroundColor: "#f8fafc" }}>
+        <section className="admission-block py-5" style={{ backgroundColor: "#faf8f5" }}>
           <div className="container py-4">
             <div className="text-center mb-5" data-aos="fade-up">
               <span 
                 className="badge mb-3 px-3 py-2 rounded-pill fw-semibold" 
                 style={{ 
                   letterSpacing: "1.5px", 
-                  backgroundColor: "#e0f2fe", 
-                  color: "#0284c7",
+                  backgroundColor: "#e2dccc", 
+                  color: "#192d45",
                   fontSize: "0.85rem"
                 }}
               >
                 ADMISSION PROCESS
               </span>
-              <h2 className="display-5 fw-bold mb-3" style={{ color: "#0f172a" }}>Your Journey Starts Here</h2>
-              <p className="lead mx-auto" style={{ maxWidth: "800px", color: "#64748b" }}>
+              <h2 className="display-5 fw-bold mb-3" style={{ color: "#192d45" }}>Your Journey Starts Here</h2>
+              <p className="lead mx-auto" style={{ maxWidth: "800px", color: "#495057" }}>
                 We've designed our admission process to be transparent, welcoming, and stress-free. Here's how school admission in Gurgaon works at Kualakubs — step by simple step.
               </p>
             </div>
@@ -290,14 +290,17 @@ export default function Admissions() {
                       borderRadius: "20px", 
                       transition: "all 0.3s ease",
                       background: "#ffffff",
+                      borderTop: "4px solid #e2dccc",
                       boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03)"
                     }}
                     onMouseEnter={(e) => {
                       e.currentTarget.style.transform = "translateY(-8px)";
+                      e.currentTarget.style.borderTopColor = "#192d45";
                       e.currentTarget.style.boxShadow = "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)";
                     }}
                     onMouseLeave={(e) => {
                       e.currentTarget.style.transform = "translateY(0)";
+                      e.currentTarget.style.borderTopColor = "#e2dccc";
                       e.currentTarget.style.boxShadow = "0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03)";
                     }}
                   >
@@ -308,7 +311,7 @@ export default function Admissions() {
                           style={{ 
                             width: "60px", 
                             height: "60px", 
-                            backgroundColor: "#f1f5f9", 
+                            backgroundColor: "#e2dccc", 
                             fontSize: "1.75rem",
                             boxShadow: "inset 0 2px 4px 0 rgba(0, 0, 0, 0.02)"
                           }}
@@ -320,15 +323,15 @@ export default function Admissions() {
                           style={{ 
                             fontSize: "3.5rem", 
                             lineHeight: 1, 
-                            color: "#f1f5f9",
+                            color: "rgba(226, 220, 204, 0.4)",
                             letterSpacing: "-2px"
                           }}
                         >
                           {item.step}
                         </span>
                       </div>
-                      <h4 className="card-title fw-bold mb-3" style={{ color: "#1e293b", fontSize: "1.25rem" }}>{item.title}</h4>
-                      <p className="card-text mb-0" style={{ color: "#64748b", lineHeight: "1.6" }}>{item.desc}</p>
+                      <h4 className="card-title fw-bold mb-3" style={{ color: "#192d45", fontSize: "1.25rem" }}>{item.title}</h4>
+                      <p className="card-text mb-0" style={{ color: "#495057", lineHeight: "1.6" }}>{item.desc}</p>
                     </div>
                     {/* Decorative gradient blob */}
                     <div 
@@ -338,7 +341,7 @@ export default function Admissions() {
                         right: "-20px",
                         width: "120px",
                         height: "120px",
-                        background: "linear-gradient(135deg, rgba(14, 165, 233, 0.1) 0%, rgba(14, 165, 233, 0) 100%)",
+                        background: "linear-gradient(135deg, rgba(226, 220, 204, 0.3) 0%, rgba(226, 220, 204, 0) 100%)",
                         borderRadius: "50%",
                         zIndex: 0,
                         pointerEvents: "none"
