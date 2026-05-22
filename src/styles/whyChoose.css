@@ -1,83 +1,282 @@
-/* HERO OVERLAY */
-.usp-hero-overlay {
-  z-index: 5;
-  max-width: 700px;
-  padding: 2rem 2.5rem;
-  color: #fff;
-  backdrop-filter: blur(5px);
-  background: rgba(0,0,0,0.25);
-  border: 1px solid rgba(255,255,255,0.3);
-  border-radius: 6px;
+/* =========================================================
+   Reasons Families Trust Section
+========================================================= */
+.reasons-section {
+  padding: 5.5rem 0;
+  background: linear-gradient(180deg, #ffffff 0%, #faf8f5 60%, #faf8f5 100%);
 }
 
-.usp-hero-title {
-  font-size: clamp(2rem, 4vw, 3.2rem);
-  font-weight: 600;
+.reasons-header-container {
+  max-width: 900px;
+  margin-bottom: 3.5rem;
 }
 
-/* MAIN USP SECTION */
-.usp-section {
-  padding: 5rem 0;
-  background: #faf7f2;
+.reasons-heading-main {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: clamp(2.2rem, 4.5vw, 3.4rem);
+  color: var(--accent-bg-color); /* Deep Blue: #192d45 */
+  margin-bottom: 0.1rem;
+  line-height: 1.15;
+  letter-spacing: -0.5px;
 }
 
-/* USP CARDS */
-.usp-card {
+.reasons-heading-sub {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: clamp(2rem, 4.2vw, 3.2rem);
+  color: #b3925c; /* Rich gold/bronze legible on light background */
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.reasons-intro {
+  font-size: 1.08rem;
+  color: var(--text-color); /* #495057 */
+  line-height: 1.75;
+  margin-bottom: 0;
+}
+
+/* GRID & CARDS */
+.reasons-card {
   background: #ffffff;
-  padding: 1.7rem 1.4rem;
-  border-radius: 6px;
+  border: 1px solid rgba(25, 45, 69, 0.07);
+  border-radius: 16px;
+  padding: 2.2rem 2rem;
+  height: 100%;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  box-shadow: 0 10px 30px rgba(25, 45, 69, 0.015);
+  position: relative;
+  overflow: hidden;
+  border-top: 4px solid var(--accent-text-color); /* Brand Gold: #e2dccc */
   display: flex;
-  gap: 12px;
+  flex-direction: column;
   align-items: flex-start;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.07);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  min-height: 120px;
 }
 
-.usp-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+.reasons-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(25, 45, 69, 0.08);
+  border-top-color: var(--accent-bg-color); /* Deep Blue */
 }
 
-.usp-icon {
-  font-size: 1.5rem;
-  font-weight: 900;
+/* ICON BOXES */
+.reasons-icon-container {
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  background-color: rgba(226, 220, 204, 0.3); /* Translucent Gold */
+  color: var(--accent-bg-color); /* Deep Blue */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: 1px solid rgba(226, 220, 204, 0.6);
+}
+
+.reasons-card:hover .reasons-icon-container {
+  background-color: var(--accent-bg-color);
   color: var(--accent-text-color);
-  line-height: 1;
+  border-radius: 50%;
+  transform: scale(1.08) rotate(360deg);
+  border-color: var(--accent-bg-color);
 }
 
-.usp-text {
+.reasons-card-title {
+  color: var(--accent-bg-color);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.35;
+}
+
+.reasons-card-text {
+  color: var(--text-color);
+  font-size: 0.95rem;
+  line-height: 1.65;
+  margin-bottom: 0;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .reasons-section {
+    padding: 4rem 0;
+  }
+  
+  .reasons-header-container {
+    margin-bottom: 2.5rem;
+  }
+  
+  .reasons-card {
+    padding: 1.8rem 1.6rem;
+  }
+}
+
+/* =========================================================
+   Intro Philosophy & At a Glance Sections
+========================================================= */
+.intro-philosophy-section {
+  padding: 5.5rem 0 3rem;
+  background-color: #ffffff;
+}
+
+.intro-philosophy-tag {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #b3925c; /* Rich gold */
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.intro-philosophy-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: clamp(2.2rem, 4.5vw, 3.4rem);
+  color: var(--accent-bg-color); /* Deep Blue: #192d45 */
+  margin-bottom: 1.5rem;
+  line-height: 1.15;
+  letter-spacing: -0.5px;
+}
+
+.intro-philosophy-lead {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  line-height: 1.8;
+  font-weight: 500;
+  margin-bottom: 3.5rem;
+  max-width: 1000px;
+}
+
+.philosophy-text-p {
   font-size: 1.05rem;
-  margin: 0;
-  line-height: 1.5;
+  color: var(--text-color);
+  line-height: 1.75;
+  margin-bottom: 1.25rem;
+}
+
+/* Elegant Quote Box */
+.philosophy-quote-box {
+  background: rgba(226, 220, 204, 0.15); /* Very soft warm gold background */
+  border-left: 5px solid #b3925c;
+  padding: 2rem;
+  border-radius: 4px 16px 16px 4px;
+  margin: 2.5rem 0;
+  position: relative;
+}
+
+.philosophy-quote-text {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 1.4rem;
+  color: var(--accent-bg-color);
+  line-height: 1.6;
+  margin-bottom: 0;
   font-weight: 500;
 }
 
-/* ENDLINE */
-.usp-endline {
-  font-size: 1.6rem;
-  font-weight: 600;
-  color: black;
-  font-style: italic;
-  font-family: serif;
+/* At a Glance Container and Cards */
+.at-a-glance-container {
+  background: #faf8f5;
+  border: 1px solid rgba(25, 45, 69, 0.05);
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 15px 35px rgba(25, 45, 69, 0.02);
+  height: 100%;
 }
 
-/* RESPONSIVE */
-@media (max-width: 576px) {
-  .usp-hero-overlay {
-    max-width: 90%;
-    padding: 1.2rem;
-  }
+.at-a-glance-badge {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #b3925c;
+  background-color: rgba(226, 220, 204, 0.3);
+  padding: 0.4rem 1rem;
+  border-radius: 30px;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
 
-  .usp-hero-title {
-    font-size: 1.8rem;
-  }
+.at-a-glance-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--accent-bg-color);
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
 
-  .usp-text {
-    font-size: 1rem;
-  }
+.at-a-glance-subtitle {
+  font-size: 0.98rem;
+  color: var(--text-color);
+  line-height: 1.65;
+  margin-bottom: 2rem;
+}
 
-  .usp-card {
-    padding: 1.3rem 1.3rem;
+/* Stat Cards Grid */
+.stat-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+.stat-card {
+  background: #ffffff;
+  border: 1px solid rgba(25, 45, 69, 0.05);
+  border-radius: 12px;
+  padding: 1.5rem 1.25rem;
+  text-align: center;
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.02);
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(25, 45, 69, 0.06);
+  border-color: rgba(226, 220, 204, 0.8);
+}
+
+.stat-value {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 1.8rem;
+  color: #b3925c; /* Gold highlight */
+  margin-bottom: 0.4rem;
+  display: block;
+}
+
+.stat-label {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--accent-bg-color);
+  line-height: 1.3;
+  display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .intro-philosophy-section {
+    padding: 4rem 0 2rem;
+  }
+  
+  .intro-philosophy-lead {
+    margin-bottom: 2.5rem;
+  }
+  
+  .at-a-glance-container {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .stat-cards-grid {
+    grid-template-columns: 1fr;
   }
 }

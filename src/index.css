@@ -702,6 +702,74 @@ body {
   }
 }
 
+/* ===============================
+   New Campus Services Cards
+================================ */
+.service-card {
+  background: #ffffff;
+  border: 1px solid rgba(25, 45, 69, 0.08);
+  border-radius: 1.5rem; /* 24px */
+  padding: 1.75rem;
+  height: 100%;
+  box-shadow: 0 10px 30px rgba(25, 45, 69, 0.04);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(25, 45, 69, 0.08);
+}
+
+.service-icon-container {
+  width: 56px;
+  height: 56px;
+  background-color: var(--accent-bg-color); /* Dark navy */
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.service-card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.35rem;
+  color: var(--accent-bg-color);
+  margin-bottom: 1rem;
+}
+
+.service-card-text {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: #4f5e71;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+.service-badge-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.service-badge {
+  background-color: #f1f3f6;
+  color: var(--accent-bg-color);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  transition: background-color 0.2s ease;
+  white-space: nowrap;
+}
+
+.service-badge:hover {
+  background-color: #e2e6eb;
+}
+
 .whatsapp-btn {
   position: fixed;
   z-index: 9999;
@@ -1155,4 +1223,1203 @@ body {
   background: #192d45;
   width: 25px;
   border-radius: 5px;
+}
+
+/* =========================================================
+   Contact Page Premium Custom Design
+========================================================= */
+.contact-hero-section {
+  position: relative;
+  background-color: var(--accent-bg-color); /* #192d45 */
+  padding: 6rem 0 9rem 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.contact-hero-circle-1 {
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  top: -150px;
+  right: -100px;
+  pointer-events: none;
+}
+
+.contact-hero-circle-2 {
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 50%;
+  width: 700px;
+  height: 700px;
+  bottom: -350px;
+  left: -200px;
+  pointer-events: none;
+}
+
+.contact-admission-badge {
+  display: inline-block;
+  border: 1px solid #b3925c;
+  color: #b3925c;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 999px;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  background-color: rgba(179, 146, 92, 0.05);
+}
+
+.contact-hero-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1.25;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+.contact-hero-title span {
+  color: #b3925c; /* Gold color for Kualakubs World School */
+}
+
+.contact-hero-lead {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+/* Contact Cards Wrapper */
+.contact-cards-container {
+  position: relative;
+  z-index: 10;
+  margin-top: -6rem; /* Overlap effect */
+  margin-bottom: 4rem;
+}
+
+.contact-cards-box {
+  background: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 15px 40px rgba(25, 45, 69, 0.1);
+  border: 1px solid rgba(25, 45, 69, 0.05);
+  padding: 3.5rem 2.5rem;
+}
+
+/* Contact Info Column styling */
+.contact-info-col {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+@media (min-width: 992px) {
+  .contact-info-col-border {
+    border-right: 1px solid rgba(25, 45, 69, 0.08);
+  }
+}
+
+.contact-icon-box {
+  width: 60px;
+  height: 60px;
+  background-color: var(--accent-bg-color); /* #192d45 */
+  color: #b3925c; /* Gold icon */
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 8px 20px rgba(25, 45, 69, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.contact-info-col:hover .contact-icon-box {
+  transform: translateY(-5px);
+}
+
+.contact-col-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #b3925c;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.contact-col-value {
+  color: var(--accent-bg-color);
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-bottom: 0;
+  word-break: break-word;
+}
+
+.contact-col-value a {
+  color: var(--accent-bg-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contact-col-value a:hover {
+  color: #b3925c;
+}
+
+/* Why Visit Cards Hover */
+.why-visit-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.why-visit-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(25, 45, 69, 0.08) !important;
+}
+
+/* =========================================================
+   Career Page Premium Custom Design
+========================================================= */
+.career-hero-section {
+  position: relative;
+  background-color: var(--accent-bg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.career-hero-breadcrumbs {
+  margin-bottom: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.95rem;
+}
+
+.career-hero-breadcrumbs a {
+  color: rgba(255, 255, 255, 0.7);
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.career-hero-breadcrumbs a:hover {
+  color: #b3925c;
+}
+
+.career-hero-breadcrumbs span {
+  color: #b3925c;
+}
+
+.career-hero-circle-1 {
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  top: -150px;
+  right: -100px;
+  pointer-events: none;
+}
+
+.career-hero-circle-2 {
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 50%;
+  width: 700px;
+  height: 700px;
+  bottom: -350px;
+  left: -200px;
+  pointer-events: none;
+}
+
+.career-badge {
+  display: inline-block;
+  border: 1px solid #b3925c;
+  color: #b3925c;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 999px;
+  margin-bottom: 2.5rem;
+  text-transform: uppercase;
+  background-color: rgba(179, 146, 92, 0.05);
+}
+
+.career-hero-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 4.5vw, 3.5rem);
+  line-height: 1.25;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.career-hero-title span {
+  color: #b3925c; /* Gold color */
+  font-style: italic;
+}
+
+.career-hero-lead {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 800px;
+  margin: 0 auto 3rem auto;
+}
+
+.career-hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.career-btn-gold {
+  background-color: #b3925c;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0.85rem 2.2rem;
+  border: 1px solid #b3925c;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+.career-btn-gold:hover {
+  background-color: #9c7b48;
+  border-color: #9c7b48;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(179, 146, 92, 0.3);
+}
+
+.career-btn-outline {
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0.85rem 2.2rem;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+.career-btn-outline:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: #ffffff;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+/* Stats Bar */
+.career-stats-section {
+  background-color: var(--accent-bg-color); /* #192d45 */
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 3rem 0;
+  position: relative;
+  z-index: 5;
+}
+
+.career-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (max-width: 768px) {
+  .career-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 1rem;
+  }
+}
+
+.career-stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.career-stat-number {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  color: #b3925c;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.career-stat-label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Why Work Section */
+.why-work-section {
+  position: relative;
+  background-color: #faf8f5; /* Warm beige */
+  padding: 6.5rem 0;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(25, 45, 69, 0.08);
+}
+
+.why-work-section-circle {
+  position: absolute;
+  border: 1px solid rgba(25, 45, 69, 0.04);
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  bottom: -150px;
+  right: -50px;
+  pointer-events: none;
+}
+
+.why-work-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  color: var(--accent-bg-color); /* Deep Navy Blue */
+  line-height: 1.25;
+  margin-bottom: 1.5rem;
+}
+
+.why-work-title span {
+  color: #b3925c; /* Gold/Beige */
+}
+
+.why-work-divider {
+  width: 80px;
+  height: 4px;
+  background-color: #b3925c;
+}
+
+@media (min-width: 992px) {
+  .border-start-desktop {
+    border-left: 2px solid rgba(179, 146, 92, 0.25) !important;
+    padding-left: 3rem !important;
+  }
+}
+
+.why-work-lead-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #b3925c; /* Gold/Beige */
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.why-work-body-text {
+  font-size: 1.1rem;
+  line-height: 1.9;
+  color: var(--text-color); /* Dark grey/body text */
+  font-weight: 400;
+}
+
+
+
+/* Open Positions */
+.positions-section {
+  padding: 5rem 0;
+  background-color: #ffffff;
+}
+
+.positions-header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.positions-header-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 3.5vw, 2.8rem);
+  color: var(--accent-bg-color);
+  margin-bottom: 1rem;
+}
+
+.positions-header-subtitle {
+  font-size: 1.05rem;
+  color: #718096;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.positions-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .positions-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.position-card {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid rgba(25, 45, 69, 0.08);
+  padding: 2.2rem;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.position-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(25, 45, 69, 0.08);
+  border-color: rgba(179, 146, 92, 0.3);
+}
+
+.position-department {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #b3925c;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.75rem;
+}
+
+.position-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: var(--accent-bg-color);
+  margin-bottom: 1rem;
+}
+
+.position-meta {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.88rem;
+  color: #718096;
+  margin-bottom: 1.25rem;
+}
+
+.position-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.position-description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #4a5568;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+.position-btn {
+  align-self: flex-start;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #b3925c;
+  background: transparent;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: gap 0.2s ease;
+  text-decoration: none;
+}
+
+.position-btn:hover {
+  gap: 0.8rem;
+  color: #9c7b48;
+}
+
+/* Application Form Section */
+.career-apply-section {
+  padding: 6rem 0;
+  background-color: #f7f9fc;
+}
+
+.career-apply-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.career-apply-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 3.5vw, 2.8rem);
+  color: var(--accent-bg-color);
+  margin-bottom: 1rem;
+}
+
+.career-apply-subtitle {
+  font-size: 1.05rem;
+  color: #718096;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Custom styling for Bootstrap cards in CareerForm to make them more premium */
+.career-apply-section .card {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(25, 45, 69, 0.03) !important;
+  border: 1px solid rgba(25, 45, 69, 0.05) !important;
+}
+
+.career-apply-section .card-header {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid rgba(25, 45, 69, 0.05) !important;
+  padding: 1.25rem 1.5rem !important;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--accent-bg-color);
+}
+
+.career-apply-section .card-body {
+  padding: 2rem !important;
+}
+
+.career-apply-section .btn-primary {
+  background-color: #b3925c !important;
+  border-color: #b3925c !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding: 0.85rem 3rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.career-apply-section .btn-primary:hover {
+  background-color: #9c7b48 !important;
+  border-color: #9c7b48 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(179, 146, 92, 0.3);
+}
+
+/* Benefits Section */
+.benefits-section {
+  padding: 6rem 0;
+  background-color: #fdfbf7; /* Light warm background matching mockup */
+}
+
+.benefits-badge {
+  color: #b3925c;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.benefits-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 3.5vw, 2.8rem);
+  color: var(--accent-bg-color);
+  margin-bottom: 1.25rem;
+}
+
+.benefits-lead {
+  font-size: 1.1rem;
+  color: #718096;
+  max-width: 800px;
+  margin-bottom: 4rem;
+}
+
+.benefit-card {
+  background-color: var(--accent-bg-color); /* #192d45 */
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  height: 100%;
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 20px rgba(25, 45, 69, 0.08);
+}
+
+.benefit-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(25, 45, 69, 0.18);
+}
+
+.benefit-icon-container {
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.benefit-card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.benefit-card-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 0;
+}
+
+.z-index-10 {
+  z-index: 10;
+}
+
+/* ===============================
+   Application Process Section
+================================ */
+.app-process-section {
+  padding: 6rem 0;
+  background-color: var(--accent-bg-color); /* Deep Navy #192d45 */
+  color: #ffffff;
+}
+
+.app-process-badge {
+  color: #b3925c; /* Gold */
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.app-process-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 3.5vw, 2.8rem);
+  color: #ffffff;
+  margin-bottom: 1.25rem;
+}
+
+.app-process-lead {
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.75);
+  max-width: 750px;
+  margin: 0 auto 4rem auto;
+  line-height: 1.6;
+}
+
+.app-process-steps-container {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.app-step-circle-wrapper {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+.app-step-circle {
+  width: 70px;
+  height: 70px;
+  border: 2px solid #b3925c; /* Gold border */
+  border-radius: 50%;
+  color: #b3925c; /* Gold text */
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+
+.app-process-step:hover .app-step-circle {
+  background-color: #b3925c;
+  color: var(--accent-bg-color); /* Swap colors on hover */
+  transform: scale(1.05);
+}
+
+.app-step-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: #ffffff;
+  margin-bottom: 0.75rem;
+}
+
+.app-step-text {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.app-step-arrow {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .app-process-step {
+    position: relative;
+  }
+  
+  .app-step-arrow {
+    display: block;
+    position: absolute;
+    top: 35px; /* Vertical center of the 70px circle */
+    right: 0;
+    transform: translate(50%, -50%);
+    font-size: 1.5rem;
+    color: #b3925c;
+    opacity: 0.8;
+    pointer-events: none;
+  }
+}
+
+/* ===============================
+   Career Form Custom Styling
+================================ */
+.career-form-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 3.5rem 3rem;
+  box-shadow: 0 10px 40px rgba(25, 45, 69, 0.05);
+  border: 1px solid rgba(25, 45, 69, 0.08);
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.form-section-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--accent-bg-color);
+  margin-top: 1.5rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(25, 45, 69, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.form-section-title i {
+  font-size: 1.25rem;
+}
+
+.career-form-card .form-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #4a5568;
+  margin-bottom: 0.4rem;
+}
+
+.career-form-card .form-control,
+.career-form-card .form-select,
+.career-form-card .input-group-text {
+  font-size: 0.9rem;
+  padding: 0.6rem 0.9rem;
+  border-radius: 8px;
+  border: 1px solid rgba(25, 45, 69, 0.15);
+  color: #2d3748;
+  transition: all 0.2s ease;
+}
+
+.career-form-card .form-control:focus,
+.career-form-card .form-select:focus {
+  border-color: #b3925c;
+  box-shadow: 0 0 0 3px rgba(179, 146, 92, 0.15);
+  outline: none;
+}
+
+.career-form-card .input-group-text {
+  background-color: #f7f9fc;
+  border-right: none;
+  color: #718096;
+}
+
+.career-form-card .input-group .form-control {
+  border-left: none;
+}
+
+.career-form-card .input-group .form-control:focus {
+  border-left: none;
+}
+
+.file-upload-input {
+  width: 100%;
+  font-size: 0.85rem;
+  padding: 0.55rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid rgba(25, 45, 69, 0.15);
+  background: #ffffff;
+  color: #4a5568;
+}
+
+.file-upload-input:focus {
+  border-color: #b3925c;
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .career-form-card {
+    padding: 2rem 1.5rem;
+    border-radius: 14px;
+  }
+  
+  .form-section-title {
+    font-size: 1.05rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* ===============================
+   Gallery Section
+================================ */
+.gallery-section {
+  background-color: #faf8f5; /* Warm premium beige background */
+  padding: 5rem 0;
+  min-height: 80vh;
+}
+
+.gallery-badge {
+  color: #b3925c; /* Gold */
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.gallery-main-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 3.5vw, 2.8rem);
+  color: var(--accent-bg-color); /* Navy #192d45 */
+  margin-bottom: 1.25rem;
+}
+
+.gallery-lead {
+  font-size: 1.05rem;
+  color: #718096; /* Slate gray color */
+  margin: 0 auto 2rem auto;
+  line-height: 1.6;
+}
+
+.gallery-subtitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #b3925c; /* Gold theme accent */
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-style: italic; /* Elegant design touch */
+}
+
+.gallery-divider {
+  width: 60px;
+  height: 3px;
+  background-color: #b3925c;
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+/* Category Filters */
+.gallery-filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.gallery-filter-btn {
+  background-color: #ffffff;
+  color: var(--accent-bg-color);
+  border: 1px solid rgba(25, 45, 69, 0.1);
+  padding: 0.6rem 1.4rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02);
+}
+
+.gallery-filter-btn:hover {
+  border-color: #b3925c;
+  color: #b3925c;
+  transform: translateY(-1px);
+}
+
+.gallery-filter-btn.active {
+  background-color: #b3925c;
+  color: #ffffff;
+  border-color: #b3925c;
+  box-shadow: 0 4px 15px rgba(179, 146, 92, 0.3);
+}
+
+/* Cards Grid */
+.gallery-card {
+  position: relative;
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(25, 45, 69, 0.04);
+  border: 1px solid rgba(25, 45, 69, 0.05);
+  cursor: pointer;
+  aspect-ratio: 4 / 3;
+}
+
+.gallery-img-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* Hover overlay */
+.gallery-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    rgba(25, 45, 69, 0.1),
+    rgba(25, 45, 69, 0.95) 80%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: 2;
+}
+
+.gallery-overlay-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.8);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #b3925c;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  opacity: 0;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.gallery-item-category {
+  color: #b3925c;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+  font-family: 'Montserrat', sans-serif;
+  transform: translateY(10px);
+  transition: transform 0.4s ease;
+}
+
+.gallery-item-title {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0;
+  transform: translateY(15px);
+  transition: transform 0.4s ease;
+}
+
+/* Hover active state */
+.gallery-card:hover .gallery-img {
+  transform: scale(1.1);
+}
+
+.gallery-card:hover .gallery-overlay {
+  opacity: 1;
+}
+
+.gallery-card:hover .gallery-overlay-icon {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.gallery-card:hover .gallery-item-category,
+.gallery-card:hover .gallery-item-title {
+  transform: translateY(0);
+}
+
+/* Lightbox Modal */
+.gallery-lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(15, 30, 49, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  animation: fadeIn 0.3s ease;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: color 0.3s;
+  z-index: 2010;
+}
+
+.lightbox-close:hover {
+  color: #b3925c;
+}
+
+.lightbox-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  z-index: 2010;
+}
+
+.lightbox-nav:hover {
+  background-color: #b3925c;
+  border-color: #b3925c;
+  color: #ffffff;
+}
+
+.lightbox-nav.prev {
+  left: 3rem;
+}
+
+.lightbox-nav.next {
+  right: 3rem;
+}
+
+.lightbox-content {
+  position: relative;
+  max-width: 80%;
+  max-height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: scaleIn 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.lightbox-img {
+  max-width: 100%;
+  max-height: 70vh;
+  border-radius: 12px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  object-fit: contain;
+}
+
+.lightbox-caption {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.bg-gold {
+  background-color: #b3925c !important;
+  color: #ffffff;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scaleIn {
+  from { transform: scale(0.9); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@media (max-width: 768px) {
+  .lightbox-nav {
+    width: 45px;
+    height: 45px;
+    font-size: 1.2rem;
+  }
+  
+  .lightbox-nav.prev {
+    left: 1rem;
+  }
+  
+  .lightbox-nav.next {
+    right: 1rem;
+  }
+  
+  .lightbox-content {
+    max-width: 95%;
+  }
+  
+  .lightbox-close {
+    top: 1rem;
+    right: 1rem;
+  }
 }

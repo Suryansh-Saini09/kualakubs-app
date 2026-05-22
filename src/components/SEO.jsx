@@ -31,6 +31,19 @@ const SEO = ({
 
   const finalSchema = schemaMarkup || defaultSchema;
 
+  // Normalize the canonical URL to prevent trailing slash duplicate content
+  const canonicalUrl = (() => {
+    try {
+      const parsedUrl = new URL(url);
+      if (parsedUrl.pathname.length > 1 && parsedUrl.pathname.endsWith("/")) {
+        parsedUrl.pathname = parsedUrl.pathname.slice(0, -1);
+      }
+      return parsedUrl.toString();
+    } catch {
+      return url;
+    }
+  })();
+
   return (
     <Helmet>
       {/* Basic */}
@@ -41,7 +54,7 @@ const SEO = ({
       {/* Open Graph (for social sharing) */}
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      <meta property="og:url" content={url} />
+      <meta property="og:url" content={canonicalUrl} />
       <meta property="og:image" content={image} />
       <meta property="og:type" content="website" />
 
@@ -52,7 +65,7 @@ const SEO = ({
       <meta name="twitter:image" content={image} />
 
       {/* Canonical */}
-      <link rel="canonical" href={url} />
+      <link rel="canonical" href={canonicalUrl} />
 
       {/* JSON-LD Structured Data Schema */}
       <script type="application/ld+json">

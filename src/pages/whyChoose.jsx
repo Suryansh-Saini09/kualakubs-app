@@ -4,8 +4,55 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "../styles/whyChoose.css";
 import SEO from "../components/SEO.jsx";
-import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg"
+import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg";
 
+const trustReasons = [
+    {
+        title: "Child-Centric Learning",
+        description: "Every classroom experience at Kualakubs is designed around the child — not the syllabus. We begin with the child's curiosity, pace, and strengths. When a child feels seen, learning becomes unstoppable.",
+        icon: "bi-tree"
+    },
+    {
+        title: "Experiential Education",
+        description: "Concepts are introduced through doing — not just reading. From science experiments to project-based tasks, our experiential learning model ensures that what children learn in class stays with them long after the school bell rings.",
+        icon: "bi-puzzle"
+    },
+    {
+        title: "Smart Infrastructure",
+        description: "Our modern campus features smart classrooms, dedicated activity spaces, and thoughtfully designed learning environments. Among the top CBSE schools in Gurgaon, our infrastructure is built to inspire — not just facilitate.",
+        icon: "bi-bank"
+    },
+    {
+        title: "Trained & Caring Faculty",
+        description: "Our teachers are more than subject experts — they are mentors, observers, and encouragers. Each educator is trained in child psychology, modern pedagogy, and the art of building confidence one conversation at a time.",
+        icon: "bi-mortarboard"
+    },
+    {
+        title: "Confidence & Communication",
+        description: "Through stage exposure, public speaking, presentations, and group activities, children at Kualakubs develop a voice — and the courage to use it. We shape communicators, not just students.",
+        icon: "bi-mic"
+    },
+    {
+        title: "Phonics-Based Early Learning",
+        description: "Language foundations are built with structured phonics programmes that make reading and writing a joyful experience. Early literacy confidence shapes everything that follows — and we get this right from day one.",
+        icon: "bi-alphabet"
+    },
+    {
+        title: "Individual Attention",
+        description: "No child is average. At Kualakubs, we keep class sizes intentional so every student receives the guidance they need. Teachers know each child's learning style, strengths, and areas of growth.",
+        icon: "bi-bullseye"
+    },
+    {
+        title: "Holistic Development",
+        description: "Academic excellence is one dimension. We also nurture emotional intelligence, physical wellness, artistic expression, and social skills — creating children who are well-rounded and genuinely ready for the world.",
+        icon: "bi-globe2"
+    },
+    {
+        title: "Value-Based Education",
+        description: "Kindness, integrity, empathy, and responsibility are not optional extras at Kualakubs — they are woven into daily life. We believe good values are the true foundation of every great future.",
+        icon: "bi-heart"
+    }
+];
 
 export default function WhyChoose() {
     useEffect(() => {
@@ -20,8 +67,9 @@ export default function WhyChoose() {
     return (
         <main>
             <SEO
-            title="Why Choose Us for Holistic Education"
-            description="A balanced approach to education that blends academics, creativity, and life skills to nurture confident, future-ready learners."/>
+                title="Why Choose Us for Holistic Education"
+                description="A balanced approach to education that blends academics, creativity, and life skills to nurture confident, future-ready learners."
+            />
             {/* TOP HEADER SECTION */}
             <PageHeader
                 title="Why Choose Kualakubs?"
@@ -32,120 +80,123 @@ export default function WhyChoose() {
                 ]}
             />
 
-
-            {/* MAIN USP SECTION */}
-            <section className="usp-section">
+            {/* PHILOSOPHY & AT A GLANCE INTRO */}
+            <section className="intro-philosophy-section">
                 <div className="container">
-                    <h1 className="usp-hero-title text-center mb-5">Parents choose us because we provide:</h1>
+                    <div className="row justify-content-center" data-aos="fade-up">
+                        <div className="col-12">
+                            <span className="intro-philosophy-tag">Not Just a School.</span>
+                            <h2 className="intro-philosophy-title">A World Built for Your Child.</h2>
+                            <p className="intro-philosophy-lead">
+                                Traditional schooling tells children what to think. We teach them how. Kualakubs World School is redefining education in Gurugram — where joyful learning meets academic excellence, and every child is known, valued, and inspired.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="row g-5 align-items-stretch">
+                        {/* Narrative Column */}
+                        <div className="col-lg-7 d-flex flex-column justify-content-between" data-aos="fade-right" data-aos-delay="100">
+                            <div>
+                                <p className="philosophy-text-p">
+                                    In Gurugram's crowded school landscape, it is easy to mistake a building with smart boards for a truly modern school. Kualakubs World School is different — not because of what we have, but because of how we think about your child's growth.
+                                </p>
+                                <p className="philosophy-text-p">
+                                    We combine a rigorous CBSE curriculum with activity-based, experiential learning that makes concepts click — not just for exams, but for life. Here, a child doesn't just memorize the water cycle — they create a rain model. They don't just read about fractions — they bake.
+                                </p>
+                                <p className="philosophy-text-p">
+                                    Our campus is designed to feel like a second home — safe, stimulating, and full of possibility. This is what the best schools in Gurgaon should feel like.
+                                </p>
+                            </div>
+                            <div className="philosophy-quote-box">
+                                <p className="philosophy-quote-text">
+                                    “We don't prepare children for a world that already exists — we prepare them for the one they will create.”
+                                </p>
+                            </div>
+                        </div>
+
+                        {/* At a Glance Grid Column */}
+                        <div className="col-lg-5" data-aos="fade-left" data-aos-delay="200">
+                            <div className="at-a-glance-container">
+                                <span className="at-a-glance-badge">AT A GLANCE</span>
+                                <h3 className="at-a-glance-title">A CBSE-Aligned Experiential Campus</h3>
+                                <p className="at-a-glance-subtitle">
+                                    A CBSE-aligned, experiential learning campus in Gurgaon where curiosity, confidence, and character grow together.
+                                </p>
+
+                                <div className="stat-cards-grid">
+                                    <div className="stat-card">
+                                        <span className="stat-value">CBSE</span>
+                                        <span className="stat-label">Aligned Curriculum</span>
+                                    </div>
+                                    <div className="stat-card">
+                                        <span className="stat-value">360°</span>
+                                        <span className="stat-label">Holistic Development</span>
+                                    </div>
+                                    <div className="stat-card">
+                                        <span className="stat-value">100%</span>
+                                        <span className="stat-label">Safe Campus</span>
+                                    </div>
+                                    <div className="stat-card">
+                                        <span className="stat-value">1:1</span>
+                                        <span className="stat-label">Individual Attention</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* REASONS FAMILIES TRUST SECTION */}
+            <section className="reasons-section">
+                <div className="container">
+                    <div className="reasons-header-container" data-aos="fade-up">
+                        <h2 className="reasons-heading-main">Reasons Families Trust</h2>
+                        <h3 className="reasons-heading-sub">Kualakubs World School</h3>
+                        <p className="reasons-intro">
+                            Parents across Gurgaon and Gurugram choose Kualakubs not just for its academics — but for the whole child experience. Here's what makes us stand apart from other CBSE schools in Gurugram.
+                        </p>
+                    </div>
 
                     <div className="row g-4 justify-content-center">
-                        {[
-
-                            "CBSE Academic Excellence",
-                            "Strong Focus on Life Skills & Values",
-                            "Experienced & Trained Faculty",
-                            "Safe, Secure & Child-friendly Campus",
-                            "Smart Classrooms & Digital Learning Tools",
-                            "Sports, Arts & Co-Curricular Exposure",
-                            "Leadership, Competitions & Olympiads",
-                            "Future-ready Skills: ICT, Communication, Creativity",
-                            // "Balanced Development of Academics & Personality",
-                            "D.E.A.R. (Drop Everything & Read) Period",
-
-                        ].map((item, index) => (
+                        {trustReasons.map((item, index) => (
                             <div
                                 className="col-lg-4 col-md-6"
                                 key={index}
                                 data-aos="fade-up"
                                 data-aos-delay={index * 80}
                             >
-                                <div className="usp-card">
-                                    <span className="usp-icon">✔</span>
-                                    <p className="usp-text">{item}</p>
+                                <div className="reasons-card">
+                                    <div className="reasons-icon-container">
+                                        <i className={`bi ${item.icon}`} />
+                                    </div>
+                                    <h4 className="reasons-card-title">{item.title}</h4>
+                                    <p className="reasons-card-text">{item.description}</p>
                                 </div>
                             </div>
                         ))}
-                    </div>
-
-                    {/* Bottom Statement */}
-                    <div className="text-center mt-5" data-aos="fade-up">
-                        <h3 className="usp-endline">Kualakubs is where potential becomes success.</h3>
-                        <p>Recognized among the top schools in Gurgaon, Kualakubs nurtures every child with a perfect blend of academic excellence, creativity, and life skills, shaping confident and future-ready learners.</p>
                     </div>
                 </div>
             </section>
 
             {/* LIFE SKILLS SECTION */}
-            {/* <div className="container py-5" style={{ backgroundColor: "var(--bg-color)" }}>
-                <div className="row justify-content-center">
-                    <div className="col-lg-10 text-center">
-
-                      
-                        <h3 className="fw-bold mb-4" style={{ color: "var(--accent-bg-color)" }}>
-                            Essential Life Skills We Teach
-                        </h3>
-
-                       
-                        <p className="mb-4" style={{ color: "var(--text-color)" }}>
-                            Kualakubs integrates WHO-recommended life skills into daily learning to build confident,
-                            capable, and responsible individuals.
-                        </p>
-
-                       
-                        <div className="row g-3">
-
-                            {[
-                                "Critical & Creative Thinking",
-                                "Decision Making",
-                                "Problem-solving",
-                                "Leadership & Responsibility",
-                                "Effective Communication",
-                                "Empathy & Emotional Intelligence",
-                                "Digital Literacy",
-                                "Time Management",
-                                "Collaboration & Teamwork",
-                                "Stress & Emotion Management",
-                                "Goal Setting & Self-motivation",
-                                "Social Behaviour & Etiquette"
-                            ].map((skill, index) => (
-                                <div key={index} className="col-6 col-md-4">
-                                    <div
-                                        className="border rounded-3 px-3 py-2 text-center h-100"
-                                        style={{ color: "var(--text-color)" }}
-                                    >
-                                        {skill}
-                                    </div>
-                                </div>
-                            ))}
-
-                        </div>
-
-                      
-                        <p className="mt-4 fw-semibold" style={{ color: "var(--accent-bg-color)" }}>
-                            We prepare students not just for exams — but to excel in life.
-                        </p>
-
-                    </div>
-                </div>
-            </div> */}
-            {/* LIFE SKILLS SECTION */}
-            <section className="py-5" style={{ backgroundColor: "#f8fbff" }}>
+            {/* <section className="py-5" style={{ backgroundColor: "#f8fbff" }}>
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-10 text-center">
 
-                            {/* Heading */}
+                            {/* Heading 
                             <h2 className="fw-bold mb-3 text-primary">
                                 Essential Life Skills We Teach
                             </h2>
 
-                            {/* Intro */}
+                            {/* Intro 
                             <p className="text-muted mb-4">
                                 Kualakubs integrates WHO-recommended life skills into daily learning to build
                                 confident, capable, and responsible individuals.
                             </p>
 
-                            {/* Divider */}
+                            {/* Divider 
                             <div className="d-flex justify-content-center mb-4">
                                 <span
                                     style={{
@@ -157,7 +208,7 @@ export default function WhyChoose() {
                                 />
                             </div>
 
-                            {/* Skills Grid */}
+                            {/* Skills Grid 
                             <div className="row g-4">
 
                                 {[
@@ -186,7 +237,7 @@ export default function WhyChoose() {
 
                             </div>
 
-                            {/* Footer Text */}
+                            {/* Footer Text 
                             <p className="mt-5 fw-semibold text-primary">
                                 We prepare students not just for exams — <span className="highlight">but to excel in life.</span>
                             </p>
@@ -195,13 +246,7 @@ export default function WhyChoose() {
                         </div>
                     </div>
                 </div>
-            </section>
-
-
-
-            
+            </section> */}
         </main>
-
-
     );
 }
