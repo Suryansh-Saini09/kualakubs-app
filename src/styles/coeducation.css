@@ -1,0 +1,263 @@
+/* =========================================================
+   Co-Education & Pre-Prep Page Styles
+   ========================================================= */
+
+.coedu-section {
+  padding: 6rem 0;
+  background: linear-gradient(180deg, #ffffff 0%, #faf8f5 50%, #ffffff 100%);
+}
+
+.coedu-content-wrapper {
+  background: #ffffff;
+  border: 1px solid rgba(25, 45, 69, 0.05);
+  border-radius: 24px;
+  padding: 4rem 3.5rem;
+  box-shadow: 0 15px 45px rgba(25, 45, 69, 0.03);
+}
+
+.coedu-matters-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: var(--accent-bg-color);
+  margin-bottom: 2rem;
+  position: relative;
+  padding-bottom: 1rem;
+  line-height: 1.25;
+}
+
+.coedu-matters-title::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 80px;
+  height: 4px;
+  background-color: #b3925c; /* Gold line */
+  border-radius: 2px;
+}
+
+.coedu-matters-para {
+  font-size: 1.25rem;
+  line-height: 1.9;
+  color: var(--text-color);
+  font-weight: 450;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+.coedu-matters-para strong {
+  color: var(--accent-bg-color);
+  font-weight: 700;
+}
+
+.coedu-matters-para .highlight-gold {
+  color: #b3925c;
+  font-weight: 700;
+}
+
+/* Watermarked Quote Card */
+.coedu-quote-card {
+  background: #faf8f5;
+  border-left: 5px solid #b3925c;
+  padding: 3rem 2.5rem;
+  border-radius: 8px 24px 24px 8px;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(179, 146, 92, 0.04);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.coedu-quote-card::before {
+  content: '“';
+  position: absolute;
+  top: -15px;
+  left: 15px;
+  font-family: 'Playfair Display', serif;
+  font-size: 8rem;
+  color: #b3925c;
+  opacity: 0.12;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.coedu-quote-card-text {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 1.3rem;
+  color: var(--accent-bg-color);
+  line-height: 1.65;
+  font-weight: 500;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 991px) {
+  .coedu-content-wrapper {
+    padding: 3rem 2rem;
+  }
+  .coedu-quote-card {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .coedu-section {
+    padding: 4rem 0;
+  }
+  .coedu-matters-para {
+    text-align: left;
+  }
+}
+
+/* =========================================================
+   Advantages Section
+   ========================================================= */
+
+.coedu-advantage-card {
+  background: #ffffff;
+  border: 1px solid rgba(25, 45, 69, 0.07);
+  border-radius: 20px;
+  padding: 2.2rem;
+  height: 100%;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  box-shadow: 0 10px 30px rgba(25, 45, 69, 0.015);
+  border-top: 4px solid var(--accent-text-color); /* Gold Border */
+}
+
+.coedu-advantage-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(25, 45, 69, 0.08);
+  border-top-color: var(--accent-bg-color); /* Navy Hover Border */
+}
+
+.coedu-advantage-icon-container {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background-color: rgba(226, 220, 204, 0.3); /* Translucent Gold */
+  color: var(--accent-bg-color); /* Navy Icon */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  flex-shrink: 0;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: 1px solid rgba(226, 220, 204, 0.6);
+}
+
+.coedu-advantage-card:hover .coedu-advantage-icon-container {
+  background-color: var(--accent-bg-color);
+  color: var(--accent-text-color);
+  border-radius: 50%;
+  transform: scale(1.08) rotate(360deg);
+  border-color: var(--accent-bg-color);
+}
+
+.coedu-advantage-card-title {
+  color: var(--accent-bg-color);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.35;
+}
+
+.coedu-advantage-card-text {
+  color: var(--text-color);
+  font-size: 0.96rem;
+  line-height: 1.65;
+  margin-bottom: 0;
+}
+
+/* =========================================================
+   Framework Section Styles
+   ========================================================= */
+
+.coedu-framework-section {
+  padding: 6rem 0;
+  background-color: #faf8f5; /* Warm background tint for visual separation */
+  border-top: 1px solid rgba(25, 45, 69, 0.04);
+}
+
+.framework-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  color: var(--accent-bg-color);
+  line-height: 1.3;
+  position: relative;
+  padding-bottom: 1.25rem;
+  margin-bottom: 1.75rem;
+}
+
+.framework-title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 4px;
+  background-color: #b3925c; /* Gold line */
+  border-radius: 2px;
+}
+
+.framework-para {
+  font-size: 1.08rem;
+  line-height: 1.75;
+  color: var(--text-color);
+  margin-top: 1.25rem;
+}
+
+.framework-capsule-item {
+  background: #ffffff;
+  border: 1px solid rgba(25, 45, 69, 0.05);
+  border-left: 5px solid #b3925c; /* Gold Left accent line */
+  border-radius: 14px;
+  padding: 1.25rem 1.75rem;
+  box-shadow: 0 5px 15px rgba(25, 45, 69, 0.015);
+  transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+  cursor: pointer;
+}
+
+.framework-capsule-item:hover {
+  transform: translateX(8px);
+  box-shadow: 0 10px 25px rgba(25, 45, 69, 0.06);
+  border-left-color: var(--accent-bg-color); /* Swap to Navy on hover */
+}
+
+.framework-capsule-icon {
+  font-size: 1.35rem;
+  color: #b3925c;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  transition: color 0.3s ease;
+}
+
+.framework-capsule-item:hover .framework-capsule-icon {
+  color: var(--accent-bg-color);
+}
+
+.framework-capsule-text {
+  font-size: 1rem;
+  color: var(--accent-bg-color);
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .coedu-section,
+  .preprep-section {
+    padding: 4rem 0;
+  }
+}

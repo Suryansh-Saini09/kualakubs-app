@@ -1,0 +1,22 @@
+export const galleryImages = [
+  { filename: "img1.jpeg", category: "campus", title: "Campus View 1", alt: "Main campus entrance and landscaping of Kualakubs World School" },
+  { filename: "img2.jpeg", category: "campus", title: "Campus View 2", alt: "Well-lit and ventilated modern classroom layout" },
+  { filename: "img3.jpeg", category: "campus", title: "Campus View 3", alt: "Spacious corridors and indoor transition zones" },
+  { filename: "img4.jpeg", category: "campus", title: "Campus View 4", alt: "Safety and security desk at the school entrance" },
+  { filename: "img5.jpeg", category: "campus", title: "Campus View 5", alt: "Green areas and playground zones on the campus" },
+  { filename: "img6.jpeg", category: "academic", title: "Academic Session 1", alt: "Students working on experiments in the Science Lab" },
+  { filename: "img7.jpeg", category: "academic", title: "Academic Session 2", alt: "Active learning session inside a smart classroom" },
+  { filename: "img8.jpeg", category: "academic", title: "Academic Session 3", alt: "Makers and Innovation Lab with robotics equipment" },
+  { filename: "img9.jpeg", category: "academic", title: "Academic Session 4", alt: "Reading session in the well-stocked school library" },
+  { filename: "img10.jpeg", category: "academic", title: "Academic Session 5", alt: "Group discussion session on a project" },
+  { filename: "img11.jpeg", category: "sports", title: "Sports Activity 1", alt: "Students playing soccer on the sports field" },
+  { filename: "img12.jpeg", category: "sports", title: "Sports Activity 2", alt: "Track and field athletics event during sports meet" },
+  { filename: "img13.jpeg", category: "sports", title: "Sports Activity 3", alt: "Indoor sports and physical education room activities" },
+  { filename: "img14.jpeg", category: "sports", title: "Sports Activity 4", alt: "Basketball practice session on the outdoor court" },
+  { filename: "img15.jpeg", category: "sports", title: "Sports Activity 5", alt: "Yoga and wellness session on the green lawn" },
+  { filename: "img16.jpeg", category: "events", title: "School Event 1", alt: "Annual day stage performance by students" },
+  { filename: "img17.jpeg", category: "events", title: "School Event 2", alt: "Special school assembly celebrating national festival" },
+  { filename: "img18.jpeg", category: "events", title: "School Event 3", alt: "Art exhibition showing student artworks" },
+  { filename: "img19.jpeg", category: "events", title: "School Event 4", alt: "Community service program run by student council" },
+  { filename: "img20.jpeg", category: "events", title: "School Event 5", alt: "Science exhibition presentation by school students" }
+];

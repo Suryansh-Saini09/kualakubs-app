@@ -1,0 +1,130 @@
+/* =========================================================
+   Partnerships Page Styles
+   ========================================================= */
+
+.partnership-section-white {
+  padding: 6rem 0;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.partner-card-light {
+  position: relative;
+  width: 100%;
+  background: var(--accent-bg-color); /* Deep Navy Blue background */
+  border: 1px solid rgba(226, 220, 204, 0.15); /* Soft beige border */
+  border-radius: 20px;
+  margin-bottom: 25px;
+  padding: 5rem 2rem 2.5rem;
+  min-height: 350px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  display: flex;
+  flex-direction: column;
+  border-bottom: 4px solid #b3925c; /* Gold bottom accent line */
+}
+
+.partner-card-light:hover {
+  transform: translateY(-8px);
+  border-color: #b3925c;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.22);
+}
+
+.partner-card-light .icon-circle {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  background: #ffffff; /* White Circle */
+  border: 2px solid #b3925c; /* Gold Border */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: var(--accent-bg-color); /* Navy Icon */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.partner-card-light:hover .icon-circle {
+  background: #b3925c;
+  color: #ffffff;
+  transform: translate(-50%, -50%) scale(1.08);
+}
+
+.partner-card-light .bg-icon {
+  position: absolute;
+  right: 16px;
+  bottom: 20px;
+  font-size: 110px;
+  color: #b3925c;
+  opacity: 0.05;
+  z-index: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.partner-card-light:hover .bg-icon {
+  opacity: 0.15;
+}
+
+.partner-card-light h5 {
+  color: #ffffff; /* White Title */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 1.25rem;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  transition: color 0.3s ease;
+}
+
+.partner-card-light:hover h5 {
+  color: #b3925c; /* Gold on hover */
+}
+
+.partner-card-light ul {
+  padding-left: 1.25rem;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.partner-card-light li {
+  font-size: 0.98rem;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.8); /* Light text */
+  margin-bottom: 0.75rem;
+}
+
+.partner-card-light li::marker {
+  color: #b3925c; /* Gold bullets */
+}
+
+/* Highlight Card override to match Navy/Gold */
+.partner-card-light.highlight {
+  background: linear-gradient(135deg, var(--accent-bg-color) 0%, #203a59 100%);
+  border-bottom-color: #b3925c;
+}
+
+.partner-card-light.highlight h5 {
+  color: #ffffff;
+}
+
+.partner-card-light.highlight:hover h5 {
+  color: #b3925c;
+}
+
+.partner-card-light.highlight p {
+  font-size: 0.98rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.8);
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin-bottom: 0.75rem;
+}

@@ -1,6 +1,11 @@
 /* =========================================================
    Footer
-========================================================= */
+ ========================================================= */
 .footer-link {
-    color: var(--accent-text-color);
+    color: var(--accent-bg-color);
+    transition: opacity 0.2s ease;
+}
+.footer-link:hover {
+    color: var(--accent-bg-color);
+    opacity: 0.75;
 }

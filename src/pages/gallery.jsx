@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import PageHeader from "../components/PageHeader";
 import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg";
+import { galleryImages } from "../config/galleryImages";
 
 const allImages = import.meta.glob("/src/assets/**/*.{png,jpg,jpeg,webp}", {
   eager: true,
@@ -20,31 +21,16 @@ export default function Gallery({ folder = "gallery" }) {
   const [activeFilter, setActiveFilter] = useState("all");
   const [lightbox, setLightbox] = useState({ isOpen: false, currentIndex: 0 });
 
-  // Get raw images
-  const rawImages = Object.entries(allImages)
-    .filter(([path]) => path.includes(`/assets/${folder}/`))
-    .map(([, src]) => src);
-
-  // Map images with categories and titles
-  const mappedImages = rawImages.map((src, index) => {
-    let category = "events";
-    let title = "School Event";
-    
-    if (index < 5) {
-      category = "campus";
-      title = `Campus View ${index + 1}`;
-    } else if (index < 10) {
-      category = "academic";
-      title = `Academic Session ${index - 4}`;
-    } else if (index < 15) {
-      category = "sports";
-      title = `Sports Activity ${index - 9}`;
-    } else {
-      category = "events";
-      title = `Celebration & Activity ${index - 14}`;
-    }
-
-    return { src, category, title };
+  // Map images using static config matching with glob imports
+  const mappedImages = galleryImages.map((img) => {
+    const globKey = Object.keys(allImages).find((key) => key.endsWith(`/${img.filename}`));
+    const src = globKey ? allImages[globKey] : "";
+    return {
+      src,
+      category: img.category,
+      title: img.title,
+      alt: img.alt || img.title,
+    };
   });
 
   // Filter images based on selected tag
@@ -132,7 +118,7 @@ export default function Gallery({ folder = "gallery" }) {
               <div key={index} className="col-sm-6 col-md-4 col-lg-3">
                 <div className="gallery-card" onClick={() => openLightbox(index)}>
                   <div className="gallery-img-wrapper">
-                    <img src={img.src} className="gallery-img" alt={img.title} />
+                    <img src={img.src} className="gallery-img" alt={img.alt} />
                     <div className="gallery-overlay">
                       <div className="gallery-overlay-icon">
                         <i className="bi bi-zoom-in"></i>
@@ -173,7 +159,7 @@ export default function Gallery({ folder = "gallery" }) {
             <img
               src={filteredImages[lightbox.currentIndex].src}
               className="lightbox-img"
-              alt={filteredImages[lightbox.currentIndex].title}
+              alt={filteredImages[lightbox.currentIndex].alt}
             />
             <div className="lightbox-caption">
               <span className="badge bg-gold mb-2 d-inline-block">

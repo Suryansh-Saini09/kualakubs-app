@@ -3,7 +3,8 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import SEO from "../components/SEO";
-import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg"
+import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg";
+import "../styles/partnerships.css";
 
 
 export default function Partnerships() {
@@ -14,10 +15,10 @@ export default function Partnerships() {
 
     return (
         <>
-        <SEO
-            title="Strong Partnerships for Enhanced Learning Experiences"
-            description="Collaborations with educators and organizations that enrich learning, broaden exposure, and create meaningful opportunities for students."
-        />
+            <SEO
+                title="Strong Partnerships for Enhanced Learning Experiences"
+                description="Collaborations with educators and organizations that enrich learning, broaden exposure, and create meaningful opportunities for students."
+            />
             <PageHeader
                 title="Our Partnerships"
                 backgroundImage={newBuildingImg}
@@ -256,27 +257,105 @@ export default function Partnerships() {
                     </div>
                 </div>
             </section> */}
-            <section className="py-5 bg-light partnership-section">
+            <section className="py-5 bg-light partnership-section pb-0">
                 <div className="container">
 
                     {/* Heading */}
-                    <div className="text-center mb-5">
-                        <h2 className="display-6 fw-bold" style={{ color: 'var(--accent-bg-color)' }}>
-                            Our Partnerships
+                    <div className="text-center mb-5" data-aos="fade-up">
+                        <h2 className="display-5 fw-bold mb-4" style={{ color: 'var(--accent-bg-color)', fontFamily: "'Montserrat', sans-serif" }}>
+                            Why Partnership Matters
                         </h2>
 
-                        <p className="text-muted mx-auto col-lg-8">
-                            At Kualakubs World School, our collaborations with leading educational
-                            organisations, industry experts, and community groups help broaden
-                            learning opportunities and bring global exposure to our students.
-                        </p>
+                        <div className="mx-auto col-lg-9">
+                            <p className="fs-5 mb-3" style={{ color: "var(--text-color)", lineHeight: "1.8", textAlign: "justify" }}>
+                                A child’s education is most powerful when the school and home move in the same direction. At <strong>Kualakubs World School</strong>, a leading <strong>School in Gurugram</strong>, we have built a partnership model that treats parents not as external stakeholders but as essential partners in their child’s learning journey. When teachers and families share the same goals and communicate openly, the child at the centre benefits in ways neither can achieve alone.
+                            </p>
+                            <p className="fs-5 mb-0" style={{ color: "var(--text-color)", lineHeight: "1.8", textAlign: "justify" }}>
+                                This approach reflects the values families often seek when choosing a <span style={{ color: "#b3925c", fontWeight: "700" }}>School in Gurugram</span> that prioritizes collaboration, trust, and long-term development.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Community Service & Social Responsibility Section */}
+            <section className="safety-highlights-section">
+                <div className="container">
+                    <div className="row align-items-center g-5 mb-5">
+                        <div className="col-lg-12 text-center" data-aos="fade-up">
+                            <span className="safety-subtitle mb-2">Social Impact</span>
+                            <h2 className="safety-title text-white">Community Service & Social Responsibility</h2>
+                            <div className="mx-auto col-lg-9 mt-4 text-white-50">
+                                <p className="fs-5 mb-3" style={{ lineHeight: "1.8", textAlign: "justify" }}>
+                                    At <strong>KWS</strong>, education extends beyond academics into meaningful community engagement. Students participate in age-appropriate service initiatives such as environmental drives, awareness campaigns, and social support activities that build empathy and responsibility.
+                                </p>
+                                <p className="fs-5 mb-0" style={{ lineHeight: "1.8", textAlign: "justify" }}>
+                                    As a forward-thinking <strong>School in Gurugram</strong>, we also encourage parents to take part in several initiatives, making service a shared family value rather than just a school activity. This is what sets a meaningful <span className="highlight-gold" style={{ color: "#e2dccc", fontWeight: "700" }}>School in Gurugram</span> apart from conventional learning environments.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="row g-4 justify-content-center">
+                        <div className="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="100">
+                            <div className="safety-card h-100">
+                                <div className="d-flex flex-column flex-sm-row gap-4 align-items-start">
+                                    <div className="safety-icon-container" style={{ backgroundColor: "rgba(226, 220, 204, 0.15)", color: "#e2dccc", minWidth: "54px", height: "54px", borderRadius: "12px", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.5rem" }}>
+                                        <i className="bi bi-globe-americas"></i>
+                                    </div>
+                                    <div className="flex-grow-1">
+                                        <h4 className="text-white fw-bold mb-2" style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.25rem" }}>Student Initiatives</h4>
+                                        <p className="text-white-50 mb-0" style={{ fontSize: "1.05rem", lineHeight: "1.6" }}>
+                                            Enabling students to lead tree plantation drives, waste segregation audits, and literacy drives to build character and civic consciousness.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="200">
+                            <div className="safety-card h-100">
+                                <div className="d-flex flex-column flex-sm-row gap-4 align-items-start">
+                                    <div className="safety-icon-container" style={{ backgroundColor: "rgba(226, 220, 204, 0.15)", color: "#e2dccc", minWidth: "54px", height: "54px", borderRadius: "12px", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.5rem" }}>
+                                        <i className="bi bi-people-fill"></i>
+                                    </div>
+                                    <div className="flex-grow-1">
+                                        <h4 className="text-white fw-bold mb-2" style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.25rem" }}>Family Engagement</h4>
+                                        <p className="text-white-50 mb-0" style={{ fontSize: "1.05rem", lineHeight: "1.6" }}>
+                                            Providing collaborative platforms for parents and students to serve together, cementing community service as a shared household value.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="partnership-section-white">
+                <div className="container">
+
+                    {/* Sub-heading for card grid */}
+                    <div className="text-center mb-5" data-aos="fade-up">
+                        <h2 className="display-5 fw-bold mb-4" style={{ color: 'var(--accent-bg-color)', fontFamily: "'Montserrat', sans-serif" }}>
+                            Institutional Collaborations
+                        </h2>
+
+                        <div className="mx-auto col-lg-9 mb-5 pb-4">
+                            <p className="fs-5 mb-3" style={{ color: "var(--text-color)", lineHeight: "1.8", textAlign: "justify" }}>
+                                <strong>KWS</strong> actively collaborates with educational institutions, professional organisations, and community bodies to enrich student learning. Through guest lectures, joint programmes, and shared resources, students gain exposure beyond the classroom.
+                            </p>
+                            <p className="fs-5 mb-0" style={{ color: "var(--text-color)", lineHeight: "1.8", textAlign: "justify" }}>
+                                This collaborative ecosystem reflects the vision of a modern <span className="highlight-gold" style={{ color: "#b3925c", fontWeight: "700" }}>School in Gurugram</span>, where learning is not limited to textbooks but expanded through real-world connections. At <strong>KWS</strong>, being a progressive <strong>School in Gurugram</strong> means continuously bringing new opportunities and perspectives to students.
+                            </p>
+                        </div>
                     </div>
 
                     <div className="row g-4">
 
                         {/* CARD */}
                         <div className="col-lg-4 col-md-6" data-aos="fade-up" >
-                            <div className="partner-card" style={{ "--accent": "#06b6d4" }}>
+                            <div className="partner-card-light">
                                 <i className="bi bi-mortarboard-fill bg-icon"></i>
 
                                 <div className="icon-float">
@@ -296,7 +375,7 @@ export default function Partnerships() {
 
                         {/* CARD */}
                         <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                            <div className="partner-card" style={{ "--accent": "#f59e0b" }}>
+                            <div className="partner-card-light">
                                 <i className="bi bi-cpu-fill bg-icon"></i>
 
                                 <div className="icon-float">
@@ -317,7 +396,7 @@ export default function Partnerships() {
 
                         {/* CARD */}
                         <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                            <div className="partner-card" style={{ "--accent": "#16a34a" }}>
+                            <div className="partner-card-light">
                                 <i className="bi bi-heart-pulse-fill bg-icon"></i>
 
                                 <div className="icon-float">
@@ -338,7 +417,7 @@ export default function Partnerships() {
 
                         {/* ARTS */}
                         <div className="col-lg-4 col-md-6" data-aos="fade-up">
-                            <div className="partner-card" style={{ "--accent": "#6366f1" }}>
+                            <div className="partner-card-light">
                                 <i className="bi bi-palette-fill bg-icon"></i>
 
                                 <div className="icon-float">
@@ -358,7 +437,7 @@ export default function Partnerships() {
 
                         {/* COMMUNITY */}
                         <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                            <div className="partner-card" style={{ "--accent": "#ef4444" }}>
+                            <div className="partner-card-light">
                                 <i className="bi bi-people-fill bg-icon"></i>
 
                                 <div className="icon-float">
@@ -378,12 +457,12 @@ export default function Partnerships() {
 
                         {/* HIGHLIGHT */}
                         <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                            <div className="partner-card highlight">
+                            <div className="partner-card-light highlight">
                                 <i className="bi bi-patch-check-fill bg-icon"></i>
 
                                 <div className="icon-float">
                                     <div className="icon-circle">
-                                        <i className="bi bi-patch-check text-black"></i>
+                                        <i className="bi bi-patch-check"></i>
                                     </div>
                                 </div>
 
@@ -401,8 +480,6 @@ export default function Partnerships() {
                     </div>
                 </div>
             </section>
-
-
         </>
     );
 }

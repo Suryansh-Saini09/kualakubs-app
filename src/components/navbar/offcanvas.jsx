@@ -85,6 +85,11 @@ function OffcanvasNavbar() {
                     Gallery
                   </Link>
                 </li>
+                <li className="nav-item">
+                  <Link className="nav-link custom-nav-link-color" to="/our-partnerships" onClick={handleClose}>
+                    Our Partnerships
+                  </Link>
+                </li>
               </ul>
 
               <hr style={{color: "var(--accent-text-color)"}} />
@@ -97,7 +102,7 @@ function OffcanvasNavbar() {
 
               {/* Social Icons */}
               <div className="mt-5 ps-5 ps-md-3 ps-sm-2">
-                <a href="#" className="bi-color">
+                <a href="https://www.facebook.com/profile.php?id=61588552164324" target="_blank" rel="noopener noreferrer" className="bi-color">
                   <i className="bi bi-facebook fs-5 me-2"></i>
                 </a>
                 <a href="#" className="bi-color">

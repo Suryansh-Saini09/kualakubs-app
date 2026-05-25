@@ -1,0 +1,109 @@
+/* =========================================================
+   Our Future Page Styles
+   ========================================================= */
+
+.future-section {
+  padding: 6rem 0;
+  background: linear-gradient(180deg, #ffffff 0%, #faf8f5 50%, #ffffff 100%);
+}
+
+.future-content-wrapper {
+  background: #ffffff;
+  border: 1px solid rgba(25, 45, 69, 0.05);
+  border-radius: 24px;
+  padding: 4rem 3.5rem;
+  box-shadow: 0 15px 45px rgba(25, 45, 69, 0.03);
+}
+
+.future-matters-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+  color: var(--accent-bg-color);
+  margin-bottom: 2rem;
+  position: relative;
+  padding-bottom: 1rem;
+  line-height: 1.25;
+}
+
+.future-matters-title::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 80px;
+  height: 4px;
+  background-color: #b3925c; /* Gold line */
+  border-radius: 2px;
+}
+
+.future-matters-para {
+  font-size: 1.2rem;
+  line-height: 1.85;
+  color: var(--text-color);
+  font-weight: 450;
+  text-align: center;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.future-matters-para strong {
+  color: var(--accent-bg-color);
+  font-weight: 700;
+}
+
+.future-matters-para .highlight-gold {
+  color: #b3925c;
+  font-weight: 700;
+}
+
+/* =========================================================
+   Counseling List Styles
+   ========================================================= */
+
+.future-counseling-list {
+  list-style: none;
+  padding: 0;
+  margin: 2.5rem auto 0;
+  max-width: 800px;
+  text-align: left;
+}
+
+.future-counseling-list li {
+  display: flex;
+  align-items: start;
+  gap: 0.75rem;
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: var(--text-color);
+  margin-bottom: 0.75rem;
+}
+
+.future-counseling-list li::before {
+  content: "•";
+  color: #b3925c; /* Gold bullet */
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 1;
+  margin-top: -0.15rem;
+}
+
+/* =========================================================
+   Responsive Fixes
+   ========================================================= */
+
+@media (max-width: 991px) {
+  .future-content-wrapper {
+    padding: 3rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .future-section {
+    padding: 4rem 0;
+  }
+  .future-matters-para {
+    text-align: justify;
+  }
+}

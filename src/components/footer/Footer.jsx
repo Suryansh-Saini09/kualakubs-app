@@ -7,7 +7,7 @@ const Footer = ({ footerLinks }) => {
     return (
         <footer
             className="container-fluid py-4"
-            style={{ backgroundColor: "var(--accent-bg-color)", color: "var(--accent-text-color)" }}
+            style={{ backgroundColor: "#ffffff", color: "var(--accent-bg-color)" }}
         >
             {/* Row 1: Links */}
             <div className="row justify-content-center mb-3">
@@ -15,7 +15,7 @@ const Footer = ({ footerLinks }) => {
                     {footerLinks.map((section, index) => (
                         <div key={index} className="col d-flex justify-content-center">
                             <ul className="list-unstyled text-start">
-                                <li className="mb-2">{section.category}</li>
+                                <li className="mb-2 fw-semibold">{section.category}</li>
                                 {section.links.map((link, i) => {
                                     // console.log("Link item:", link);   // 👈 console log added here
 
@@ -40,11 +40,11 @@ const Footer = ({ footerLinks }) => {
             {/* Row 2: Social icons */}
             <div className="container row align-items-center mb-3 ms-lg-5">
                 <div className="col">
-                    <h6 className="mb-2">Social</h6>
-                    <a href="#" className="bi-color me-2"><i className="bi bi-facebook"></i></a>
-                    <a href="#" className="bi-color me-2"><i className="bi bi-twitter"></i></a>
-                    <a href="https://www.instagram.com/kualakubsworldschool?igsh=MTRocGJla2x6ZjhyOA==" className="bi-color me-2"><i className="bi bi-instagram"></i></a>
-                    <a href="#" className="bi-color"><i className="bi bi-linkedin"></i></a>
+                    <h6 className="mb-2 fw-semibold">Social</h6>
+                    <a href="https://www.facebook.com/profile.php?id=61588552164324" target="_blank" rel="noopener noreferrer" className="footer-link me-3"><i className="bi bi-facebook"></i></a>
+                    <a href="#" className="footer-link me-3"><i className="bi bi-twitter"></i></a>
+                    <a href="https://www.instagram.com/kualakubsworldschool?igsh=MTRocGJla2x6ZjhyOA==" className="footer-link me-3"><i className="bi bi-instagram"></i></a>
+                    <a href="#" className="footer-link"><i className="bi bi-linkedin"></i></a>
                 </div>
             </div>
 
