@@ -204,7 +204,7 @@ export default function Contact() {
                         <div className="col-lg-7">
                             <div className="position-relative p-2 bg-light shadow-sm" style={{ borderRadius: "20px", border: "1px solid rgba(25, 45, 69, 0.05)" }}>
                                 <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3509.539620242402!2d76.9358258754924!3d28.402969975790963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDI0JzEwLjciTiA3NsKwNTYnMTguMiJF!5e0!3m2!1sen!2sin!4v1766471425028!5m2!1sen!2sin"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.9279462865816!2d76.93600097528022!3d28.40178137579147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d3d3c7264dbc5%3A0xf79b4b2a37fe5527!2sKualakubs%20World%20School!5e1!3m2!1sen!2sin!4v1781171417741!5m2!1sen!2sin"
                                     width="100%"
                                     height="350"
                                     style={{ border: "0", borderRadius: "16px", display: "block" }}
