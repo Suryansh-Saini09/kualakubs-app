@@ -185,7 +185,7 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h5 className="fw-bold mb-1" style={{ fontSize: "1rem", color: "var(--accent-bg-color)" }}>Visiting Hours</h5>
-                                    <p className="text-muted mb-0" style={{ fontSize: "0.9rem" }}>Monday – Saturday: 8:00 AM – 3:00 PM</p>
+                                    <p className="text-muted mb-0" style={{ fontSize: "0.9rem" }}>Monday – Saturday: 8:00 AM – 4:00 PM</p>
                                 </div>
                             </div>
 
