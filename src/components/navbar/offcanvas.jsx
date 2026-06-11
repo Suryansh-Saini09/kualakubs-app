@@ -102,18 +102,18 @@ function OffcanvasNavbar() {
 
               {/* Social Icons */}
               <div className="mt-5 ps-5 ps-md-3 ps-sm-2">
-                <a href="https://www.facebook.com/profile.php?id=61588552164324" target="_blank" rel="noopener noreferrer" className="bi-color">
+                <a href="https://www.facebook.com/share/1YqgzBQTGu/" target="_blank" rel="noopener noreferrer" className="bi-color">
                   <i className="bi bi-facebook fs-5 me-2"></i>
                 </a>
-                <a href="#" className="bi-color">
+                {/* <a href="#" className="bi-color">
                   <i className="bi bi-twitter-x fs-5 me-2"></i>
-                </a>
-                <a href="#" className="bi-color">
+                </a> */}
+                <a href="https://www.instagram.com/kualakubsworldschool?igsh=dTlmYWZ4ZHVuaTI1" target="_blank" className="bi-color">
                   <i className="bi bi-instagram fs-5 me-2"></i>
                 </a>
-                <a href="#" className="bi-color">
+                {/* <a href="#" className="bi-color">
                   <i className="bi bi-linkedin fs-5 me-2"></i>
-                </a>
+                </a> */}
               </div>
                 </Offcanvas.Body>
             </Offcanvas>

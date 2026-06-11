@@ -15,6 +15,8 @@ const CATEGORIES = [
   { id: "academic", label: "Academics & Labs" },
   { id: "sports", label: "Sports & Playgrounds" },
   { id: "events", label: "Events & Celebrations" },
+  { id: "HealthCamp", label: "Health Camp" },
+  { id: "SummerCamp", label: "Summer camp"}
 ];
 
 export default function Gallery({ folder = "gallery" }) {
