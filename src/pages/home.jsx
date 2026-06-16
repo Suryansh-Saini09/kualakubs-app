@@ -166,7 +166,7 @@ export default function Home() {
                 >
                     <h4 className="me-3 p-2 mb-0 fw-semibold" style={{ whiteSpace: "nowrap" }}>Latest News:</h4>
                     <marquee width="100%" className="p-2" direction="left" height="50px" style={{ color: "#192d45" }}>
-                        Admissions Open for Session 2026–27 – Enroll now for a future-ready learning experience at Kualakubs World School, Sec-86. On the Contact Us page, please change "Admissions Open 2025–26" to "Admissions Open 2026–27.
+                        Admissions Open for Session 2026–27 – Enroll now for a future-ready learning experience at Kualakubs World School, Sec-86.
                     </marquee>
                 </div>
 
