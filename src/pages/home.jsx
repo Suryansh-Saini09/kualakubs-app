@@ -105,7 +105,7 @@ export default function Home() {
             stars: 5
         }
     ];
-
+ 
     const testimonialResponsive = {
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
