@@ -132,7 +132,7 @@ export default function Home() {
             />
             { /* Main section  */}
             <main>
-                <Components.Overlay.HomePopup />
+                {/* <Components.Overlay.HomePopup /> */}
                 <div className="container-fluid position-relative p-0">
                     <Components.Carousel />
                     <Components.Overlay.Overlayheader headerlinks={Links.overlayheaderlink} />
@@ -166,7 +166,7 @@ export default function Home() {
                 >
                     <h4 className="me-3 p-2 mb-0 fw-semibold" style={{ whiteSpace: "nowrap" }}>Latest News:</h4>
                     <marquee width="100%" className="p-2" direction="left" height="50px" style={{ color: "#192d45" }}>
-                        🌞 SUMMER CAMP 2026 – REGISTRATIONS OPEN! 🌈 | Dear Parents, we are excited to announce our Summer Camp packed with fun and learning! 🎉 | ✨ Highlights: 🔹 Dates: 1st June to 13th June 🔹 Timings: 07:30 AM to 11:30 AM 🔹 Open for all students | 💰 Registration & Early Bird Offer: Call us 9996648317 | 🍱 Note: Kindly send snacks/tiffin with your child. | 📢 Limited seats available – register soon!
+                        Admissions Open for Session 2026–27 – Enroll now for a future-ready learning experience at Kualakubs World School, Sec-86. On the Contact Us page, please change "Admissions Open 2025–26" to "Admissions Open 2026–27.
                     </marquee>
                 </div>
 
