@@ -31,7 +31,7 @@ export default function Contact() {
                 <div className="contact-hero-circle-1"></div>
                 <div className="contact-hero-circle-2"></div>
                 <div className="container position-relative">
-                    <span className="contact-admission-badge">ADMISSIONS OPEN 2025–26</span>
+                    <span className="contact-admission-badge">ADMISSIONS OPEN 2026–27</span>
                     <h1 className="contact-hero-title">
                         Get in Touch with<br />
                         <span>Kualakubs World School</span>
