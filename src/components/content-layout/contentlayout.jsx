@@ -16,7 +16,10 @@ export function AboutContentLayout() {
                 <img src={aboutlogo} className="about-section-img img-fluid" alt="" />
 
                 <p className="about-text" style={{ fontSize: "medium", textAlign: "justify" }}>
-                    Welcome to Kualakubs World School, one of the best CBSE schools in Gurgaon, committed to building strong academic foundations, essential life skills, and a future-ready mindset in every child. As a leading CBSE school in Gurgaon, we combine modern pedagogy, global teaching standards, and a safe, nurturing environment.
+                   
+                    Finding the right school for your child isn't easy. There are a lot of schools in Gurugram, but you, as a parent, would like a school with a good board percentage, which also has your child feel safe, curious and excited to learn. 
+                    Kualakubs World School is all that.
+
                 </p>
 
                 <Link to="/about" className="d-block z-2 text-decoration-none" style={{ color: "var(--accent-text-color)", fontSize: "large" }}>

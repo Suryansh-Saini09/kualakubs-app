@@ -17,32 +17,32 @@ export default function Home() {
     const whyChooseKWS = [
         {
             title: "Child-centric approach",
-            desc: "Every learning experience is designed around the individual needs, strengths, and pace of each student.",
+            desc: "Each learning experience is planned for the needs, strengths and speed of learning of all children—no two children are the same.",
             icon: "bi-person-heart"
         },
         {
             title: "Experienced, dedicated faculty",
-            desc: "Teachers who combine academic expertise with genuine warmth and commitment to every child's growth.",
+            desc: "Well-qualified teachers with knowledge and a love of all children's development. It's between a good school and a great one, and between KWS and the most trusted school in Gurgaon.",
             icon: "bi-mortarboard"
         },
         {
             title: "Smart, technology-enabled classrooms",
-            desc: "Interactive panels, digital tools, and blended learning that make concepts come alive.",
+            desc: "Interactive panels, digital tools and blended learning to make concepts come alive. The best-in-class standard of infrastructure that is to be expected from the best CBSE school in Gurgaon.",
             icon: "bi-display"
         },
         {
             title: "Safe and secure campus",
-            desc: "CCTV monitoring, controlled entry, GPS-tracked transport, and a trained medical room — because safety is non-negotiable.",
+            desc: "Safety is not a deal breaker – CCTV monitoring, controlled entry, GPS tracked transport and trained medical room. This is a lot for parents who are looking for trustworthy schools in Gurgaon.",
             icon: "bi-shield-check"
         },
         {
             title: "Rich co-curricular programme",
-            desc: "From performing arts to sports, debate to robotics — every talent has a platform at KWS.",
+            desc: "You are a performer, sports enthusiast, debater, athlete, robot builder or something else – there's a platform for you at KWS. Holistic growth is at the heart of what we do.",
             icon: "bi-palette"
         },
         {
             title: "Values at the core",
-            desc: "Integrity, respect, and responsibility are woven into daily school life — not taught as subjects but lived as culture.",
+            desc: "Integrity, respect and responsibility are part of everyday life in the school and are not taught as a subject but as a culture. This really is the essence of one of the best CBSE schools in Gurgaon.",
             icon: "bi-compass"
         }
     ];
@@ -50,27 +50,27 @@ export default function Home() {
     const safetyHighlights = [
         {
             title: "24×7 CCTV Surveillance",
-            desc: "24×7 CCTV surveillance across all campus areas for continuous monitoring and safety assurance.",
+            desc: "A CCTV system provides 24-hour monitoring of all areas of the campus, assuring safety at all times.",
             icon: "bi-camera-video"
         },
         {
             title: "Controlled Entry & Exit",
-            desc: "Controlled entry and exit system — only authorised personnel and verified guardians access the campus.",
+            desc: "Authorised entry/exit system — only authorised persons and validated guardians are allowed to enter/exit the campus. A standard that you would expect from the very best CBSE schools in Gurgaon.",
             icon: "bi-shield-lock"
         },
         {
             title: "Medical Care Facility",
-            desc: "Medical room with trained staff available throughout the school day for any health concern.",
+            desc: "Medical room staff are trained and available during the school day for all health concerns (large or small).",
             icon: "bi-heart-pulse"
         },
         {
             title: "GPS-Tracked School Buses",
-            desc: "GPS-tracked school buses with trained attendants on every route, covering key areas of Gurugram.",
+            desc: "Fixed, GPS-enabled school bus and trained staff on every route, with a focus on the critical areas of Gurugram. Another reason why KWS is one of the most trusted schools in Gurgaon for working parents.",
             icon: "bi-bus-front"
         },
         {
             title: "Hygienic & Clean Environment",
-            desc: "Clean, hygienic campus with regular sanitation, well-maintained washrooms, and a healthy cafeteria environment.",
+            desc: "Maintained and cleaned the campus, sanitary toilets and a good food environment in the campus canteen. A healthy child is a happy learner, and that's what the best CBSE schools in Gurgaon never have to compromise.",
             icon: "bi-stars"
         }
     ];
@@ -174,10 +174,10 @@ export default function Home() {
                 <section className="why-kws-section">
                     <div className="container">
                         <div className="text-center mb-5">
-                            <span className="why-kws-subtitle">Why Choose Us</span>
-                            <h2 className="why-kws-title mt-2">Why Parents Choose KWS</h2>
+                            <span className="why-kws-subtitle">Thousands of Gurugram families choose KWS every year</span>
+                            <h2 className="why-kws-title mt-2">— and here's why</h2>
                             <p className="why-kws-intro mx-auto mt-3 text-muted" style={{ maxWidth: "700px" }}>
-                                We are committed to building strong academic foundations, essential life skills, and a future-ready mindset in every child. Here is what makes Kualakubs World School the ideal choice for your child's educational journey.
+                                We aim to provide a solid academic base, life skills and a mind for the future in each of our children. Kualakubs World School is the <strong>top CBSE School in Gurgaon</strong> for your child's schooling for the following reasons:
                             </p>
                         </div>
 
@@ -299,10 +299,10 @@ export default function Home() {
                             </div>
                             <div className="col-lg-6">
                                 <span className="teaser-subtitle">About Us</span>
-                                <h2 className="teaser-title">Welcome to Kualakubs World School</h2>
+                                <h2 className="teaser-title">Welcome to Kualakubs World School — One of the Best CBSE Schools in Gurgaon</h2>
                                 <p className="teaser-text">
-                                    At Kualakubs World School, we are dedicated to fostering academic excellence, critical thinking, and character development in a warm, nurturing environment. Our balanced curriculum combines rigorous modern education with rich values, preparing our students to lead and inspire in an ever-changing world.
-                                </p>
+                                    We strive to nurture learners' academic achievement, critical thinking, and character development in a warm, supportive setting at Kualakubs World School. We are one of the most trusted <strong>schools in Gurugram</strong>, which imparts education in a balanced manner, along with rich values, so our students can lead and inspire the world in the future.
+                                    Find out more about us →  </p>
                                 <a href="/about" className="teaser-btn">
                                     Learn More About Us →
                                 </a>
@@ -324,8 +324,8 @@ export default function Home() {
                                 <span className="teaser-subtitle">Join Our Family</span>
                                 <h2 className="teaser-title">Admissions Open 2026–27</h2>
                                 <p className="teaser-text">
-                                    Securing your child's future begins here. We offer a seamless, supportive admission process for the academic year 2026–27 from Playgroup to Grade XII. Discover our entry guidelines, fee structure, and book a campus tour to experience KWS firsthand.
-                                </p>
+                                    This is where you can lay the foundations for your child's future. To find the <strong>best CBSE Schools in Gurgaon</strong>, families can find all the information they need at KWS, which is a hassle-free and supportive process for admission to playgroup to class XII 2026-27. Read our entry rules, fees and come and experience KWS for yourself by booking a tour of the campus. <br />
+                                    <strong>Enquire Now →</strong> </p>
                                 <a href="/admissions" className="teaser-btn">
                                     Enquire Now →
                                 </a>
@@ -347,7 +347,7 @@ export default function Home() {
                                 <span className="teaser-subtitle">Our Infrastructure</span>
                                 <h2 className="teaser-title">World-Class Campus Facilities</h2>
                                 <p className="teaser-text">
-                                    Designed to inspire curiosity and facilitate holistic growth, our campus is equipped with smart technology-enabled classrooms, advanced science and computer laboratories, a spacious library, and expansive play areas that support physical education and outdoor activities.
+                                    Our campus is smartly designed to awaken the curiosity and promote all-around development of a child, and has a modern science lab and computer lab, a library with extensive playgrounds to promote outdoor learning and physical education. This is the kind of infrastructure that makes a CBSE <strong>School in Gurgaon</strong> the best, which is meaningful, modern and kid-friendly.
                                 </p>
                                 <a href="/campus-facilities" className="teaser-btn">
                                     Explore Our Campus →
@@ -368,9 +368,10 @@ export default function Home() {
                             </div>
                             <div className="col-lg-6 order-lg-1">
                                 <span className="teaser-subtitle">Student Experience</span>
-                                <h2 className="teaser-title">Vibrant School Life</h2>
+                                <h2 className="teaser-title">Vibrant School Life at Kualakubs — The Best CBSE School in Gurgaon </h2>
                                 <p className="teaser-text">
-                                    Every day at Kualakubs World School is a new adventure. We believe that school should be a joyful place where students feel safe to explore their interests, build lasting friendships, and engage in a rich community culture through various student clubs, assemblies, and house activities.
+                                    Each day at Kualakubs World School is a new adventure. We feel that school should be a happy environment where pupils have the freedom to investigate their interests, develop meaningful friendships and enjoy a wide and varied school life through the school's clubs and assemblies, and through the house activities. It is a type of school life that makes KWS one of the most cherished <strong>schools in Gurugram</strong> by students and parents. <br />
+                                    <strong>Discover School Life →</strong>
                                 </p>
                                 <a href="/school-life" className="teaser-btn">
                                     Discover School Life →
@@ -379,7 +380,6 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-
                 {/* Co-Curricular Teaser Section */}
                 <section className="co-curricular-teaser-section">
                     <div className="container">
@@ -393,7 +393,8 @@ export default function Home() {
                                 <span className="teaser-subtitle">Beyond the Classroom</span>
                                 <h2 className="teaser-title">Co-Curricular</h2>
                                 <p className="teaser-text">
-                                    At Kualakubs World School, the classroom is just the beginning. Our students sing, dance, debate, code, paint, and play — because we believe that a child's fullest potential can only be realised when every dimension of who they are is nurtured and celebrated. From annual day performances to inter-school competitions, life at KWS is rich, vibrant, and always full of possibility — a hallmark of forward-thinking schools in Gurugram.
+                                    At Kualakubs World School, the classroom is just the beginning. Our students sing, dance, debate, code, paint and play because we know and understand that the whole child can be realised when we nurture and celebrate all parts of their being. Whether it's an annual day event or an inter-school competition, life at KWS is rich, vibrant and always full of possibility — a feature of the best CBSE Schools in Gurgaon and forward-thinking schools in Gurugram. <br />
+                                    <strong>Explore Co-Curriculars →</strong>
                                 </p>
                                 <a href="/Co-Curricular" className="teaser-btn">
                                     Explore Co-Curriculars →
@@ -416,7 +417,7 @@ export default function Home() {
                                 <span className="teaser-subtitle">Collaborations</span>
                                 <h2 className="teaser-title">Our Strategic Partnerships</h2>
                                 <p className="teaser-text">
-                                    We collaborate with leading educational networks, technology partners, and local organizations to enrich our curriculum and offer students unique learning opportunities. Through these strategic partnerships, we bring global perspectives and real-world expertise directly into our classrooms.
+                                   Our key partners in the education sector, technology providers and local organisations are important stakeholders in the development of our curriculum, and we work closely with them to continually improve our curriculum and ensure that our students are offered a range of learning opportunities. These strategic linkages are a wonderful way of introducing the world into the classroom and real-life experiences into the school, and that's the reason why we are one of the most progressive <strong>schools in Gurugram.</strong>
                                 </p>
                                 <a href="/our-partnerships" className="teaser-btn">
                                     Our Partnerships →

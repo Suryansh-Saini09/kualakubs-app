@@ -2,6 +2,7 @@ export const overlayheaderlink = [
     { pathname: "Why Kualakubs?", path: "/why-kualakubs" },
     { pathname: "Admissions", path: "/admissions" },
     { pathname: "Our Campuses", path: "/our-campuses" },
+    { pathname: "Blogs", path: "/blogs" },
     { pathname: "Contact Us", path: "/contact" },
     //{ pathname: "About Us", path: "/about" },
 
@@ -16,20 +17,21 @@ export const footerLinks = [
     {
         category: "ABOUT",
         links: [
-             { path: "/about", pathname: "About us" },
-             { path: "/admissions", pathname: "Admissions" },
+            { path: "/about", pathname: "About us" },
+            { path: "/admissions", pathname: "Admissions" },
             // { path: "/about", pathname: "About us" },
             // { path: "/about", pathname: "About us" },
         ],
     },
-  
- 
+
+
     {
         category: "QUICK LINKS",
         links: [
-             { path: "/campus-facilities", pathname: "Campus facilities" },
-             { path: "/why-kualakubs", pathname: "Why kualakubs" },
+            { path: "/campus-facilities", pathname: "Campus facilities" },
+            { path: "/why-kualakubs", pathname: "Why kualakubs" },
             { path: "/career", pathname: "Careers" },
+            { path: "/blogs", pathname: "Blogs" },
             { path: "https://kualakubsgurugram.in/", pathname: "Kualakubs Pre School" },
             { path: "/privacy-policy", pathname: "Privacy Policy" }
         ],
@@ -37,9 +39,9 @@ export const footerLinks = [
     {
         category: "CONTACT",
         links: [
-              { path: "/contact", pathname: "Contact Us" },
-             { path: null, pathname: "+91 - 9996648317" },
-             { path: null, pathname: "info@kualakubsworldschool.in" },
+            { path: "/contact", pathname: "Contact Us" },
+            { path: null, pathname: "+91 - 9996648317" },
+            { path: null, pathname: "info@kualakubsworldschool.in" },
             // { path: "/about", pathname: "About us" },
         ],
     },
