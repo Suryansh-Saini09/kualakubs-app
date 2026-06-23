@@ -6,6 +6,8 @@ import "../styles/whyChoose.css";
 import SEO from "../components/SEO.jsx";
 import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg";
 
+
+
 const trustReasons = [
     {
         title: "Child-Centric Learning",
