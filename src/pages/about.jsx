@@ -7,8 +7,7 @@ export default function About() {
     <>
       <SEO
         title="Strong Foundations at a Trusted CBSE School in Gurugram "
-        description="A trusted learning space blending tradition and innovation, backed by 40+ years of educational excellence, at a leading CBSE School in Gurugram. 
-"
+        description="A trusted learning space blending tradition and innovation, backed by 40+ years of educational excellence, at a leading CBSE School in Gurugram."
       />
       <PageHeader
         title="About Us"
@@ -34,7 +33,7 @@ export default function About() {
               About Us
             </h2>
             <p className="mt-2" style={{ color: "var(--text-color)" }}>
-              A legacy of 40 years meets the future of learning.
+              A legacy of 40 years meets the future of learning
             </p>
           </div>
 
