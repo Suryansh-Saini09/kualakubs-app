@@ -71,8 +71,8 @@ export default function Privacy() {
   return (
     <>
       <SEO
-        title="Privacy Policy | Kualakubs World School"
-        description="Learn how we collect, use, and protect your personal information to ensure a safe and secure experience on our website."
+        title="Privacy Policy – CBSE School in Gurugram"
+        description="Learn how we collect, use, and protect your personal information to ensure a safe and secure experience on our website services."
       />
 
       <PageHeader

@@ -7,8 +7,8 @@ export default function Campus_Facilities() {
 
     return (
         <>
-            <SEO title="Best Preschool Near Me with Modern Campus Facilities"
-                description="A thoughtfully designed campus that inspires creativity, innovation, and holistic growth through modern infrastructure and student-friendly spaces." />
+            <SEO title="Explore Facilities at Schools in New Gurgaon "
+                description="A thoughtfully designed campus that inspires creativity, innovation, and holistic growth through modern infrastructure at Schools in New Gurgaon." />
             <PageHeader
                 title="Campus Facilites"
                 backgroundImage={newBuildingImg}
@@ -387,7 +387,7 @@ export default function Campus_Facilities() {
             <section className="py-5 bg-white">
                 <div className="container py-3">
                     <div className="row g-4 justify-content-center">
-                        
+
                         {/* Safe Transportation */}
                         <div className="col-md-6 col-lg-4">
                             <div className="service-card shadow-sm">
@@ -463,7 +463,7 @@ export default function Campus_Facilities() {
                             }}>
                                 Kualakubs World School is among the <strong>Best Schools in Gurgaon</strong>.
                             </h2>
-                            
+
                             <div className="safety-divider mx-auto mb-4" style={{
                                 width: "60px",
                                 height: "4px",

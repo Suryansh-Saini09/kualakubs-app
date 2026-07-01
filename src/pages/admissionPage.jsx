@@ -25,7 +25,7 @@ export default function Admissions() {
 
       <SEO
         title="Admission Open Gurgaon School | 2026–27 Admissions"
-        description="Explore a simple admission process with guided support, campus tours, and easy enrollment for a smooth start to your child’s learning journey."
+        description="Explore a simple admission process with guided support, campus tours, and easy enrollment for a smooth start at Admission Open Gurgaon School for your child’s learning journey."
       />
 
 

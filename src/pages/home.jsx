@@ -106,7 +106,7 @@ export default function Home() {
             stars: 5
         }
     ];
- 
+
     const testimonialResponsive = {
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
@@ -128,8 +128,8 @@ export default function Home() {
     return (
         <>
             <SEO
-                title="Best CBSE School in Gurgaon for Future-Ready Learning"
-                description="A nurturing school focused on academic excellence, life skills, and holistic growth with modern teaching and a safe learning environment."
+                title="Best CBSE Schools in Gurgaon for Future-Ready Learning"
+                description="A nurturing school focused on academic excellence, life skills, and holistic growth with modern teaching and a safe environment, among the Best CBSE Schools in Gurgaon."
             />
             { /* Main section  */}
             <main>
@@ -418,7 +418,7 @@ export default function Home() {
                                 <span className="teaser-subtitle">Collaborations</span>
                                 <h2 className="teaser-title">Our Strategic Partnerships</h2>
                                 <p className="teaser-text">
-                                   Our key partners in the education sector, technology providers and local organisations are important stakeholders in the development of our curriculum, and we work closely with them to continually improve our curriculum and ensure that our students are offered a range of learning opportunities. These strategic linkages are a wonderful way of introducing the world into the classroom and real-life experiences into the school, and that's the reason why we are one of the most progressive <strong>schools in Gurugram.</strong>
+                                    Our key partners in the education sector, technology providers and local organisations are important stakeholders in the development of our curriculum, and we work closely with them to continually improve our curriculum and ensure that our students are offered a range of learning opportunities. These strategic linkages are a wonderful way of introducing the world into the classroom and real-life experiences into the school, and that's the reason why we are one of the most progressive <strong>schools in Gurugram.</strong>
                                 </p>
                                 <a href="/our-partnerships" className="teaser-btn">
                                     Our Partnerships →

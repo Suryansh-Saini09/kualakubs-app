@@ -6,8 +6,9 @@ export default function About() {
   return (
     <>
       <SEO
-        title="Who We Are | Kualakubs World School"
-        description="A trusted learning space blending tradition and innovation, backed by 40+ years of educational excellence and a strong legacy of quality education."
+        title="Strong Foundations at a Trusted CBSE School in Gurugram "
+        description="A trusted learning space blending tradition and innovation, backed by 40+ years of educational excellence, at a leading CBSE School in Gurugram. 
+"
       />
       <PageHeader
         title="About Us"

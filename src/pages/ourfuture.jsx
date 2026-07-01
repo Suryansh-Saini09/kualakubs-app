@@ -28,8 +28,8 @@ export default function FutureSection() {
   return (
     <>
       <SEO
-        title="Top Rated Schools in Gurgaon for Future-Ready Learning"
-        description="A forward-thinking school fostering innovation, resilience, and lifelong learning through thoughtfully designed programs and future-focused education."
+        title="Top-Rated Schools in Gurgaon for Future-Ready Learning."
+        description="A forward-thinking school fostering innovation, resilience, and lifelong learning through thoughtfully designed programs at Top-Rated Schools in Gurgaon."
       />
       <PageHeader
         title="Our Future"
@@ -66,7 +66,7 @@ export default function FutureSection() {
               Innovation Clubs & Interest-Based Learning
             </h3>
             <p className="mx-auto mt-2 text-white-50" style={{ maxWidth: "800px", fontSize: "1.1rem" }}>
-              KWS runs a range of student-led clubs and interest groups that cultivate curiosity beyond the classroom. 
+              KWS runs a range of student-led clubs and interest groups that cultivate curiosity beyond the classroom.
               Counted among the <span className="highlight-gold" style={{ color: "#e2dccc", fontWeight: "700" }}>Top Rated Schools in Gurgaon</span>, these platforms empower student-driven learning.
             </p>
           </div>
@@ -141,7 +141,7 @@ export default function FutureSection() {
                 Values + Leadership
               </h3>
               <p className="fs-5" style={{ color: "var(--text-color)", lineHeight: "1.8", textAlign: "justify" }}>
-                Technical skills without character are incomplete. At KWS, future-readiness is built on strong values—<strong>integrity, empathy, and responsibility</strong>—alongside real leadership opportunities. 
+                Technical skills without character are incomplete. At KWS, future-readiness is built on strong values—<strong>integrity, empathy, and responsibility</strong>—alongside real leadership opportunities.
                 As one of the <span className="highlight-gold" style={{ color: "#b3925c", fontWeight: "700" }}>Top Rated Schools in Gurgaon</span>, student councils, house leadership, and service projects build purposeful leaders.
               </p>
             </div>

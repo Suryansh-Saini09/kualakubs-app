@@ -18,7 +18,7 @@ export default function SchoolLife() {
     return (
         <>
             <SEO
-                title="Top CBSE Schools Near Me in Gurgaon | Kualakubs World School"
+                title="Explore the Top CBSE Schools Near Me in Gurugram "
                 description="Kualakubs World School is a top CBSE K-12 school in Sector 86, Gurugram. Explore our safe, nurturing campus, concept-first CBSE curriculum, and modern programs."
             />
 

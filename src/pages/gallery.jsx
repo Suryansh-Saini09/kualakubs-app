@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import PageHeader from "../components/PageHeader";
 import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg";
 import { galleryImages } from "../config/galleryImages";
+import SEO from "../components/SEO.jsx";
+
 
 const allImages = import.meta.glob("/src/assets/**/*.{png,jpg,jpeg,webp}", {
   eager: true,
@@ -16,7 +18,7 @@ const CATEGORIES = [
   { id: "sports", label: "Sports & Playgrounds" },
   { id: "events", label: "Events & Celebrations" },
   { id: "HealthCamp", label: "Health Camp" },
-  { id: "SummerCamp", label: "Summer camp"}
+  { id: "SummerCamp", label: "Summer camp" }
 ];
 
 export default function Gallery({ folder = "gallery" }) {
@@ -79,6 +81,10 @@ export default function Gallery({ folder = "gallery" }) {
 
   return (
     <>
+      <SEO
+        title="KWS Gallery | Events & Student Activities"
+        description="Explore Kualakubs World School's gallery with photos of events, activities, celebrations, and campus life showcasing joyful student experiences."
+      />
       <PageHeader
         title="Gallery"
         backgroundImage={newBuildingImg}
@@ -90,7 +96,7 @@ export default function Gallery({ folder = "gallery" }) {
 
       <section className="gallery-section py-5">
         <div className="container">
-          
+
           {/* Section Heading */}
           <div className="text-center mb-5">
             <h2 className="gallery-main-title">CAMPUS LIFE</h2>
@@ -152,11 +158,11 @@ export default function Gallery({ folder = "gallery" }) {
           <button className="lightbox-close" onClick={closeLightbox}>
             <i className="bi bi-x-lg"></i>
           </button>
-          
+
           <button className="lightbox-nav prev" onClick={prevImage}>
             <i className="bi bi-chevron-left"></i>
           </button>
-          
+
           <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
             <img
               src={filteredImages[lightbox.currentIndex].src}

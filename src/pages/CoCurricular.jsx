@@ -18,10 +18,10 @@ export default function CoCurricular() {
     return (
         <>
             <SEO
-                title="Kualakubs World School Gurugram – Co-Curricular Growth"
-                description="Engaging activities that nurture creativity, confidence, teamwork, and talent beyond academics for well-rounded student growth."
+                title="Affordable Schools in Gurgaon with Quality Education "
+                description="Looking for affordable schools in Gurgaon? Kualakubs World School provides strong academics, a safe campus, and all-around development for students. "
             />
-            
+
             <PageHeader
                 title="Co-Curricular Programs"
                 backgroundImage={newBuildingImg}

@@ -16,8 +16,11 @@ export default function Partnerships() {
     return (
         <>
             <SEO
-                title="Strong Partnerships for Enhanced Learning Experiences"
-                description="Collaborations with educators and organizations that enrich learning, broaden exposure, and create meaningful opportunities for students."
+                title="
+Academic Partnerships at a Leading School in Gurugram 
+"
+                description="Discover a top school in Gurugram offering quality education, experienced teachers, and a nurturing environment for holistic growth. 
+"
             />
             <PageHeader
                 title="Our Partnerships"

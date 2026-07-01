@@ -69,8 +69,8 @@ export default function WhyChoose() {
     return (
         <main>
             <SEO
-                title="Why Choose Us for Holistic Education"
-                description="A balanced approach to education that blends academics, creativity, and life skills to nurture confident, future-ready learners."
+                title="Top Schools in Gurugram for Overall Student Growth"
+                description="A balanced approach to education that blends academics, creativity, and life skills to nurture confident, future-ready learners at Top Schools in Gurugram."
             />
             {/* TOP HEADER SECTION */}
             <PageHeader

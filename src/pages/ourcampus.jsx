@@ -35,8 +35,8 @@ export default function OurCampus() {
     return (
         <>
             <SEO
-                title="KWS Gurgaon – Modern Campuses & Learning Spaces"
-                description="Discover well-designed campuses with modern infrastructure, safe environments, and spaces that support learning, creativity, and growth."
+                title="Affordable CBSE Schools Near Me with Modern Campus Facilities"
+                description="Explore Kualakubs World School campus with smart classrooms, modern labs, and safe spaces, making it a trusted choice for affordable CBSE schools near me. "
             />
             <PageHeader
                 title="Our Campuses"
