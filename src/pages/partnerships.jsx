@@ -268,10 +268,10 @@ export default function Partnerships() {
 
                         <div className="mx-auto col-lg-9">
                             <p className="fs-5 mb-3" style={{ color: "var(--text-color)", lineHeight: "1.8", textAlign: "justify" }}>
-                                A child’s education is most powerful when the school and home move in the same direction. At <strong>Kualakubs World School</strong>, a leading <strong>School in Gurugram</strong>, we have built a partnership model that treats parents not as external stakeholders but as essential partners in their child’s learning journey. When teachers and families share the same goals and communicate openly, the child at the centre benefits in ways neither can achieve alone.
+                                The most effective education is given when school and home collaborate. We have a partnership approach at <strong>Kualakubs World School</strong>, a top <strong>School in Gurugram</strong>, and parents are not just observers but partners in learning!
                             </p>
                             <p className="fs-5 mb-0" style={{ color: "var(--text-color)", lineHeight: "1.8", textAlign: "justify" }}>
-                                This approach reflects the values families often seek when choosing a <span style={{ color: "#b3925c", fontWeight: "700" }}>School in Gurugram</span> that prioritizes collaboration, trust, and long-term development.
+                                Together, teachers can help students achieve more and together, families can help students achieve more. This is what parents want from a trusted <strong>School in Gurugram</strong> – partnership, clarity and sustainability.
                             </p>
                         </div>
                     </div>
@@ -287,10 +287,13 @@ export default function Partnerships() {
                             <h2 className="safety-title text-white">Community Service & Social Responsibility</h2>
                             <div className="mx-auto col-lg-9 mt-4 text-white-50">
                                 <p className="fs-5 mb-3" style={{ lineHeight: "1.8", textAlign: "justify" }}>
-                                    At <strong>KWS</strong>, education extends beyond academics into meaningful community engagement. Students participate in age-appropriate service initiatives such as environmental drives, awareness campaigns, and social support activities that build empathy and responsibility.
+                                    The Subject Leader will arrange for a series of parent-teacher meetings. The Subject Leader will plan a series of Parent-Teacher Meetings.
+                                </p>
+                                <p className="fs-5 mb-3" style={{ lineHeight: "1.8", textAlign: "justify" }}>
+                                    Learning goes beyond the schoolroom at KWS into real life and community engagement. Pupils engage in environmental campaigns, awareness raising and social action projects which foster empathy and responsibility.
                                 </p>
                                 <p className="fs-5 mb-0" style={{ lineHeight: "1.8", textAlign: "justify" }}>
-                                    As a forward-thinking <strong>School in Gurugram</strong>, we also encourage parents to take part in several initiatives, making service a shared family value rather than just a school activity. This is what sets a meaningful <span className="highlight-gold" style={{ color: "#e2dccc", fontWeight: "700" }}>School in Gurugram</span> apart from conventional learning environments.
+                                    We are a progressive <strong>School in Gurugram</strong> and opportune parents to join us too, so that community service becomes a family value, not a school value only. This is what sets a modern <strong>School in Gurugram</strong> apart from traditional learning spaces.
                                 </p>
                             </div>
                         </div>
@@ -306,7 +309,7 @@ export default function Partnerships() {
                                     <div className="flex-grow-1">
                                         <h4 className="text-white fw-bold mb-2" style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.25rem" }}>Student Initiatives</h4>
                                         <p className="text-white-50 mb-0" style={{ fontSize: "1.05rem", lineHeight: "1.6" }}>
-                                            Enabling students to lead tree plantation drives, waste segregation audits, and literacy drives to build character and civic consciousness.
+                                            Students lead the tree plantation drives, waste management audit and literacy drives; developing leadership, responsibility, and civic awareness. The efforts are indicative of how a responsible <strong>School in Gurugram</strong> brings out the holistic personality of the student.
                                         </p>
                                     </div>
                                 </div>
@@ -322,7 +325,7 @@ export default function Partnerships() {
                                     <div className="flex-grow-1">
                                         <h4 className="text-white fw-bold mb-2" style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.25rem" }}>Family Engagement</h4>
                                         <p className="text-white-50 mb-0" style={{ fontSize: "1.05rem", lineHeight: "1.6" }}>
-                                            Providing collaborative platforms for parents and students to serve together, cementing community service as a shared household value.
+                                            Schools that are driven by the community create opportunities for parents and students to work together in service activities to reinforce values at school and home. A community-driven school in Gurugram.
                                         </p>
                                     </div>
                                 </div>
@@ -343,10 +346,13 @@ export default function Partnerships() {
 
                         <div className="mx-auto col-lg-9 mb-5 pb-4">
                             <p className="fs-5 mb-3" style={{ color: "var(--text-color)", lineHeight: "1.8", textAlign: "justify" }}>
-                                <strong>KWS</strong> actively collaborates with educational institutions, professional organisations, and community bodies to enrich student learning. Through guest lectures, joint programmes, and shared resources, students gain exposure beyond the classroom.
+                                KWS is actively engaged in collaboration with educators, professional groups and community organizations to improve students' learning. Students develop extra-curricular learning opportunities in workshops, guest lecturers and co-operative programmes.
                             </p>
-                            <p className="fs-5 mb-0" style={{ color: "var(--text-color)", lineHeight: "1.8", textAlign: "justify" }}>
-                                This collaborative ecosystem reflects the vision of a modern <span className="highlight-gold" style={{ color: "#b3925c", fontWeight: "700" }}>School in Gurugram</span>, where learning is not limited to textbooks but expanded through real-world connections. At <strong>KWS</strong>, being a progressive <strong>School in Gurugram</strong> means continuously bringing new opportunities and perspectives to students.
+                            <p className="fs-5 mb-3" style={{ color: "var(--text-color)", lineHeight: "1.8", textAlign: "justify" }}>
+                                This ecosystem represents a vision of a future-ready <strong>School in Gurugram</strong>, where learning in the real world is as impactful as learning in a classroom.
+                            </p>
+                            <p className="fs-6 mb-0 text-muted" style={{ fontStyle: "italic" }}>
+                                We value your participation and feedback. Your input and comments are appreciated.
                             </p>
                         </div>
                     </div>
@@ -366,9 +372,9 @@ export default function Partnerships() {
 
                                 <h5>Academic & Educational Collaborations</h5>
                                 <ul>
-                                    <li>Expert-led workshops and training</li>
-                                    <li>STEM, literacy and life skills</li>
-                                    <li>Updated learning resources & tools</li>
+                                    <li>Expert-led workshops/training.</li>
+                                    <li>In addition to STEM programmes, there are also literacy and life skills programmes.</li>
+                                    <li>New learning materials and learning resources</li>
                                 </ul>
                             </div>
                         </div>
@@ -386,10 +392,10 @@ export default function Partnerships() {
 
                                 <h5>Technology & Innovation Partners</h5>
                                 <ul>
-                                    <li>Robotics and coding programmes</li>
+                                    <li>The robotics and coding programmes have been incorporated into the curriculum.</li>
                                     <li>Digital learning solutions</li>
                                     <li>Smart classroom infrastructure</li>
-                                    <li>Future-ready skills</li>
+                                    <li>Future-ready skills development</li>
                                 </ul>
                             </div>
                         </div>
@@ -407,9 +413,9 @@ export default function Partnerships() {
 
                                 <h5>Sports & Wellness Associations</h5>
                                 <ul>
-                                    <li>Professional sports training</li>
-                                    <li>Fitness and yoga sessions</li>
-                                    <li>Health & wellness programmes</li>
+                                    <li>Professional sports coaching</li>
+                                    <li>Fitness and yoga classes</li>
+                                    <li>Health and wellness programmes</li>
                                     <li>Inter-school competitions</li>
                                 </ul>
                             </div>
@@ -428,8 +434,8 @@ export default function Partnerships() {
 
                                 <h5>Arts, Culture & Creative Collaborations</h5>
                                 <ul>
-                                    <li>Art, music & dance workshops</li>
-                                    <li>Theatre & performance training</li>
+                                    <li>Art, Music and Dance Workshops</li>
+                                    <li>Theatre and performance training</li>
                                     <li>Cultural exhibitions</li>
                                 </ul>
                             </div>
@@ -468,11 +474,7 @@ export default function Partnerships() {
 
                                 <h5>Commitment to Quality Through Collaboration</h5>
                                 <p>
-                                    Every partnership at KWS is carefully selected to support holistic,
-                                    future-ready education.
-                                </p>
-                                <p>
-                                    These collaborations prepare students to thrive in an interconnected world.
+                                    All partnerships are carefully selected to deliver whole-school futures-ready learning. A reputable <strong>School in Gurugram</strong>, KWS, ensures the students are equipped to excel in an interdependent world with confidence and competence.
                                 </p>
                             </div>
                         </div>

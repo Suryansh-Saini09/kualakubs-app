@@ -33,7 +33,7 @@ export default function About() {
               About Us
             </h2>
             <p className="mt-2" style={{ color: "var(--text-color)" }}>
-              Where a Legacy of 40-Years Meets the Future of Learning
+              A legacy of 40 years meets the future of learning.
             </p>
           </div>
 
@@ -51,11 +51,7 @@ export default function About() {
                   <i className="bi bi-award-fill me-2"></i>A Legacy of 40 Years
                 </h4>
                 <p>
-                  Welcome to Kualakubs World School, a visionary learning space
-                  built on the strong educational foundation of the Geeta Group
-                  of Institutions that has proudly served the community for over
-                  40 years. Kualakubs continues this legacy, blending tradition
-                  with innovation.
+                  Welcome to Kualakubs World School, a visionary learning space with a strong educational foundation, proudly serving the community for a little more than 40 years. In the same spirit, Kualakubs, a trusted CBSE School in Gurugram, continues this tradition by merging tradition with innovation in order to create meaningful learning experiences.
                 </p>
 
                 <h5 className="fw-semibold mt-4 mb-2">
@@ -63,9 +59,7 @@ export default function About() {
                   Our Beginning in Gurugram
                 </h5>
                 <p>
-                  Our journey began with the much-loved Kualakubs Preschool—now
-                  a preferred choice for early childhood education rooted in
-                  creativity, warmth, and experiential learning.
+                  It started with our beloved Kualakubs Preschool – a place truly chosen to be the best early childhood learning setting based on creativity, warmth, and experiential learning. This strong base has put us in the list of affordable schools in Gurgaon that value education from the beginning.
                 </p>
               </div>
             </div>
@@ -81,13 +75,10 @@ export default function About() {
                   style={{ color: "var(--accent-bg-color)" }}
                 >
                   <i className="bi bi-building me-2"></i>
-                  Expanding Into a CBSE Formal School
+                  When a school is looking to expand and become a formal CBSE school
                 </h4>
                 <p>
-                  Building on our preschool’s success, we proudly introduce the
-                  Kualakubs CBSE Formal School, offering classes from Playgroup
-                  to Grade 12—ensuring a seamless educational journey from
-                  foundational to formative years.
+                  After the success of our preschool, we are delighted to announce the commencement of the CBSE Formal School at Kualakubs, starting from Playgroup to Grade 12. We are a rapidly expanding CBSE School in Gurugram, where we provide a smooth learning experience from foundation to senior secondary level.
                 </p>
 
                 <h5
@@ -95,25 +86,24 @@ export default function About() {
                   style={{ color: "var(--accent-bg-color)" }}
                 >
                   <i className="bi bi-lightbulb-fill me-2"></i>
-                  Designed for the Future
+                  Built to Meet the Needs of the Future
                 </h5>
                 <p>
-                  Our curriculum integrates 21st-century skills such as critical
-                  thinking, creativity, collaboration, digital literacy, and
-                  socio-emotional learning.
+                  We are one of the affordable schools in Gurgaon and have a curriculum that incorporates the 21st century skills like critical thinking, creativity, collaboration, digital literacy and socio-emotional learning.
+
                 </p>
 
                 <h5
                   className="fw-semibold mt-4 mb-2"
                   style={{ color: "var(--accent-bg-color)" }}
                 >
-                  <i className="bi bi-mortarboard-fill me-2"></i>A Space That
-                  Inspires Learning
+                  <i className="bi bi-mortarboard-fill me-2"></i>A Learning Inspiring Space
+
                 </h5>
                 <p>
-                  With interactive classrooms, well-equipped labs, outdoor play
-                  zones, and activity areas, we create an environment where
-                  learning is joyful, engaging, and holistic.
+                  Our classrooms are interactive, our labs are well-equipped, our outdoor play areas are ready, our activity rooms are prepared, and learning is joyful, engaging, and all-inclusive—a hallmark of a top-notch CBSE School in Gurugram.
+
+
                 </p>
               </div>
             </div>
@@ -132,8 +122,7 @@ export default function About() {
               Our Vision
             </h4>
             <p className="mb-0">
-              To empower every child to become an independent thinker, a
-              compassionate human being, and a confident global citizen.
+              To ensure that each child is an independent thinker, a caring human being and a confident world citizen.
             </p>
           </div>
         </div>
@@ -147,11 +136,9 @@ export default function About() {
               Who We Are
             </h2> */}
             <p className="mt-3" style={{ color: "var(--text-color)" }}>
-              Kualakubs World School is a progressive CBSE school offering a
-              structured, holistic and future-ready education for students from
-              Playgroup to Class 12. We combine strong academics with life
-              skills, sports, technology, and values education to ensure
-              well-rounded development.
+
+              Kualakubs World School is a progressive CBSE School in Gurugram that offers a structured, holistic and future-ready education from Playgroup till Class 12. We have a strong academic programme that promotes life skills, sports, technology and values education to help us grow all-round, making us one of the most trusted affordable schools in Gurgaon.
+
             </p>
           </div>
 
@@ -168,20 +155,18 @@ export default function About() {
                 className="list-unstyled"
                 style={{ color: "var(--text-color)" }}
               >
-                <li>• Holistic 360° growth — academics, skills, and values</li>
-                <li>• Multilingual and bilingual learning foundations</li>
+                <li>• Holistic 360° growth — academics, skills and values</li>
+                <li>• The basics of multilingualism and bilingualism</li>
                 <li>• Experiential, project-based learning</li>
                 <li>
-                  • Integration of arts, sports, and vocational skills in the
-                  core curriculum
+                  • For students to fully engage in the curriculum, the arts, sports, and vocational skills are integrated in the core curriculum.
                 </li>
               </ul>
             </div>
 
             <div className="col-lg-6 d-flex align-items-center">
               <p className="fst-italic" style={{ color: "var(--text-color)" }}>
-                At Kualakubs, we shape learners who are confident, curious, and
-                compassionate.
+                We are shaping confident, curious and compassionate learners at Kualakubs.
               </p>
             </div>
           </div>
@@ -198,7 +183,7 @@ export default function About() {
               ></i>
               <h2 className="mb-1 fw-bold text-start">Our Legacy & Vision</h2>
               <h2 className="mb-4 text-start fw-light">
-                Leaming Designed for the Future
+                Learning Designed for the Future
               </h2>
               <p
                 className="mb-3"
@@ -209,10 +194,7 @@ export default function About() {
                 Kualakub’s onward journey in the sector drives us here — our
                 preschools set new benchmarks in early childhood education.
                 <br />
-                Building on this trust, we are now expanding into a world-class
-                K–12 institution dedicated to nurturing real innovation,
-                wellness, and values — empowering every child to learn, create,
-                and lead with confidence.
+                Our preschools are already setting new standards in early childhood learning which is Kualakubs' next step in education. From this trust, we have now begun to grow into a world-class K–12 institution that fosters innovation, wellness and values to help build confidence in learning, creating and leading in every child.
               </p>
 
               <p
@@ -221,7 +203,9 @@ export default function About() {
                   textAlign: "justify",
                 }}
               >
-                Lakshay Gupta, Managing Director
+                The Management's Message
+                Headed by Managing Director, Lakshay Gupta.
+
               </p>
             </div>
             <div className="col-lg-6 p-4">
@@ -247,15 +231,13 @@ export default function About() {
                   textAlign: "justify",
                 }}
               >
-                At Kulakubs World School, we are committed to providing a
-                nurturing environment where every student is encouraged to
-                explore their potential and make thoughtful choices. Our
-                dedicated team is devoted to promoting academic excellence,
-                personal growth, and character development, ensuring students
-                are equipped with the skills and values needed to make a
-                positive impact on society. We value the strong partnership
-                between our school, parents, and students in this shared journey
-                of learning and growth.
+                At Kualakubs World School, we want to be a school where all students can be encouraged to discover what they are capable of and make informed decisions. Our passionate staff is committed to academic achievement, character building and overall growth, to ensure that our students will make a difference in society.
+
+                The Principal's message
+
+                My Dear Parents & Students,
+                At Kualakubs World School, we understand the importance of building a good partnership with the school, parents and students. We work together to develop a safe and secure setting in which children become responsible, confident and competent adults for the future.
+
               </p>
               <p
                 className="mt-4"
@@ -315,7 +297,7 @@ export default function About() {
                   textAlign: "justify",
                 }}
               >
-                We believe great teachers create great futures.
+                We have a vision that great teachers make great futures.
               </p>
             </div>
             <div className="col-lg-6 p-4">
@@ -344,27 +326,27 @@ export default function About() {
               {[
                 {
                   title: "Integrity",
-                  text: "Upholding honesty and ethical conduct. We build trust by acting transparently and responsibly in all we do.",
+                  text: "Maintaining integrity and ethical practices, and fostering trust by being transparent.",
                 },
                 {
                   title: "Curiosity",
-                  text: "Igniting a passion for learning and exploration. We empower students to ask questions and engage deeply with the world.",
+                  text: "Fostering a love of learning and discovery, promoting students to question and think critically.",
                 },
                 {
                   title: "Respect",
-                  text: "Valuing dignity, diversity, and unique viewpoints. We foster a safe and inclusive atmosphere built on mutual respect.",
+                  text: "Respecting dignity, diversity and individual views to develop an inclusive environment.",
                 },
                 {
                   title: "Empathy",
-                  text: "Understanding and appreciating others' emotions and experiences, strengthening community bonds.",
+                  text: "Recognising and respecting the feelings of others to develop more personal relationships.",
                 },
                 {
                   title: "Discipline",
-                  text: "Cultivating responsibility, focus, and resilience for long-term personal and academic success.",
+                  text: "To build responsibility, concentration and resilience to ensure future success.",
                 },
                 {
                   title: "Excellence",
-                  text: "Pursuing continuous improvement in academics, character, and contributions to society.",
+                  text: "Seeking to continually improve in academics, character and contributions to society. ",
                 },
               ].map((item, index) => (
                 <div className="col-md-6 col-lg-4" key={index}>

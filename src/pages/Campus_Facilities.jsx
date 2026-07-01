@@ -297,7 +297,7 @@ export default function Campus_Facilities() {
                                     className="fs-6 mb-4 text-muted"
                                     style={{ lineHeight: "1.75" }}
                                 >
-                                    Student safety and well-being remain our highest priority. As one of the most trusted <strong>CBSE schools in Gurugram</strong>, our campus is designed with comprehensive safety measures and child-friendly infrastructure to give parents complete peace of mind.
+                                    Student safety and well-being are paramount at Kualakubs World School. Our campus is one of the best <strong>CBSE schools in Gurugram</strong>, well designed with all the latest security measures and child-friendly facilities, assuring the parents' utmost peace of mind.
                                 </p>
 
                                 {/* Checklist */}
@@ -375,7 +375,7 @@ export default function Campus_Facilities() {
                                         lineHeight: "1.7"
                                     }}
                                 >
-                                    Our nurturing, caring, and emotionally secure environment ensures every child feels valued, protected, and ready to learn — making us one of the top schools in Gurgaon that parents trust.
+                                    In the learning environment, we promote safety, security and sensitivity to ensure that every child is supported and comfortable, and is sure of their value, making us one of the best schools in Gurgaon to which parents can entrust their children.
                                 </p>
                             </div>
                         </div>
@@ -396,12 +396,14 @@ export default function Campus_Facilities() {
                                 </div>
                                 <h3 className="service-card-title">Safe Transportation</h3>
                                 <p className="service-card-text">
-                                    Safe and reliable transportation services with trained drivers and support staff. Our transport system ensures comfort, punctuality, and complete safety for students commuting from across Gurgaon and Gurugram — making Kualakubs World School a preferred choice among nearby CBSE schools for families seeking convenience and peace of mind.
+                                    Our school offers reliable and secure transportation and has trained drivers and support staff. GPS tracking, time discipline and comfort are our driving priorities, and we make sure that pupils are safe when travelling throughout the city.
+                                    <br /><br />
+                                    It makes us a preferred choice among <strong>CBSE schools in Gurugram</strong> for families who look for convenience and safety.
                                 </p>
                                 <div className="service-badge-container">
-                                    <span className="service-badge">GPS Tracked</span>
-                                    <span className="service-badge">Trained Drivers</span>
-                                    <span className="service-badge">Reliable</span>
+                                    <span className="service-badge">GPS-tracked buses</span>
+                                    <span className="service-badge">Trained drivers & attendants</span>
+                                    <span className="service-badge">Reliable & punctual service</span>
                                 </div>
                             </div>
                         </div>
@@ -414,12 +416,14 @@ export default function Campus_Facilities() {
                                 </div>
                                 <h3 className="service-card-title">Cafeteria & Hygiene</h3>
                                 <p className="service-card-text">
-                                    High standards of hygiene are maintained across classrooms, washrooms, dining areas, and common spaces. Nutritious and hygienic food options support healthy eating habits and student wellness every day — reinforcing Kualakubs World School’s commitment as one of the affordable schools in Gurgaon that prioritizes student well-being.
+                                    High standards are maintained in terms of hygiene in the classrooms, washrooms and dining area. Our school will have a healthy and balanced lunch program that supports healthy eating and overall wellness.
+                                    <br /><br />
+                                    This commitment to cleanliness and health strengthens our stance to become one of the top schools in Gurgaon.
                                 </p>
                                 <div className="service-badge-container">
-                                    <span className="service-badge">Nutritious Food</span>
-                                    <span className="service-badge">Hygienic</span>
-                                    <span className="service-badge">Wellness</span>
+                                    <span className="service-badge">Nutritious food options</span>
+                                    <span className="service-badge">Hygienic environment</span>
+                                    <span className="service-badge">Emphasize student health and wellness</span>
                                 </div>
                             </div>
                         </div>
@@ -432,12 +436,12 @@ export default function Campus_Facilities() {
                                 </div>
                                 <h3 className="service-card-title">Green & Eco-Friendly Campus</h3>
                                 <p className="service-card-text">
-                                    Open spaces, lush greenery, and thoughtfully designed infrastructure create a cheerful, eco-friendly atmosphere where students feel motivated and connected with nature — supporting joyful learning and emotional well-being.
+                                    The campus is equipped with the necessary infrastructure, which is well laid out and well planned, to create a conducive and sustainable learning environment with green spaces and greenery. Students remain connected with nature and experience a happy and refreshing environment.
                                 </p>
                                 <div className="service-badge-container">
-                                    <span className="service-badge">Eco-Friendly</span>
-                                    <span className="service-badge">Open Spaces</span>
-                                    <span className="service-badge">Nature</span>
+                                    <span className="service-badge">Eco-friendly practices</span>
+                                    <span className="service-badge">Open & green spaces</span>
+                                    <span className="service-badge">Nature-inspired learning</span>
                                 </div>
                             </div>
                         </div>
@@ -457,7 +461,7 @@ export default function Campus_Facilities() {
                                 fontSize: "clamp(1.8rem, 3vw, 2.3rem)",
                                 lineHeight: "1.3"
                             }}>
-                                Kualakubs World School – Among the Best Schools in Gurgaon
+                                Kualakubs World School is among the <strong>Best Schools in Gurgaon</strong>.
                             </h2>
                             
                             <div className="safety-divider mx-auto mb-4" style={{
@@ -469,16 +473,16 @@ export default function Campus_Facilities() {
 
                             <div className="fs-6 text-muted" style={{ lineHeight: "1.8", color: "var(--text-color)" }}>
                                 <p className="mb-4">
-                                    When parents search for the <strong>best schools in Gurgaon</strong> or the <strong>top schools in Gurgaon</strong>, Kualakubs World School consistently stands out as a premier destination for quality education, holistic development, and a future-ready learning environment. Our campus is not just a place of study — it is a thriving ecosystem where young minds grow into confident, compassionate, and creative individuals.
+                                    <strong>Top schools in Gurgaon</strong>, or Gurgaon schools, provide the finest education, holistic development and future-ready learning environment, and Kualakubs World School is one of these top schools.
                                 </p>
                                 <p className="mb-4">
-                                    As one of the leading <strong>CBSE schools in Gurgaon</strong>, we follow a comprehensive curriculum that balances academic rigour with co-curricular excellence. Our world-class infrastructure — spanning smart classrooms, science laboratories, robotics labs, sports arenas, and performing arts studios — ensures that every student has access to the best learning resources available.
+                                    As one of the <strong>best CBSE schools in Gurgaon</strong>, we have an excellent balance of academics and co-curricular development. With world-class facilities such as smart classrooms, science labs, robotics lab, sports facilities and performing arts, students are guaranteed a well-rounded education.
                                 </p>
                                 <p className="mb-4">
-                                    Families looking for <strong>CBSE schools in Gurugram</strong> that truly invest in child development will find in Kualakubs World School a partner committed to excellence, safety, and innovation. Our campus facilities reflect a deep understanding of how children learn best — through exploration, experimentation, creativity, and collaboration.
+                                    Kualakubs World School is a reliable partner for the child's journey to a progressive <strong>CBSE school in Gurugram</strong>. We create our campus to stimulate the exploration, creativity, collaboration and innovation.
                                 </p>
                                 <p className="mb-0">
-                                    From state-of-the-art computer and robotics labs to lush green open spaces, every facility at Kualakubs World School is designed with a singular purpose: to help every child discover their potential and thrive in a rapidly changing world.
+                                    In advanced labs and in expansive green spaces, each of our school is constructed with one aim: to help our students realize their potential, to help them grow and prosper in a fast-changing world.
                                 </p>
                             </div>
                         </div>

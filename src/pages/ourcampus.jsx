@@ -14,7 +14,7 @@ export default function OurCampus() {
             offset: 80,
         });
     }, []);
-    
+
     const timeline = [
         { year: "1998", title: "Geeta Vidya Mandir", place: "NHBC, Panipat", icon: "bi-mortarboard" },
         { year: "2001", title: "Geeta Vidya Mandir Public School", place: "Sanoli Road, Panipat", icon: "bi-building" },
@@ -34,10 +34,10 @@ export default function OurCampus() {
 
     return (
         <>
-        <SEO
-            title="KWS Gurgaon – Modern Campuses & Learning Spaces"
-            description="Discover well-designed campuses with modern infrastructure, safe environments, and spaces that support learning, creativity, and growth."
-        />
+            <SEO
+                title="KWS Gurgaon – Modern Campuses & Learning Spaces"
+                description="Discover well-designed campuses with modern infrastructure, safe environments, and spaces that support learning, creativity, and growth."
+            />
             <PageHeader
                 title="Our Campuses"
                 backgroundImage={newBuildingImg}
@@ -64,12 +64,12 @@ export default function OurCampus() {
                                 fontWeight: 800,
                                 letterSpacing: "1px",
                                 fontSize: "2.8rem",
-                                
+
                             }}
                         >
                             ABOUT OUR CAMPUS
                         </h3>
-                        <p className="mb-2 fs-5 text-center" style={{ color: "#5c7cfa" }}><strong>Built Around the Child.</strong></p>
+                        <p className="mb-2 fs-5 text-center" style={{ color: "#5c7cfa" }}><strong>Child-centered.</strong></p>
                         <p className="mb-5 fs-5 text-center" style={{ color: "#5c7cfa" }}><strong style={{
                             fontFamily: "'Montserrat', 'Segoe UI', Arial, sans-serif",
                             fontWeight: 800,
@@ -78,23 +78,23 @@ export default function OurCampus() {
 
                         <div className="fs-5" style={{ color: "#495057", lineHeight: "1.8" }}>
                             <p style={{ textAlign: "justify" }}>
-                                At Kualakubs World School, every square foot of the campus is intentional. We didn't design a building and then fill it with children — we designed a world around how children actually learn, play, and grow.
+                                In the Kualakubs World School, each square foot of the campus is purposeful. We didn't plan for a building, then fill it with children – we planned for a world based on the way children learn, play and grow.
                             </p>
                             <p style={{ textAlign: "justify" }}>
-                                There's a feeling you get when you walk into the right school. The corridors feel open. The classrooms feel alive. Teachers look like they genuinely want to be there, and children look like they do too. That is the environment we have built at Kualakubs World School — one of the most thoughtfully planned school campuses among the <strong>top CBSE schools in Gurgaon.</strong>
+                                When you enter the proper school, there's a feeling you get. The corridors are spacious. The classroom atmosphere is alive. The teachers seem as if they want to be there, and the children seem as if they want to be there. That's the kind of environment that we have created at Kualakubs World School, one of the most well-planned out among parents looking for Affordable CBSE Schools Near Me and among the best CBSE schools in Gurgaon.
                             </p>
                             <p style={{ textAlign: "justify" }}>
-                                Our campus philosophy begins with a simple belief: a child's environment shapes their learning. When spaces are bright, purposeful, and child-friendly, children feel safe enough to take risks, ask questions, and engage deeply. We have created a campus that supports exactly that kind of freedom-within-structure.
+                                Our campus philosophy starts with a basic premise: The learning environment influences the learning of a child. Bright, purposeful and child-friendly spaces help children to take risks, ask questions and engage deeply because they feel safe. Hence, families wishing to find Affordable CBSE Schools Near Me often prefer campuses that offer more than just infrastructure.
                             </p>
                             <p style={{ textAlign: "justify" }}>
-                                Academic spaces blend seamlessly into creative zones, outdoor play areas connect with reflection corners, and every classroom has been designed to accommodate different learning styles — visual, auditory, kinesthetic, and collaborative. This is what modern school infrastructure should feel like: human, warm, and purpose-driven.
+                                Academic spaces, creative areas, outdoor play areas and reflection corners are all integrated; each classroom is designed for visual, auditory, kinesthetic and collaborative learning styles. This is how a modern school feels: human, warm and purposeful.
                             </p>
                             <p style={{ textAlign: "justify" }}>
-                                As a leading <strong>school in Gurugram</strong>, we understand that parents want more than a good-looking brochure. They want to see a real environment — one that will nurture their child's growth in every dimension. Our campus is that environment, and we welcome every parent to come and experience it for themselves.
+                                Being a top school in Gurugram, we know that parents desire more than a pretty brochure. They desire a real world — one that enables their child to flourish in all aspects. If you are looking for Affordable CBSE Schools Near Me, Kualakubs World School is the right choice of school for you, which is well designed, safe and excellent in providing learning.
                             </p>
                             <div className="mt-5 p-4 rounded-3 shadow-sm" style={{ background: "#ffffff", borderLeft: "5px solid #5b7bf9ff" }}>
                                 <p className="mb-0 fs-5 fw-medium text-dark" style={{ fontStyle: "italic" }}>
-                                    "A school campus should feel like a second home — familiar enough to be comforting, rich enough to be endlessly interesting."
+                                    "A school campus should be comfortable enough to be familiar but interesting enough to never be boring, A second home, as it were."
                                 </p>
                             </div>
                         </div>
@@ -113,8 +113,8 @@ export default function OurCampus() {
                     >
                         Our Journey
                     </h2>
-                    <p className="text-muted">Milestones of growth and excellence</p>
-                    <p className="mx-auto" style={{ maxWidth: "800px" }}>KWS Gurgaon offers a modern, safe, and engaging learning campus. As a leading CBSE school in Gurgaon, it provides smart classrooms, advanced facilities, and a nurturing environment for holistic growth.</p>
+                    <p className="text-muted">Multiplication Tables Rockstars</p>
+                    <p className="mx-auto" style={{ maxWidth: "800px" }}>KWS Gurgaon provides a state-of-the-art, secure and stimulating learning environment. With the inclusion of smart classrooms, modern facilities, and providing a nurturing environment for holistic development, it is standing tall as one of the best CBSE schools in Gurgaon and providing the best affordable CBSE school near me for families.</p>
                 </div>
 
                 <div
@@ -172,6 +172,87 @@ export default function OurCampus() {
                             </div>
                         </div>
                     ))}
+                </div>
+            </section>
+
+
+            <section className="container py-5">
+                <div className="row align-items-center">
+                    <div className="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                        <h2
+                            className="fw-bold mb-3"
+                            style={{
+                                fontFamily: "'Montserrat', 'Segoe UI', Arial, sans-serif",
+                                fontWeight: 800,
+                                color: "#192d45"
+                            }}
+                        >
+                            Direction & Map
+                        </h2>
+                        <h4 className="fw-semibold text-primary mb-3">Find Our Campus</h4>
+                        <p className="text-muted fs-5 mb-4">
+                            Kualakubs World School is located in Sector 86, Gurugram, where it is easily accessible to a number of families in and around New Gurgaon. KWS is indeed a to-be-visited school for admission in Gurgaon.
+                        </p>
+                        <a href="https://maps.google.com/?q=Sector+86+Gurugram" target="_blank" rel="noreferrer" className="btn btn-primary px-4 py-2 rounded-pill shadow-sm" style={{ background: "#5c7cfa", border: "none" }}>
+                            <i className="bi bi-geo-alt-fill me-2"></i> Get Directions
+                        </a>
+                    </div>
+                    <div className="col-lg-6" data-aos="fade-left">
+                        <div className="rounded-4 overflow-hidden shadow">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14032.551608620857!2d76.92984954848316!3d28.399581970725354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d3d537f8846c9%3A0xcb1cc3372c3d528b!2sSector%2086%2C%20Gurugram%2C%20Haryana!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                                width="100%"
+                                height="400"
+                                style={{ border: 0 }}
+                                allowFullScreen=""
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"
+                                title="KWS Gurugram Location"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="container py-5 mb-4">
+                <div className="text-center mb-5" data-aos="fade-up">
+                    <h2
+                        className="fw-bold mb-3"
+                        style={{
+                            fontFamily: "'Montserrat', 'Segoe UI', Arial, sans-serif",
+                            fontWeight: 800,
+                            color: "#192d45"
+                        }}
+                    >
+                        Get in Touch with<br />Kualakubs World School
+                    </h2>
+                    <p className="fs-5 mx-auto text-muted" style={{ maxWidth: "800px" }}>
+                        Whether you have queries regarding the School Admission in Gurgaon or want to visit the campus or give some academic advice, we are here to help you all the way.
+                    </p>
+                </div>
+
+                <div className="row g-4 text-center justify-content-center" data-aos="fade-up">
+                    <div className="col-md-4">
+                        <div className="p-4 rounded-3 shadow-sm h-100" style={{ background: "#f8fafc", borderTop: "4px solid #5c7cfa" }}>
+                            <i className="bi bi-geo-alt fs-1 text-primary mb-3 d-block"></i>
+                            <h5 className="fw-bold">Visit Us</h5>
+                            <p className="text-muted mb-0">Kualakubs World School (KWS)<br />Sector 86, Gurugram,<br />Haryana</p>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="p-4 rounded-3 shadow-sm h-100" style={{ background: "#f8fafc", borderTop: "4px solid #5c7cfa" }}>
+                            <i className="bi bi-telephone fs-1 text-primary mb-3 d-block"></i>
+                            <h5 className="fw-bold">Call Us</h5>
+                            <p className="text-muted mb-0"><a href="tel:+919996648317" className="text-decoration-none text-muted">+91 9996648317</a></p>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="p-4 rounded-3 shadow-sm h-100" style={{ background: "#f8fafc", borderTop: "4px solid #5c7cfa" }}>
+                            <i className="bi bi-envelope fs-1 text-primary mb-3 d-block"></i>
+                            <h5 className="fw-bold">Email Us</h5>
+                            <p className="text-muted mb-0"><a href="mailto:info@kualakubsworldschool.in" className="text-decoration-none text-muted">info@kualakubsworldschool.in</a></p>
+                        </div>
+                    </div>
                 </div>
             </section>
 

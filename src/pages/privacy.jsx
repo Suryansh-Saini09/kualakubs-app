@@ -101,9 +101,8 @@ export default function Privacy() {
                           key={sec.id}
                           href={`#${sec.id}`}
                           onClick={(e) => scrollToSection(e, sec.id)}
-                          className={`privacy-nav-link ${
-                            activeSection === sec.id ? "active" : ""
-                          }`}
+                          className={`privacy-nav-link ${activeSection === sec.id ? "active" : ""
+                            }`}
                         >
                           {sec.label}
                         </a>
@@ -129,7 +128,7 @@ export default function Privacy() {
                     <span className="privacy-section-num">1.</span> Introduction
                   </h3>
                   <p className="privacy-text">
-                    <strong>Kualakubs World School</strong>, a trusted <strong>CBSE School in Gurugram</strong>, is committed to protecting the privacy and security of personal information shared by parents, guardians, students, and website visitors. This Privacy Policy explains what information we collect, how we use it, and your rights regarding that information.
+                    Kualakubs World School, a reputable CBSE School in Gurugram, takes its responsibilities towards the privacy and security of personal information that is provided by parents, guardians, students, and website visitors seriously. This Privacy Policy offers an explanation of information we collect, the use of such information and your rights in relation to it.
                   </p>
                 </div>
 
@@ -139,28 +138,28 @@ export default function Privacy() {
                     <span className="privacy-section-num">2.</span> Information We Collect
                   </h3>
                   <p className="privacy-text">
-                    We may collect the following categories of personal information:
+                    The information which we may gather is one of the following types of personal information:
                   </p>
                   <ul className="list-unstyled my-3 ps-2">
                     <li className="d-flex align-items-start gap-3 mb-3 privacy-text">
                       <i className="bi bi-check-circle-fill mt-1" style={{ color: "#b3925c" }}></i>
-                      <span><strong>Contact information</strong> (name, phone number, email address, residential address)</span>
+                      <span>Title of the website or newsletter. Website or newsletter name.</span>
                     </li>
                     <li className="d-flex align-items-start gap-3 mb-3 privacy-text">
                       <i className="bi bi-check-circle-fill mt-1" style={{ color: "#b3925c" }}></i>
-                      <span><strong>Child’s information</strong> (name, date of birth, grade, academic records) provided during admissions</span>
+                      <span>The child's information (name, date of birth, grade, and academic records) was given at admission time.</span>
                     </li>
                     <li className="d-flex align-items-start gap-3 mb-3 privacy-text">
                       <i className="bi bi-check-circle-fill mt-1" style={{ color: "#b3925c" }}></i>
-                      <span><strong>Website usage data</strong> (browser type, pages visited, time spent) collected via cookies and analytics tools</span>
+                      <span>Information about the use of the website, such as the type of browser, the pages visited and the time spent on the website, is gathered through the use of cookies and analytics tools.</span>
                     </li>
                     <li className="d-flex align-items-start gap-3 mb-3 privacy-text">
                       <i className="bi bi-check-circle-fill mt-1" style={{ color: "#b3925c" }}></i>
-                      <span><strong>Communication records</strong> from enquiry forms, emails, and phone interactions</span>
+                      <span>Meeting minutes and notes from phone calls and emails</span>
                     </li>
                   </ul>
                   <p className="privacy-text">
-                    Being a <span className="privacy-highlight-gold">CBSE School in Gurugram</span>, we ensure that all collected data is handled responsibly and only for legitimate educational purposes.
+                    We have a duty to ensure that all information gathered is used for educational purposes, and within the law, it is kept confidential. This is a responsible CBSE school in Gurgaon, and we ensure the information that is picked up is used for educational purposes only and kept confidential within legal boundaries.
                   </p>
                 </div>
 
@@ -170,7 +169,10 @@ export default function Privacy() {
                     <span className="privacy-section-num">3.</span> How We Use Your Information
                   </h3>
                   <p className="privacy-text">
-                    We use collected information to respond to admissions and general enquiries; process registration and enrolment; communicate school updates, events, and newsletters; improve our website and digital services; and comply with applicable legal and regulatory requirements. We do not sell, rent, or trade your personal information to third parties for marketing purposes — reflecting the transparency and trust expected from <span className="privacy-highlight-gold">good schools in Gurgaon</span>.
+                    Collected information is used to consider applications to study at the school, to process applications for registration and enrolment; to inform the school of updates, events and newsletters; to enhance the school's website and digital services; and for compliance with legal and regulatory requirements.
+                  </p>
+                  <p className="privacy-text mt-3">
+                    We never sell, rent or trade on your personal information for marketing purposes, a trait that is expected from a trustworthy CBSE School in Gurgaon.
                   </p>
                 </div>
 
@@ -180,7 +182,10 @@ export default function Privacy() {
                     <span className="privacy-section-num">4.</span> Cookies & Website Analytics
                   </h3>
                   <p className="privacy-text">
-                    Our website uses cookies — small text files stored on your device — to improve the browsing experience and analyze website usage. We may use third-party analytics tools to understand how visitors interact with our site. You can control cookie preferences through your browser settings. Disabling cookies may affect some website functionality.
+                    The purpose of our website is to use cookies, small text files which are stored on your device, to enhance the user experience and to help us understand how our website is used. We may deploy third-party tools to learn about how you use our website.
+                  </p>
+                  <p className="privacy-text mt-3">
+                    At the CBSE School in Gurugram, we believe in the responsible and responsible use of such tools and only for the users' benefit. The preferences for cookies can be set in browser settings. Some parts of the website may not work properly if you disable cookies.
                   </p>
                 </div>
 
@@ -190,7 +195,7 @@ export default function Privacy() {
                     <span className="privacy-section-num">5.</span> Children's Privacy
                   </h3>
                   <p className="privacy-text">
-                    We take children’s privacy seriously. Information is collected only for educational and administrative purposes with parental consent. As a responsible <span className="privacy-highlight-gold">CBSE School in Gurugram</span>, we ensure student data is accessible only to authorized staff and never misused or publicly shared without approval.
+                    Children's privacy is respected. Only with parents' consent will information be collected for educational and administrative use. We are a reliable and trusted CBSE School in Gurugram and ensure that the information of our students is given to only authorized faculty and isn't misused or shared with any outside parties without the consent of the parents.
                   </p>
                 </div>
 
@@ -200,7 +205,7 @@ export default function Privacy() {
                     <span className="privacy-section-num">6.</span> Data Security
                   </h3>
                   <p className="privacy-text">
-                    We implement strong technical and organizational measures to protect personal data. While no system is 100% secure, <strong>Kualakubs World School</strong>, as a trusted <span className="privacy-highlight-gold">CBSE School in Gurugram</span>, follows strict safeguards to ensure maximum data protection.
+                    We have robust technical and organizational security to safeguard personal data. No system is entirely foolproof, but Kualakubs World School, being a premier CBSE School in Gurugram, takes utmost care in ensuring that the data they hold is as safe as possible.
                   </p>
                 </div>
 
@@ -210,7 +215,7 @@ export default function Privacy() {
                     <span className="privacy-section-num">7.</span> Third-Party Services
                   </h3>
                   <p className="privacy-text">
-                    Our website may contain links to third-party websites or services (such as social media platforms). KWS is not responsible for the privacy practices of those sites. We encourage you to review the privacy policies of any third-party platforms you visit.
+                    We may have links to third-party websites or services (including social media accounts). KWS has no control over the privacy policies of the websites. It's recommended that you check the privacy policies of any third-party platforms you visit.
                   </p>
                 </div>
 
@@ -220,7 +225,10 @@ export default function Privacy() {
                     <span className="privacy-section-num">8.</span> Your Rights
                   </h3>
                   <p className="privacy-text">
-                    You have the right to access, correct, or request deletion of personal information we hold about you. To exercise these rights, please contact us at <a href="mailto:info@kualakubsworldschool.in" className="privacy-link">info@kualakubsworldschool.in</a>. We will respond to verified requests within a reasonable timeframe, in line with the responsible practices followed by every <span className="privacy-highlight-gold">leading school in Gurugram</span>.
+                    You can request access to or correction of your personal data or request its deletion. You can exercise these rights by writing us at <a href="mailto:info@kualakubsworldschool.in" className="privacy-link">info@kualakubsworldschool.in</a>.
+                  </p>
+                  <p className="privacy-text mt-3">
+                    In case there is any verified demand, we will respond in a reasonable time frame. This is the standard practice followed by all the Leading CBSE schools in Gurgaon.
                   </p>
                 </div>
 
@@ -230,26 +238,26 @@ export default function Privacy() {
                     <span className="privacy-section-num">9.</span> Policy Updates
                   </h3>
                   <p className="privacy-text">
-                    We may update this Privacy Policy periodically. Changes will be posted on this page with a revised effective date. We encourage you to review this policy from time to time.
+                    We may update this Privacy Policy periodically. Any changes will be listed here along with the new effective date. This policy is subject to regular review and we are asking you to do so.
                   </p>
                 </div>
 
                 {/* 10. Contact Us Regarding Privacy */}
                 <div id="contact" className="privacy-card card-gold" data-aos="fade-up">
                   <h3 className="privacy-section-title">
-                    <span className="privacy-section-num">10.</span> Contact Us Regarding Privacy
+                    <span className="privacy-section-num">10.</span> Contact Us - Privacy
                   </h3>
                   <p className="privacy-text">
-                    For any privacy-related questions or concerns, please contact us directly. Our administrative team is here to assist you and address any questions regarding your data safety.
+                    For any privacy-related questions or concerns, please contact us directly. We have an administration team here to help you and answer any questions about data security.
                   </p>
-                  
+
                   <div className="privacy-contact-card">
                     <h4 className="privacy-contact-title">
                       <i className="bi bi-shield-lock-fill"></i>
                       <span>Kualakubs World School Privacy Office</span>
                     </h4>
                     <p className="mb-0 privacy-contact-text">
-                      As Gurugram's trusted educational institution, we maintain the highest standards of transparency and trust.
+                      Being a CBSE School in Gurugram, we ensure the utmost transparency, trust, and responsibility.
                     </p>
                     <div className="privacy-contact-divider"></div>
                     <div className="privacy-contact-info">

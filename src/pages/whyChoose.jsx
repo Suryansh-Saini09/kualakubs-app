@@ -9,47 +9,47 @@ import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg";
 const trustReasons = [
     {
         title: "Child-Centric Learning",
-        description: "Every classroom experience at Kualakubs is designed around the child — not the syllabus. We begin with the child's curiosity, pace, and strengths. When a child feels seen, learning becomes unstoppable.",
+        description: "All classroom activity at Kualakubs is geared toward the child, rather than the syllabus. Hence, we are one of the most preferred amongst the top schools in Gurugram.",
         icon: "bi-tree"
     },
     {
         title: "Experiential Education",
-        description: "Concepts are introduced through doing — not just reading. From science experiments to project-based tasks, our experiential learning model ensures that what children learn in class stays with them long after the school bell rings.",
+        description: "Concepts are presented concretely, and not solely by reading. This hands-on approach makes us different from many of the top CBSE schools in Gurgaon.",
         icon: "bi-puzzle"
     },
     {
         title: "Smart Infrastructure",
-        description: "Our modern campus features smart classrooms, dedicated activity spaces, and thoughtfully designed learning environments. Among the top CBSE schools in Gurgaon, our infrastructure is built to inspire — not just facilitate.",
+        description: "Smart classrooms and a well-planned environment are available in our modern campus. Our setting promotes creativity and enquiry for parents who are seeking top CBSE schools near me.",
         icon: "bi-bank"
     },
     {
         title: "Trained & Caring Faculty",
-        description: "Our teachers are more than subject experts — they are mentors, observers, and encouragers. Each educator is trained in child psychology, modern pedagogy, and the art of building confidence one conversation at a time.",
+        description: "Our teachers are mentors who give care to the growth of each child, one of the reasons why we are considered one of the top schools in Gurugram by parents.",
         icon: "bi-mortarboard"
     },
     {
         title: "Confidence & Communication",
-        description: "Through stage exposure, public speaking, presentations, and group activities, children at Kualakubs develop a voice — and the courage to use it. We shape communicators, not just students.",
+        description: "Children's communication skills and confidence are extremely developed as they take part in the stage exposure and activities.",
         icon: "bi-mic"
     },
     {
         title: "Phonics-Based Early Learning",
-        description: "Language foundations are built with structured phonics programmes that make reading and writing a joyful experience. Early literacy confidence shapes everything that follows — and we get this right from day one.",
+        description: "Our systematic phonics programme develops early language skills, which is a priority for parents when looking for the best CBSE school nearby.",
         icon: "bi-alphabet"
     },
     {
         title: "Individual Attention",
-        description: "No child is average. At Kualakubs, we keep class sizes intentional so every student receives the guidance they need. Teachers know each child's learning style, strengths, and areas of growth.",
+        description: "Personalized guidance and support are provided to all children through small class sizes.",
         icon: "bi-bullseye"
     },
     {
         title: "Holistic Development",
-        description: "Academic excellence is one dimension. We also nurture emotional intelligence, physical wellness, artistic expression, and social skills — creating children who are well-rounded and genuinely ready for the world.",
+        description: "We develop the whole child with respect to both academics and emotional, physical and creative development.",
         icon: "bi-globe2"
     },
     {
         title: "Value-Based Education",
-        description: "Kindness, integrity, empathy, and responsibility are not optional extras at Kualakubs — they are woven into daily life. We believe good values are the true foundation of every great future.",
+        description: "Kindness, Integrity, empathy and responsibility are the qualities that are integrated into the daily learning; good students are good human beings. We are not just concerned about being one of the top schools in Gurugram; we want to set the standards for what it means to be a meaningful school.",
         icon: "bi-heart"
     }
 ];
@@ -86,9 +86,10 @@ export default function WhyChoose() {
                     <div className="row justify-content-center" data-aos="fade-up">
                         <div className="col-12">
                             <span className="intro-philosophy-tag">Not Just a School.</span>
-                            <h2 className="intro-philosophy-title">A World Built for Your Child.</h2>
+                            <h2 className="intro-philosophy-title">A World Designed for Your Child.</h2>
                             <p className="intro-philosophy-lead">
-                                Traditional schooling tells children what to think. We teach them how. Kualakubs World School is redefining education in Gurugram — where joyful learning meets academic excellence, and every child is known, valued, and inspired.
+                                Traditional schooling provides children with the information they should be thinking. We teach them how. Kualakubs World School is changing the definition of education in Gurugram — where learning is joyful and academic success is reached, where every child is known, valued and inspired. We are considered one of the top schools in Gurgaon, and our sole aim is to make thinkers, creators and confident persons.
+
                             </p>
                         </div>
                     </div>
@@ -98,18 +99,20 @@ export default function WhyChoose() {
                         <div className="col-lg-7 d-flex flex-column justify-content-between" data-aos="fade-right" data-aos-delay="100">
                             <div>
                                 <p className="philosophy-text-p">
-                                    In Gurugram's crowded school landscape, it is easy to mistake a building with smart boards for a truly modern school. Kualakubs World School is different — not because of what we have, but because of how we think about your child's growth.
+                                    With so many schools in Gurugram, it is simple to think that a building that has smart boards is a true modern school. It's not about what we have, it's about how we think about your child's growth — Kualakubs World School is different. When parents look for top CBSE schools near me, we offer an approach that is beyond infrastructure and meaningful learning.
+
                                 </p>
                                 <p className="philosophy-text-p">
-                                    We combine a rigorous CBSE curriculum with activity-based, experiential learning that makes concepts click — not just for exams, but for life. Here, a child doesn't just memorize the water cycle — they create a rain model. They don't just read about fractions — they bake.
+                                    Strategically, we have a robust CBSE syllabus and activity-based and experiential learning, which helps students comprehend and remember the concepts not for exams but for their lives. This philosophy put, we are amongst the Top CBSE Schools in Gurgaon. In this, a child is not only memorising the water cycle, but they are also making a rain model. Not only do they read about fractions, but they bake!
+
                                 </p>
                                 <p className="philosophy-text-p">
-                                    Our campus is designed to feel like a second home — safe, stimulating, and full of possibility. This is what the best schools in Gurgaon should feel like.
+                                    Our campus is created to be a second residence, secure, invigorating and promising. This is what families look for in the top schools in Gurgaon.
                                 </p>
                             </div>
                             <div className="philosophy-quote-box">
                                 <p className="philosophy-quote-text">
-                                    “We don't prepare children for a world that already exists — we prepare them for the one they will create.”
+                                    Preparing children for a world that is not yet there is preparing them for a world they will make.
                                 </p>
                             </div>
                         </div>
@@ -120,7 +123,8 @@ export default function WhyChoose() {
                                 <span className="at-a-glance-badge">AT A GLANCE</span>
                                 <h3 className="at-a-glance-title">A CBSE-Aligned Experiential Campus</h3>
                                 <p className="at-a-glance-subtitle">
-                                    A CBSE-aligned, experiential learning campus in Gurgaon where curiosity, confidence, and character grow together.
+                                    An experiential campus that is aligned to the CBSE curriculum.
+                                    A curriculum-driven campus of the CBSE curriculum based on experiential learning in Gurgaon, with Curiosity, Confidence and Character taking shape.
                                 </p>
 
                                 <div className="stat-cards-grid">
@@ -154,7 +158,7 @@ export default function WhyChoose() {
                         <h2 className="reasons-heading-main">Reasons Families Trust</h2>
                         <h3 className="reasons-heading-sub">Kualakubs World School</h3>
                         <p className="reasons-intro">
-                            Parents across Gurgaon and Gurugram choose Kualakubs not just for its academics — but for the whole child experience. Here's what makes us stand apart from other CBSE schools in Gurugram.
+                            It's not only the academics that parents in Gurgaon and Gurugram opt for at Kualakubs, it's also the whole child experience. We are one of the top CBSE schools in Gurgaon that are focused on providing a balanced and future-oriented approach to learning.
                         </p>
                     </div>
 
