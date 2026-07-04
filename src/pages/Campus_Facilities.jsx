@@ -1,9 +1,34 @@
+import React, { useState } from "react";
 import PageHeader from "../components/PageHeader";
 import { Link } from "react-router-dom";
 import SEO from "../components/SEO";
 import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg"
 
 export default function Campus_Facilities() {
+    const [openFaq, setOpenFaq] = useState(null);
+
+    const faqData = [
+        {
+            question: "What does the school do to promote the creative and performing arts?",
+            answer: "Pupils can share and express their creativity in special dance, music, and visual arts studios."
+        },
+        {
+            question: "Is the best preschool close to me given a specific space for the best one?",
+            answer: "KWS Gurgaon has a lively early childhood section, which has activity areas suitable for the age group, making it the best preschool near me."
+        },
+        {
+            question: "Do classrooms have-up-to-date learning equipment?",
+            answer: "Yes - most classrooms are technology-rich with interactive boards and ergonomic furniture to promote learning."
+        },
+        {
+            question: "Which technology is being implemented in this school in Gurugram?",
+            answer: "KWS Gurgaon is one of the top CBSE Schools in Gurgaon, which caters to children with smart classrooms, digital resources, and offers a modern learning experience."
+        },
+        {
+            question: "Does the school have scientific exploration labs as separate classes?",
+            answer: "Science and computer labs with all materials are provided to conduct science experiments and computer projects hands-on."
+        }
+    ];
 
     return (
         <>
@@ -485,6 +510,39 @@ export default function Campus_Facilities() {
                                     In advanced labs and in expansive green spaces, each of our school is constructed with one aim: to help our students realize their potential, to help them grow and prosper in a fast-changing world.
                                 </p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* FAQ Section */}
+            <section className="safety-highlights-section">
+                <div className="container">
+                    <div className="text-center mb-5" data-aos="fade-up">
+                        <span className="safety-subtitle">Got Questions?</span>
+                        <h2 className="safety-title mt-2">Frequently Asked Questions</h2>
+                    </div>
+
+                    <div className="row justify-content-center" data-aos="fade-up">
+                        <div className="col-lg-10">
+                            {faqData.map((item, index) => (
+                                <div className="faq-accordion-item" key={index}>
+                                    <div 
+                                        className="faq-accordion-header" 
+                                        onClick={() => setOpenFaq(openFaq === index ? null : index)}
+                                    >
+                                        <h3 className="faq-accordion-title">{item.question}</h3>
+                                        <div className="faq-accordion-icon">
+                                            <i className={`bi ${openFaq === index ? 'bi-x-lg' : 'bi-plus-lg'}`}></i>
+                                        </div>
+                                    </div>
+                                    {openFaq === index && (
+                                        <div className="faq-accordion-body">
+                                            <p className="mb-0">{item.answer}</p>
+                                        </div>
+                                    )}
+                                </div>
+                            ))}
                         </div>
                     </div>
                 </div>

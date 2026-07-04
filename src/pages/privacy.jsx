@@ -8,6 +8,30 @@ import "../styles/privacy.css";
 
 export default function Privacy() {
   const [activeSection, setActiveSection] = useState("intro");
+  const [openFaq, setOpenFaq] = useState(null);
+
+  const faqData = [
+      {
+          question: "How is the information collected by the school used?",
+          answer: "It is used for applications, informing parents, and improving the services and learning experience at school."
+      },
+      {
+          question: "What precautions does the school have in place to protect private information?",
+          answer: "Secure systems and encryption are used to protect and ensure the confidentiality of your personal information."
+      },
+      {
+          question: "Where will the information I pass on to KWS Gurgaon be safe?",
+          answer: "We have a tight security approach and adhere to strict privacy policies – your information is protected at all times."
+      },
+      {
+          question: "Does the school release student and/or parent information to other organizations?",
+          answer: "We never sell or rent personal data, and do not provide information to any service provider unless it is necessary."
+      },
+      {
+          question: "Can I access and/or change my personal information which is held by the school?",
+          answer: "Yes, the right of the parents/guardian to see and/or change their own information at any time."
+      }
+  ];
 
   const sections = [
     { id: "intro", label: "1. Introduction" },
@@ -283,6 +307,39 @@ export default function Privacy() {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="safety-highlights-section">
+          <div className="container">
+              <div className="text-center mb-5" data-aos="fade-up">
+                  <span className="safety-subtitle">Got Questions?</span>
+                  <h2 className="safety-title mt-2">Frequently Asked Questions</h2>
+              </div>
+
+              <div className="row justify-content-center" data-aos="fade-up">
+                  <div className="col-lg-10">
+                      {faqData.map((item, index) => (
+                          <div className="faq-accordion-item" key={index}>
+                              <div 
+                                  className="faq-accordion-header" 
+                                  onClick={() => setOpenFaq(openFaq === index ? null : index)}
+                              >
+                                  <h3 className="faq-accordion-title">{item.question}</h3>
+                                  <div className="faq-accordion-icon">
+                                      <i className={`bi ${openFaq === index ? 'bi-x-lg' : 'bi-plus-lg'}`}></i>
+                                  </div>
+                              </div>
+                              {openFaq === index && (
+                                  <div className="faq-accordion-body">
+                                      <p className="mb-0">{item.answer}</p>
+                                  </div>
+                              )}
+                          </div>
+                      ))}
+                  </div>
+              </div>
+          </div>
       </section>
     </>
   );

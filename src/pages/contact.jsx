@@ -1,4 +1,4 @@
-
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 // import Components from "../components/manage.js";
 // import * as Links from "../config/links.js";
@@ -8,13 +8,37 @@ import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg"
 
 
 export default function Contact() {
+    const [openFaq, setOpenFaq] = useState(null);
+
+    const faqData = [
+        {
+            question: "What are the parent visiting times at the school?",
+            answer: "Parents are encouraged to visit us at any time during the school's administrative hours, which are normally from 8.30 am to 3.30 pm on working days."
+        },
+        {
+            question: "Which is the quickest means of communicating with the school when there is an urgent query?",
+            answer: "Go straight to the Front Desk or visit the campus during business hours for immediate help."
+        },
+        {
+            question: "Who can assist me with CBSE 11th and 12th schools near me?",
+            answer: "Our academic counselors are among the best schools nearby offering CBSE 11th and 12th courses and can provide you with all the information regarding them."
+        },
+        {
+            question: "Can campus visitations be done on foot at any time?",
+            answer: "If you wish to have a dedicated coordinator who can show you around, please call us in advance to make an appointment."
+        },
+        {
+            question: "So who is responsible for getting you into the best school in Gurgaon?",
+            answer: "Kualakubs School, Gurgaon, is one of the best schools in Gurgaon, and the helpdesk will be happy to assist with your registration in the school."
+        }
+    ];
 
     return (
         <>
 
             <SEO
                 title="School Admission in Gurgaon | Contact Kualakubs"
-                description="Reach out for admissions, queries, or campus visits. Connect with our team for guidance and support on your child’s learning journey."
+                description="Kualakubs World School offers seamless school admission in Gurgaon for Playgroup to Grade 12 with quality education, modern facilities, and holistic development. "
             />
 
             <PageHeader
@@ -214,6 +238,39 @@ export default function Contact() {
                                     title="Kualakubs World School Location Map"
                                 ></iframe>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* FAQ Section */}
+            <section className="safety-highlights-section">
+                <div className="container">
+                    <div className="text-center mb-5" data-aos="fade-up">
+                        <span className="safety-subtitle">Got Questions?</span>
+                        <h2 className="safety-title mt-2">Frequently Asked Questions</h2>
+                    </div>
+
+                    <div className="row justify-content-center" data-aos="fade-up">
+                        <div className="col-lg-10">
+                            {faqData.map((item, index) => (
+                                <div className="faq-accordion-item" key={index}>
+                                    <div 
+                                        className="faq-accordion-header" 
+                                        onClick={() => setOpenFaq(openFaq === index ? null : index)}
+                                    >
+                                        <h3 className="faq-accordion-title">{item.question}</h3>
+                                        <div className="faq-accordion-icon">
+                                            <i className={`bi ${openFaq === index ? 'bi-x-lg' : 'bi-plus-lg'}`}></i>
+                                        </div>
+                                    </div>
+                                    {openFaq === index && (
+                                        <div className="faq-accordion-body">
+                                            <p className="mb-0">{item.answer}</p>
+                                        </div>
+                                    )}
+                                </div>
+                            ))}
                         </div>
                     </div>
                 </div>

@@ -19,8 +19,7 @@ export default function Partnerships() {
                 title="
 Academic Partnerships at a Leading School in Gurugram 
 "
-                description="Discover a top school in Gurugram offering quality education, experienced teachers, and a nurturing environment for holistic growth. 
-"
+                description="Discover a top school in Gurugram offering quality education, experienced teachers, and a nurturing environment for holistic growth. "
             />
             <PageHeader
                 title="Our Partnerships"

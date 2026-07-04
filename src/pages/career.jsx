@@ -6,6 +6,30 @@ import PageHeader from "../components/PageHeader.jsx";
 import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg";
 
 export default function Career() {
+    const [openFaq, setOpenFaq] = useState(null);
+    const faqData = [
+        {
+            question: "What kind of professionals is the school looking to hire?",
+            answer: "We seek talent that fosters enthusiasm and innovation within staffing and teaching methods and is focused on student learning."
+        },
+        {
+            question: "Are opportunities for professional development available in the school?",
+            answer: "Yes, we provide ongoing training and development for our team to keep them up to date with world-class teaching standards."
+        },
+        {
+            question: "Is the indoor staff of schools in the New Gurgaon area supported by the school?",
+            answer: "Our campus is strategically situated and easy to access, making it a convenient workplace for professionals."
+        },
+        {
+            question: "What is the time required for review of my application?",
+            answer: "All applications are analysed by our HR team and shortlisted candidates are contacted for further interviews and demonstrations."
+        },
+        {
+            question: "Do academic positions have certain skills or qualifications?",
+            answer: "Relevant educational qualifications are required, and candidates should have a mindset that reflects our \"Education for Life\" approach."
+        }
+    ];
+
     const [loading, setLoading] = useState(false);
 
     const handleCareerSubmit = async (formData) => {
@@ -85,7 +109,7 @@ export default function Career() {
         <>
             <SEO
                 title="Kualakubs World School Careers | Join Our Team"
-                description="Explore career opportunities in teaching and administration. Join a dynamic environment focused on growth, learning, and professional development."
+                description="Kualakubs World School is one of the good schools in Gurgaon, offering quality education, modern facilities, and holistic student development. "
             />
 
             <PageHeader
@@ -402,6 +426,39 @@ export default function Career() {
                         onSubmit={handleCareerSubmit}
                         loading={loading}
                     />
+                </div>
+            </section>
+
+            {/* FAQ Section */}
+            <section className="safety-highlights-section">
+                <div className="container">
+                    <div className="text-center mb-5" data-aos="fade-up">
+                        <span className="safety-subtitle">Got Questions?</span>
+                        <h2 className="safety-title mt-2">Frequently Asked Questions</h2>
+                    </div>
+
+                    <div className="row justify-content-center" data-aos="fade-up">
+                        <div className="col-lg-10">
+                            {faqData.map((item, index) => (
+                                <div className="faq-accordion-item" key={index}>
+                                    <div 
+                                        className="faq-accordion-header" 
+                                        onClick={() => setOpenFaq(openFaq === index ? null : index)}
+                                    >
+                                        <h3 className="faq-accordion-title">{item.question}</h3>
+                                        <div className="faq-accordion-icon">
+                                            <i className={`bi ${openFaq === index ? 'bi-x-lg' : 'bi-plus-lg'}`}></i>
+                                        </div>
+                                    </div>
+                                    {openFaq === index && (
+                                        <div className="faq-accordion-body">
+                                            <p className="mb-0">{item.answer}</p>
+                                        </div>
+                                    )}
+                                </div>
+                            ))}
+                        </div>
+                    </div>
                 </div>
             </section>
         </>

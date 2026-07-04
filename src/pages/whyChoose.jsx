@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import PageHeader from "../components/PageHeader.jsx";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -57,6 +57,31 @@ const trustReasons = [
 ];
 
 export default function WhyChoose() {
+    const [openFaq, setOpenFaq] = useState(null);
+
+    const faqData = [
+        {
+            question: "What are your reasons for sending your child to this school?",
+            answer: "We combine cutting-edge innovation and value-based learning for preparation for success in the real world."
+        },
+        {
+            question: "Is it a good choice of KWS School Gurgaon for the New Gurgaon families?",
+            answer: "Yes, we are one of the most accessible schools in New Gurgaon to impart a balanced and modern education."
+        },
+        {
+            question: "How does the school encourage pupils to be curious?",
+            answer: "The space is designed to be flexible and adaptable, allowing for activities such as hands-on learning, problem-solving, and collaborative work."
+        },
+        {
+            question: "Why is this considered to be the best CBSE school in Gurgaon for all-around development?",
+            answer: "We, at one of the best schools in Gurgaon, emphasize academic performance as well as personality development."
+        },
+        {
+            question: "What do we wish for all of our students?",
+            answer: "To enable them to be confident, ethical, and future-ready global citizens."
+        }
+    ];
+
     useEffect(() => {
         AOS.init({
             duration: 900,
@@ -253,6 +278,39 @@ export default function WhyChoose() {
                     </div>
                 </div>
             </section> */}
+
+            {/* FAQ Section */}
+            <section className="safety-highlights-section">
+                <div className="container">
+                    <div className="text-center mb-5" data-aos="fade-up">
+                        <span className="safety-subtitle">Got Questions?</span>
+                        <h2 className="safety-title mt-2">Frequently Asked Questions</h2>
+                    </div>
+
+                    <div className="row justify-content-center" data-aos="fade-up">
+                        <div className="col-lg-10">
+                            {faqData.map((item, index) => (
+                                <div className="faq-accordion-item" key={index}>
+                                    <div 
+                                        className="faq-accordion-header" 
+                                        onClick={() => setOpenFaq(openFaq === index ? null : index)}
+                                    >
+                                        <h3 className="faq-accordion-title">{item.question}</h3>
+                                        <div className="faq-accordion-icon">
+                                            <i className={`bi ${openFaq === index ? 'bi-x-lg' : 'bi-plus-lg'}`}></i>
+                                        </div>
+                                    </div>
+                                    {openFaq === index && (
+                                        <div className="faq-accordion-body">
+                                            <p className="mb-0">{item.answer}</p>
+                                        </div>
+                                    )}
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     );
 }

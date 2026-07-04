@@ -90,7 +90,6 @@ export default function About() {
                 </h5>
                 <p>
                   We are one of the affordable schools in Gurgaon and have a curriculum that incorporates the 21st century skills like critical thinking, creativity, collaboration, digital literacy and socio-emotional learning.
-
                 </p>
 
                 <h5
@@ -102,8 +101,6 @@ export default function About() {
                 </h5>
                 <p>
                   Our classrooms are interactive, our labs are well-equipped, our outdoor play areas are ready, our activity rooms are prepared, and learning is joyful, engaging, and all-inclusive—a hallmark of a top-notch CBSE School in Gurugram.
-
-
                 </p>
               </div>
             </div>
@@ -138,7 +135,6 @@ export default function About() {
             <p className="mt-3" style={{ color: "var(--text-color)" }}>
 
               Kualakubs World School is a progressive CBSE School in Gurugram that offers a structured, holistic and future-ready education from Playgroup till Class 12. We have a strong academic programme that promotes life skills, sports, technology and values education to help us grow all-round, making us one of the most trusted affordable schools in Gurgaon.
-
             </p>
           </div>
 

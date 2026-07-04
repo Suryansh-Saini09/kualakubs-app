@@ -700,7 +700,7 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-} 
+}
 
 /* ===============================
    New Campus Services Cards
@@ -708,7 +708,8 @@ body {
 .service-card {
   background: #ffffff;
   border: 1px solid rgba(25, 45, 69, 0.08);
-  border-radius: 1.5rem; /* 24px */
+  border-radius: 1.5rem;
+  /* 24px */
   padding: 1.75rem;
   height: 100%;
   box-shadow: 0 10px 30px rgba(25, 45, 69, 0.04);
@@ -725,7 +726,8 @@ body {
 .service-icon-container {
   width: 56px;
   height: 56px;
-  background-color: var(--accent-bg-color); /* Dark navy */
+  background-color: var(--accent-bg-color);
+  /* Dark navy */
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -887,12 +889,14 @@ body {
 ========================================================= */
 .safety-highlights-section {
   padding: 5rem 0;
-  background-color: #192d45; /* Deep blue background */
+  background-color: #192d45;
+  /* Deep blue background */
   position: relative;
 }
 
 .safety-subtitle {
-  color: #e2dccc; /* Beige */
+  color: #e2dccc;
+  /* Beige */
   font-size: 0.9rem;
   letter-spacing: 2.5px;
   font-weight: 700;
@@ -901,7 +905,8 @@ body {
 }
 
 .safety-title {
-  color: #ffffff; /* White */
+  color: #ffffff;
+  /* White */
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 2.5rem;
@@ -928,9 +933,11 @@ body {
 }
 
 .safety-card {
-  background: rgba(255, 255, 255, 0.05); /* Translucent glassmorphism */
+  background: rgba(255, 255, 255, 0.05);
+  /* Translucent glassmorphism */
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(226, 220, 204, 0.15); /* Soft beige border */
+  border: 1px solid rgba(226, 220, 204, 0.15);
+  /* Soft beige border */
   border-radius: 12px;
   padding: 2.5rem 2rem;
   height: 100%;
@@ -951,8 +958,10 @@ body {
   width: 56px;
   height: 56px;
   border-radius: 12px;
-  background-color: #e2dccc; /* Beige background */
-  color: #192d45; /* Deep blue icon */
+  background-color: #e2dccc;
+  /* Beige background */
+  color: #192d45;
+  /* Deep blue icon */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1031,7 +1040,8 @@ body {
   left: 0;
   width: 95%;
   height: 95%;
-  border: 4px solid #e2dccc; /* Beige border frame */
+  border: 4px solid #e2dccc;
+  /* Beige border frame */
   border-radius: 12px;
   z-index: 1;
 }
@@ -1152,7 +1162,8 @@ body {
 }
 
 .testimonial-stars {
-  color: #ffc107; /* gold stars */
+  color: #ffc107;
+  /* gold stars */
   font-size: 1.1rem;
   margin-bottom: 1.2rem;
 }
@@ -1230,7 +1241,8 @@ body {
 ========================================================= */
 .contact-hero-section {
   position: relative;
-  background-color: var(--accent-bg-color); /* #192d45 */
+  background-color: var(--accent-bg-color);
+  /* #192d45 */
   padding: 6rem 0 9rem 0;
   overflow: hidden;
   text-align: center;
@@ -1282,7 +1294,8 @@ body {
 }
 
 .contact-hero-title span {
-  color: #b3925c; /* Gold color for Kualakubs World School */
+  color: #b3925c;
+  /* Gold color for Kualakubs World School */
 }
 
 .contact-hero-lead {
@@ -1297,7 +1310,8 @@ body {
 .contact-cards-container {
   position: relative;
   z-index: 10;
-  margin-top: -6rem; /* Overlap effect */
+  margin-top: -6rem;
+  /* Overlap effect */
   margin-bottom: 4rem;
 }
 
@@ -1328,8 +1342,10 @@ body {
 .contact-icon-box {
   width: 60px;
   height: 60px;
-  background-color: var(--accent-bg-color); /* #192d45 */
-  color: #b3925c; /* Gold icon */
+  background-color: var(--accent-bg-color);
+  /* #192d45 */
+  color: #b3925c;
+  /* Gold icon */
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -1465,7 +1481,8 @@ body {
 }
 
 .career-hero-title span {
-  color: #b3925c; /* Gold color */
+  color: #b3925c;
+  /* Gold color */
   font-style: italic;
 }
 
@@ -1526,7 +1543,8 @@ body {
 
 /* Stats Bar */
 .career-stats-section {
-  background-color: var(--accent-bg-color); /* #192d45 */
+  background-color: var(--accent-bg-color);
+  /* #192d45 */
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding: 3rem 0;
   position: relative;
@@ -1576,7 +1594,8 @@ body {
 /* Why Work Section */
 .why-work-section {
   position: relative;
-  background-color: #faf8f5; /* Warm beige */
+  background-color: #faf8f5;
+  /* Warm beige */
   padding: 6.5rem 0;
   overflow: hidden;
   border-bottom: 1px solid rgba(25, 45, 69, 0.08);
@@ -1597,13 +1616,15 @@ body {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   font-size: clamp(2.2rem, 4vw, 3.2rem);
-  color: var(--accent-bg-color); /* Deep Navy Blue */
+  color: var(--accent-bg-color);
+  /* Deep Navy Blue */
   line-height: 1.25;
   margin-bottom: 1.5rem;
 }
 
 .why-work-title span {
-  color: #b3925c; /* Gold/Beige */
+  color: #b3925c;
+  /* Gold/Beige */
 }
 
 .why-work-divider {
@@ -1623,7 +1644,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.35rem;
   font-weight: 700;
-  color: #b3925c; /* Gold/Beige */
+  color: #b3925c;
+  /* Gold/Beige */
   line-height: 1.6;
   margin-bottom: 1.5rem;
 }
@@ -1631,7 +1653,8 @@ body {
 .why-work-body-text {
   font-size: 1.1rem;
   line-height: 1.9;
-  color: var(--text-color); /* Dark grey/body text */
+  color: var(--text-color);
+  /* Dark grey/body text */
   font-weight: 400;
 }
 
@@ -1821,7 +1844,8 @@ body {
 /* Benefits Section */
 .benefits-section {
   padding: 6rem 0;
-  background-color: #fdfbf7; /* Light warm background matching mockup */
+  background-color: #fdfbf7;
+  /* Light warm background matching mockup */
 }
 
 .benefits-badge {
@@ -1851,7 +1875,8 @@ body {
 }
 
 .benefit-card {
-  background-color: var(--accent-bg-color); /* #192d45 */
+  background-color: var(--accent-bg-color);
+  /* #192d45 */
   border-radius: 20px;
   padding: 2.5rem 2rem;
   height: 100%;
@@ -1902,12 +1927,14 @@ body {
 ================================ */
 .app-process-section {
   padding: 6rem 0;
-  background-color: var(--accent-bg-color); /* Deep Navy #192d45 */
+  background-color: var(--accent-bg-color);
+  /* Deep Navy #192d45 */
   color: #ffffff;
 }
 
 .app-process-badge {
-  color: #b3925c; /* Gold */
+  color: #b3925c;
+  /* Gold */
   font-size: 0.85rem;
   font-weight: 700;
   letter-spacing: 2px;
@@ -1946,9 +1973,11 @@ body {
 .app-step-circle {
   width: 70px;
   height: 70px;
-  border: 2px solid #b3925c; /* Gold border */
+  border: 2px solid #b3925c;
+  /* Gold border */
   border-radius: 50%;
-  color: #b3925c; /* Gold text */
+  color: #b3925c;
+  /* Gold text */
   font-family: 'Playfair Display', serif;
   font-size: 1.5rem;
   font-weight: 700;
@@ -1962,7 +1991,8 @@ body {
 
 .app-process-step:hover .app-step-circle {
   background-color: #b3925c;
-  color: var(--accent-bg-color); /* Swap colors on hover */
+  color: var(--accent-bg-color);
+  /* Swap colors on hover */
   transform: scale(1.05);
 }
 
@@ -1990,11 +2020,12 @@ body {
   .app-process-step {
     position: relative;
   }
-  
+
   .app-step-arrow {
     display: block;
     position: absolute;
-    top: 35px; /* Vertical center of the 70px circle */
+    top: 35px;
+    /* Vertical center of the 70px circle */
     right: 0;
     transform: translate(50%, -50%);
     font-size: 1.5rem;
@@ -2095,7 +2126,7 @@ body {
     padding: 2rem 1.5rem;
     border-radius: 14px;
   }
-  
+
   .form-section-title {
     font-size: 1.05rem;
     margin-top: 1rem;
@@ -2107,13 +2138,15 @@ body {
    Gallery Section
 ================================ */
 .gallery-section {
-  background-color: #faf8f5; /* Warm premium beige background */
+  background-color: #faf8f5;
+  /* Warm premium beige background */
   padding: 5rem 0;
   min-height: 80vh;
 }
 
 .gallery-badge {
-  color: #b3925c; /* Gold */
+  color: #b3925c;
+  /* Gold */
   font-size: 0.85rem;
   font-weight: 700;
   letter-spacing: 2px;
@@ -2127,13 +2160,15 @@ body {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   font-size: clamp(2rem, 3.5vw, 2.8rem);
-  color: var(--accent-bg-color); /* Navy #192d45 */
+  color: var(--accent-bg-color);
+  /* Navy #192d45 */
   margin-bottom: 1.25rem;
 }
 
 .gallery-lead {
   font-size: 1.05rem;
-  color: #718096; /* Slate gray color */
+  color: #718096;
+  /* Slate gray color */
   margin: 0 auto 2rem auto;
   line-height: 1.6;
 }
@@ -2142,10 +2177,12 @@ body {
   font-family: 'Playfair Display', serif;
   font-size: 1.4rem;
   font-weight: 700;
-  color: #b3925c; /* Gold theme accent */
+  color: #b3925c;
+  /* Gold theme accent */
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
-  font-style: italic; /* Elegant design touch */
+  font-style: italic;
+  /* Elegant design touch */
 }
 
 .gallery-divider {
@@ -2224,10 +2261,8 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    rgba(25, 45, 69, 0.1),
-    rgba(25, 45, 69, 0.95) 80%
-  );
+  background: linear-gradient(rgba(25, 45, 69, 0.1),
+      rgba(25, 45, 69, 0.95) 80%);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -2390,13 +2425,25 @@ body {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes scaleIn {
-  from { transform: scale(0.9); opacity: 0; }
-  to { transform: scale(1); opacity: 1; }
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 @media (max-width: 768px) {
@@ -2405,21 +2452,74 @@ body {
     height: 45px;
     font-size: 1.2rem;
   }
-  
+
   .lightbox-nav.prev {
     left: 1rem;
   }
-  
+
   .lightbox-nav.next {
     right: 1rem;
   }
-  
+
   .lightbox-content {
     max-width: 95%;
   }
-  
+
   .lightbox-close {
     top: 1rem;
     right: 1rem;
   }
+}
+
+/* =========================================================
+   FAQ Accordion Section
+========================================================= */
+.faq-accordion-item {
+  background: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.faq-accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 1.5rem;
+  cursor: pointer;
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.faq-accordion-header:hover {
+  background-color: #fafafa;
+}
+
+.faq-accordion-title {
+  color: #192d45;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin: 0;
+  flex: 1;
+  padding-right: 1rem;
+}
+
+.faq-accordion-icon {
+  color: #192d45;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.faq-accordion-body {
+  padding: 0 1.5rem 1.25rem;
+  color: #495057;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-weight: 600;
 }

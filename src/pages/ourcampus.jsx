@@ -1,11 +1,36 @@
 import PageHeader from "../components/PageHeader";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import SEO from "../components/SEO";
 
 export default function OurCampus() {
+    const [openFaq, setOpenFaq] = useState(null);
+
+    const faqData = [
+        {
+            question: "Does the campus appeal to the parents who want the best preschool near me?",
+            answer: "Yes, our caring early years area will be a safe \"living lab,\" and this is why it's the best preschool near me."
+        },
+        {
+            question: "What do the teachers do differently?",
+            answer: "Our teachers are mentors and will guide each child to his/her potential individually."
+        },
+        {
+            question: "How do the physical surroundings facilitate learning?",
+            answer: "Collaborative learning areas and interactive learning spaces to take education out of the four walls of the classroom."
+        },
+        {
+            question: "Are the campus facilities planned for student safety?",
+            answer: "All campuses are designed to offer a safe, caring, and clear space for children to move and learn freely."
+        },
+        {
+            question: "What is special about the campus?",
+            answer: "We have integrated spaces into a \"living laboratory\" environment where students learn by exploring in an open and vibrant space"
+        }
+    ];
+
     useEffect(() => {
         AOS.init({
             duration: 900,
@@ -256,6 +281,38 @@ export default function OurCampus() {
                 </div>
             </section>
 
+            {/* FAQ Section */}
+            <section className="safety-highlights-section">
+                <div className="container">
+                    <div className="text-center mb-5" data-aos="fade-up">
+                        <span className="safety-subtitle">Got Questions?</span>
+                        <h2 className="safety-title mt-2">Frequently Asked Questions</h2>
+                    </div>
+
+                    <div className="row justify-content-center" data-aos="fade-up">
+                        <div className="col-lg-10">
+                            {faqData.map((item, index) => (
+                                <div className="faq-accordion-item" key={index}>
+                                    <div 
+                                        className="faq-accordion-header" 
+                                        onClick={() => setOpenFaq(openFaq === index ? null : index)}
+                                    >
+                                        <h3 className="faq-accordion-title">{item.question}</h3>
+                                        <div className="faq-accordion-icon">
+                                            <i className={`bi ${openFaq === index ? 'bi-x-lg' : 'bi-plus-lg'}`}></i>
+                                        </div>
+                                    </div>
+                                    {openFaq === index && (
+                                        <div className="faq-accordion-body">
+                                            <p className="mb-0">{item.answer}</p>
+                                        </div>
+                                    )}
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </section>
         </>
     );
 }

@@ -11,8 +11,10 @@ import SEO from "../components/SEO.jsx";
 import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg"
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { useState } from "react";
 
 export default function Home() {
+    const [openFaq, setOpenFaq] = useState(null);
 
 
     const whyChooseKWS = [
@@ -124,6 +126,34 @@ export default function Home() {
             slidesToSlide: 1
         }
     };
+
+    const faqData = [
+        {
+            question: "How does the school regularly involve parents in the school's communication?",
+            answer: "They are able to keep updated regularly and have regular one-on-one interactions via our dedicated parent portal.",
+            icon: "bi-chat-dots"
+        },
+        {
+            question: "Is there a focus on values and character building?",
+            answer: "Yes, our \"Education for Life\" philosophy is such that the students are educated to be responsible and ethical citizens.",
+            icon: "bi-star"
+        },
+        {
+            question: "How is technology a part of the school's learning experience?",
+            answer: "We have smart boards and digital equipment in our classrooms, making our lessons interactive and future-ready.",
+            icon: "bi-laptop"
+        },
+        {
+            question: "Can students participate in a variety of extra-curricular activities?",
+            answer: "There are many activities available, such as competitive sports, performing arts, and specialized hobby clubs.",
+            icon: "bi-palette"
+        },
+        {
+            question: "How does a school ensure a safe school environment for students' safety?",
+            answer: "Kualakubs World School has a secure campus that is monitored by 24-hour CCTV, transport is GPS tracked, and staff are carefully checked.",
+            icon: "bi-shield-check"
+        }
+    ];
 
     return (
         <>
@@ -423,6 +453,39 @@ export default function Home() {
                                 <a href="/our-partnerships" className="teaser-btn">
                                     Our Partnerships →
                                 </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* FAQ Section */}
+                <section className="safety-highlights-section">
+                    <div className="container">
+                        <div className="text-center mb-5">
+                            <span className="safety-subtitle">Got Questions?</span>
+                            <h2 className="safety-title mt-2">Frequently Asked Questions</h2>
+                        </div>
+
+                        <div className="row justify-content-center">
+                            <div className="col-lg-10">
+                                {faqData.map((item, index) => (
+                                    <div className="faq-accordion-item" key={index}>
+                                        <div 
+                                            className="faq-accordion-header" 
+                                            onClick={() => setOpenFaq(openFaq === index ? null : index)}
+                                        >
+                                            <h3 className="faq-accordion-title">{item.question}</h3>
+                                            <div className="faq-accordion-icon">
+                                                <i className={`bi ${openFaq === index ? 'bi-x-lg' : 'bi-plus-lg'}`}></i>
+                                            </div>
+                                        </div>
+                                        {openFaq === index && (
+                                            <div className="faq-accordion-body">
+                                                <p className="mb-0">{item.answer}</p>
+                                            </div>
+                                        )}
+                                    </div>
+                                ))}
                             </div>
                         </div>
                     </div>

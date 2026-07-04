@@ -1,5 +1,5 @@
 import PageHeader from "../components/PageHeader";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import SEO from "../components/SEO";
@@ -8,6 +8,31 @@ import "../styles/ourfuture.css";
 import "../styles/coeducation.css";
 
 export default function FutureSection() {
+  const [openFaq, setOpenFaq] = useState(null);
+
+  const faqData = [
+      {
+          question: "Are there specific teaching styles that are followed in schools?",
+          answer: "Yes, KWS employs a research-based, \"theme-based\" method that combines play and hands-on knowledge to ensure the basics are easy and fun."
+      },
+      {
+          question: "What about the infrastructure of KWS Gurgaon in comparison to other reputed schools?",
+          answer: "The purpose-built smart labs, interactive activity hubs, and more personalized, student-centric campus design are what make Kualakubs World School stand out."
+      },
+      {
+          question: "Do you have a future plan for Kualakubs World School, Gurgaon?",
+          answer: "With AI-powered learning and sustainable designs on the campus, we want to become one of the best-rated schools in Gurgaon."
+      },
+      {
+          question: "What will the school do to ensure future educational trends are known?",
+          answer: "We are dedicated to utilizing AI for learning and adapting our curriculum to future global careers."
+      },
+      {
+          question: "What new facilities will be at Kualakubs School, Gurugram?",
+          answer: "We are working on creating eco-friendly learning environments and bigger sports complexes to continue being one of the top schools in Gurgaon."
+      }
+  ];
+
   useEffect(() => {
     AOS.init({
       duration: 900,
@@ -183,6 +208,39 @@ export default function FutureSection() {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="safety-highlights-section">
+          <div className="container">
+              <div className="text-center mb-5" data-aos="fade-up">
+                  <span className="safety-subtitle">Got Questions?</span>
+                  <h2 className="safety-title mt-2">Frequently Asked Questions</h2>
+              </div>
+
+              <div className="row justify-content-center" data-aos="fade-up">
+                  <div className="col-lg-10">
+                      {faqData.map((item, index) => (
+                          <div className="faq-accordion-item" key={index}>
+                              <div 
+                                  className="faq-accordion-header" 
+                                  onClick={() => setOpenFaq(openFaq === index ? null : index)}
+                              >
+                                  <h3 className="faq-accordion-title">{item.question}</h3>
+                                  <div className="faq-accordion-icon">
+                                      <i className={`bi ${openFaq === index ? 'bi-x-lg' : 'bi-plus-lg'}`}></i>
+                                  </div>
+                              </div>
+                              {openFaq === index && (
+                                  <div className="faq-accordion-body">
+                                      <p className="mb-0">{item.answer}</p>
+                                  </div>
+                              )}
+                          </div>
+                      ))}
+                  </div>
+              </div>
+          </div>
       </section>
     </>
   );

@@ -1,5 +1,5 @@
 import PageHeader from "../components/PageHeader";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import SEO from "../components/SEO";
@@ -7,6 +7,31 @@ import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg";
 import "../styles/coeducation.css";
 
 export default function CoEducation() {
+    const [openFaq, setOpenFaq] = useState(null);
+
+    const faqData = [
+        {
+            question: "What are the social value(s) for a child of a co-educational K-12 school?",
+            answer: "Confidence and respect among students are nurtured from an early age when they are able to study in a co-educational KWS Gurgaon campus."
+        },
+        {
+            question: "Why is it so significant that students should be taught in a mixed gender setting?",
+            answer: "It reflects real-life society and workplaces, educating students to communicate and lead."
+        },
+        {
+            question: "How is the school working for all pupils to ensure that they have equal access?",
+            answer: "There are equal opportunities for boys and girls for all academic, sporting, and leadership opportunities."
+        },
+        {
+            question: "How is this school's approach to safety in a co-educational setting?",
+            answer: "We are a trusted school in Gurgaon and strictly follow safety guidelines, with all the students having a respectful environment in school."
+        },
+        {
+            question: "Is this one of the top schools in Gurgaon for the development of true and social skills?",
+            answer: "We are a co-educational school, reflecting the real world at KWS School, Gurgaon, and preparing our students to work with others in any profession."
+        }
+    ];
+
     useEffect(() => {
         AOS.init({
             duration: 900,
@@ -50,8 +75,8 @@ export default function CoEducation() {
     return (
         <>
             <SEO
-                title="One of the Best Schools in Gurgaon for Co-Education"
-                description="A balanced co-educational environment where students grow with confidence, respect, and collaboration, building strong social and life skills."
+                title="One of the Best Schools in Gurgaon for Co-Education."
+                description="A balanced co-educational environment where students grow with confidence, respect, and collaboration, building strong skills at Best Schools in Gurgaon."
             />
             <PageHeader
                 title="Co-Education"
@@ -123,6 +148,39 @@ export default function CoEducation() {
                                     </div>
                                 ))}
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* FAQ Section */}
+            <section className="safety-highlights-section">
+                <div className="container">
+                    <div className="text-center mb-5" data-aos="fade-up">
+                        <span className="safety-subtitle">Got Questions?</span>
+                        <h2 className="safety-title mt-2">Frequently Asked Questions</h2>
+                    </div>
+
+                    <div className="row justify-content-center" data-aos="fade-up">
+                        <div className="col-lg-10">
+                            {faqData.map((item, index) => (
+                                <div className="faq-accordion-item" key={index}>
+                                    <div 
+                                        className="faq-accordion-header" 
+                                        onClick={() => setOpenFaq(openFaq === index ? null : index)}
+                                    >
+                                        <h3 className="faq-accordion-title">{item.question}</h3>
+                                        <div className="faq-accordion-icon">
+                                            <i className={`bi ${openFaq === index ? 'bi-x-lg' : 'bi-plus-lg'}`}></i>
+                                        </div>
+                                    </div>
+                                    {openFaq === index && (
+                                        <div className="faq-accordion-body">
+                                            <p className="mb-0">{item.answer}</p>
+                                        </div>
+                                    )}
+                                </div>
+                            ))}
                         </div>
                     </div>
                 </div>

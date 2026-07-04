@@ -1,5 +1,5 @@
 // src/pages/Admissions.jsx
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "../styles/admissions.css";
 import PageHeader from "../components/PageHeader.jsx";
 // import EnquireForm from "../components/forms/forms.jsx";
@@ -11,6 +11,31 @@ import "aos/dist/aos.css";
 import SEO from "../components/SEO.jsx";
 
 export default function Admissions() {
+  const [openFaq, setOpenFaq] = useState(null);
+
+  const faqData = [
+      {
+          question: "How can I apply for admission to your school?",
+          answer: "An online form is available on our website for you to complete, or alternatively, you can come to the campus to register via a walk-in."
+      },
+      {
+          question: "Are there any good and cheap CBSE schools in Gurgaon?",
+          answer: "KWS, a premier name in providing top-class CBSE schools in Gurgaon, provides you with that luxury at affordable rates."
+      },
+      {
+          question: "Do they have entrance exams for Primary?",
+          answer: "A simple interaction and age-appropriate assessment to gain some understanding of the child's current level of learning."
+      },
+      {
+          question: "What paperwork is needed to take part in the admission process?",
+          answer: "The documents required are the child's birth certificate, Aadhaar card, school reports of the child (if any), and passport-size photographs."
+      },
+      {
+          question: "Is a campus tour available prior to admission?",
+          answer: "Absolutely, you can book a tour through our website or directly with the front desk to take a tour of our facilities."
+      }
+  ];
+
   useEffect(() => {
     AOS.init({
       duration: 900,
@@ -355,6 +380,39 @@ export default function Admissions() {
             ))}
           </div>
         </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="safety-highlights-section">
+          <div className="container">
+              <div className="text-center mb-5" data-aos="fade-up">
+                  <span className="safety-subtitle">Got Questions?</span>
+                  <h2 className="safety-title mt-2">Frequently Asked Questions</h2>
+              </div>
+
+              <div className="row justify-content-center" data-aos="fade-up">
+                  <div className="col-lg-10">
+                      {faqData.map((item, index) => (
+                          <div className="faq-accordion-item" key={index}>
+                              <div 
+                                  className="faq-accordion-header" 
+                                  onClick={() => setOpenFaq(openFaq === index ? null : index)}
+                              >
+                                  <h3 className="faq-accordion-title">{item.question}</h3>
+                                  <div className="faq-accordion-icon">
+                                      <i className={`bi ${openFaq === index ? 'bi-x-lg' : 'bi-plus-lg'}`}></i>
+                                  </div>
+                              </div>
+                              {openFaq === index && (
+                                  <div className="faq-accordion-body">
+                                      <p className="mb-0">{item.answer}</p>
+                                  </div>
+                              )}
+                          </div>
+                      ))}
+                  </div>
+              </div>
+          </div>
       </section>
 
       {/* Contact Us */}
