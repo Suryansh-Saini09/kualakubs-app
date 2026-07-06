@@ -1,5 +1,5 @@
 // src/routes.js
-import {lazy, createElement } from  "react";
+import { lazy, createElement } from "react";
 
 
 const Home = lazy(() => import("../pages/home"));
@@ -26,24 +26,24 @@ const BlogDetails = lazy(() => import("../pages/blog-details"));
 
 const routes = [
   { path: "/", element: createElement(Home) },
-  { path: "/about", element: createElement(About)},
-  { path: "/contact", element: createElement(Contact)},
-  { path: "/school-life", element: createElement(SchoolLife)},
-  { path: "/admissions", element: createElement(Admissions)},
-   { path: "/Co-Curricular", element: createElement(CoCurricular)},
+  { path: "/about", element: createElement(About) },
+  { path: "/contact", element: createElement(Contact) },
+  { path: "/school-life", element: createElement(SchoolLife) },
+  { path: "/admissions", element: createElement(Admissions) },
+  { path: "/Co-Curricular", element: createElement(CoCurricular) },
   { path: "/why-kualakubs", element: createElement(WhyChoose) },
   { path: "/our-partnerships", element: createElement(OurPartnerships) },
   { path: "/our-future", element: createElement(OurFuture) },
   { path: "/co-education", element: createElement(CoEducation) },
   { path: "/gallery", element: createElement(Gallery) },
-  {path: "/our-campuses", element: createElement(OurCampus)},
+  { path: "/our-campuses", element: createElement(OurCampus) },
   //{ path: "/principal", element: createElement(Principal) },
   //{path: "/life-skills", element: createElement(LifeSkills)},
-  {path: "/campus-facilities", element: createElement(Campus_Facilities)},
-  {path: "/career", element: createElement(Career)},
-  {path: "/privacy-policy", element: createElement(Privacy)},
-  {path: "/blogs", element: createElement(Blogs)},
-  {path: "/blog-details/:id", element: createElement(BlogDetails)},
+  { path: "/campus-facilities", element: createElement(Campus_Facilities) },
+  { path: "/career", element: createElement(Career) },
+  { path: "/privacy-policy", element: createElement(Privacy) },
+  { path: "/blogs", element: createElement(Blogs) },
+  { path: "/blog-details/:id", element: createElement(BlogDetails) },
   // ... add more routes here
 ];
 

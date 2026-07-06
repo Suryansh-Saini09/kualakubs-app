@@ -1,5 +1,5 @@
 import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
+import { createRoot, hydrateRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 //import { HashRouter } from "react-router-dom";
 import "./index.css";
@@ -13,23 +13,8 @@ import Components from "./components/manage.js";
 import ScrollToTop from "./components/scoller.jsx";
 import { HelmetProvider } from "react-helmet-async";
 
-createRoot(document.getElementById("root")).render(
-  // <StrictMode>
-  //   <BrowserRouter>
-
-  //   <ScrollToTop />
-  //     {/**<Navbar /> */}
-  //     <OffcanvasNavbar />
-
-  //     <Overlay.Overlayheader headerlinks={Links.overlayheaderlink} />
-  //     <App />
-  //     <Components.Footer footerLinks={Links.footerLinks} />
-  //      <Components.Overlay.EnquireNowButton/>
-  //   </BrowserRouter>
-  //   {/* <Components.ContactBox /> */}
-
-  // </StrictMode>
-
+const container = document.getElementById("root");
+const appElement = (
   <StrictMode>
     <HelmetProvider>
       <BrowserRouter>
@@ -46,5 +31,11 @@ createRoot(document.getElementById("root")).render(
       </BrowserRouter>
       {/* <Components.ContactBox /> */}
     </HelmetProvider>
-  </StrictMode>,
+  </StrictMode>
 );
+
+if (container.hasChildNodes()) {
+  hydrateRoot(container, appElement);
+} else {
+  createRoot(container).render(appElement);
+}
