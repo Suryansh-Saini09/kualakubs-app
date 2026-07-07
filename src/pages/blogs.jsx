@@ -28,13 +28,16 @@ export default function Blogs() {
           <div className="text-center mb-5">
             <h2 className="fw-bold" style={{ color: "var(--accent-bg-color)", fontSize: "clamp(2rem, 4vw, 2.5rem)" }}>Latest Insights & Updates</h2>
             <div className="mx-auto mt-3" style={{ width: "60px", height: "4px", backgroundColor: "#b3925c", borderRadius: "2px" }}></div>
+            <p className="text-muted mt-4 mx-auto" style={{ maxWidth: "800px", fontSize: "1.1rem", lineHeight: "1.6" }}>
+              Explore our collection of articles, insights, and updates about education, child development, and life at Kualakubs World School. Stay informed and inspired with our latest stories.
+            </p>
           </div>
 
           <div className="row g-4">
             {blogs.map((blog) => (
               <div className="col-md-6 col-lg-4" key={blog.id}>
                 <div className="card h-100 border-0 shadow-sm" style={{ borderRadius: "16px", overflow: "hidden", transition: "transform 0.3s ease" }}>
-                  <img src={blog.imageUrl} className="card-img-top" alt={blog.title} style={{ height: "240px", objectFit: "cover" }} />
+                  <img src={blog.imageUrl} className="card-img-top p-2" alt={blog.title} style={{ height: "240px", objectFit: "contain", backgroundColor: "#f8f9fa" }} />
                   <div className="card-body p-4 d-flex flex-column">
                     <div className="text-muted small mb-2 d-flex align-items-center">
                       <i className="bi bi-calendar-event me-2" style={{ color: "#b3925c" }}></i>

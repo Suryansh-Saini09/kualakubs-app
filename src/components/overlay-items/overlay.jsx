@@ -216,7 +216,7 @@ export function Overlaymiddleheading() {
             <div className="position-absolute overlay overlay-hero">
                 <h1 className="hero-heading-h6 text-white">KUALAKUBS</h1>
                 <h1 className="hero-heading-h5 text-white">WORLD SCHOOL</h1>
-                <h4 className="hero-heading-h3 text-white"><i>The Best CBSE School in Gurgaon, where learning is like home.</i></h4>
+                <h1 className="hero-heading-h3 text-white"><i>The Best CBSE School in Gurgaon, where learning is like home.</i></h1>
                 <a
                     href="#"
                     onClick={(e) => {
