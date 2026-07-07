@@ -117,7 +117,7 @@ export default function SchoolChatBot() {
               <a
                 href={data.whatsapp}
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="btn btn-success btn-sm w-100 mt-2"
               >
                 📲 Chat on WhatsApp

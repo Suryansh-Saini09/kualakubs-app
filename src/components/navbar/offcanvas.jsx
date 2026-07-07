@@ -100,7 +100,7 @@ function OffcanvasNavbar() {
               <hr style={{color: "var(--accent-text-color)"}} />
 
               <div>
-                 <Link to="https://eflow.kualakubsgurugram.in/ " target="_blank" className="btn me-2 border rounded-0 custom-button-effect" onClick={handleClose}>
+                 <Link to="https://eflow.kualakubsgurugram.in/ " target="_blank" rel="noopener noreferrer" className="btn me-2 border rounded-0 custom-button-effect" onClick={handleClose}>
                 ERP LOGIN {"\u2192"}
               </Link>
               </div>
@@ -113,7 +113,7 @@ function OffcanvasNavbar() {
                 {/* <a href="#" className="bi-color">
                   <i className="bi bi-twitter-x fs-5 me-2"></i>
                 </a> */}
-                <a href="https://www.instagram.com/kualakubsworldschool?igsh=dTlmYWZ4ZHVuaTI1" target="_blank" className="bi-color">
+                <a href="https://www.instagram.com/kualakubsworldschool?igsh=dTlmYWZ4ZHVuaTI1" target="_blank" rel="noopener noreferrer" className="bi-color">
                   <i className="bi bi-instagram fs-5 me-2"></i>
                 </a>
                 {/* <a href="#" className="bi-color">

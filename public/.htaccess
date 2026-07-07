@@ -6,3 +6,17 @@
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule . /index.html [L]
 </IfModule>
+
+<IfModule mod_headers.c>
+  # Security: Missing X-Content-Type-Options Header
+  Header always set X-Content-Type-Options "nosniff"
+
+  # Security: Missing HSTS Header
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+
+  # Security: Missing Secure Referrer-Policy Header
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+  # Security: Missing X-Frame-Options Header
+  Header always set X-Frame-Options "SAMEORIGIN"
+</IfModule>

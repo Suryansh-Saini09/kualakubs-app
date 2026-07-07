@@ -355,7 +355,7 @@ export function EnquireNowButton() {
 export function WhatsappIcon() {
     return (
         <>
-            <a href="https://wa.me/919996648317?text=Hello%20I%20need%20more%20information" target="_blank">
+            <a href="https://wa.me/919996648317?text=Hello%20I%20need%20more%20information" target="_blank" rel="noopener noreferrer">
                 <img src={WPIcon} alt="Chat on whatsapp with apwebstack"
                     className='whatsapp-btn img-fluid' />
             </a>
