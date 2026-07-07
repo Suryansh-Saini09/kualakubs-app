@@ -297,7 +297,7 @@ export const blogsData = [
     summary: "Affordable schools in Gurgaon offer quality academics, modern facilities, sports, and creative activities at reasonable fees, supporting a child’s overall learning and development.",
     imageUrl: "/blog/blog 3.jpeg",
     content: `
-        <h1>Summary</h1>
+        <h2>Summary</h2>
         <p> <strong>Affordable schools in Gurgaon </strong> offer quality academics, modern facilities, sports, and creative activities at reasonable fees, supporting a child’s overall learning and development.
 </p>
    
