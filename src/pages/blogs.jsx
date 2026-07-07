@@ -45,7 +45,7 @@ export default function Blogs() {
                     </div>
                     <h4 className="card-title fw-bold mb-3" style={{ color: "var(--accent-bg-color)" }}>{blog.title}</h4>
                     <p className="card-text text-muted mb-4 flex-grow-1">{blog.summary}</p>
-                    <Link to={`/blog-details/${blog.id}`} className="btn mt-auto" style={{ backgroundColor: "var(--accent-bg-color)", color: "white", borderRadius: "8px", padding: "10px 20px", fontWeight: "600" }}>
+                    <Link to={`/blog-details/${blog.slug}`} className="btn mt-auto" style={{ backgroundColor: "var(--accent-bg-color)", color: "white", borderRadius: "8px", padding: "10px 20px", fontWeight: "600" }}>
                       Read More <i className="bi bi-arrow-right ms-2"></i>
                     </Link>
                   </div>

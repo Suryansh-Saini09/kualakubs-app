@@ -1,6 +1,7 @@
 export const blogsData = [
   {
     id: "1",
+    slug: "how-to-choose-the-best-school-near-you-in-gurugram",
     title: "How to Choose the Best School Near You in Gurugram",
     date: "July 4, 2026",
     author: "Admin",
@@ -130,6 +131,7 @@ export const blogsData = [
   },
   {
     id: "2",
+    slug: "how-safe-schools-improve-your-childs-learning",
     title: "How Safe Schools Improve Your Child’s Learning",
     date: "July 6, 2026",
     author: "Admin",
@@ -288,6 +290,7 @@ export const blogsData = [
   },
   {
     id: "3",
+    slug: "affordable-schools-in-gurgaon-with-quality-cbse-education",
     title: " Affordable Schools in Gurgaon with Quality CBSE Education",
     date: "July 7, 2026",
     author: "Admin",

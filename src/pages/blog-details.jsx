@@ -6,10 +6,10 @@ import SEO from "../components/SEO";
 import { blogsData } from "../data/blogsData";
 
 export default function BlogDetails() {
-  const { id } = useParams();
+  const { slug } = useParams();
   const [openFaq, setOpenFaq] = useState(null);
 
-  const blogData = blogsData.find((blog) => blog.id === id);
+  const blogData = blogsData.find((blog) => blog.slug === slug || blog.id === slug);
 
   if (!blogData) {
     return <Navigate to="/blogs" replace />;

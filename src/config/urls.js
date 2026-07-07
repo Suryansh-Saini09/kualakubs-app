@@ -43,7 +43,7 @@ const routes = [
   { path: "/career", element: createElement(Career) },
   { path: "/privacy-policy", element: createElement(Privacy) },
   { path: "/blogs", element: createElement(Blogs) },
-  { path: "/blog-details/:id", element: createElement(BlogDetails) },
+  { path: "/blog-details/:slug", element: createElement(BlogDetails) },
   // ... add more routes here
 ];
 
