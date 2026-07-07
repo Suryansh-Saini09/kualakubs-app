@@ -35,12 +35,15 @@ const routesToPrerender = [
 async function prerender() {
     console.log('Starting pre-rendering process...');
 
+    // Read the original template into memory so we can serve it without it getting overwritten by the `/` route
+    const originalIndexHtml = fs.readFileSync(path.join(distPath, 'index.html'), 'utf-8');
+
     // 1. Start a local server to serve the built static files
     const app = express();
-    // Serve static files from the dist directory, fallback to index.html for client-side routing
-    app.use(express.static(distPath));
+    // Serve static files from the dist directory, fallback to the original index.html for client-side routing
+    app.use(express.static(distPath, { index: false })); // don't serve index.html automatically
     app.use((req, res) => {
-        res.sendFile(path.join(distPath, 'index.html'));
+        res.send(originalIndexHtml);
     });
 
     const server = app.listen(3000, async () => {
