@@ -34,7 +34,13 @@ const SEO = ({
   // Normalize the canonical URL to prevent trailing slash duplicate content
   const canonicalUrl = (() => {
     try {
-      const parsedUrl = new URL(url);
+      // Replace localhost during prerendering with production domain
+      const baseUrl = "https://kualakubsworldschool.com";
+      const processedUrl = url
+        .replace(/https?:\/\/localhost:\d+/i, baseUrl)
+        .replace(/https?:\/\/127\.0\.0\.1:\d+/i, baseUrl);
+
+      const parsedUrl = new URL(processedUrl);
       if (parsedUrl.pathname.length > 1 && parsedUrl.pathname.endsWith("/")) {
         parsedUrl.pathname = parsedUrl.pathname.slice(0, -1);
       }

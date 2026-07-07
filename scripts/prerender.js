@@ -26,10 +26,10 @@ const routesToPrerender = [
     '/career',
     '/privacy-policy',
     '/blogs',
-    // Currently hardcoded blog IDs from src/data/blogsData.js to simplify pre-rendering
-    '/blog-details/1',
-    '/blog-details/2',
-    '/blog-details/3'
+    // Pre-rendering blog slugs
+    '/blog-details/how-to-choose-the-best-school-near-you-in-gurugram',
+    '/blog-details/how-safe-schools-improve-your-childs-learning',
+    '/blog-details/affordable-schools-in-gurgaon-with-quality-cbse-education'
 ];
 
 async function prerender() {
