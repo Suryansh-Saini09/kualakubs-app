@@ -41,12 +41,9 @@ const SEO = ({
         .replace(/https?:\/\/127\.0\.0\.1:\d+/i, baseUrl);
 
       const parsedUrl = new URL(processedUrl);
-      
-      // Hostinger and most static hosts 301 redirect to trailing slashes 
-      // for directories containing index.html. We must ensure the canonical 
-      // URL has a trailing slash so it doesn't point to a 301 redirect.
-      if (!parsedUrl.pathname.endsWith("/")) {
-        parsedUrl.pathname = parsedUrl.pathname + "/";
+      // We strip the trailing slash to maintain clean URLs as our canonical source
+      if (parsedUrl.pathname !== "/" && parsedUrl.pathname.endsWith("/")) {
+        parsedUrl.pathname = parsedUrl.pathname.slice(0, -1);
       }
       
       return parsedUrl.toString();

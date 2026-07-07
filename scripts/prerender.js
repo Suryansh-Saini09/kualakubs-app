@@ -90,7 +90,7 @@ async function prerender() {
             // Note: We might want to remove the injected puppeteer scripts if any, but page.content() is usually clean enough
 
             // 4. Save the HTML to the correct location in dist/
-            const routePath = route === '/' ? '/index.html' : `${route}/index.html`;
+            const routePath = route === '/' ? '/index.html' : `${route}.html`;
             const filePath = path.join(distPath, routePath);
 
             // Ensure directory exists
