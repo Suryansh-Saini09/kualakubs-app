@@ -2,6 +2,10 @@
   RewriteEngine On
   RewriteBase /
   
+  # Remove trailing slashes (e.g. redirect /blogs/ to /blogs) to prevent 500 errors
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)/$ /$1 [L,R=301]
+
   # Serve .html file if it exists (allows clean URLs without trailing slashes)
   RewriteCond %{REQUEST_FILENAME}\.html -f
   RewriteRule ^(.*)$ $1.html [L]

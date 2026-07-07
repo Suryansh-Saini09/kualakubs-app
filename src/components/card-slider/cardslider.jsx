@@ -4,6 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import { Link } from 'react-router-dom';
 import Admissions from "../../assets/Admission_image.png";
 import Sciencelab from "../../assets/sciencelab_image.png"
+import LibraryImage from "../../assets/library-869061_1280.jpg";
 
 
 
@@ -57,7 +58,7 @@ const CardCarousel = () => {
                 <div className="card m-2 position-relative rounded-0 border-0">
                     <Link to="/our-future">
                         <img
-                            src="https://www.westminster.org.uk/wp-content/uploads/2025/06/250522-Library-03-scaled.jpg"
+                            src={LibraryImage}
                             className="card-img-top rounded-0 " style={{ height: "250px" }}
                             alt="Card 2"
                         />
