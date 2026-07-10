@@ -113,7 +113,7 @@ function OffcanvasNavbar() {
                 {/* <a href="#" className="bi-color">
                   <i className="bi bi-twitter-x fs-5 me-2"></i>
                 </a> */}
-                <a href="https://www.instagram.com/kualakubsworldschool?igsh=dTlmYWZ4ZHVuaTI1" target="_blank" rel="noopener noreferrer" className="bi-color">
+                <a href="https://www.instagram.com/kualakubsworldschool/?hl=en" target="_blank" rel="noopener noreferrer" className="bi-color">
                   <i className="bi bi-instagram fs-5 me-2"></i>
                 </a>
                 {/* <a href="#" className="bi-color">

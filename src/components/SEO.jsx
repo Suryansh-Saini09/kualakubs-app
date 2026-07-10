@@ -25,7 +25,7 @@ const SEO = ({
     "telephone": "+91-9996648317",
     "sameAs": [
       "https://www.facebook.com/profile.php?id=61588552164324",
-      "https://www.instagram.com/kualakubsworldschool"
+      "https://www.instagram.com/kualakubsworldschool/?hl=en"
     ]
   };
 

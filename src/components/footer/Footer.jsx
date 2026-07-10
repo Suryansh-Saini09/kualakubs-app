@@ -43,7 +43,7 @@ const Footer = ({ footerLinks }) => {
                     <h6 className="mb-2 fw-semibold">Social</h6>
                     <a href="https://www.facebook.com/share/1YqgzBQTGu/" target="_blank" rel="noopener noreferrer" className="footer-link me-3"><i className="bi bi-facebook"></i></a>
                     {/* <a href="#" className="footer-link me-3"><i className="bi bi-twitter"></i></a> */}
-                    <a href="https://www.instagram.com/kualakubsworldschool?igsh=dTlmYWZ4ZHVuaTI1" target="_blank" rel="noopener noreferrer" className="footer-link me-3"><i className="bi bi-instagram"></i></a>
+                    <a href="https://www.instagram.com/kualakubsworldschool/?hl=en" target="_blank" rel="noopener noreferrer" className="footer-link me-3"><i className="bi bi-instagram"></i></a>
                     {/* <a href="#" className="footer-link"><i className="bi bi-linkedin"></i></a> */}
                 </div>
             </div>
