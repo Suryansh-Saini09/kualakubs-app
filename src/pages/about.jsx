@@ -1,8 +1,34 @@
+import React, { useState } from "react";
 import PageHeader from "../components/PageHeader";
 import aboutlogo from "../assets/logowhite.png";
 import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg"
 import SEO from "../components/SEO";
 export default function About() {
+  const [openFaq, setOpenFaq] = useState(null);
+
+  const faqData = [
+    {
+      question: "What is the school's greatest aim with respect to its pupils?",
+      answer: "We ensure the safety, wellbeing, and dignity of all learners is paramount in all we do."
+    },
+    {
+      question: "What is the school's Mission Statement about the environment?",
+      answer: "Children will be provided with a setting to grow in which there will be no harm or discrimination, if possible."
+    },
+    {
+      question: "Is there a child safety-specific training for staff?",
+      answer: "Yes, we train all our staff and teachers daily in safety."
+    },
+    {
+      question: "Is the community being involved in Kualakubs school's security campaign?",
+      answer: "Yes, we do work with families and local authorities and ensure that our campus is safe."
+    },
+    {
+      question: "When it comes to thinking about getting admission to a school in Gurgaon, what should it be?",
+      answer: "It is important that they are committed to International standards of child protection, like KWS, for admission to Gurgaon's Schools."
+    }
+  ];
+
   return (
     <>
       <SEO
@@ -369,6 +395,39 @@ export default function About() {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="safety-highlights-section">
+          <div className="container">
+              <div className="text-center mb-5" data-aos="fade-up">
+                  <span className="safety-subtitle">Got Questions?</span>
+                  <h2 className="safety-title mt-2">Frequently Asked Questions</h2>
+              </div>
+
+              <div className="row justify-content-center" data-aos="fade-up">
+                  <div className="col-lg-10">
+                      {faqData.map((item, index) => (
+                          <div className="faq-accordion-item" key={index}>
+                              <div 
+                                  className="faq-accordion-header" 
+                                  onClick={() => setOpenFaq(openFaq === index ? null : index)}
+                              >
+                                  <h3 className="faq-accordion-title">{item.question}</h3>
+                                  <div className="faq-accordion-icon">
+                                      <i className={`bi ${openFaq === index ? 'bi-x-lg' : 'bi-plus-lg'}`}></i>
+                                  </div>
+                              </div>
+                              {openFaq === index && (
+                                  <div className="faq-accordion-body">
+                                      <p className="mb-0">{item.answer}</p>
+                                  </div>
+                              )}
+                          </div>
+                      ))}
+                  </div>
+              </div>
+          </div>
       </section>
     </>
   );

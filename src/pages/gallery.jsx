@@ -24,6 +24,30 @@ const CATEGORIES = [
 export default function Gallery({ folder = "gallery" }) {
   const [activeFilter, setActiveFilter] = useState("all");
   const [lightbox, setLightbox] = useState({ isOpen: false, currentIndex: 0 });
+  const [openFaq, setOpenFaq] = useState(null);
+
+  const faqData = [
+    {
+      question: "What kind of moments do you see in the school gallery?",
+      answer: "A wide range of classroom activities, sporting occasions, cultural festivals and student achievements of all forms are evident in our gallery."
+    },
+    {
+      question: "Are there regular photographs to ensure that they are relevant to the life of the school?",
+      answer: "Yes, we do regularly upload new pictures and videos to ensure parents and the community are kept up to date with our activities."
+    },
+    {
+      question: "Is there any lab and facility at this school in Gurugram?",
+      answer: "Our Gallery is a virtual tour of our advanced infrastructure that makes us one of the best CBSE schools in Gurgaon."
+    },
+    {
+      question: "How to see the sports culture of KWS School in Gurgaon?",
+      answer: "Explore and understand why we are considered one of the good schools in Gurgaon for sports education in our sports section of the gallery."
+    },
+    {
+      question: "Do students have pictures of their community service projects?",
+      answer: "We have some very good examples of social responsibility projects and field trips that students participate in."
+    }
+  ];
 
   // Map images using static config matching with glob imports
   const mappedImages = galleryImages.map((img) => {
@@ -150,6 +174,39 @@ export default function Gallery({ folder = "gallery" }) {
             </div>
           )}
         </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="safety-highlights-section">
+          <div className="container">
+              <div className="text-center mb-5" data-aos="fade-up">
+                  <span className="safety-subtitle">Got Questions?</span>
+                  <h2 className="safety-title mt-2">Frequently Asked Questions</h2>
+              </div>
+
+              <div className="row justify-content-center" data-aos="fade-up">
+                  <div className="col-lg-10">
+                      {faqData.map((item, index) => (
+                          <div className="faq-accordion-item" key={index}>
+                              <div 
+                                  className="faq-accordion-header" 
+                                  onClick={() => setOpenFaq(openFaq === index ? null : index)}
+                              >
+                                  <h3 className="faq-accordion-title">{item.question}</h3>
+                                  <div className="faq-accordion-icon">
+                                      <i className={`bi ${openFaq === index ? 'bi-x-lg' : 'bi-plus-lg'}`}></i>
+                                  </div>
+                              </div>
+                              {openFaq === index && (
+                                  <div className="faq-accordion-body">
+                                      <p className="mb-0">{item.answer}</p>
+                                  </div>
+                              )}
+                          </div>
+                      ))}
+                  </div>
+              </div>
+          </div>
       </section>
 
       {/* Lightbox Modal */}
