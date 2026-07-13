@@ -12,6 +12,7 @@ import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg"
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { useState } from "react";
+import { SITE_URL } from "../config/site.js";
 
 export default function Home() {
     const [openFaq, setOpenFaq] = useState(null);
@@ -78,88 +79,73 @@ export default function Home() {
         }
     ];
 
-    const testimonialsData = [
-        {
-            quote: "Kualakubs World School has been a second home for my daughter. The child-centric approach and loving environment have helped her transition from a shy kid to an expressive, confident young leader. The teachers are exceptionally warm and dedicated.",
-            name: "Priya Sharma",
-            role: "Mother of Aarav (Grade II)",
-            initials: "PS",
-            stars: 5
-        },
-        {
-            quote: "What stood out for us is their focus on values alongside academics. Smart classrooms and technology are used beautifully, but the emphasis on respect, responsibility, and empathy is what makes KWS truly outstanding in Gurugram.",
-            name: "Amit Verma",
-            role: "Father of Riya (Grade V)",
-            initials: "AV",
-            stars: 5
-        },
-        {
-            quote: "We were very concerned about safety and transport, but KWS's GPS-tracked buses, controlled campus entry, and proactive communication completely put our minds at ease. We're very happy with our choice.",
-            name: "Sonal Goel",
-            role: "Mother of Kabir (Playgroup)",
-            initials: "SG",
-            stars: 5
-        },
-        {
-            quote: "The rich co-curricular programme here is exceptional. From robotics to classical dance, my children are encouraged to explore everything. It's a wonderful, balanced education that truly nurtures potential.",
-            name: "Rajesh Malhotra",
-            role: "Father of Anya (Grade VIII)",
-            initials: "RM",
-            stars: 5
-        }
-    ];
-
-    const testimonialResponsive = {
-        desktop: {
-            breakpoint: { max: 3000, min: 1024 },
-            items: 3,
-            slidesToSlide: 1
-        },
-        tablet: {
-            breakpoint: { max: 1024, min: 768 },
-            items: 2,
-            slidesToSlide: 1
-        },
-        mobile: {
-            breakpoint: { max: 768, min: 0 },
-            items: 1,
-            slidesToSlide: 1
-        }
-    };
-
     const faqData = [
         {
-            question: "How does the school regularly involve parents in the school's communication?",
-            answer: "They are able to keep updated regularly and have regular one-on-one interactions via our dedicated parent portal.",
+            question: "Why is Kualakubs World School considered among the best CBSE schools in Gurgaon?",
+            answer: "Kualakubs World School combines CBSE academics, a safe Sector 86 campus, experienced teachers, modern classrooms, and co-curricular learning for balanced student development.",
             icon: "bi-chat-dots"
         },
         {
-            question: "Is there a focus on values and character building?",
-            answer: "Yes, our \"Education for Life\" philosophy is such that the students are educated to be responsible and ethical citizens.",
+            question: "Where is Kualakubs World School located in Gurgaon?",
+            answer: "Kualakubs World School is located at DLF New Town Heights, Sector 86, Gurugram, Haryana, making it accessible for families across New Gurgaon.",
             icon: "bi-star"
         },
         {
-            question: "How is technology a part of the school's learning experience?",
-            answer: "We have smart boards and digital equipment in our classrooms, making our lessons interactive and future-ready.",
+            question: "Which classes are open for admission at Kualakubs World School?",
+            answer: "Admissions are open for the 2026-27 session, with academic support and campus guidance available for parents exploring CBSE schooling in Gurgaon.",
             icon: "bi-laptop"
         },
         {
-            question: "Can students participate in a variety of extra-curricular activities?",
-            answer: "There are many activities available, such as competitive sports, performing arts, and specialized hobby clubs.",
+            question: "What should parents look for in the best CBSE schools in Gurgaon?",
+            answer: "Parents should compare academic quality, CBSE curriculum support, safety, teacher experience, facilities, transport, co-curricular activities, and the overall learning environment.",
             icon: "bi-palette"
         },
         {
-            question: "How does a school ensure a safe school environment for students' safety?",
-            answer: "Kualakubs World School has a secure campus that is monitored by 24-hour CCTV, transport is GPS tracked, and staff are carefully checked.",
+            question: "How can parents book a visit or enquire about admission?",
+            answer: "Parents can call +91 9996648317, visit the contact page, or come to the Sector 86 campus during school working hours to enquire about admission.",
             icon: "bi-shield-check"
+        }
+    ];
+
+    const homeSchema = [
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            name: "Best CBSE Schools in Gurgaon",
+            url: SITE_URL,
+            description: "Kualakubs World School in Sector 86 Gurugram offers CBSE academics, safe infrastructure, modern facilities, and holistic development.",
+            about: {
+                "@id": `${SITE_URL}/#school`
+            },
+            primaryImageOfPage: `${SITE_URL}/webicon.png`,
+            keywords: [
+                "best cbse schools in gurgaon",
+                "CBSE school in Gurgaon",
+                "CBSE school in Gurugram",
+                "school admission in Gurgaon"
+            ]
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: faqData.map((item) => ({
+                "@type": "Question",
+                name: item.question,
+                acceptedAnswer: {
+                    "@type": "Answer",
+                    text: item.answer
+                }
+            }))
         }
     ];
 
     return (
         <>
             <SEO
-                title="Best CBSE Schools in Gurgaon for Future-Ready Learning"
-                description="A nurturing school focused on academic excellence, life skills, and holistic growth with modern teaching and a safe environment, among the Best CBSE Schools in Gurgaon."
+                title="Best CBSE Schools in Gurgaon | Kualakubs World School"
+                description="Explore why Kualakubs World School is among the best CBSE schools in Gurgaon, with CBSE academics, a safe campus, modern facilities, and admissions for 2026-27."
+                url={SITE_URL}
+                schemaMarkup={homeSchema}
             />
             { /* Main section  */}
             <main>
@@ -174,7 +160,7 @@ export default function Home() {
                 </div>
                 { /* Dividersection */}
                 <div className="divider container-fluid d-flex justify-content-center align-items-center p-3 p-sm-1 p-md-2" id="slidedown" >
-                    A new-age school built on timeless values nurturing intellect, creativity, and character in the heart of DLF New Town Heights,Sector 86, Gurugram.
+                    A new-age school built on timeless values nurturing intellect, creativity, and character in the heart of DLF New Town Heights, Sector 86, Gurugram.
                 </div>
 
                 <Components.Contentlayout.AboutContentLayout />
@@ -208,7 +194,7 @@ export default function Home() {
                             <span className="why-kws-subtitle">Thousands of Gurugram families choose KWS every year</span>
                             <h2 className="why-kws-title mt-2">— and here's why</h2>
                             <p className="why-kws-intro mx-auto mt-3 text-muted" style={{ maxWidth: "700px" }}>
-                                We aim to provide a solid academic base, life skills and a mind for the future in each of our children. Kualakubs World School is the <strong>top CBSE School in Gurgaon</strong> for your child's schooling for the following reasons:
+                                We aim to provide a solid academic base, life skills and a mind for the future in each of our children. Kualakubs World School is among the <strong>best CBSE schools in Gurgaon</strong> for your child's schooling for the following reasons:
                             </p>
                         </div>
 
@@ -427,7 +413,7 @@ export default function Home() {
                                     At Kualakubs World School, the classroom is just the beginning. Our students sing, dance, debate, code, paint and play because we know and understand that the whole child can be realised when we nurture and celebrate all parts of their being. Whether it's an annual day event or an inter-school competition, life at KWS is rich, vibrant and always full of possibility — a feature of the best CBSE Schools in Gurgaon and forward-thinking schools in Gurugram. <br />
                                     <strong>Explore Co-Curriculars →</strong>
                                 </p>
-                                <a href="/Co-Curricular" className="teaser-btn">
+                                <a href="/co-curricular" className="teaser-btn">
                                     Explore Co-Curriculars →
                                 </a>
                             </div>

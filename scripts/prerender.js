@@ -3,6 +3,8 @@ import express from 'express';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { blogsData } from '../src/data/blogsData.js';
+import { staticRoutes } from '../src/config/site.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -10,26 +12,8 @@ const distPath = path.join(__dirname, '../dist');
 
 // Define all routes to pre-render
 const routesToPrerender = [
-    '/',
-    '/about',
-    '/contact',
-    '/school-life',
-    '/admissions',
-    '/Co-Curricular',
-    '/why-kualakubs',
-    '/our-partnerships',
-    '/our-future',
-    '/co-education',
-    '/gallery',
-    '/our-campuses',
-    '/campus-facilities',
-    '/career',
-    '/privacy-policy',
-    '/blogs',
-    // Pre-rendering blog slugs
-    '/blog-details/how-to-choose-the-best-school-near-you-in-gurugram',
-    '/blog-details/how-safe-schools-improve-your-childs-learning',
-    '/blog-details/affordable-schools-in-gurgaon-with-quality-cbse-education'
+    ...staticRoutes,
+    ...blogsData.map((blog) => `/blog-details/${blog.slug}`)
 ];
 
 async function prerender() {
@@ -54,8 +38,6 @@ async function prerender() {
             headless: 'new', // Use the new headless mode
             args: ['--no-sandbox', '--disable-setuid-sandbox']
         });
-
-        const template = fs.readFileSync(path.join(distPath, 'index.html'), 'utf-8');
 
         // 3. Loop through all routes and pre-render
         for (const route of routesToPrerender) {

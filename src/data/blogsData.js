@@ -21,7 +21,7 @@ export const blogsData = [
 
       <h4>Academic Quality</h4>
       <ul>
-        <li>Determine whether the <a href="https://kualakubsworldschool.com/Co-Curricular" target="_blank" rel="noopener noreferrer" style="color: var(--accent-bg-color); text-decoration: underline;">school is a CBSE</a> or another board.</li>
+        <li>Determine whether the <a href="https://kualakubsworldschool.com/co-curricular" target="_blank" rel="noopener noreferrer" style="color: var(--accent-bg-color); text-decoration: underline;">school is a CBSE</a> or another board.</li>
         <li>Consider previous performance and student achievement.</li>
         <li>See if the teaching method is practical and engaging</li>
       </ul>

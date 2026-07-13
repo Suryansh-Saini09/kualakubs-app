@@ -17,6 +17,7 @@ export const footerLinks = [
     {
         category: "ABOUT",
         links: [
+            { path: "/", pathname: "Best CBSE Schools in Gurgaon" },
             { path: "/about", pathname: "About us" },
             { path: "/admissions", pathname: "Admissions" },
             // { path: "/about", pathname: "About us" },

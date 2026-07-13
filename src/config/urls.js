@@ -1,5 +1,6 @@
 // src/routes.js
 import { lazy, createElement } from "react";
+import { Navigate } from "react-router-dom";
 
 
 const Home = lazy(() => import("../pages/home"));
@@ -30,7 +31,8 @@ const routes = [
   { path: "/contact", element: createElement(Contact) },
   { path: "/school-life", element: createElement(SchoolLife) },
   { path: "/admissions", element: createElement(Admissions) },
-  { path: "/Co-Curricular", element: createElement(CoCurricular) },
+  { path: "/co-curricular", element: createElement(CoCurricular) },
+  { path: "/Co-Curricular", element: createElement(Navigate, { to: "/co-curricular", replace: true }) },
   { path: "/why-kualakubs", element: createElement(WhyChoose) },
   { path: "/our-partnerships", element: createElement(OurPartnerships) },
   { path: "/our-future", element: createElement(OurFuture) },

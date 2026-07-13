@@ -4,6 +4,7 @@ import PageHeader from "../components/PageHeader";
 import newBuildingImg from "../assets/kualakubs_new_building_img.jpeg";
 import SEO from "../components/SEO";
 import { blogsData } from "../data/blogsData";
+import { SITE_URL } from "../config/site";
 
 export default function Blogs() {
   const blogs = blogsData;
@@ -12,7 +13,24 @@ export default function Blogs() {
     <>
       <SEO
         title="Our Blogs | Kualakubs World School"
-        description="Read the latest news, updates, and educational insights from Kualakubs World School."
+        description="Read education insights, admission guidance, safety tips, and school updates from Kualakubs World School in Gurugram."
+        url={`${SITE_URL}/blogs`}
+        schemaMarkup={{
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          name: "Kualakubs World School Blogs",
+          description: "Education insights, admission guidance, and school updates from Kualakubs World School.",
+          url: `${SITE_URL}/blogs`,
+          mainEntity: {
+            "@type": "ItemList",
+            itemListElement: blogs.map((blog, index) => ({
+              "@type": "ListItem",
+              position: index + 1,
+              name: blog.title.trim(),
+              url: `${SITE_URL}/blog-details/${blog.slug}`,
+            })),
+          },
+        }}
       />
       <PageHeader
         title="Our Blogs"
