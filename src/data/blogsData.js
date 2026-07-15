@@ -539,7 +539,7 @@ export const blogsData = [
 
       <h2>Conclusion</h2>
       <p>There is no need to sacrifice <a href="https://kualakubsworldschool.com/" target="_blank" rel="noopener noreferrer">quality education in Gurgaon</a> when it comes to the selection of schools that are affordable. There are a lot of CBSE schools offering strong academics, useful facilities, sports, and activities along with a secure learning environment at affordable fees.</p>
-      <p>Parents should check the teaching methods, campus facilities, student support, and development opportunities of different schools and campuses. As one looks for an education that is balanced, the school Kualakubs School Gurugram can be explored. You can also check daily activities on social media platforms like <a href="https://www.instagram.com/kualakubsworldschool/?hl=en" target="_blank" rel="noopener noreferrer">Instagram</a> or <a href="https://www.facebook.com/dpsjindofficial" target="_blank" rel="noopener noreferrer">Facebook</a>.</p>
+      <p>Parents should check the teaching methods, campus facilities, student support, and development opportunities of different schools and campuses. As one looks for an education that is balanced, the school Kualakubs School Gurugram can be explored. You can also check daily activities on social media platforms like <a href="https://www.instagram.com/kualakubsworldschool/?hl=en" target="_blank" rel="noopener noreferrer">Instagram</a> or <a href="https://www.facebook.com/share/19BS7PRVsV/" target="_blank" rel="noopener noreferrer">Facebook</a>.</p>
     `,
     faq: [
       {
