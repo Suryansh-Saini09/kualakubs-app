@@ -10,7 +10,7 @@ const allImages = import.meta.glob("/src/assets/**/*.{png,jpg,jpeg,webp}", {
   import: "default",
 });
 
-// Categories list
+// Categories List
 const CATEGORIES = [
   { id: "all", label: "All Photos" },
   { id: "campus", label: "Campus & Infrastructure" },
