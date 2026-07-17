@@ -87,8 +87,8 @@ export default function BlogDetails() {
   return (
     <>
       <SEO
-        title={`${blogData.title} | Kualakubs World School`}
-        description={blogData.summary}
+        title={blogData.metaTitle ? blogData.metaTitle : `${blogData.title} | Kualakubs World School`}
+        description={blogData.metaDescription || blogData.summary}
         url={blogUrl}
         image={blogData.imageUrl}
         schemaMarkup={schemaMarkup}
