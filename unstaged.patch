@@ -1,0 +1,1786 @@
+diff --git a/src/data/blogsData.js b/src/data/blogsData.js
+index 6021246..7bec14a 100644
+--- a/src/data/blogsData.js
++++ b/src/data/blogsData.js
+@@ -13,54 +13,54 @@ export const blogsData = [
+       <p>This guide will assist you in knowing how to compare the best schools in Gurgaon and choose them in a very simple and practical manner.</p>
+ 
+       <div class="mb-5 mt-4" style="border-radius: 16px; overflow: hidden; background-color: #f8f9fa; text-align: center;">
+-        <img src="/blog/blog 13.jpeg" class="img-fluid" style="max-height: 500px; object-fit: contain;" alt="How to Choose the Best School Near You in Gurugram" />
++        <img src="/blog/blog%201.png" class="img-fluid" style="max-height: 500px; object-fit: contain;" alt="How to Choose the Best School Near You in Gurugram" />
+       </div>
+ 
+-      <h2>What to look at when selecting a school</h2>
+-      <p>In your search for good schools in Gurgaon, concentrate on the following aspects:</p>
++      <p><strong>What to look at when selecting a school</strong></p>
++      <p><strong>In your search for good schools in Gurgaon, concentrate on the following aspects:</strong></p>
+ 
+-      <h2>Academic Quality</h2>
++      <p><strong>Academic Quality</strong></p>
+       <ul>
+         <li>Determine whether the <a href="https://kualakubsworldschool.com/co-curricular" target="_blank" rel="noopener noreferrer" style="color: var(--accent-bg-color); text-decoration: underline;">school is a CBSE</a> or another board.</li>
+         <li>Consider previous performance and student achievement.</li>
+         <li>See if the teaching method is practical and engaging</li>
+       </ul>
+ 
+-      <h2>Safety and Security</h2>
++      <p><strong>Safety and Security</strong></p>
+       <ul>
+         <li>Surveillance cameras and personnel.</li>
+         <li>Proper entry/exit systems</li>
+         <li>Emergency and medical centers</li>
+       </ul>
+ 
+-      <h2>Location & Convenience</h2>
++      <p><strong>Location & Convenience</strong></p>
+       <ul>
+         <li>Choose schools near me, CBSE, to reduce travel time</li>
+         <li>Easy transport options or school bus availability</li>
+       </ul>
+ 
+-      <h2>Infrastructure & Facilities</h2>
++      <p><strong>Infrastructure & Facilities</strong></p>
+       <ul>
+         <li>Clean classrooms with smart boards</li>
+         <li>Sports, library, and labs</li>
+         <li>Playgrounds and play zones</li>
+       </ul>
+ 
+-      <h2>Teacher Quality</h2>
++      <p><strong>Teacher Quality</strong></p>
+       <ul>
+         <li>Qualified and experienced teachers</li>
+         <li>Professional and positive attitude towards teaching</li>
+       </ul>
+ 
+-      <h2>Extracurricular Activities</h2>
++      <p><strong>Extracurricular Activities</strong></p>
+       <ul>
+         <li>Sporting activities, music, dancing, and the arts</li>
+         <li>Personality development programs</li>
+         <li>Clubs and competitions</li>
+       </ul>
+ 
+-      <h2>Smart Ways to Compare Schools in Gurugram</h2>
+-      <p>Compare schools intelligently before deciding on the final choice:</p>
++      <p><strong>Smart Ways to Compare Schools in Gurugram</strong></p>
++      <p><strong>Compare schools intelligently before deciding on the final choice:</strong></p>
+       <ul>
+         <li><strong>Check Online Reviews:</strong> Read parent feedback on Google and school websites. Find regular positive or negative patterns. Check schools on <a href="https://www.instagram.com/kualakubsworldschool/?hl=en" target="_blank" rel="noopener noreferrer" style="color: var(--accent-bg-color); text-decoration: underline;">Instagram</a> & <a href="https://www.facebook.com/profile.php?id=61588552164324" target="_blank" rel="noopener noreferrer" style="color: var(--accent-bg-color); text-decoration: underline;">Facebook</a> to see real-time updates.</li>
+         <li><strong>Pay a visit to the School Campus:</strong> Note classrooms, cleanliness, and surroundings. Discuss with teachers as much as you can.</li>
+@@ -69,8 +69,8 @@ export const blogsData = [
+         <li><strong>Discuss with Other Parents:</strong> True life experiences are better than advertisements. Questions regarding the quality of teaching and school management.</li>
+       </ul>
+ 
+-      <h2>Why Gurugram Has Good Schools</h2>
+-      <p>Gurugram boasts of some of the <a href="https://kualakubsworldschool.com/our-future" target="_blank" rel="noopener noreferrer" style="color: var(--accent-bg-color); text-decoration: underline;">best schools in Gurgaon</a>, and this is the reason why:</p>
++      <p><strong>Why Gurugram Has Good Schools</strong></p>
++      <p><strong>Gurugram boasts of some of the <a href="https://kualakubsworldschool.com/our-future" target="_blank" rel="noopener noreferrer" style="color: var(--accent-bg-color); text-decoration: underline;">best schools in Gurgaon</a>, and this is the reason why:</strong></p>
+       <ul>
+         <li>A fast-developing education centre.</li>
+         <li>Contemporary infrastructure and intelligent classrooms.</li>
+@@ -79,8 +79,8 @@ export const blogsData = [
+       </ul>
+       <p>This simplifies the process by which parents can locate good schools in Gurgaon that can meet their expectations.</p>
+ 
+-      <h2>Parent Checklist in a Minute</h2>
+-      <p>Go over this easy checklist before a final decision is made on a school:</p>
++      <p><strong>Parent Checklist in a Minute</strong></p>
++      <p><strong>Go over this easy checklist before a final decision is made on a school:</strong></p>
+       <ul>
+         <li>Distance from home is manageable.</li>
+         <li>The safety measures are good.</li>
+@@ -90,7 +90,7 @@ export const blogsData = [
+         <li>The school environment feels positive.</li>
+       </ul>
+ 
+-      <h2>Conclusion</h2>
++      <p><strong>Conclusion</strong></p>
+       <p>The right school is a big decision that one should not hurry to make. When seeking the best schools in my area, look to the broad benefit, rather than just education. There are numerous good schools in Gurugram, and the right school is one that suits your child and their comfort. You can also connect the Delhi Public School with social media like <a href="https://www.instagram.com/kualakubsworldschool/?hl=en" target="_blank" rel="noopener noreferrer" style="color: var(--accent-bg-color); text-decoration: underline;">Instagram</a> and <a href="https://www.facebook.com/profile.php?id=61588552164324" target="_blank" rel="noopener noreferrer" style="color: var(--accent-bg-color); text-decoration: underline;">Facebook</a>. Also, you have to visit the school and check its amenities before finalizing the school for your child.</p>
+ 
+     `,
+@@ -138,7 +138,7 @@ export const blogsData = [
+     summary: "Safe and smart schools improve children’s learning through strong security, hygiene, and modern technology. Features like CCTV, smart classrooms, and trained staff boost confidence, focus, and academic performance, helping parents choose the best schools in Gurgaon and schools near me CBSE for overall child development.",
+     imageUrl: "/blog/blog%202.png",
+     content: `
+-      <h2>Introduction</h2>
++      <p><strong>Introduction</strong></p>
+       <p>Safer and more modern learning is of paramount importance when parents look for the <a href='https://kualakubsworldschool.com/' target="blank">best schools</a>around them. The schools of today are no longer about books only; they are about building a safe and intelligent environment.</p>
+       <p>The majority of the best schools in Gurugram have adopted safety and sophisticated teaching tools in their schools in order to improve the overall learning experience of a child in the city of Gurugram.</p>
+ 
+@@ -146,95 +146,95 @@ export const blogsData = [
+         <img src="/blog/blog%202.png" class="img-fluid" style="max-height: 500px; object-fit: contain;" alt="How Safe Schools Improve Your Child’s Learning" />
+       </div>
+ 
+-      <h2>Importance of School Safety</h2>
++      <p><strong>Importance of School Safety</strong></p>
+       <p>When a <a href='https://kualakubsworldschool.com/' target="blank">school is safe</a>, trust is established, and the children are able to concentrate on learning without fear.</p>
+ 
+-      <h2>CCTV Surveillance</h2>
++      <p><strong>CCTV Surveillance</strong></p>
+       <ul>
+         <li>Constant supervision keeps the students safe</li>
+         <li>Helps avert bullying and undesirable events</li>
+         <li>Provides parents with a sense of security</li>
+       </ul>
+ 
+-      <h2>Secure Campus</h2>
++      <p><strong>Secure Campus</strong></p>
+       <ul>
+         <li>Limited exits and access points</li>
+         <li>Visitor ID verification</li>
+         <li>Well-guarded school premises</li>
+       </ul>
+ 
+-      <h2>Trained Staff</h2>
++      <p><strong>Trained Staff</strong></p>
+       <ul>
+         <li>Emergency-trained teachers</li>
+         <li>Safety-conscious support staff</li>
+         <li>Immediate response in case of medical or safety problems</li>
+       </ul>
+ 
+-      <h2>Hygiene & Health Standards</h2>
++      <p><strong>Hygiene & Health Standards</strong></p>
+       <p>Tidiness contributes significantly to the <a href='https://kualakubsworldschool.com/' target="blank">good health and activity</a> of children in school.</p>
+ 
+-      <h2>Clean Classrooms</h2>
++      <p><strong>Clean Classrooms</strong></p>
+       <ul>
+         <li>Clean and dust-free environment</li>
+         <li>Adequate fresh air ventilation</li>
+       </ul>
+ 
+-      <h2>Sanitization</h2>
++      <p><strong>Sanitization</strong></p>
+       <ul>
+         <li>Sanitization of desks and common areas is frequently</li>
+         <li>Awareness amongst students on hand hygiene</li>
+       </ul>
+ 
+-      <h2>Safe Drinking Water</h2>
++      <p><strong>Safe Drinking Water</strong></p>
+       <ul>
+         <li>Tested and filtered water systems</li>
+         <li>Frequent repairs of water facilities</li>
+       </ul>
+ 
+-      <h2>Smart Learning Environment</h2>
++      <p><strong>Smart Learning Environment</strong></p>
+       <p>Technology in modern schools is being employed to ensure that learning is more enjoyable and efficient.</p>
+ 
+-      <h2>Smart Classrooms</h2>
++      <p><strong>Smart Classrooms</strong></p>
+       <ul>
+         <li>Online board and image learning aids</li>
+         <li>Improved learning with videos and graphics</li>
+       </ul>
+ 
+-      <h2>Digital Tools</h2>
++      <p><strong>Digital Tools</strong></p>
+       <ul>
+         <li>Interactive education learning apps and tablets</li>
+         <li>Availability of online materials and tasks</li>
+       </ul>
+ 
+-      <h2>Interactive Learning</h2>
++      <p><strong>Interactive Learning</strong></p>
+       <ul>
+         <li>Group discussions and activities</li>
+         <li>Activity-based teaching and practical</li>
+       </ul>
+ 
+-      <h2>Child Development Benefits</h2>
++      <p><strong>Child Development Benefits</strong></p>
+       <p>The safe and smart school environment has a direct effect on the growth of a child.</p>
+ 
+-      <h2>Better Focus</h2>
++      <p><strong>Better Focus</strong></p>
+       <ul>
+         <li>A secure environment lowers distractions.</li>
+         <li>Students focus more on their studies.</li>
+       </ul>
+ 
+-      <h2>Confidence Growth</h2>
++      <p><strong>Confidence Growth</strong></p>
+       <ul>
+         <li>Participation is enhanced through interactive learning</li>
+         <li>Children feel safe in expressing themselves</li>
+       </ul>
+ 
+-      <h2>Improved Academic Performance</h2>
++      <p><strong>Improved Academic Performance</strong></p>
+       <ul>
+         <li>Indeed, technology improves comprehension</li>
+         <li>Regular education will result in improved outcomes.</li>
+       </ul>
+ 
+-      <h2>Key Features Parents Should Look For</h2>
+-      <p>These are some of the important factors to consider when selecting good schools in Gurgaon:</p>
++      <p><strong>Key Features Parents Should Look For</strong></p>
++      <p><strong>These are some of the important factors to consider when selecting good schools in Gurgaon:</strong></p>
+       <ul>
+         <li>Good security measures (CCTV, security guards, secure entrance)</li>
+         <li>Innovative technology use (smart classes, online tools)</li>
+@@ -243,7 +243,7 @@ export const blogsData = [
+         <li>Policy and support systems that are friendly to students</li>
+       </ul>
+ 
+-      <h2>Why Parents Prefer Good Schools in Gurgaon</h2>
++      <p><strong>Why Parents Prefer Good Schools in Gurgaon</strong></p>
+       <ul>
+         <li>Contemporary plants of international standards.</li>
+         <li>Introduction to extra-curricular activities.</li>
+@@ -252,7 +252,7 @@ export const blogsData = [
+       </ul>
+       <p>A lot of schools around me, CBSE, also have structured curricula with smart learning techniques and thus are a favorite choice.</p>
+ 
+-      <h2>Check School Updates on Social Media</h2>
++      <p><strong>Check School Updates on Social Media</strong></p>
+       <p>Many parents also use social media these days before they make their final decision on a school.</p>
+       <ul>
+         <li>Schools update regularly on events, activities and achievements on the website</li>
+@@ -261,7 +261,7 @@ export const blogsData = [
+         <li>Students can also find their school on <a href="https://www.instagram.com/kualakubsworldschool?igsh=bXRlNTJ4eHh4Z2Mw" target="_blank" rel="noopener noreferrer">Instagram</a> and <a href="https://www.facebook.com/profile.php?id=61588552164324" target="_blank" rel="noopener noreferrer">Facebook</a> to see what the kids are doing on a daily basis and experience first-hand student life.</li>
+       </ul>
+ 
+-      <h2>Conclusion</h2>
++      <p><strong>Conclusion</strong></p>
+       <p>One of the key decisions as a parent is the selection of a school. The safe, smart school is not only secure for your child but also helps them learn better.</p>
+       <p>Whenever searching for the best schools in my area, I would always consider safety and modernity in education, as this is sure to guarantee your child a bright future.</p>
+     `,
+@@ -297,12 +297,12 @@ export const blogsData = [
+     summary: "Affordable schools in Gurgaon offer quality academics, modern facilities, sports, and creative activities at reasonable fees, supporting a child’s overall learning and development.",
+     imageUrl: "/blog/blog 3.jpeg",
+     content: `
+-        <h2>Summary</h2>
++        <p><strong>Summary</strong></p>
+         <p> <strong>Affordable schools in Gurgaon </strong> offer quality academics, modern facilities, sports, and creative activities at reasonable fees, supporting a child’s overall learning and development.
+ </p>
+    
+ 
+-      <h2>Table of content</h2>
++      <p><strong>Table of content</strong></p>
+       <ol>
+         <li>Why Choose Affordable CBSE Schools in Gurgaon?</li>
+         <li>Quality Education Does Not Always Mean High Fees</li>
+@@ -319,14 +319,14 @@ export const blogsData = [
+         <li>Final Thoughts</li>
+       </ol>
+ 
+-      <h2>Introduction</h2>
++      <p><strong>Introduction</strong></p>
+       <p>Many parents are keen on providing their children with a <a href="https://kualakubsworldschool.com/" target="_blank" rel="noopener noreferrer">good education</a> at a reasonable price. Thankfully, some good Affordable schools in Gurgaon offer good education, good facilities, sports, creative learning, and education without putting too much strain on family budgets.</p>
+ 
+            <img src="/blog/blog 3.jpeg" alt="Affordable Schools in Gurgaon with Quality CBSE Education" class="img-fluid rounded my-4 w-100" />
+ 
+-      <h2>Why go to the affordable CBSE Schools in Gurgaon?</h2>
++      <p><strong>Why go to the affordable CBSE Schools in Gurgaon?</strong></p>
+       <p>CBSE schools are keen on imparting education that is both useful and cheap. Most of the schools use a modern teaching process and encourage children to learn by activities, discussion, and real-life examples.</p>
+-      <p>Key benefits include:</p>
++      <p><strong>Key benefits include:</strong></p>
+       <ul>
+         <li>CBSE-based academic curriculum</li>
+         <li>Experienced and supportive staff</li>
+@@ -339,9 +339,9 @@ export const blogsData = [
+       </ul>
+       <p>Numerous schools in Gurgaon are now offering facilities and learning opportunities that used to only be available in high-cost schools.</p>
+ 
+-      <h2>Quality Education Is Not the Only One That Charges a High Price</h2>
++      <p><strong>Quality Education Is Not the Only One That Charges a High Price</strong></p>
+       <p>Parents tend to associate the higher the school price, the better the education. However, academic planning, faculty, learning environment, and student support are factors that determine the <a href="https://kualakubsworldschool.com/school-life/" target="_blank" rel="noopener noreferrer">quality of teaching</a> in a school.</p>
+-      <p>Good schools in Gurgaon emphasize:</p>
++      <p><strong>Good schools in Gurgaon emphasize:</strong></p>
+       <ul>
+         <li>Very good knowledge of fundamentals</li>
+         <li>Regular classroom assessments</li>
+@@ -353,9 +353,9 @@ export const blogsData = [
+       </ul>
+       <p>A balanced school enables the pupils to grasp concepts rather than just to remember what is written in their books.</p>
+ 
+-      <h2>CBSE Curriculum for Good Academic Start</h2>
++      <p><strong>CBSE Curriculum for Good Academic Start</strong></p>
+       <p>The CBSE syllabus is a structured learning system that promotes academic growth. Subjects are to be developed to gain conceptual understanding, logical thinking, and practical knowledge.</p>
+-      <p>A few reasons why parents choose CBSE schools for their search for affordable CBSE schools near me include:</p>
++      <p><strong>A few reasons why parents choose CBSE schools for their search for affordable CBSE schools near me include:</strong></p>
+       <ul>
+         <li>Structured subject learning</li>
+         <li>NCERT-based academic content</li>
+@@ -366,9 +366,9 @@ export const blogsData = [
+       </ul>
+       <p>The curriculum also facilitates the movement of families between cities.</p>
+ 
+-      <h2>A modern classroom and learning area</h2>
++      <p><strong>A modern classroom and learning area</strong></p>
+       <p>Quality education doesn't have to be expensive. A lot of schools are investing in eye-catching new structures that are designed to give their students a  <a href="https://kualakubsworldschool.com/school-life/" target="_blank" rel="noopener noreferrer">better learning environment</a>.</p>
+-      <p>New school buildings could contain:</p>
++      <p><strong>New school buildings could contain:</strong></p>
+       <ul>
+         <li>Smart classrooms</li>
+         <li>Science laboratories</li>
+@@ -381,9 +381,9 @@ export const blogsData = [
+       </ul>
+       <p>If you are looking for the best CBSE schools near me, make sure to pay attention to the efficiency of the facilities during regular school hours.</p>
+ 
+-      <h2>The significance of sports and physical activities</h2>
++      <p><strong>The significance of sports and physical activities</strong></p>
+       <p>Sport has a significant meaning to the child's development. Regular exercise promotes fitness, teamwork, confidence and discipline.</p>
+-      <p>Schools may offer:</p>
++      <p><strong>Schools may offer:</strong></p>
+       <ul>
+         <li>Cricket</li>
+         <li>Football</li>
+@@ -396,9 +396,9 @@ export const blogsData = [
+       </ul>
+       <p>Sports-based education in Gurgaon schools at affordable rates can provide a balanced learning environment and enhance the overall well-being of students.</p>
+ 
+-      <h2>Overall Development – Creative Activities</h2>
++      <p><strong>Overall Development – Creative Activities</strong></p>
+       <p>Children should have experiences outside of books. There is an opportunity for students to investigate their interests and express their ideas confidently through art, music, dance, theatre, and creative activities.</p>
+-      <p>Typical activities performed in a common school are:</p>
++      <p><strong>Typical activities performed in a common school are:</strong></p>
+       <ul>
+         <li>Drawing and painting</li>
+         <li>Music sessions</li>
+@@ -411,9 +411,9 @@ export const blogsData = [
+       </ul>
+       <p>Activities are centred around confidence, creativity, communication and social skills.</p>
+ 
+-      <h2>Kualakubs School Gurugram: A balanced learning environment</h2>
++      <p><strong>Kualakubs School Gurugram: A balanced learning environment</strong></p>
+       <p>It is Kualakubs School Gurugram's agenda to foster a learning atmosphere in which learning and child development go hand in hand. Students are given opportunities to learn, participate, talk, and try out various interests.</p>
+-      <p>The school's priorities are:</p>
++      <p><strong>The school's priorities are:</strong></p>
+       <ul>
+         <li>Concept-based classroom learning</li>
+         <li>Student participation</li>
+@@ -426,9 +426,9 @@ export const blogsData = [
+       </ul>
+       <p>One must ask questions about the Gurgaon school's teaching style, facilities, co-curricular activities, and student support when looking at the list of the best schools in Gurgaon on a budget.</p>
+ 
+-      <h2>How affordable schools contribute to child development</h2>
++      <p><strong>How affordable schools contribute to child development</strong></p>
+       <p>Education is not the same as grades. The role of schools in personality development, in building confidence in the child, habits, and social behaviour, is great.</p>
+-      <p>A school that supports:</p>
++      <p><strong>A school that supports:</strong></p>
+       <ul>
+         <li>Independent thinking</li>
+         <li>Better communication</li>
+@@ -441,9 +441,9 @@ export const blogsData = [
+       </ul>
+       <p>Such skills are incorporated into the daily curriculum or activities at many good schools in Gurgaon.</p>
+ 
+-      <h2>What Should Parents Check Before Choosing a School?</h2>
++      <p><strong>What Should Parents Check Before Choosing a School?</strong></p>
+       <p>Parents are encouraged to come to the campus to find out about the school's learning before admission.</p>
+-      <p>Some of the key factors that need to be considered are:</p>
++      <p><strong>Some of the key factors that need to be considered are:</strong></p>
+       <ul>
+         <li>Academic planning and CBSE curriculum</li>
+         <li>Teacher experience</li>
+@@ -458,7 +458,7 @@ export const blogsData = [
+       </ul>
+       <p>Parents should look for an affordable CBSE School near me, but not just the fees; consider overall education value.</p>
+ 
+-      <h2>Affordable School vs Expensive School</h2>
++      <p><strong>Affordable School vs Expensive School</strong></p>
+       <div class="table-responsive my-4">
+         <table class="table table-bordered table-striped text-center">
+           <thead class="table-dark">
+@@ -509,7 +509,7 @@ export const blogsData = [
+       </div>
+       <p>Even if a school is not very expensive, it can deliver good quality education and learning and offer great academic and development opportunities if it has a good teaching approach.</p>
+ 
+-      <h2>Questions to ask when visiting your school</h2>
++      <p><strong>Questions to ask when visiting your school</strong></p>
+       <p>Simple questions are available for parents to ask to better understand the school.</p>
+       <ul>
+         <li>How is the school helping weak students?</li>
+@@ -523,9 +523,9 @@ export const blogsData = [
+       </ul>
+       <p>These questions can help narrow down and target the search for the best CBSE schools near me.</p>
+ 
+-      <h2>Why Balanced Education Matters</h2>
++      <p><strong>Why Balanced Education Matters</strong></p>
+       <p>Learning that is exciting and supportive leads to better performance in children. In an academic environment, there can be a shortage of creativity and confidence due to constant pressure.</p>
+-      <p>Balanced education combines:</p>
++      <p><strong>Balanced education combines:</strong></p>
+       <ul>
+         <li>Academic knowledge</li>
+         <li>Physical fitness</li>
+@@ -537,7 +537,7 @@ export const blogsData = [
+       </ul>
+       <p>This helps children to be ready for academic tasks and for real-life situations.</p>
+ 
+-      <h2>Conclusion</h2>
++      <p><strong>Conclusion</strong></p>
+       <p>There is no need to sacrifice <a href="https://kualakubsworldschool.com/" target="_blank" rel="noopener noreferrer">quality education in Gurgaon</a> when it comes to the selection of schools that are affordable. There are a lot of CBSE schools offering strong academics, useful facilities, sports, and activities along with a secure learning environment at affordable fees.</p>
+       <p>Parents should check the teaching methods, campus facilities, student support, and development opportunities of different schools and campuses. As one looks for an education that is balanced, the school Kualakubs School Gurugram can be explored. You can also check daily activities on social media platforms like <a href="https://www.instagram.com/kualakubsworldschool/?hl=en" target="_blank" rel="noopener noreferrer">Instagram</a> or <a href="https://www.facebook.com/share/19BS7PRVsV/" target="_blank" rel="noopener noreferrer">Facebook</a>.</p>
+     `,
+@@ -573,10 +573,10 @@ export const blogsData = [
+     summary: "From preschool to senior secondary, each stage shapes a child’s academic growth, confidence, and life skills. Choosing the right K-12 school ensures strong foundations, career readiness, and overall development through safe environments, modern learning, and quality education.",
+     imageUrl: "/blog/blog 4.jpeg",
+     content: `
+-      <h2>Summary</h2>
++      <p><strong>Summary</strong></p>
+       <p>From preschool to senior secondary, each stage shapes a child’s academic growth, confidence, and life skills. Choosing the right K-12 school ensures strong foundations, career readiness, and overall development through safe environments, modern learning, and quality <a href="https://kualakubsworldschool.com/" target="_blank" rel="noopener noreferrer">education</a>.</p>
+       
+-      <h2>Table of Contents</h2>
++      <p><strong>Table of Contents</strong></p>
+       <ol>
+         <li>Why Preschool Education Matters</li>
+         <li><strong>Primary & Middle School:</strong> Development of the Basics</li>
+@@ -590,14 +590,14 @@ export const blogsData = [
+         <li>Frequently Asked Questions</li>
+       </ol>
+ 
+-      <h2>Intro</h2>
++      <p><strong>Intro</strong></p>
+       <p>Any parent hopes to get the best education to his or her child. Since childhood, to upper levels, every level is significant in influencing the future of a child. Whether you want the best academic support and development of your child, you can be sure that by picking the right schools near me, CBSE or <a href="https://kualakubsworldschool.com/" target="_blank" rel="noopener noreferrer">nearby CBSE schools</a>, you are giving your child the best possible support and growth. An education journey that is well planned will assist in confidence building, skills, and a sense of direction in life.</p>
+ 
+       <div class="mb-5 mt-4" style="border-radius: 16px; overflow: hidden; background-color: #f8f9fa; text-align: center;">
+         <img src="/blog/blog 4.jpeg" class="img-fluid" style="max-height: 500px; object-fit: contain;" alt=" Affordable Schools in Gurgaon with Quality CBSE Education" />
+       </div>
+ 
+-      <h2>Why Preschool Education Matters?</h2>
++      <p><strong>Why Preschool Education Matters?</strong></p>
+       <p>The first stage in the learning process of a child is preschool. It lays the foundation of education for the future.</p>
+       <p><strong>Key benefits:</strong></p>
+       <ul>
+@@ -609,7 +609,7 @@ export const blogsData = [
+       </ul>
+       <p>A good preschool background will facilitate learning later in life.</p>
+ 
+-      <h2><strong>Primary & Middle School:</strong> Development of the Basics</h2>
++      <p><strong><strong>Primary & Middle School:</strong> Development of the Basics</strong></p>
+       <p>This phase is aimed at reinforcing fundamental knowledge and life skills.</p>
+       <p><strong>What children learn:</strong></p>
+       <ul>
+@@ -620,7 +620,7 @@ export const blogsData = [
+       </ul>
+       <p>Schools also stimulate curiosity with activities, and learning is more practical and engaging.</p>
+ 
+-      <h2><strong>Senior Secondary:</strong> Preparing Future Careers</h2>
++      <p><strong><strong>Senior Secondary:</strong> Preparing Future Careers</strong></p>
+       <p><a href="https://kualakubsworldschool.com/about" target="_blank" rel="noopener noreferrer">Classes 11 and 12</a> play an important role in the career of a child. The selection of streams and subjects is able to contribute to future success.</p>
+       <p><strong>Significance of this step:</strong></p>
+       <ul>
+@@ -631,7 +631,7 @@ export const blogsData = [
+       </ul>
+       <p>Parents tend to find CBSE 11th and 12th schools in my area to provide quality education and guidance in this stage.</p>
+ 
+-      <h2>Role of a Good K-12 School</h2>
++      <p><strong>Role of a Good K-12 School</strong></p>
+       <p>One system has a k 12 school that is a continuous system of learning that covers preschool to senior secondary.</p>
+       <p><strong>Characteristics of a good school:</strong></p>
+       <ul>
+@@ -642,7 +642,7 @@ export const blogsData = [
+       </ul>
+       <p>These schools also provide uniformity in education and are able to make students grow confidently.</p>
+ 
+-      <h2>Importance of Safe & Smart School Environment</h2>
++      <p><strong>Importance of Safe & Smart School Environment</strong></p>
+       <p>Children need a safe and progressive learning environment.</p>
+       <p><strong>Safety features:</strong></p>
+       <ul>
+@@ -658,7 +658,7 @@ export const blogsData = [
+       </ul>
+       <p>All these elements provide an effective and comfortable learning environment.</p>
+ 
+-      <h2>Affordable & Quality Education</h2>
++      <p><strong>Affordable & Quality Education</strong></p>
+       <p>All people should have access to good education. Most parents seek cheap cbse schools close to me which are good and not expensive to attend.</p>
+       <p><strong>What to look for:</strong></p>
+       <ul>
+@@ -669,7 +669,7 @@ export const blogsData = [
+       </ul>
+       <p>It is possible even in affordable schools to receive a good education and development.</p>
+ 
+-      <h2>Choosing the Right School Near You</h2>
++      <p><strong>Choosing the Right School Near You</strong></p>
+       <p>Choosing the appropriate school is a crucial choice for all parents.</p>
+       <p><strong>To make wise choices:</strong></p>
+       <ul>
+@@ -680,7 +680,7 @@ export const blogsData = [
+       </ul>
+       <p>You can find the best schools in your area by searching for schools near me CBSE.</p>
+ 
+-      <h2>Social Media Presence of Schools</h2>
++      <p><strong>Social Media Presence of Schools</strong></p>
+       <p>Nowadays, a lot of schools keep in touch with parents via social media networks such as <a href="https://www.instagram.com/kualakubsworldschool/?hl=en" target="_blank" rel="noopener noreferrer">Instagram</a> and <a href="https://www.facebook.com/profile.php?id=61588552164324" target="_blank" rel="noopener noreferrer">Facebook</a>.</p>
+       <p><strong>They share:</strong></p>
+       <ul>
+@@ -690,7 +690,7 @@ export const blogsData = [
+       </ul>
+       <p>This will keep the parents updated and involved in the life of their child at school.</p>
+ 
+-      <h2>Conclusion</h2>
++      <p><strong>Conclusion</strong></p>
+       <p>The life of a child between preschool and senior secondary is important in determining the future of a child. The right school not only establishes solid academics, but also develops confidence, skills, and values are developed. Parents are able to guarantee the long-term success of their children by making the right choices of a K-12 school and paying attention to the safe, modern, and supportive environment.</p>
+     `,
+     faq: [
+@@ -733,7 +733,7 @@ export const blogsData = [
+     summary: "Discover why early learning builds communication, confidence, and emotional skills. Choose the best CBSE school in Gurgaon for a strong foundation.",
+     imageUrl: "/blog/blog 5.jpeg",
+     content: `
+-      <h2>Table of Contents</h2>
++      <p><strong>Table of Contents</strong></p>
+       <ul>
+         <li>Why Should Children Learn Early?</li>
+         <li>Activity-Based Learning: Making Education Enjoyable</li>
+@@ -747,7 +747,7 @@ export const blogsData = [
+         <li>Final Thoughts</li>
+       </ul>
+ 
+-      <h2>Why Early Learning Matters: Choosing the Best Preschool Near You</h2>
++      <p><strong>Why Early Learning Matters: Choosing the Best Preschool Near You</strong></p>
+       <p>Children learn a lot, are curious, and develop all their feelings in the early years of life. Selecting the very <a href="https://kualakubsworldschool.com/" target="_blank" rel="noopener noreferrer">best preschool near me</a> can support children in developing positive learning habits, confidence, communication skills, and an interest in learning.</p>
+ 
+       <div class="mb-5 mt-4" style="border-radius: 16px; overflow: hidden; background-color: #f8f9fa; text-align: center;">
+@@ -756,10 +756,10 @@ export const blogsData = [
+ 
+       <p>The parents prefer to search out the best CBSE school in Gurgaon because they wish to have a school that can help their kids from primary class to higher classes.</p>
+ 
+-      <h2>Why is it that children should learn early?</h2>
++      <p><strong>Why is it that children should learn early?</strong></p>
+       <p>Preschool isn't just about numbers, colours, and letters. It welcomes children to a planned setting, allowing children to learn through play, activities, conversations, and daily life.</p>
+       
+-      <p>Early learning enables children to:</p>
++      <p><strong>Early learning enables children to:</strong></p>
+       <ul>
+         <li>Develop curiosity and creative thinking.</li>
+         <li>Develop fundamental communication abilities.</li>
+@@ -770,10 +770,10 @@ export const blogsData = [
+       </ul>
+       <p>A positive early learning setting helps ease and prepare young children for transition to <a href="https://kualakubsworldschool.com/" target="_blank" rel="noopener noreferrer">primary school</a>.</p>
+ 
+-      <h2>Activity-Based Learning: Making education enjoyable</h2>
++      <p><strong>Activity-Based Learning: Making education enjoyable</strong></p>
+       <p>Young children learn best when they see, touch, explore, and participate. Using activity-based learning helps to make simple lessons interesting.</p>
+       
+-      <p>Typical pre-school activities are:</p>
++      <p><strong>Typical pre-school activities are:</strong></p>
+       <ul>
+         <li>Storytelling and picture reading.</li>
+         <li>Art, colouring, and craft activities.</li>
+@@ -785,10 +785,10 @@ export const blogsData = [
+       </ul>
+       <p>Parents, when they do a search for top CBSE schools near me, should ensure that the school promotes active and experiential learning in the early years.</p>
+ 
+-      <h2>Preschool helps to improve communication skills</h2>
++      <p><strong>Preschool helps to improve communication skills</strong></p>
+       <p>Communication skills begin to develop early in life. Children are provided with opportunities to listen, speak, ask questions, and share ideas regularly in a supportive preschool environment.</p>
+       
+-      <p>Preschool education helps children to communicate with:</p>
++      <p><strong>Preschool education helps children to communicate with:</strong></p>
+       <ul>
+         <li>Every day, meetings with teachers.</li>
+         <li>Storytelling and speaking activities.</li>
+@@ -799,10 +799,10 @@ export const blogsData = [
+       </ul>
+       <p>Parents should assess the quality of communication without pressure or fear that a teacher is promoting in the school they are looking for.</p>
+ 
+-      <h2>The early years set the stage for the development of the child's emotions</h2>
++      <p><strong>The early years set the stage for the development of the child's emotions</strong></p>
+       <p>Many children's first experience of attending preschool is for several hours out of their home. Children can start to understand their emotions and feel more independent in a caring school environment.</p>
+       
+-      <p>Preschool aids children in learning to:</p>
++      <p><strong>Preschool aids children in learning to:</strong></p>
+       <ul>
+         <li>Indicate joy, grief, or displeasure.</li>
+         <li>Take control of minor problems without losing your temper.</li>
+@@ -813,10 +813,10 @@ export const blogsData = [
+       </ul>
+       <p>The best CBSE school in Gurgaon needs to pay equal attention to emotional growth as well as learning.</p>
+ 
+-      <h2>Social skills are developed during the day-to-day interaction with people.</h2>
++      <p><strong>Social skills are developed during the day-to-day interaction with people.</strong></p>
+       <p>Children get many important life skills from their time with classmates. Children learn about social behaviour naturally through sharing toys, involvement in group activities, and playing together.</p>
+       
+-      <p>Preschool's important social skills are:</p>
++      <p><strong>Preschool's important social skills are:</strong></p>
+       <ul>
+         <li>Sharing and taking turns.</li>
+         <li>Small group work.</li>
+@@ -827,10 +827,10 @@ export const blogsData = [
+       </ul>
+       <p>These basic experiences lay the groundwork for what children will learn in their classrooms and in day-to-day relationships.</p>
+ 
+-      <h2>So what should parents consider when choosing the best preschool near me?</h2>
++      <p><strong>So what should parents consider when choosing the best preschool near me?</strong></p>
+       <p>It is important to observe and select the right preschool. Parents should take note not only of classrooms that are attractively decorated, but also of the learning experience that is provided to children.</p>
+       
+-      <p>Take these points into account:</p>
++      <p><strong>Take these points into account:</strong></p>
+       <ul>
+         <li>Provision of Child-Friendly Campus.</li>
+         <li>Highly qualified, nurturing teachers.</li>
+@@ -845,10 +845,10 @@ export const blogsData = [
+       </ul>
+       <p>A school that enables these areas can offer a solid platform for a child's future learning.</p>
+ 
+-      <h2>A CBSE Learning Environment can be beneficial for the following reasons:</h2>
++      <p><strong>A CBSE Learning Environment can be beneficial for the following reasons:</strong></p>
+       <p>Parents look for the best CBSE school in Gurgaon so that their child does not face any disruption in his/her studies. Children can be catered to from preschool to senior classes through a well-designed school environment.</p>
+       
+-      <p>When parents are searching online for “top CBSE schools near me”, they should take into account:</p>
++      <p><strong>When parents are searching online for “top CBSE schools near me”, they should take into account:</strong></p>
+       <ul>
+         <li>A method of learning that is organized.</li>
+         <li>Age-appropriate academic development.</li>
+@@ -859,10 +859,10 @@ export const blogsData = [
+       </ul>
+       <p>It is important to make the right choice of school early so that the child doesn't experience too many school changes as they grow.</p>
+ 
+-      <h2>Early Learning at Kualakubs World School, Gurgaon</h2>
++      <p><strong>Early Learning at Kualakubs World School, Gurgaon</strong></p>
+       <p><a href="https://kualakubsworldschool.com/" target="_blank" rel="noopener noreferrer">Kualakubs World School Gurgaon</a> is dedicated to providing a stimulating learning environment for children, enabling them to explore, engage, participate, and feel confident in learning.</p>
+       
+-      <p>The early learning approach can be used to support:</p>
++      <p><strong>The early learning approach can be used to support:</strong></p>
+       <ul>
+         <li>Activity-based classroom experiences.</li>
+         <li>Creative learning opportunities.</li>
+@@ -874,10 +874,10 @@ export const blogsData = [
+       </ul>
+       <p>When parents search for the best preschool nearby, they can consider if a school genuinely prioritizes early academics and creativity, play, communication, and emotional development.</p>
+ 
+-      <h2>How Early Learning Builds a Strong Future</h2>
++      <p><strong>How Early Learning Builds a Strong Future</strong></p>
+       <p>Preschool is the first link between the child and formal education. Early positive experiences impact on children's attitudes to learning later in school.</p>
+       
+-      <p>A good early learning base is instrumental to:</p>
++      <p><strong>A good early learning base is instrumental to:</strong></p>
+       <ul>
+         <li>Better classroom participation.</li>
+         <li>Improved communication.</li>
+@@ -889,7 +889,7 @@ export const blogsData = [
+       </ul>
+       <p>That's why it is essential for parents to select the best CBSE School in Gurgaon that has a strong focus on early learning.</p>
+ 
+-      <h2>Final Thoughts</h2>
++      <p><strong>Final Thoughts</strong></p>
+       <p>Children's communication, confidence, emotions, and learning habits are influenced by early learning. The right preschool nurtures children's imagination and sense of safety, security, and encouragement.</p>
+       
+       <p>Parents should search for a good preschool near me, which is a top CBSE school near me or a CBSE school near me, which are places to nurture the holistic development of young children. And you can also connect with this school through social media, like <a href="https://www.instagram.com/kualakubsworldschool/?hl=en" target="_blank" rel="noopener noreferrer">Instagram</a> or <a href="https://www.facebook.com/profile.php?id=61588552164324" target="_blank" rel="noopener noreferrer">Facebook</a>.</p>
+@@ -926,20 +926,20 @@ export const blogsData = [
+     summary: "Discover how CBSE Schools in Gurugram prepare students through STEM, digital learning, leadership, career guidance, and competitive exam support.",
+     imageUrl: "/blog/blog 6.jpeg",
+     content: `
+-      <h2>Summary</h2>
++      <p><strong>Summary</strong></p>
+       <p>The best CBSE schools in Gurgaon are aware of the fact that each and every kid has their own abilities. They offer activities for pupils to pursue their interests and develop skills that will benefit them for their futures.</p>
+ 
+-      <h2>Introduction</h2>
++      <p><strong>Introduction</strong></p>
+       <p>Today's parents are not <a href="https://kualakubsworldschool.com/" target="_blank" rel="noopener noreferrer">satisfied with schools</a> just producing good marks for children. Today's CBSE Schools in Gurgaon emphasize developing skills to equip students for college, career, and life. They promote innovation, confidence, leadership, and practical learning along with strong academics.</p>
+ 
+       <div class="mb-5 mt-4" style="border-radius: 16px; overflow: hidden; background-color: #f8f9fa; text-align: center;">
+         <img src="/blog/blog 6.jpeg" class="img-fluid" style="max-height: 500px; object-fit: contain;" alt="How CBSE Schools in Gurugram Prepare Students for Future Careers" />
+       </div>
+ 
+-      <h2>Why Future Career Preparation Starts in School</h2>
++      <p><strong>Why Future Career Preparation Starts in School</strong></p>
+       <p>To be career-ready, students need to start long before they reach Class 12. Schools are a crucial part in fostering a child's confidence, knowledge, and decision-making skills.</p>
+       
+-      <p>Students benefit from:</p>
++      <p><strong>Students benefit from:</strong></p>
+       <ul>
+         <li>Strong academic foundation</li>
+         <li>Practical learning experiences</li>
+@@ -952,10 +952,10 @@ export const blogsData = [
+       </ul>
+       <p>These traits promote students' success in college and on the job market.</p>
+ 
+-      <h2>Career Guidance is helping students to make better choices</h2>
++      <p><strong>Career Guidance is helping students to make better choices</strong></p>
+       <p>There is confusion in the minds of many students when they are choosing their career options. They are helped to understand different career options based on their interests and skills through appropriate guidance.</p>
+       
+-      <p>Good schools provide:</p>
++      <p><strong>Good schools provide:</strong></p>
+       <ul>
+         <li>Career counselling sessions</li>
+         <li>Personality assessments</li>
+@@ -967,10 +967,10 @@ export const blogsData = [
+       </ul>
+       <p>Pupils gain in confidence in their future aspirations.</p>
+ 
+-      <h2>STEM Learning Builds Innovation</h2>
++      <p><strong>STEM Learning Builds Innovation</strong></p>
+       <p>The world is transforming in the midst of technology. It is for this reason that STEM education is an important component of learning in modern schools.</p>
+       
+-      <p>Students participate in:</p>
++      <p><strong>Students participate in:</strong></p>
+       <ul>
+         <li>Robotics activities</li>
+         <li>Coding classes</li>
+@@ -982,10 +982,10 @@ export const blogsData = [
+       </ul>
+       <p>These activities will enhance analytical thinking and creativity.</p>
+ 
+-      <h2>Digital Education Makes Learning Smarter</h2>
++      <p><strong>Digital Education Makes Learning Smarter</strong></p>
+       <p>Classroom learning has changed radically due to technology. Students today require digital skills for working in the future.</p>
+       
+-      <p>Modern classrooms include:</p>
++      <p><strong>Modern classrooms include:</strong></p>
+       <ul>
+         <li>Smart boards</li>
+         <li>Digital presentations</li>
+@@ -997,10 +997,10 @@ export const blogsData = [
+       </ul>
+       <p>Digital education makes students more interested and enhances their technical knowledge.</p>
+ 
+-      <h2>Leadership Skills and Tomorrow's Professionals</h2>
++      <p><strong>Leadership Skills and Tomorrow's Professionals</strong></p>
+       <p>Leadership is a quality that is significant in all professions. The schools offer opportunities for students to develop their responsibilities and ability to cooperate.</p>
+       
+-      <p>Leadership activities include:</p>
++      <p><strong>Leadership activities include:</strong></p>
+       <ul>
+         <li>Student council elections</li>
+         <li>House captain responsibilities</li>
+@@ -1012,10 +1012,10 @@ export const blogsData = [
+       </ul>
+       <p>Such experiences build students' confidence as leaders.</p>
+ 
+-      <h2>Competitive Exam preparation helps to build confidence</h2>
++      <p><strong>Competitive Exam preparation helps to build confidence</strong></p>
+       <p>Some of the best schools in Gurgaon instill a competitive spirit in their students early on.</p>
+       
+-      <p>Students are supported via:</p>
++      <p><strong>Students are supported via:</strong></p>
+       <ul>
+         <li>Olympiad preparation</li>
+         <li>Scholarship exam coaching</li>
+@@ -1027,10 +1027,10 @@ export const blogsData = [
+       </ul>
+       <p>They can be better prepared and feel more confident when they prepare in advance.</p>
+ 
+-      <h2>A K-12 School Supports Long-Term Growth</h2>
++      <p><strong>A K-12 School Supports Long-Term Growth</strong></p>
+       <p>K-12 is a school that provides education from early childhood through senior secondary. Students develop in a known setting and are supported in an orderly fashion.</p>
+       
+-      <p>Benefits include:</p>
++      <p><strong>Benefits include:</strong></p>
+       <ul>
+         <li>Smooth academic progression</li>
+         <li>Better teacher-student relationships</li>
+@@ -1042,10 +1042,10 @@ export const blogsData = [
+       </ul>
+       <p>Children have a balanced education throughout their <a href="https://kualakubsworldschool.com/school-life" target="_blank" rel="noopener noreferrer">school experience</a>.</p>
+ 
+-      <h2>The importance of life skills is equal to the importance of academic skills</h2>
++      <p><strong>The importance of life skills is equal to the importance of academic skills</strong></p>
+       <p>Academic success is not a sufficient pathway to success in the future. Practical life skills are also required for students.</p>
+       
+-      <p>Schools encourage:</p>
++      <p><strong>Schools encourage:</strong></p>
+       <ul>
+         <li>Time management</li>
+         <li>Critical thinking</li>
+@@ -1058,10 +1058,10 @@ export const blogsData = [
+       </ul>
+       <p>Students are prepared with these skills to be oriented to challenging situations in the real world.</p>
+ 
+-      <h2>This term, we are learning about the theme of Learning Beyond the Classroom</h2>
++      <p><strong>This term, we are learning about the theme of Learning Beyond the Classroom</strong></p>
+       <p>Practical experiences are more effective than textbook readings in helping students to understand concepts.</p>
+       
+-      <p>Schools organise:</p>
++      <p><strong>Schools organise:</strong></p>
+       <ul>
+         <li>Educational trips</li>
+         <li>Science exhibitions</li>
+@@ -1074,10 +1074,10 @@ export const blogsData = [
+       </ul>
+       <p>The activities provide engaging and meaningful learning.</p>
+ 
+-      <h2>Overall, why do parents choose KWS Gurgaon?</h2>
++      <p><strong>Overall, why do parents choose KWS Gurgaon?</strong></p>
+       <p>Parents in search of CBSE Schools in Gurugram desire a school that will equip children with both academic and professional readiness. The approach taken at KWS Gurgaon is student-centred and promotes overall growth.</p>
+       
+-      <p>Students benefit from:</p>
++      <p><strong>Students benefit from:</strong></p>
+       <ul>
+         <li>Modern classrooms</li>
+         <li>STEM-focused learning</li>
+@@ -1090,7 +1090,7 @@ export const blogsData = [
+       </ul>
+       <p>To ensure all children are confident, responsible, and ready for the future.</p>
+ 
+-      <h2>Conclusion</h2>
++      <p><strong>Conclusion</strong></p>
+       <p>Students who can think creatively, solve problems, communicate effectively, and will accept change are the future. Hence, CBSE Schools in Gurugram emphasize more than just classes.</p>
+       
+       <p>The top CBSE schools in Gurgaon focus on bringing out the future-ready leaders by giving students the skills required to prepare for their future through the following focus areas: STEM education, leadership development, career counselling, and digital learning. Selecting the best K-12 school, such as KWS Gurgaon, helps children gain knowledge, confidence, and skills to pave the way for their successful careers.</p>
+@@ -1129,7 +1129,7 @@ export const blogsData = [
+     summary: "Discover why schools in New Gurgaon are ideal for modern families with safe campuses, smart classrooms, excellent connectivity, and holistic learning.",
+     imageUrl: "/blog/blog 7.jpeg",
+     content: `
+-      <h2>Schools in New Gurgaon: What Makes Them Ideal for Modern Families</h2>
++      <p><strong>Schools in New Gurgaon: What Makes Them Ideal for Modern Families</strong></p>
+       <p>Making the right selection of schools in New Gurgaon is a significant decision for every parent. A school is more than just a <a href="https://kualakubsworldschool.com/" target="_blank" rel="noopener noreferrer">place of study</a>. It assists kids in developing, learning skills and gaining confidence for the future.</p>
+ 
+       <p>In the modern era, parents seek schools with a safe environment, modern classrooms, and a balance of learning.</p>
+@@ -1138,10 +1138,10 @@ export const blogsData = [
+         <img src="/blog/blog 7.jpeg" class="img-fluid" style="max-height: 500px; object-fit: contain;" alt="Schools in New Gurgaon | Modern Learning & Safe Campuses" />
+       </div>
+ 
+-      <h2>Parents choose schools in New Gurgaon for several reasons</h2>
++      <p><strong>Parents choose schools in New Gurgaon for several reasons</strong></p>
+       <p>There are various reasons why parents will choose schools in New Gurgaon.</p>
+       <p>Parents are opting for a school in New Gurgaon that provides <a href="https://kualakubsworldschool.com/" target="_blank" rel="noopener noreferrer">high-quality teaching</a> and learning with high-end infrastructure.</p>
+-      <p>Here are the reasons they stand out:</p>
++      <p><strong>Here are the reasons they stand out:</strong></p>
+       <ul>
+         <li>Modern classrooms</li>
+         <li>Safety and security of campus facilities</li>
+@@ -1154,9 +1154,9 @@ export const blogsData = [
+       </ul>
+       <p>These are some of the reasons why they are one of the<a href="https://kualakubsworldschool.com/" target="_blank" rel="noopener noreferrer"> good schools </a>in Gurgaon.</p>
+ 
+-      <h2>New Campuses Make Better Learning</h2>
++      <p><strong>New Campuses Make Better Learning</strong></p>
+       <p>A positive learning environment enables children to be engaged and have fun at school daily.</p>
+-      <p>Most schools offer:</p>
++      <p><strong>Most schools offer:</strong></p>
+       <ul>
+         <li>Smart classrooms</li>
+         <li>Science and computer laboratories</li>
+@@ -1169,9 +1169,9 @@ export const blogsData = [
+       </ul>
+       <p>These facilities support the learning of the students in and out of class.</p>
+ 
+-      <h2>Easy Connectivity Saves Time</h2>
++      <p><strong>Easy Connectivity Saves Time</strong></p>
+       <p>Where parents and students live is important. Having a nearby school will reduce travel time and increase family time.</p>
+-      <p>Benefits include:</p>
++      <p><strong>Benefits include:</strong></p>
+       <ul>
+         <li>Proximity to local areas</li>
+         <li>Smooth school transport</li>
+@@ -1182,9 +1182,9 @@ export const blogsData = [
+       </ul>
+       <p>This is one of the reasons why many parents opt for a school in Gurugram.</p>
+ 
+-      <h2>Safe Campus provides assurance to parents</h2>
++      <p><strong>Safe Campus provides assurance to parents</strong></p>
+       <p>All parents want their child to feel safe at school.</p>
+-      <p>These are common safety features:</p>
++      <p><strong>These are common safety features:</strong></p>
+       <ul>
+         <li>CCTV cameras</li>
+         <li>Trained security staff</li>
+@@ -1197,9 +1197,9 @@ export const blogsData = [
+       </ul>
+       <p>A safe setting allows kids to concentrate on learning.</p>
+ 
+-      <h2>Learning that extends beyond the classroom and book</h2>
++      <p><strong>Learning that extends beyond the classroom and book</strong></p>
+       <p>Today, education is not a one-dimensional affair based on marks. Children should also be equipped with the necessary skills for the future.</p>
+-      <p>Numerous schools concentrate on:</p>
++      <p><strong>Numerous schools concentrate on:</strong></p>
+       <ul>
+         <li>Activity-based learning</li>
+         <li>Group projects</li>
+@@ -1212,9 +1212,9 @@ export const blogsData = [
+       </ul>
+       <p>In this way, students are prepared for actual real-life situations.</p>
+ 
+-      <h2>The academic and activity workloads of students are equalized</h2>
++      <p><strong>The academic and activity workloads of students are equalized</strong></p>
+       <p>Learning is best achieved when studies and fun intertwine.</p>
+-      <p>Schools promote and encourage pupils by:</p>
++      <p><strong>Schools promote and encourage pupils by:</strong></p>
+       <ul>
+         <li>Sports competitions</li>
+         <li>Dance and music</li>
+@@ -1227,9 +1227,9 @@ export const blogsData = [
+       </ul>
+       <p>These activities enable children to be confident and independent.</p>
+ 
+-      <h2>Parents Stay Connected</h2>
++      <p><strong>Parents Stay Connected</strong></p>
+       <p>It can be easily made available for parents to know what is going on in modern schools.</p>
+-      <p>Parents can easily check:</p>
++      <p><strong>Parents can easily check:</strong></p>
+       <ul>
+         <li>Attendance</li>
+         <li>Homework</li>
+@@ -1241,10 +1241,10 @@ export const blogsData = [
+       </ul>
+       <p>Trust is established between parents and schools through good communication, and parents can also connect through social media like <a href="https://www.instagram.com/kualakubsworldschool?igsh=bXRlNTJ4eHh4Z2Mw" target="_blank" rel="noopener noreferrer">Instagram</a> and <a href="https://www.facebook.com/profile.php?id=61588552164324" target="_blank" rel="noopener noreferrer">Facebook</a>.</p>
+ 
+-      <h2>Kualakubs School, Gurugram, is a good choice for a number of reasons</h2>
++      <p><strong>Kualakubs School, Gurugram, is a good choice for a number of reasons</strong></p>
+       <p>For those seeking schools in New Gurgaon, the Kualakubs School Gurugram provides a learning atmosphere that meets the needs of today's students.</p>
+       <p>The school prioritises supporting the children to learn with confidence and to enjoy their journey at school.</p>
+-      <p>Highlights include:</p>
++      <p><strong>Highlights include:</strong></p>
+       <ul>
+         <li>Modern classrooms</li>
+         <li>Safe campus</li>
+@@ -1257,9 +1257,9 @@ export const blogsData = [
+       </ul>
+       <p>The above features render this institution one of the best schools in Gurgaon for parents seeking good schools.</p>
+ 
+-      <h2>If you are considering which school to attend, you should take the following factors into account:</h2>
++      <p><strong>If you are considering which school to attend, you should take the following factors into account:</strong></p>
+       <p>All children are unique, so it's important to choose carefully.</p>
+-      <p>These are some guidelines to keep in mind:</p>
++      <p><strong>These are some guidelines to keep in mind:</strong></p>
+       <ul>
+         <li>Teaching approach</li>
+         <li>School safety</li>
+@@ -1274,7 +1274,7 @@ export const blogsData = [
+       </ul>
+       <p>An on-campus visit can also assist you in your decision.</p>
+ 
+-      <h2>Final Thoughts</h2>
++      <p><strong>Final Thoughts</strong></p>
+       <p>The <a href="https://kualakubsworldschool.com/" target="_blank" rel="noopener noreferrer">best schools in New Gurgaon</a> provide a whole lot more than just learning. They provide a secure campus, up-to-date facilities, well-informed educators, and experiences that help children grow in all areas.</p>
+       <p>So, if you are searching for good schools in Gurgaon, a trusted school in Gurgaon, or the top schools in Gurgaon, always opt for those that are aware of and support your child's overall development.</p>
+     `,
+@@ -1312,7 +1312,7 @@ export const blogsData = [
+     content: `
+ 
+     <p>CBSE schools in Gurgaon have a strong academic as well as sports, arts, leadership and personality development mix. At <a href='https://kualakubsworldschool.com/' target='_blank' rel='noopener noreferrer'>KWS School Gurgaon</a>, students are encouraged to become confident, skilled, and future-ready by providing them with a balanced learning environment.</p>
+-      <h2>Introduction</h2>
++      <p><strong>Introduction</strong></p>
+       <p>It's not just the performance of the educational institution that determines the selection of the<a href='https://kualakubsworldschool.com/' target='_blank' rel='noopener noreferrer'> best CBSE schools in Gurgaon.</a> The parents of today want a school that will help their children to be confident, creative, and responsible.</p>
+ 
+       <p>Clubs, sports, leadership activities, and practical life skills supplement classroom learning to give a balanced learning experience at top CBSE schools in Gurgaon.</p>
+@@ -1321,10 +1321,10 @@ export const blogsData = [
+         <img src="/blog/blog 8.jpeg" class="img-fluid" style="max-height: 500px; object-fit: contain;" alt="Academic Excellence & Beyond: Inside the Top CBSE Schools in Gurgaon" />
+       </div>
+ 
+-      <h2>Strong Academics Build a Bright Future</h2>
++      <p><strong>Strong Academics Build a Bright Future</strong></p>
+       <p>The teachers always provide the support of a good school. The <a href="https://kualakubsworldschool.com/" target="_blank" rel="noopener noreferrer">top schools in Gurgaon</a> focus on the concept and not memorization.</p>
+ 
+-      <p>Students benefit from:</p>
++      <p><strong>Students benefit from:</strong></p>
+       <ul>
+         <li>Interactive classrooms</li>
+         <li>Regular assessments</li>
+@@ -1335,10 +1335,10 @@ export const blogsData = [
+       </ul>
+       <p>The methods give confidence and help students get ready for what comes next.</p>
+ 
+-      <h2>Learning Beyond Textbooks</h2>
++      <p><strong>Learning Beyond Textbooks</strong></p>
+       <p>Real learning occurs when students are presented with opportunities to try out different scenarios and encounter real problems.</p>
+ 
+-      <p>Schools promote learning via:</p>
++      <p><strong>Schools promote learning via:</strong></p>
+       <ul>
+         <li>Science exhibitions</li>
+         <li>Educational trips</li>
+@@ -1349,10 +1349,10 @@ export const blogsData = [
+       </ul>
+       <p>These activities can enhance lessons, making them more interesting and memorable.</p>
+ 
+-      <h2>Sports that Teach Life Skills</h2>
++      <p><strong>Sports that Teach Life Skills</strong></p>
+       <p>Sports strengthen both the body and mind. Most of the <a href="https://kualakubsworldschool.com/co-curricular" target="_blank" rel="noopener noreferrer">CBSE Schools in Gurugram</a> placed similar importance on academics and athletics.</p>
+ 
+-      <p>Students learn:</p>
++      <p><strong>Students learn:</strong></p>
+       <ul>
+         <li>Teamwork</li>
+         <li>Discipline</li>
+@@ -1363,10 +1363,10 @@ export const blogsData = [
+       </ul>
+       <p>Also, regular sports help with focus within classes.</p>
+ 
+-      <h2>Arts Encourage Creativity</h2>
++      <p><strong>Arts Encourage Creativity</strong></p>
+       <p>Students are able to express ideas with confidence in creative activities. Observation and emotional development are also enhanced through art.</p>
+ 
+-      <p>Popular activities include:</p>
++      <p><strong>Popular activities include:</strong></p>
+       <ul>
+         <li>Music</li>
+         <li>Dance</li>
+@@ -1377,10 +1377,10 @@ export const blogsData = [
+       </ul>
+       <p>Children will explore their individual strengths through creative learning.</p>
+ 
+-      <h2>Leadership Programs are Designed to Build Confidence</h2>
++      <p><strong>Leadership Programs are Designed to Build Confidence</strong></p>
+       <p>Leadership skills equip students with future work readiness and everyday life skills.</p>
+ 
+-      <p>Schools organize:</p>
++      <p><strong>Schools organize:</strong></p>
+       <ul>
+         <li>Student council elections</li>
+         <li>House captain responsibilities</li>
+@@ -1391,10 +1391,10 @@ export const blogsData = [
+       </ul>
+       <p>These experiences provide students with opportunities to develop responsible decision-making.</p>
+ 
+-      <h2>Personality Development Matters</h2>
++      <p><strong>Personality Development Matters</strong></p>
+       <p>Only academic knowledge is not sufficient. Personality development helps children to prepare for interviews, higher education, and professional life.</p>
+ 
+-      <p>Students improve:</p>
++      <p><strong>Students improve:</strong></p>
+       <ul>
+         <li>Communication skills</li>
+         <li>Confidence</li>
+@@ -1405,10 +1405,10 @@ export const blogsData = [
+       </ul>
+       <p>These attributes are conducive to children's success outside of school.</p>
+ 
+-      <h2>Technology Makes Learning Better</h2>
++      <p><strong>Technology Makes Learning Better</strong></p>
+       <p>The technology is used in modern classrooms in order to make the learning process easier and to increase participation in the learning process.</p>
+ 
+-      <p>Digital learning includes:</p>
++      <p><strong>Digital learning includes:</strong></p>
+       <ul>
+         <li>Smart classrooms</li>
+         <li>Digital boards</li>
+@@ -1419,10 +1419,10 @@ export const blogsData = [
+       </ul>
+       <p>Technology holds students' attention and enhances comprehension.</p>
+ 
+-      <h2>Parent-School Partnership</h2>
++      <p><strong>Parent-School Partnership</strong></p>
+       <p>Parents are involved in a child's learning process. Frequent communication fosters trust and enhances pupil achievement.</p>
+ 
+-      <p>There is regular communication between schools:</p>
++      <p><strong>There is regular communication between schools:</strong></p>
+       <ul>
+         <li>Parent-teacher meetings</li>
+         <li>School mobile apps</li>
+@@ -1433,10 +1433,10 @@ export const blogsData = [
+       </ul>
+       <p>Good teamwork makes for a positive learning atmosphere.</p>
+ 
+-      <h2>Why KWS School Gurgaon Stands Out</h2>
++      <p><strong>Why KWS School Gurgaon Stands Out</strong></p>
+       <p>Rated among the Top 10 schools in Gurgaon,<a href='https://kualakubsworldschool.com/' target='_blank' rel='noopener noreferrer'> KWS School Gurgaon</a>pays special attention to holistic development, which is essential for the students for their future.</p>
+ 
+-      <p>At KWS School Gurgaon, we offer:</p>
++      <p><strong>At KWS School Gurgaon, we offer:</strong></p>
+       <ul>
+         <li>Strong CBSE curriculum</li>
+         <li>Experienced teachers</li>
+@@ -1449,10 +1449,10 @@ export const blogsData = [
+       </ul>
+       <p>The school promotes students to excel in academics and builds their confidence, creativity, and life skills.</p>
+ 
+-      <h2>Some Advice on Selecting the Best School</h2>
++      <p><strong>Some Advice on Selecting the Best School</strong></p>
+       <p>Each family is unique in having expectations. Be sure to do your research before you decide on the school.</p>
+ 
+-      <p>Check these factors:</p>
++      <p><strong>Check these factors:</strong></p>
+       <ul>
+         <li>Academic performance</li>
+         <li>Teacher experience</li>
+@@ -1467,7 +1467,7 @@ export const blogsData = [
+       </ul>
+       <p>The school should foster your kid's full growth.</p>
+ 
+-      <h2>Final Thoughts</h2>
++      <p><strong>Final Thoughts</strong></p>
+       <p>Good marks in exams are not the sole aim of top CBSE schools in Gurgaon. They assist students to develop confidence as learners, responsibility as leaders, creativity as thinkers, and to be active as individuals.</p>
+ 
+       <p>CBSE School Gurgaon School of<a href='https://kualakubsworldschool.com/' target='_blank' rel='noopener noreferrer'> KWS </a>provides a balanced learning environment where learning, sports, creativity, and personality are developed.</p>
+@@ -1506,10 +1506,10 @@ export const blogsData = [
+     summary: "Searching for top CBSE schools near me? Discover what parents consider before admissions, from academics and safety to transport, faculty, and holistic development.",
+     imageUrl: "/blog/blog 9.jpeg",
+     content: `
+-      <h2>Why Parents Search for “Top CBSE Schools Near Me” Before Admissions?</h2>
++      <p><strong>Why Parents Search for “Top CBSE Schools Near Me” Before Admissions?</strong></p>
+       <p>Parents looking for a top CBSE school near me are not only looking for a school, but they want more than that. They are concerned with well-trained instructors, school security, bus services, up-to-date facilities and equipment, athletics, and overall student growth. In Kualakubs <a href='https://kualakubsworldschool.com/' target='_blank' rel='noopener noreferrer'>CBSE School</a>, children are educated and nurtured in a balanced and healthy curriculum, which enables them to achieve well, to be confident, creative, and life-skilled for the future.</p>
+ 
+-      <h2>Introduction</h2>
++      <p><strong>Introduction</strong></p>
+       <p>Making a school choice is one of the most important decisions for all parents. Families look at academics, safety, teachers, and the <a href='https://kualakubsworldschool.com/' target='_blank' rel='noopener noreferrer'>overall development of the child</a> when looking for the top CBSE schools near me.</p>
+       <p>Parents today expect a school to educate their children both in the classroom and for life.</p>
+ 
+@@ -1517,9 +1517,9 @@ export const blogsData = [
+         <img src="/blog/blog 9.jpeg" class="img-fluid" style="max-height: 500px; object-fit: contain;" alt="Top CBSE Schools Near Me | What Parents Check Before Admission" />
+       </div>
+ 
+-      <h2>Why is CBSE School the Best?</h2>
++      <p><strong>Why is CBSE School the Best?</strong></p>
+       <p><a href='https://kualakubsworldschool.com/' target='_blank' rel='noopener noreferrer'>CBSE Schools</a> aim at giving students confidence, creativity, values, and practical skills along with academic excellence.</p>
+-      <p>Typical parent queries include:</p>
++      <p><strong>Typical parent queries include:</strong></p>
+       <ul>
+         <li>Structured CBSE curriculum</li>
+         <li>Teachers with suitable and nurturing skills</li>
+@@ -1532,9 +1532,9 @@ export const blogsData = [
+       </ul>
+       <p>The children enjoy learning in a balanced school each day.</p>
+ 
+-      <h2>Academic Scholarship is First</h2>
++      <p><strong>Academic Scholarship is First</strong></p>
+       <p>Academics are always the first criterion for looking for the top CBSE schools near me. Parents choose schools that engage in concept learning rather than memorization.</p>
+-      <p>Valuable academic attributes are:</p>
++      <p><strong>Valuable academic attributes are:</strong></p>
+       <ul>
+         <li>NCERT-based curriculum</li>
+         <li>Interactive classroom teaching</li>
+@@ -1547,9 +1547,9 @@ export const blogsData = [
+       </ul>
+       <p>Academics are the building blocks for success.</p>
+ 
+-      <h2>Experienced Teachers Make a Difference</h2>
++      <p><strong>Experienced Teachers Make a Difference</strong></p>
+       <p>Teachers are crucial to a child's learning process. Skilled teachers know the strengths and weaknesses of each pupil and are able to provide individual assistance to enhance weaker skills.</p>
+-      <p>Parents check for:</p>
++      <p><strong>Parents check for:</strong></p>
+       <ul>
+         <li>Qualified faculty</li>
+         <li>Friendly teaching approach</li>
+@@ -1562,10 +1562,10 @@ export const blogsData = [
+       </ul>
+       <p>Teachers inspire, they inspire confidence, they inspire curiosity.</p>
+ 
+-      <h2>Campus Safety provides Parents with confidence</h2>
++      <p><strong>Campus Safety provides Parents with confidence</strong></p>
+       <p>Security is among the foremost things that families check with regard to schools close to me, CBSE.</p>
+       <p>Parents are<a href='https://kualakubsworldschool.com/' target='_blank' rel='noopener noreferrer'> confident in schools</a> with secure facilities and appropriate supervision.</p>
+-      <p>Safety features include:</p>
++      <p><strong>Safety features include:</strong></p>
+       <ul>
+         <li>CCTV surveillance</li>
+         <li>Secure campus entry</li>
+@@ -1578,10 +1578,10 @@ export const blogsData = [
+       </ul>
+       <p>A safe campus allows children to learn without worry.</p>
+ 
+-      <h2>School Transport Matters</h2>
++      <p><strong>School Transport Matters</strong></p>
+       <p>Reliable transportation is a time saver and provides students with safe transportation every day.</p>
+       <p>One of the most common comparisons that parents make while looking for top CBSE schools near them is with the transport service.</p>
+-      <p>Parents' preference for transport facilities:</p>
++      <p><strong>Parents' preference for transport facilities:</strong></p>
+       <ul>
+         <li>GPS-enabled buses</li>
+         <li>Experienced drivers</li>
+@@ -1594,9 +1594,9 @@ export const blogsData = [
+       </ul>
+       <p>Parents can rest assured while their children travel safely.</p>
+ 
+-      <h2>New facilities are used to facilitate learning</h2>
++      <p><strong>New facilities are used to facilitate learning</strong></p>
+       <p>A good campus design leads to a better learning environment for students.<br>Modern facilities promote hands-on learning and involvement.</p>
+-      <p>Parents check for:</p>
++      <p><strong>Parents check for:</strong></p>
+       <ul>
+         <li>Smart classrooms</li>
+         <li>Science laboratories</li>
+@@ -1609,10 +1609,10 @@ export const blogsData = [
+       </ul>
+       <p>Improved infrastructure = improved learning and confidence.</p>
+ 
+-      <h2>There is an opportunity for kids to develop their skills in sports and Co-Curricular Activities.</h2>
++      <p><strong>There is an opportunity for kids to develop their skills in sports and Co-Curricular Activities.</strong></p>
+       <p>Learning should not be confined to the textbooks; children grow best.</p>
+       <p>Teamwork, leadership, and communication skills are enhanced through sports and creative activities.</p>
+-      <p>Popular school activities:</p>
++      <p><strong>Popular school activities:</strong></p>
+       <ul>
+         <li>Cricket</li>
+         <li>Football</li>
+@@ -1625,10 +1625,10 @@ export const blogsData = [
+       </ul>
+       <p>These activities are related to personality development.</p>
+ 
+-      <h2>Student Growth Beyond Academics</h2>
++      <p><strong>Student Growth Beyond Academics</strong></p>
+       <p>Today's parents want to be able to count on schools to make their child ready for life, not just exams.</p>
+       <p>A well-rounded education fosters confidence, self-control, and problem-solving skills.</p>
+-      <p>Students learn life skills such as:</p>
++      <p><strong>Students learn life skills such as:</strong></p>
+       <ul>
+         <li>Leadership</li>
+         <li>Communication</li>
+@@ -1641,9 +1641,9 @@ export const blogsData = [
+       </ul>
+       <p>Children are better prepared to thrive in every aspect of life through holistic learning.</p>
+ 
+-      <h2>The school is Kualakubs CBSE School – A Balanced Learning Environment!</h2>
++      <p><strong>The school is Kualakubs CBSE School – A Balanced Learning Environment!</strong></p>
+       <p>A CBSE School with a conducive atmosphere to make academics, creativity, sports and character building to work collaboratively is the Kualakubs CBSE School.</p>
+-      <p>The school's priorities are:</p>
++      <p><strong>The school's priorities are:</strong></p>
+       <ul>
+         <li>Quality CBSE education</li>
+         <li>Student-centred learning</li>
+@@ -1655,9 +1655,9 @@ export const blogsData = [
+         <li>Overall personality development</li>
+       </ul>
+       <p>If you are a parent seeking the top CBSE schools near me, you need to check out Kualakubs CBSE School for well-rounded education.</p>
+-      <p>The following is a list of items that will be required for admission:</p>
++      <p><strong>The following is a list of items that will be required for admission:</strong></p>
+       <p>Parents are required to visit the campus and understand the method of teaching before taking admission.</p>
+-      <p>Some of the key considerations:</p>
++      <p><strong>Some of the key considerations:</strong></p>
+       <ul>
+         <li>CBSE curriculum</li>
+         <li>Teacher qualifications</li>
+@@ -1691,7 +1691,7 @@ export const blogsData = [
+         </tbody>
+       </table>
+ 
+-      <h2>Conclusion</h2>
++      <p><strong>Conclusion</strong></p>
+       <p>Finding the top CBSE schools in my area is not just a matter of location; it's a question of balance between academics, safety, infrastructure, and overall child development. Parents should do their homework on various schools before choosing.</p>
+       <p>If you are searching for good education, modern facilities, and a sound education system that works on the holistic education model, you should consider enrolling your child at<a href='https://kualakubsworldschool.com/' target='_blank' rel='noopener noreferrer'> Kualakubs CBSE School</a> to prepare them for a bright future.</p>
+       <p>You can connect with Kualakub World School through social media like <a href="https://www.instagram.com/kualakubsworldschool/?hl=en" target="_blank" rel="noopener noreferrer">Instagram</a> or <a href="https://www.facebook.com/profile.php?id=61588552164324" target="_blank" rel="noopener noreferrer">Facebook</a></p>
+@@ -1726,18 +1726,18 @@ export const blogsData = [
+     summary: "When it comes to choosing the right school in Gurugram, there are several factors to consider, such as academic excellence, safety measures, teaching excellence, state-of-the-art facilities, and extracurricular programs, among others. Students of Kualakubs school, Gurgaon are wholesome kids and receive a balanced education to excel in every field, and that's why Kualakubs school, Gurgaon is the best school in Gurgaon.",
+     imageUrl: "/blog/blog 10.jpeg",
+     content: `
+-    <h2>Summary</h2>
++    <p><strong>Summary</strong></p>
+     <p>When it comes to choosing the right <strong>school in Gurugram</strong>, there are several factors to consider, such as academic excellence, safety measures, teaching excellence, state-of-the-art facilities, and extracurricular programs, among others. Students of Kualakubs school, Gurgaon are wholesome kids and receive a balanced education to excel in every field, and that's why <a href='https://kualakubsworldschool.com/' target='_blank' rel='noopener noreferrer'>Kualakubs school, Gurgaon</a> is the best school in Gurgaon.</p>
+-      <h2>Introduction</h2>
++      <p><strong>Introduction</strong></p>
+       <p>Parenthood is one of the most important decision-making processes, and selecting the right school in Gurugram is one of them. A <a href='https://kualakubsworldschool.com/' target='_blank' rel='noopener noreferrer'>good school</a> fosters good learning capabilities, confidence, creativity, and values. Carefully compare all the factors before making a decision for admission, rather than by popularity. Today's parents consider more than just rankings when making their evaluation of academics, safety, infrastructure, and holistic development.</p>
+ 
+       <div class="mb-5 mt-4" style="border-radius: 16px; overflow: hidden; background-color: #f8f9fa; text-align: center;">
+         <img src="/blog/blog 10.jpeg" class="img-fluid" style="max-height: 500px; object-fit: contain;" alt="How to Choose the Best School in Gurugram for Your Child" />
+       </div>
+ 
+-      <h2>It is important to choose the right school for a child</h2>
++      <p><strong>It is important to choose the right school for a child</strong></p>
+       <p>Your child's education is influenced by a school in numerous ways.</p>
+-      <p>Parents need to check:</p>
++      <p><strong>Parents need to check:</strong></p>
+       <ul>
+         <li>Strong academic support</li>
+         <li>Safe and secure campus</li>
+@@ -1748,9 +1748,9 @@ export const blogsData = [
+       </ul>
+       <p>These factors contribute to children learning well and growing with confidence.</p>
+ 
+-      <h2>Examine Academic Quality</h2>
++      <p><strong>Examine Academic Quality</strong></p>
+       <p>Academic excellence provides a strong base for learning.</p>
+-      <p>Prior to selecting a school:</p>
++      <p><strong>Prior to selecting a school:</strong></p>
+       <ul>
+         <li>CBSE curriculum</li>
+         <li>Qualified teachers</li>
+@@ -1761,9 +1761,9 @@ export const blogsData = [
+       </ul>
+       <p>A well-rounded academic program enables students to grasp concepts rather than just repeat them.</p>
+ 
+-      <h2>Focus on Student Safety</h2>
++      <p><strong>Focus on Student Safety</strong></p>
+       <p>Safety is a complete peace of mind to the parents.</p>
+-      <p>Some of the key safety features are:</p>
++      <p><strong>Some of the key safety features are:</strong></p>
+       <ul>
+         <li>CCTV monitoring</li>
+         <li>Secure campus entry</li>
+@@ -1774,9 +1774,9 @@ export const blogsData = [
+       </ul>
+       <p>Schools should also have clear information regarding safety for parents.</p>
+ 
+-      <h2>Look Beyond Classroom Learning</h2>
++      <p><strong>Look Beyond Classroom Learning</strong></p>
+       <p>Children learn best from a variety of experiences.</p>
+-      <p>Look for activities such as:</p>
++      <p><strong>Look for activities such as:</strong></p>
+       <ul>
+         <li>Sports</li>
+         <li>Music</li>
+@@ -1789,9 +1789,9 @@ export const blogsData = [
+       </ul>
+       <p>Reliability, collaboration, and communication skills are developed through these activities.</p>
+ 
+-      <h2>Experienced and Caring Teachers</h2>
++      <p><strong>Experienced and Caring Teachers</strong></p>
+       <p>A teacher can impact a child's learning process day after day.</p>
+-      <p>Good teachers:</p>
++      <p><strong>Good teachers:</strong></p>
+       <ul>
+         <li>Explain concepts clearly</li>
+         <li>Encourage curiosity</li>
+@@ -1801,9 +1801,9 @@ export const blogsData = [
+       </ul>
+       <p>A positive classroom environment is developed by a caring teacher.</p>
+ 
+-      <h2>Modern Learning Facilities</h2>
++      <p><strong>Modern Learning Facilities</strong></p>
+       <p>Develops more interesting learning using technology.</p>
+-      <p>Look for:</p>
++      <p><strong>Look for:</strong></p>
+       <ul>
+         <li>Smart classrooms</li>
+         <li>Science labs</li>
+@@ -1814,9 +1814,9 @@ export const blogsData = [
+       </ul>
+       <p>Good infrastructure for improved learning and skills in the modern context.</p>
+ 
+-      <h2>School Location and Transport</h2>
++      <p><strong>School Location and Transport</strong></p>
+       <p>The travel time is saved as there is a nearby school in Gurugram.</p>
+-      <p>Check:</p>
++      <p><strong>Check:</strong></p>
+       <ul>
+         <li>Bus routes</li>
+         <li>GPS-enabled transport</li>
+@@ -1826,9 +1826,9 @@ export const blogsData = [
+       </ul>
+       <p>Children are active and energetic with shorter travel.</p>
+ 
+-      <h2>Parent-School Communication</h2>
++      <p><strong>Parent-School Communication</strong></p>
+       <p>Parents should always be kept informed.</p>
+-      <p>Choose schools that offer:</p>
++      <p><strong>Choose schools that offer:</strong></p>
+       <ul>
+         <li>Parent-teacher meetings</li>
+         <li>Mobile app updates</li>
+@@ -1838,9 +1838,9 @@ export const blogsData = [
+       </ul>
+       <p>Collaborative relationships enhance student achievement.</p>
+ 
+-      <h2>Why Kualakubs School Gurugram is a Good Choice</h2>
++      <p><strong>Why Kualakubs School Gurugram is a Good Choice</strong></p>
+       <p>Kualakubs <a href='https://kualakubsworldschool.com/' target='_blank' rel='noopener noreferrer'>School Gurugram</a> is one of the best schools in Gurgaon that is concerned about students' academic performance and child development as well.</p>
+-      <p>The school offers:</p>
++      <p><strong>The school offers:</strong></p>
+       <ul>
+         <li>CBSE curriculum</li>
+         <li>Experienced teachers</li>
+@@ -1853,7 +1853,7 @@ export const blogsData = [
+       </ul>
+       <p>This is emerging as one of the most sought-after schools in Gurugram, Haryana, offering quality education.</p>
+ 
+-      <h2>Comparison Table</h2>
++      <p><strong>Comparison Table</strong></p>
+       <div class="table-responsive my-4">
+         <table class="table table-bordered table-striped text-center">
+           <thead class="table-dark">
+@@ -1898,7 +1898,7 @@ export const blogsData = [
+         </table>
+       </div>
+ 
+-      <h2>Final Thoughts</h2>
++      <p><strong>Final Thoughts</strong></p>
+       <p>Choosing the appropriate school in Gurgaon is all about the right organisation to be placed in the future of your child. Evaluate academics, teachers, safety, facilities, and overall development prior to your decision. A well-balanced school enables children to thrive in school and beyond.</p>
+       <p>You can connect with Kualakubs World School through social media like <a href="https://www.instagram.com/kualakubsworldschool/?hl=en" target="_blank" rel="noopener noreferrer">Instagram</a> or <a href="https://www.facebook.com/profile.php?id=61588552164324" target="_blank" rel="noopener noreferrer">Facebook</a>.</p>
+     `,
+@@ -1940,7 +1940,7 @@ export const blogsData = [
+       
+       <p>In today's world, learning is more than just books. Parents have high expectations that schools will offer good quality teaching, qualified staff, up-to-date facilities, sport and activities where children can find their strengths.</p>
+ 
+-      <h2>Why More Parents Choose CBSE Schools</h2>
++      <p><strong>Why More Parents Choose CBSE Schools</strong></p>
+       <p>The CBSE school education system is one of the most reliable school education systems in India. It focuses on conceptual learning and not rote-learning, and empowers the students with an understanding of concepts and prepares them for college entrance.</p>
+       <p><strong>Parents like CBSE schools because they provide:</strong></p>
+       <ul>
+@@ -1955,7 +1955,7 @@ export const blogsData = [
+       </ul>
+       <p>That's why many families start with search terms such as schools near me CBSE when contemplating school admissions.</p>
+ 
+-      <h2>Strong Academics Lead to a Better Future!</h2>
++      <p><strong>Strong Academics Lead to a Better Future!</strong></p>
+       <p>While good marks are important, it is more valuable to understand concepts. The top CBSE schools in Gurgaon emphasize the learning, questioning, and application of the knowledge into real-life situations.</p>
+       <p><strong>A successful school will typically have:</strong></p>
+       <ul>
+@@ -1970,7 +1970,7 @@ export const blogsData = [
+       </ul>
+       <p>It is important for children to learn by asking questions and not just repeating answers.</p>
+ 
+-      <h2>A Safe School Environment Matters</h2>
++      <p><strong>A Safe School Environment Matters</strong></p>
+       <p>There is no place that an individual parent can feel comfortable unless they can be sure their child is safe in the school. Students are able to concentrate on their learning without additional stress in a secure and caring environment.</p>
+       <p><strong>Search for schools offering:</strong></p>
+       <ul>
+@@ -1985,7 +1985,7 @@ export const blogsData = [
+       </ul>
+       <p>When it comes to comparing CBSE schools in Gurugram, safety should be one of the primary considerations.</p>
+ 
+-      <h2>The school is a modern facility that supports the learning process</h2>
++      <p><strong>The school is a modern facility that supports the learning process</strong></p>
+       <p>Children are best taught in an interactive and engaging classroom. Use of modern infrastructure enhances the interest of the lesson and motivates students to go beyond the books.</p>
+       <p><strong>The good school should have:</strong></p>
+       <ul>
+@@ -2000,7 +2000,7 @@ export const blogsData = [
+       </ul>
+       <p>A visit to the school campus can give you a first-hand view of how the best CBSE schools near me are utilised daily.</p>
+ 
+-      <h2>Sports and Activities After Class</h2>
++      <p><strong>Sports and Activities After Class</strong></p>
+       <p>The learning process doesn't end after class. Children participate in a variety of sports and <a href="https://kualakubsworldschool.com/co-curricular"target="blank">co-curricular activities</a> to remain physically active, make friendships, and acquire positive life skills.</p>
+       <p><strong>Typical activities at schools include:</strong></p>
+       <ul>
+@@ -2015,7 +2015,7 @@ export const blogsData = [
+       </ul>
+       <p>These activities promote teamwork, discipline, confidence, and personality.</p>
+ 
+-      <h2>The experience of teachers makes a great difference</h2>
++      <p><strong>The experience of teachers makes a great difference</strong></p>
+       <p>The impact of teachers is long-lasting in a child's learning. A well-qualified teacher who can involve students in the learning process and enable them to perform with confidence can inspire students' love for studying.</p>
+       <p><strong>A good teacher's attention is directed towards:</strong></p>
+       <ul>
+@@ -2030,7 +2030,7 @@ export const blogsData = [
+       </ul>
+       <p>One of the most crucial assets of the best CBSE school in Gurgaon is its experienced faculty.</p>
+ 
+-      <h2>Developing confidence through attitudes, values, and skills</h2>
++      <p><strong>Developing confidence through attitudes, values, and skills</strong></p>
+       <p>Children should be taught to be ready for life, not exams. A positive culture in the school fosters independent and confident learners.</p>
+       <p><strong>Life skills are acquired by:</strong></p>
+       <ul>
+@@ -2045,7 +2045,7 @@ export const blogsData = [
+       </ul>
+       <p>These activities enable children to develop emotionally, socially and academically.</p>
+ 
+-      <h2>So why is KWS School Gurgaon a good choice?</h2>
++      <p><strong>So why is KWS School Gurgaon a good choice?</strong></p>
+       <p>KWS School Gurgaon understands that children learn in various ways. The school is integrated with sports, creativity, technology, and values to provide a balanced learning experience.</p>
+       <p>Pupils are encouraged to take part in discussions in the classroom, sport, and creative endeavours, as well as opportunities to be leaders by developing confidence from an early age.</p>
+       <p><strong>The school works on the following:</strong></p>
+@@ -2061,7 +2061,7 @@ export const blogsData = [
+       </ul>
+       <p>Schools that offer not just academic excellence but also holistic development make for a great choice for families seeking the best CBSE Schools in Gurgaon.</p>
+ 
+-      <h2>Some key areas for parents to review prior to admission</h2>
++      <p><strong>Some key areas for parents to review prior to admission</strong></p>
+       <p>When evaluating schools, it's always best to visit the school, speak to teachers, and learn how the school cares for students before making a final decision.</p>
+       <p><strong>Here are some simple rules:</strong></p>
+       <ul>
+@@ -2078,7 +2078,7 @@ export const blogsData = [
+       </ul>
+       <p>The school selection process is not just one for comparing rates or rankings; it's all about identifying the appropriate setting for your child's development.</p>
+ 
+-      <h2>Comparative analysis: what makes a good CBSE school?</h2>
++      <p><strong>Comparative analysis: what makes a good CBSE school?</strong></p>
+       <div class="table-responsive my-4">
+         <table class="table table-bordered table-striped text-center">
+           <thead class="table-dark">
+@@ -2128,7 +2128,7 @@ export const blogsData = [
+         </table>
+       </div>
+ 
+-      <h2>Why Balanced Education Matters?</h2>
++      <p><strong>Why Balanced Education Matters?</strong></p>
+       <p><strong>A balanced school focuses on:</strong></p>
+       <ul>
+         <li>Academic excellence</li>
+@@ -2142,7 +2142,7 @@ export const blogsData = [
+       </ul>
+       <p>These are the attributes that are needed to set students up for success, not only for the school tests but for the future.</p>
+       
+-      <h2>Conclusion</h2>
++      <p><strong>Conclusion</strong></p>
+       <p>The best CBSE schools in Gurgaon are those that will provide the best environment for your child to learn, explore, and grow. While academics are important, so are safety, experienced teachers, and opportunities for increased confidence and sports.</p>
+       <p>While looking for a CBSE school in Gurgaon, visit the school, meet the teachers, and get a feel of the learning atmosphere. A school that takes into account your child's education and development can make a difference in your child's life.</p>
+       <p><a href="https://kualakubsworldschool.com/school-life" target="_blank">KWS School Gurgaon</a> is certainly worth a look if you are looking for a school that emphasises learning, creativity, discipline, and growth.</p>
+@@ -2188,13 +2188,13 @@ export const blogsData = [
+         <img src="/blog/blog 12.jpeg" class="img-fluid" style="max-height: 500px; object-fit: contain;" alt="Why Parents Prefer Schools in New Gurgaon for Modern Education" />
+       </div>
+ 
+-      <h2>Why Parents Prefer Schools in New Gurgaon for Modern Education</h2>
++      <p><strong>Why Parents Prefer Schools in New Gurgaon for Modern Education</strong></p>
+       <p>Parents of today's generation want more than good marks. They search for schools in Gurgaon that can create confidence, growth, and learning for their children. This is why in New Gurgaon, schools are becoming the first choice for all educational families because of the quality education they provide along with the modern facilities.</p>
+       <p> <a href='https://kualakubsworldschool.com/' target='blank'> Modern schools </a>emphasise academics, creativity, sport, safety, and life skills all in one. This is a healthy balance that will equip children for school and life.</p>
+ 
+-      <h2>Modern Learning for Today's Children</h2>
++      <p><strong>Modern Learning for Today's Children</strong></p>
+       <p>Interactive and engaging classrooms are conducive to children's learning as opposed to the passive learning in textbooks.</p>
+-      <p>Modern teaching includes:</p>
++      <p><strong>Modern teaching includes:</strong></p>
+       <ul>
+         <li>Activity-based learning</li>
+         <li>Smart classroom sessions</li>
+@@ -2207,9 +2207,9 @@ export const blogsData = [
+       </ul>
+       <p>Many best Schools in New Gurgaon apply these techniques to ensure learning is fun and meaningful.</p>
+ 
+-      <h2>Safe Campuses Build Parent Confidence</h2>
++      <p><strong>Safe Campuses Build Parent Confidence</strong></p>
+       <p>Safety is among the topmost concerns of every family for choosing a school in Gurugram.</p>
+-      <p>Typically, parents search for:</p>
++      <p><strong>Typically, parents search for:</strong></p>
+       <ul>
+         <li>CCTV surveillance</li>
+         <li>Secure entry systems</li>
+@@ -2222,9 +2222,9 @@ export const blogsData = [
+       </ul>
+       <p>A safe school enables a child to feel confident to learn on a daily basis.</p>
+ 
+-      <h2>Smart Classrooms Enhance Learning</h2>
++      <p><strong>Smart Classrooms Enhance Learning</strong></p>
+       <p>Technology enhances lessons in ways that facilitate their understanding and hold students' attention during class.</p>
+-      <p>Typically, modern facilities will feature:</p>
++      <p><strong>Typically, modern facilities will feature:</strong></p>
+       <ul>
+         <li>Smart boards</li>
+         <li>Science laboratories</li>
+@@ -2237,9 +2237,9 @@ export const blogsData = [
+       </ul>
+       <p>These have been installed in many schools in New Gurgaon for enhanced learning.</p>
+ 
+-      <h2>Focus Beyond Academics</h2>
++      <p><strong>Focus Beyond Academics</strong></p>
+       <p>Learning isn't all about grades. Children should also be confident, creative, and have leadership qualities.</p>
+-      <p>Schools encourage:</p>
++      <p><strong>Schools encourage:</strong></p>
+       <ul>
+         <li>Music</li>
+         <li>Dance</li>
+@@ -2252,9 +2252,9 @@ export const blogsData = [
+       </ul>
+       <p>These activities support students to become confident and expressive.</p>
+ 
+-      <h2>Sports Promote Healthful Development</h2>
++      <p><strong>Sports Promote Healthful Development</strong></p>
+       <p>Sports keep children active, while teaching them teamwork and discipline.</p>
+-      <p>Popular activities include:</p>
++      <p><strong>Popular activities include:</strong></p>
+       <ul>
+         <li>Cricket</li>
+         <li>Football</li>
+@@ -2267,9 +2267,9 @@ export const blogsData = [
+       </ul>
+       <p>Top schools in New Gurgaon take care of maintaining an optimal balance between studies and exercise.</p>
+ 
+-      <h2>It is the experienced teachers who make a difference</h2>
++      <p><strong>It is the experienced teachers who make a difference</strong></p>
+       <p> <a href='https://kualakubsworldschool.com/' traget ='blank'> Good teachers </a> establish a positive learning atmosphere and provide children with appropriate guidance.</p>
+-      <p>Parents appreciate schools that have:</p>
++      <p><strong>Parents appreciate schools that have:</strong></p>
+       <ul>
+         <li>Qualified teachers</li>
+         <li>Individual student attention</li>
+@@ -2282,9 +2282,9 @@ export const blogsData = [
+       </ul>
+       <p>Oftentimes, quality and high-performing teachers are more important than costly facilities.</p>
+ 
+-      <h2>Best Value Education that is also affordable</h2>
++      <p><strong>Best Value Education that is also affordable</strong></p>
+       <p>Good quality education doesn't always cost a lot of money.</p>
+-      <p>Numerous cheap schools in Gurgaon offer:</p>
++      <p><strong>Numerous cheap schools in Gurgaon offer:</strong></p>
+       <ul>
+         <li>Strong CBSE curriculum</li>
+         <li>Smart learning</li>
+@@ -2297,9 +2297,9 @@ export const blogsData = [
+       </ul>
+       <p>With higher fees, schools today do not deliver the overall value to families.</p>
+ 
+-      <h2>Why Families Choose Kualakubs World School Gurgaon</h2>
++      <p><strong>Why Families Choose Kualakubs World School Gurgaon</strong></p>
+       <p>At Kualakubs World School in Gurgaon, academic excellence has been merged with child development.</p>
+-      <p>The school is working towards:</p>
++      <p><strong>The school is working towards:</strong></p>
+       <ul>
+         <li>CBSE curriculum</li>
+         <li>Smart learning methods</li>
+@@ -2312,8 +2312,8 @@ export const blogsData = [
+       </ul>
+       <p>This balanced approach ensures that all students enjoy learning.</p>
+ 
+-      <h2>It is always better to visit a school before selecting it</h2>
+-      <p>Important factors include:</p>
++      <p><strong>It is always better to visit a school before selecting it</strong></p>
++      <p><strong>Important factors include:</strong></p>
+       <ul>
+         <li>CBSE curriculum</li>
+         <li>Teacher experience</li>
+@@ -2328,7 +2328,7 @@ export const blogsData = [
+       </ul>
+       <p>These are the points that assist parents in choosing the right school in Gurgaon for their child.</p>
+ 
+-      <h2>Affordable School vs Premium School</h2>
++      <p><strong>Affordable School vs Premium School</strong></p>
+       <div class="table-responsive my-4">
+         <table class="table table-bordered table-striped text-center">
+           <thead class="table-dark">
+@@ -2383,8 +2383,8 @@ export const blogsData = [
+         </table>
+       </div>
+ 
+-      <h2>Questions Parents Should Ask</h2>
+-      <p>Some helpful questions to ask on a school visit are:</p>
++      <p><strong>Questions Parents Should Ask</strong></p>
++      <p><strong>Some helpful questions to ask on a school visit are:</strong></p>
+       <ul>
+         <li>What are the ways in which teachers support slow learners?</li>
+         <li>How many times are smart classrooms used?</li>
+@@ -2397,9 +2397,9 @@ export const blogsData = [
+       </ul>
+       <p>These questions aid parents in making confident admission decisions.</p>
+ 
+-      <h2>Why Balanced Education Matters</h2>
++      <p><strong>Why Balanced Education Matters</strong></p>
+       <p>A balanced education helps children to prepare themselves for academics and life.</p>
+-      <p>It combines:</p>
++      <p><strong>It combines:</strong></p>
+       <ul>
+         <li>Strong academics</li>
+         <li>Physical fitness</li>
+@@ -2412,7 +2412,7 @@ export const blogsData = [
+       </ul>
+       <p>This all-round strategy supports students to become confident future leaders.</p>
+ 
+-      <h2>Conclusion</h2>
++      <p><strong>Conclusion</strong></p>
+       <p>Parents today are not just satisfied with classroom learning; the demand for schools in New Gurgaon is on the rise. They desire safety, competent staff, learning in state-of-the-art facilities, athletics, arts, and character.</p>
+       <p>When it comes to finding a good school in Gurugram, <a href="https://kualakubsworldschool.com/" target = 'blank'> Kualakubs World School </a>Gurgaon provides a well-rounded learning experience where every child can excel in academics, build confidence, foster creativity, and acquire valuable life skills.</p>
+       <p>You can also connect with Kualakubs World School through social media like <a href="https://www.instagram.com/kualakubsworldschool/?hl=en" target="_blank" rel="noopener noreferrer">Instagram</a> and <a href="https://www.facebook.com/profile.php?id=61588552164324" target="_blank" rel="noopener noreferrer">Facebook</a>.</p>
+@@ -2451,17 +2451,17 @@ export const blogsData = [
+     content: `
+       <p>Quality CBSE education, modern classrooms, sports, creative activities, and overall personality development at economical fees by affordable schools in Gurgaon. Schools such as Kualakubs <a href ='https://kualakubsworldschool.com/' target = 'blank'>CBSE School</a> emphasize balanced learning, which helps children develop academic excellence, confidence, communication skills, and lifelong values; parents are given excellent value for their investment.</p>
+       
+-      <h2>Introduction</h2>
++      <p><strong>Introduction</strong></p>
+       <p>One of the most important choices for parents is to choose the right school. There are lots of families that are interested in<a href ='https://kualakubsworldschool.com/' target = 'blank'> quality education </a>but do not want to pay very high fees. Fortunately, there are affordable schools in Gurgaon that provide you with excellent academics, state-of-the-art facilities, sports, and personality development at an affordable price.</p>
+       <p>The schools are concerned with keeping education affordable, while at the same time helping kids learn, grow, and gain in confidence.</p>
+ 
+       <div class="mb-5 mt-4" style="border-radius: 16px; overflow: hidden; background-color: #f8f9fa; text-align: center;">
+-        <img src="/blog/blog%2013.png" class="img-fluid" style="max-height: 500px; object-fit: contain;" alt="Affordable Schools in Gurgaon That Offer Quality CBSE Education" />
++        <img src="/blog/blog 13.jpeg" class="img-fluid" style="max-height: 500px; object-fit: contain;" alt="Affordable Schools in Gurgaon That Offer Quality CBSE Education" />
+       </div>
+ 
+-      <h2>Why Opt for Affordable Schools in Gurgaon?</h2>
++      <p><strong>Why Opt for Affordable Schools in Gurgaon?</strong></p>
+       <p>Today's parents want so much more than what takes place in the classroom. Children develop their confidence, responsibility, and creativity within good schools.</p>
+-      <p>Benefits include:</p>
++      <p><strong>Benefits include:</strong></p>
+       <ul>
+         <li>CBSE-based curriculum</li>
+         <li>Experienced teachers</li>
+@@ -2474,9 +2474,9 @@ export const blogsData = [
+       </ul>
+       <p>Today, most of the CBSE schools in Gurugram offer high-quality education with excellent facilities and don't ask for very high fees.</p>
+ 
+-      <h2>Quality Education Doesn't Always Mean High Fees</h2>
++      <p><strong>Quality Education Doesn't Always Mean High Fees</strong></p>
+       <p>Increased fees do not necessarily mean improved learning. The key to effective teaching lies in the methods used and the support provided to the students.</p>
+-      <p>A good school will provide a focus on:</p>
++      <p><strong>A good school will provide a focus on:</strong></p>
+       <ul>
+         <li>Strong academic foundation</li>
+         <li>Concept-based learning</li>
+@@ -2489,9 +2489,9 @@ export const blogsData = [
+       </ul>
+       <p>A balanced teaching-learning context enables children to grasp ideas rather than mere memorization.</p>
+ 
+-      <h2>CBSE Curriculum provides a solid base in academics</h2>
++      <p><strong>CBSE Curriculum provides a solid base in academics</strong></p>
+       <p>CBSE curriculum supports students to learn logical thinking, practical knowledge, and confidence.</p>
+-      <p>Parents like CBSE as it provides:</p>
++      <p><strong>Parents like CBSE as it provides:</strong></p>
+       <ul>
+         <li>NCERT-based learning</li>
+         <li>National curriculum</li>
+@@ -2503,9 +2503,9 @@ export const blogsData = [
+       </ul>
+       <p>CBSE is a well-structured and standardized approach which is why it is a preferred choice of many parents looking for affordable CBSE schools near me.</p>
+ 
+-      <h2>Modern Classrooms Create Better Learning</h2>
++      <p><strong>Modern Classrooms Create Better Learning</strong></p>
+       <p>Today's classrooms promote engagement rather than rote learning.</p>
+-      <p>Modern facilities include:</p>
++      <p><strong>Modern facilities include:</strong></p>
+       <ul>
+         <li>Smart classrooms</li>
+         <li>Science labs</li>
+@@ -2519,9 +2519,9 @@ export const blogsData = [
+       </ul>
+       <p>Parents should always go to the <a href ='https://kualakubsworldschool.com/' target = 'blank'>school campus </a>and observe how these facilities are used on a daily basis while looking for schools near me CBSE.</p>
+ 
+-      <h2>Sports Help Children Grow</h2>
++      <p><strong>Sports Help Children Grow</strong></p>
+       <p>Exercising is beneficial for health and self-esteem. Sports also impart the values of teamwork, discipline, and leadership.</p>
+-      <p>Schools usually offer:</p>
++      <p><strong>Schools usually offer:</strong></p>
+       <ul>
+         <li>Cricket</li>
+         <li>Football</li>
+@@ -2534,9 +2534,9 @@ export const blogsData = [
+       </ul>
+       <p>Sports provide a well-rounded learning environment in addition to studies.</p>
+ 
+-      <h2>Creative Activities Build Confidence</h2>
++      <p><strong>Creative Activities Build Confidence</strong></p>
+       <p>Learning isn't just contained in books. Children find and communicate their talents and feel confident in creative activities.</p>
+-      <p>Popular activities include:</p>
++      <p><strong>Popular activities include:</strong></p>
+       <ul>
+         <li>Drawing</li>
+         <li>Painting</li>
+@@ -2550,9 +2550,9 @@ export const blogsData = [
+       </ul>
+       <p>These activities help develop creativity, communication, and social skills.</p>
+ 
+-      <h2>Kualakubs is a CBSE School that provides Balanced Learning</h2>
++      <p><strong>Kualakubs is a CBSE School that provides Balanced Learning</strong></p>
+       <p>Kualakubs CBSE School emphasizes not just academic achievement but also the comprehensive growth of its students' personalities.</p>
+-      <p>The school emphasizes:</p>
++      <p><strong>The school emphasizes:</strong></p>
+       <ul>
+         <li>Concept-based learning</li>
+         <li>Interactive classrooms</li>
+@@ -2565,9 +2565,9 @@ export const blogsData = [
+       </ul>
+       <p>If you are a parent seeking cost-effective schools in Gurgaon, you should consider Kualakubs' holistic approach to learning.</p>
+ 
+-      <h2>How Affordable Schools Support Child Development</h2>
++      <p><strong>How Affordable Schools Support Child Development</strong></p>
+       <p>Children need to be prepared for life and not just exams.</p>
+-      <p>Good schools support the children to develop:</p>
++      <p><strong>Good schools support the children to develop:</strong></p>
+       <ul>
+         <li>Independent thinking</li>
+         <li>Leadership skills</li>
+@@ -2580,9 +2580,9 @@ export const blogsData = [
+       </ul>
+       <p>The attributes develop students to be confident learners and responsible persons.</p>
+ 
+-      <h2>Parent Checklist Before Admission</h2>
++      <p><strong>Parent Checklist Before Admission</strong></p>
+       <p>Checks into the school are always advised before finalizing.</p>
+-      <p>Be sure to look at these key considerations:</p>
++      <p><strong>Be sure to look at these key considerations:</strong></p>
+       <ul>
+         <li>CBSE curriculum</li>
+         <li>Teacher experience</li>
+@@ -2647,8 +2647,8 @@ export const blogsData = [
+       </div>
+       <p>Expensive infrastructure is not as important as a<a href ='https://kualakubsworldschool.com/' target = 'blank'> good teaching </a>approach.</p>
+ 
+-      <h2>Questions Parents Should Ask</h2>
+-      <p>Ask these simple questions prior to admission:</p>
++      <p><strong>Questions Parents Should Ask</strong></p>
++      <p><strong>Ask these simple questions prior to admission:</strong></p>
+       <ul>
+         <li>How are pupils with SEND supported?</li>
+         <li>How many smart classrooms are used?</li>
+@@ -2661,9 +2661,9 @@ export const blogsData = [
+       </ul>
+       <p>These questions can be instrumental in guiding parents towards the best affordable CBSE schools near me.</p>
+ 
+-      <h2>Why Balanced Education Matters</h2>
++      <p><strong>Why Balanced Education Matters</strong></p>
+       <p>Where academics and activities are related, children do better.</p>
+-      <p>Balanced education includes:</p>
++      <p><strong>Balanced education includes:</strong></p>
+       <ul>
+         <li>Academic learning</li>
+         <li>Physical fitness</li>
+@@ -2676,7 +2676,7 @@ export const blogsData = [
+       </ul>
+       <p>Children are ready for school as well as the future through balanced education.</p>
+ 
+-      <h2>Conclusion</h2>
++      <p><strong>Conclusion</strong></p>
+       <p>Affordable schools in Gurgaon are not compromising on quality. Today, many schools provide a great education in the <a href ='https://kualakubsworldschool.com/' target = 'blank'>CBSE curriculum</a>, have experienced teachers, modern classrooms, sports and creative activities, and are especially cheap.</p>
+       <p><a href ='https://kualakubsworldschool.com/' target = 'blank'>Kualakubs CBSE School</a> is a good place to check out if you are looking for a school that emphasizes academics and overall development. Check out the school, chat to teachers and compare facilities before deciding.</p>
+       <p>You can also connect with Kualakubs World School through social media like <a href='https://www.instagram.com/kualakubs/' target='_blank'>Instagram</a> and <a href='https://www.facebook.com/kualakubs/' target='_blank'>Facebook</a>.</p>
