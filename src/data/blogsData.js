@@ -2411,16 +2411,16 @@ export const blogsData = [
     date: "July 24, 2026",
     author: "Admin",
     summary: "Quality CBSE education, modern classrooms, sports, creative activities, and overall personality development at economical fees by affordable schools in Gurgaon.",
-    imageUrl: "/blog/blog 13.jpeg",
+    imageUrl: "/blog/blog%2013.jpeg",
     content: `
       <p>Quality CBSE education, modern classrooms, sports, creative activities, and overall personality development at economical fees by affordable schools in Gurgaon. Schools such as Kualakubs <a href ='https://kualakubsworldschool.com/' target = 'blank'>CBSE School</a> emphasize balanced learning, which helps children develop academic excellence, confidence, communication skills, and lifelong values; parents are given excellent value for their investment.</p>
       
-      <h2>Introduction</h2>
+      <p><strong>Introduction</strong></p>
       <p>One of the most important choices for parents is to choose the right school. There are lots of families that are interested in<a href ='https://kualakubsworldschool.com/' target = 'blank'> quality education </a>but do not want to pay very high fees. Fortunately, there are affordable schools in Gurgaon that provide you with excellent academics, state-of-the-art facilities, sports, and personality development at an affordable price.</p>
       <p>The schools are concerned with keeping education affordable, while at the same time helping kids learn, grow, and gain in confidence.</p>
 
       <div class="mb-5 mt-4" style="border-radius: 16px; overflow: hidden; background-color: #f8f9fa; text-align: center;">
-        <img src="/blog/blog%2013.png" class="img-fluid" style="max-height: 500px; object-fit: contain;" alt="Affordable Schools in Gurgaon That Offer Quality CBSE Education" />
+        <img src="/blog/blog%2013.jpeg" class="img-fluid" style="max-height: 500px; object-fit: contain;" alt="Affordable Schools in Gurgaon That Offer Quality CBSE Education" />
       </div>
 
       <h2>Why Opt for Affordable Schools in Gurgaon?</h2>
@@ -2675,14 +2675,18 @@ export const blogsData = [
     date: "July 25, 2026",
     author: "Admin",
     summary: "If you are searching for the best preschool and day care in Gurgaon or the best preschool near me, then it's essential to find a facility that offers a combination of early education and child development.",
-    imageUrl: "/blog/blog 14.jpeg",
+    imageUrl: "/blog/blog%2014.jpeg",
     content: `
       <p>If you are searching for the best preschool and day care in Gurgaon or the best preschool near me, then it's essential to find a facility that offers a combination of early education and child development. In the quest to find the <a href='https://kualakubsworldschool.com/' target='blank'>best schools in Gurgaon</a> for pre-nursery or the best preschool near me, balanced early education and child development are a crucial aspect to look at.</p>
 
-      <h2>Introduction</h2>
+      <p><strong>Introduction</strong></p>
       <p>The first big decision to take while selecting the best preschool and day care in Gurgaon is to select the <a href='https://kualakubsworldschool.com/' target='blank'>best preschool and day care</a> itself. Children are confident, curious, and have good social skills in a high-quality preschool.</p>
       
       <p>Today's parents are looking for a lot more than childcare. They would like to learn in an environment that is caring and supportive and in a way that is playful, creative, and experiential.</p>
+
+      <div class="mb-5 mt-4" style="border-radius: 16px; overflow: hidden; background-color: #f8f9fa; text-align: center;">
+        <img src="/blog/blog%2014.jpeg" class="img-fluid" style="max-height: 500px; object-fit: contain;" alt="Best Preschool and Daycare in Gurgaon: A Parent's Complete Guide" />
+      </div>
 
       <h2>Why is early childhood education important?</h2>
       <p>A child's learning style and personality are formed during the first years. A high quality Pre-School helps children to be independent, confident, and ready for school.</p>
