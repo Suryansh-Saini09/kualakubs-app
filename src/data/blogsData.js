@@ -2889,10 +2889,10 @@ export const blogsData = [
     summary: "A K-12 school provides a seamless experience for students, from preschool through Class 12, for consistent learning, trusted teachers, and comprehensive growth. To ensure that a student gets an excellent School in Gurugram for long-term success, schools like Kualakubs CBSE School and KWS Gurgaon provide robust CBSE education, modern infrastructure, sports, life skills, and so on.",
     imageUrl: "/blog/blog%2015.jpeg",
     content: `
-      <p>A <strong>K-12 school</strong> provides a seamless experience for students, from preschool through Class 12, for consistent learning, trusted teachers, and comprehensive growth. To ensure that a student gets an excellent School in Gurugram for long-term success, schools like Kualakubs CBSE School and KWS Gurgaon provide robust CBSE education, modern infrastructure, sports, life skills, and so on.</p>
+      <p>A <strong>K-12 school</strong> provides a seamless experience for students, from preschool through Class 12, for consistent learning, trusted teachers, and comprehensive growth. To ensure that a student gets an excellent School in Gurugram for long-term success, schools like Kualakubs CBSE School and <a href='https://kualakubsworldschool.com/'target='blank'>KWS Gurgaon</a> provide robust CBSE education, modern infrastructure, sports, life skills, and so on.</p>
 
       <p><strong>Introduction</strong></p>
-      <p>Parents typically make one of the most important decisions of their child's life when deciding what K-12 school they should attend. A school that provides education for learners from the early years to senior secondary provides a stable, familiar, and growth-oriented learning experience.</p>
+      <p>Parents typically make one of the most important decisions of their child's life when deciding what K-12 school they should attend.A<a href='https://kualakubsworldschool.com/'target='blank'> school</a> that provides education for learners from the early years to senior secondary provides a stable, familiar, and growth-oriented learning experience.</p>
       <p>Children do not switch schools through the years, but remain in their familiar setting while continuing to be taught by familiar teachers, familiar friends, and familiar teaching methods. This fosters confidence, improved learning, and emotional growth.</p>
 
       <div class="mb-5 mt-4" style="border-radius: 16px; overflow: hidden; background-color: #f8f9fa; text-align: center;">
@@ -2900,7 +2900,7 @@ export const blogsData = [
       </div>
 
       <h2>What is a K-12 School?</h2>
-      <p>A K-12 school is a school that offers both primary and secondary education, from kindergarten (or preschool) through class 12, under a single school.</p>
+      <p>A K-12 school is a school that offers both primary and secondary education, from kindergarten (or preschool) through  <a href='https://kualakubsworldschool.com/'target='blank'> class 12</a>, under a single school.</p>
       
       <p><strong>Students enjoy:</strong></p>
       <ul>
@@ -3000,7 +3000,7 @@ export const blogsData = [
 
       <h2>Consistent CBSE Learning</h2>
       <p>Children feel confident when learning in a familiar setting.</p>
-      <p>Rather than being concerned about new schools, they concern themselves with their own growth.</p>
+      <p>Rather than being concerned about <a href='https://kualakubsworldschool.com/'target='blank'> new schools</a>, they concern themselves with their own growth.</p>
       
       <p><strong>Confidence develops through:</strong></p>
       <ul>
@@ -3017,7 +3017,7 @@ export const blogsData = [
 
       <h2>Sports and Physical Development</h2>
       <p>Learning takes place outside of the classroom.</p>
-      <p>A quality school from K-12 will promote student activity throughout their school career.</p>
+      <p>A quality <a href='https://kualakubsworldschool.com/'target='blank'>school from K-12</a> will promote student activity throughout their school career.</p>
       
       <p><strong>Common sports include:</strong></p>
       <ul>
@@ -3114,7 +3114,7 @@ export const blogsData = [
         <li>Individual attention</li>
         <li>Holistic development</li>
       </ul>
-      <p>KWS Gurgaon is a choice for families seeking a trusted school in Gurugram for its approach that strikes a balance between education and a healthy lifestyle.</p>
+      <p><a href='https://kualakubsworldschool.com/'target='blank'>KWS Gurgaon</a> is a choice for families seeking a trusted school in Gurugram for its approach that strikes a balance between education and a healthy lifestyle.</p>
 
       <h2>Why One School Journey Matters</h2>
       <p>The benefit of studying in one K-12 school is that it provides stability in their educational experiences.</p>
@@ -3182,7 +3182,7 @@ export const blogsData = [
 
       <h2>Conclusion</h2>
       <p>By enrolling in a K-12 school, children get the benefit of ongoing learning, trustworthy teachers, secure friendships, and regular academic development. Students have an educational and personality development-friendly environment in a familiar place.</p>
-      <p>For those who are looking for CBSE schools near me or trusted schools in Gurugram, Kualakubs CBSE School and KWS Gurgaon provide a well-rounded education that empowers students to thrive from nursery to senior secondary level.</p>
+      <p>For those who are looking for CBSE schools near me or trusted schools in Gurugram, Kualakubs CBSE School and <a href='https://kualakubsworldschool.com/'target='blank'>KWS Gurgaon</a> provide a well-rounded education that empowers students to thrive from nursery to senior secondary level.</p>
     `,
     faq: [
       {
