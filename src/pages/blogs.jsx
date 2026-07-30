@@ -7,7 +7,7 @@ import { blogsData } from "../data/blogsData";
 import { SITE_URL } from "../config/site";
 
 export default function Blogs() {
-  const blogs = blogsData;
+  const blogs = [...blogsData].reverse();
 
   return (
     <>
@@ -55,7 +55,7 @@ export default function Blogs() {
             {blogs.map((blog) => (
               <div className="col-md-6 col-lg-4" key={blog.id}>
                 <div className="card h-100 border-0 shadow-sm" style={{ borderRadius: "16px", overflow: "hidden", transition: "transform 0.3s ease" }}>
-                  <img src={blog.imageUrl} className="card-img-top p-2" alt={blog.title} style={{ height: "240px", objectFit: "contain", backgroundColor: "#f8f9fa" }} />
+                  <img src={blog.imageUrl || newBuildingImg} className="card-img-top p-2" alt={blog.title} style={{ height: "240px", objectFit: "contain", backgroundColor: "#f8f9fa" }} />
                   <div className="card-body p-4 d-flex flex-column">
                     <div className="text-muted small mb-2 d-flex align-items-center">
                       <i className="bi bi-calendar-event me-2" style={{ color: "#b3925c" }}></i>

@@ -131,9 +131,16 @@ export default function BlogDetails() {
               </div>
 
               {/* Blog Content */}
+              <style>
+                {`
+                  .blog-content a {
+                    color: blue !important;
+                  }
+                `}
+              </style>
               <div 
                 className="blog-content" 
-                style={{ color: "var(--text-color)", lineHeight: "1.8", fontSize: "1.1rem" }}
+                style={{ color: "var(--text-color)", lineHeight: "1.8", fontSize: "1.1rem", textAlign: "justify", wordWrap: "break-word" }}
                 dangerouslySetInnerHTML={{ __html: blogData.content }}
               >
               </div>
