@@ -3492,6 +3492,7 @@ export const blogsData = [
     content: `
       <p>Selecting the right CBSE 11th and 12th schools in Gurgaon is a crucial decision that can significantly impact a student's academic achievement and future prospects. There are five areas to consider when evaluating the quality of teaching, career orientation, facilities, safety, and development of parents. It is a K-12 school with a holistic senior secondary education, consistent learning, and confidence for the students, like <a href='https://kualakubsworldschool.com/' target='_blank' rel='noopener noreferrer'>KWS School Gurgaon</a>.</p>
 
+       <p><strong>Introduction</strong></p>
       <p>Making the right senior secondary choice is one of the most important decisions for parents and students. <a href='https://kualakubsworldschool.com/' target='_blank' rel='noopener noreferrer'>The right school</a> is not only about getting ready for board exams, but it's about confidence, skills, and career readiness.</p>
 
       <p>When seeking out CBSE 11th & 12th Schools in Gurgaon, make sure to consider something beyond academic matters. A school must provide experienced teachers, modern facilities, guidance, and development of the overall personality.</p>
