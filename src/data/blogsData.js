@@ -3830,6 +3830,8 @@ export const blogsData = [
     summary: "The Best Pre-nursery schools in Gurgaon offer the best environment, well-trained teachers, activity-oriented learning, and holistic development of the child. Before enrolling, parents should make a side-by-side comparison of safety, classroom experience, facilities, and communication/learning methods. Kualakubs World School, Gurgaon aims at nurturing confidence, creativity and love for learning in the learning environment.",
     imageUrl: "/blog/blog 18.jpeg",
     content: `
+
+    <p>The Best Pre-nursery schools in Gurgaon offer the best environment, well-trained teachers, activity-oriented learning, and holistic development of the child. Before enrolling, parents should make a side-by-side comparison of safety, classroom experience, facilities, and communication/learning methods.<a href = 'https://kualakubsworldschool.com/'target='_blank'rel='noopener noreferrer'>Kualakubs World School, Gurgaon</a> aims at nurturing confidence, creativity and love for learning in the learning environment.</p>
     <p><strong>Introduction</strong></p>
       <p>Making a selection of the preschool is one of the most important choices a parent could make. The Best pre-nursery schools in Gurgaon that are the best offer a safe environment, happiness in learning, caring teachers, and activities which help children grow with confidence from an early age.</p>
 
