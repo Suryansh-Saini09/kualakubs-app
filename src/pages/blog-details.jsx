@@ -7,8 +7,23 @@ import { blogsData } from "../data/blogsData";
 import { absoluteUrl, SITE_NAME, SITE_URL } from "../config/site";
 
 function toIsoDate(dateValue) {
+  if (!dateValue) return undefined;
+
+  const match = String(dateValue).match(
+    /^([A-Za-z]+)\s+(\d{1,2}),\s+(\d{4})$/
+  );
+
+  if (match) {
+    const [, month, day, year] = match;
+    const monthIndex = new Date(`${month} 1, ${year}`).getMonth();
+
+    return `${year}-${String(monthIndex + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+  }
+
   const date = new Date(dateValue);
-  return Number.isNaN(date.getTime()) ? undefined : date.toISOString().slice(0, 10);
+  return Number.isNaN(date.getTime())
+    ? undefined
+    : date.toISOString().slice(0, 10);
 }
 
 export default function BlogDetails() {
