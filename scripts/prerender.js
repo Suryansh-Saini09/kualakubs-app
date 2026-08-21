@@ -34,8 +34,17 @@ async function prerender() {
         console.log('Local server running on http://localhost:3000');
 
         // 2. Launch Puppeteer
+        const chromePaths = [
+            '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+            '/Applications/Chromium.app/Contents/MacOS/Chromium',
+            '/usr/bin/google-chrome',
+            '/usr/bin/chromium-browser'
+        ];
+        const executablePath = chromePaths.find(p => fs.existsSync(p));
+
         const browser = await puppeteer.launch({
             headless: 'new', // Use the new headless mode
+            executablePath: executablePath || undefined,
             args: ['--no-sandbox', '--disable-setuid-sandbox']
         });
 
