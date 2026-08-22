@@ -4385,21 +4385,23 @@ export const blogsData = [
     content: `
       <p>Choosing a school is about more than just looking at buildings or comparing fee structures. When searching for the <a href="https://kualakubsworldschool.com/">best CBSE schools in Gurgaon</a>, parents should consider several important factors, including teaching quality, safety, curriculum, activities, transportation, facilities, student support, and the overall school environment.</p>
 
-      <div class="mb-5 mt-4" style="border-radius: 16px; overflow: hidden; background-color: #f8f9fa; text-align: center;">
-        <img src="/blog/blog%2020.jpeg" class="img-fluid" style="max-height: 500px; object-fit: contain;" alt="Choosing the Best CBSE School in Gurgaon: A Parent's Checklist" />
-      </div>
+      
 
       <p><strong>Introduction</strong></p>
       <p>Selecting the right school is one of the most important decisions parents make for their children. The right school should provide more than academic instruction. It should create a safe, supportive, and engaging environment where children can learn, develop confidence, build communication skills, and explore their interests.</p>
 
       <p>When parents are looking for the <a href="https://kualakubsworldschool.com/why-kualakubs">best CBSE schools in Gurgaon</a>, comparing schools using a clear checklist can make the decision easier and more practical.</p>
 
+      <div class="mb-5 mt-4" style="border-radius: 16px; overflow: hidden; background-color: #f8f9fa; text-align: center;">
+        <img src="/blog/blog%2020.jpeg" class="img-fluid" style="max-height: 500px; object-fit: contain;" alt="Choosing the Best CBSE School in Gurgaon: A Parent's Checklist" />
+      </div>
+
       <p><strong>What Do Parents Need to Consider When Selecting a School?</strong></p>
       <p>This simple checklist can help parents compare schools in Gurgaon without getting overwhelmed by too many choices.</p>
 
       <p><strong>1. Review the Teaching Faculty</strong></p>
       <p>High-quality teachers can have a significant impact on a child's learning experience. Parents should look beyond qualifications and consider how teachers interact with students and support their individual learning needs.</p>
-      <p>Parents should check:</p>
+      <p><strong>Parents should check:</strong></p>
       <ul>
         <li>Teachers' qualifications and experience.</li>
         <li>Teacher-student interaction.</li>
@@ -4410,7 +4412,7 @@ export const blogsData = [
 
       <p><strong>2. Understand the CBSE Curriculum</strong></p>
       <p>A strong <a href="https://kualakubsworldschool.com/why-kualakubs">CBSE school</a> should encourage balanced learning rather than focusing only on examinations. Parents should understand how the curriculum is delivered and whether students receive opportunities to apply what they learn.</p>
-      <p>Parents can look for:</p>
+      <p><strong>Parents can look for:</strong></p>
       <ul>
         <li>Clear and structured delivery of the CBSE curriculum.</li>
         <li>Activity-based and practical learning.</li>
@@ -4423,7 +4425,7 @@ export const blogsData = [
 
       <p><strong>3. Prioritise School Safety</strong></p>
       <p>Safety should always be one of the most important factors on a parent's checklist. A good school should have clear systems for students, staff, visitors, and transportation.</p>
-      <p>Parents should check:</p>
+      <p><strong>Parents should check:</strong></p>
       <ul>
         <li>CCTV monitoring in important areas.</li>
         <li>Secure entrances and exits.</li>
@@ -4437,7 +4439,7 @@ export const blogsData = [
 
       <p><strong>4. Compare School Facilities</strong></p>
       <p>Modern facilities can enhance learning when they are properly maintained and actively used as part of the school experience. However, facilities should be considered alongside teaching quality and student support.</p>
-      <p>Parents should look for:</p>
+      <p><strong>Parents should look for:</strong></p>
       <ul>
         <li>Well-equipped classrooms.</li>
         <li>Science and computer laboratories.</li>
@@ -4452,7 +4454,7 @@ export const blogsData = [
 
       <p><strong>5. Check Transport Facilities</strong></p>
       <p>Transportation is an important consideration for many families in Gurgaon. A long or difficult commute can affect a child's daily schedule, energy, and overall routine.</p>
-      <p>Parents should check:</p>
+      <p><strong>Parents should check:</strong></p>
       <ul>
         <li>School bus routes.</li>
         <li>Safety procedures during transportation.</li>
@@ -4466,7 +4468,7 @@ export const blogsData = [
 
       <p><strong>6. Understand the Fee Structure</strong></p>
       <p>School fees should be transparent before parents make a final decision. The admission fee alone does not represent the complete cost of education.</p>
-      <p>Parents should check:</p>
+      <p><strong>Parents should check:</strong></p>
       <ul>
         <li>Admission charges.</li>
         <li>Annual fees.</li>
@@ -4481,7 +4483,7 @@ export const blogsData = [
 
       <p><strong>7. Explore Sports and Co-Curricular Activities</strong></p>
       <p>Children should have opportunities to explore interests beyond academics. Sports, arts, music, theatre, debate, and clubs can help develop confidence, teamwork, communication, creativity, and discipline.</p>
-      <p>Parents should ask:</p>
+      <p><strong>Parents should ask:</strong></p>
       <ul>
         <li>What sports are offered?</li>
         <li>Are students encouraged to participate?</li>
@@ -4494,7 +4496,7 @@ export const blogsData = [
 
       <p><strong>8. Evaluate the School Environment</strong></p>
       <p>Children spend a significant part of their day at school, so the overall environment can have a major influence on their learning experience.</p>
-      <p>During a campus visit, parents should observe:</p>
+      <p><strong>During a campus visit, parents should observe:</strong></p>
       <ul>
         <li>How teachers communicate with students.</li>
         <li>Whether students appear comfortable and engaged.</li>
@@ -4508,7 +4510,7 @@ export const blogsData = [
 
       <p><strong>9. Ask About Student Support</strong></p>
       <p>Every child learns differently. Schools should have systems that support students facing academic challenges while also helping them develop their strengths.</p>
-      <p>Parents should enquire about:</p>
+      <p><strong>Parents should enquire about:</strong></p>
       <ul>
         <li>Academic support systems.</li>
         <li>Counselling facilities.</li>
@@ -4522,7 +4524,7 @@ export const blogsData = [
 
       <p><strong>10. Consider the School's Location</strong></p>
       <p>Gurgaon has several residential areas, making school location an important practical consideration for families.</p>
-      <p>When comparing the <strong>best schools in Gurgaon</strong>, parents should consider:</p>
+      <p><strong>When comparing the <strong>best schools in Gurgaon</strong>, parents should consider:</strong></p>
       <ul>
         <li>Distance from home.</li>
         <li>Daily travel time.</li>
@@ -4536,7 +4538,7 @@ export const blogsData = [
 
       <p><strong>11. Visit the School Before Admission</strong></p>
       <p>Online research is useful, but visiting a school personally can give parents a much better understanding of its environment and facilities.</p>
-      <p>During the visit, parents can:</p>
+      <p><strong>During the visit, parents can:</strong></p>
       <ul>
         <li>Observe classrooms and common areas.</li>
         <li>Speak with the admission team.</li>
@@ -4551,7 +4553,7 @@ export const blogsData = [
       <p><strong>12. Look Beyond Popularity and Rankings</strong></p>
       <p>A popular school may be a good school, but popularity alone should not determine the final decision. The right school should match a child's needs, interests, personality, and daily routine.</p>
 
-      <p>Instead of asking only which are the <strong>best CBSE schools in Gurgaon</strong>, parents should also ask:</p>
+      <p><strong>Instead of asking only which are the <strong>best CBSE schools in Gurgaon</strong>, parents should also ask:</strong></p>
       <ul>
         <li>Does the teaching approach appear suitable for my child?</li>
         <li>Will the daily commute be manageable?</li>
