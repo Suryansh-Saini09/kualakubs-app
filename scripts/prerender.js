@@ -57,7 +57,7 @@ async function prerender() {
 
             // Go to the local URL
             await page.goto(`http://localhost:3000${route}`, {
-                waitUntil: 'networkidle0', // Wait until network activity settles
+                waitUntil: 'domcontentloaded',
                 timeout: 30000
             });
 
