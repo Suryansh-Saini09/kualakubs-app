@@ -53,12 +53,13 @@ async function prerender() {
             console.log(`Pre-rendering ${route}...`);
             const page = await browser.newPage();
 
-            // Intercept and disable external resources that don't affect layout
+            // Intercept and disable external resources that don't affect layout/DOM
             await page.setRequestInterception(true);
             page.on('request', (req) => {
                 const resourceType = req.resourceType();
-                if (['image', 'stylesheet', 'font', 'media'].includes(resourceType)) {
-                    req.continue(); // Let styles and images load if they matter for rendering, but actually for SEO HTML we just need the DOM
+                const url = req.url();
+                if (url.includes('googletagmanager') || url.includes('google-analytics') || ['image', 'media', 'font'].includes(resourceType)) {
+                    req.abort();
                 } else {
                     req.continue();
                 }
@@ -71,12 +72,21 @@ async function prerender() {
             });
 
             // Wait for React to render the app (specifically the root element's children)
-            await page.waitForSelector('#root > *', { timeout: 10000 }).catch(() => {
+            try {
+                await page.waitForSelector('#root > *', { timeout: 10000 });
+            } catch {
                 console.log(`Timeout waiting for #root content on ${route}, continuing anyway...`);
-            });
+            }
 
             // Extract the fully rendered HTML
-            let html = await page.content();
+            let html = '';
+            try {
+                html = await page.content();
+            } catch (contentErr) {
+                console.warn(`Could not extract content for ${route}:`, contentErr.message);
+                await page.close();
+                continue;
+            }
 
             // Note: We might want to remove the injected puppeteer scripts if any, but page.content() is usually clean enough
 
