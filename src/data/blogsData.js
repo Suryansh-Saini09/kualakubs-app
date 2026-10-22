@@ -5757,5 +5757,162 @@ export const blogsData = [
         answer: "The majority of schools would prefer a parent/child interaction or informal assessment, not a formal test."
       }
     ]
+  },
+  {
+    id: "26",
+    slug: "pre-nursery-schools-in-gurgaon-what-to-expect-in-the-first-year",
+    title: "Pre-Nursery Schools in Gurgaon: What to Expect in the First Year",
+    metaTitle: "Pre-Nursery Schools in Gurgaon: What to Expect in First Year",
+    metaDescription: "Learn what to expect in the first year of pre-nursery schools in Gurgaon. Discover play-based curriculum, routines, social development, and parent tips.",
+    date: "October 22, 2026",
+    author: "Admin",
+    summary: "The first school to attend is the pre-nursery school, where the emphasis is on helping children become comfortable with learning and with routines/social interaction in their first year at school. Those parents interested in Gurgaon's pre-nursery schools should find schools that incorporate play-based learning, creativity, communication, physical activities, and early concepts into a safe and caring environment.",
+    imageUrl: "/blog/blog 26.jpeg",
+    content: `
+      <p>The first school to attend is the <a href="https://kualakubsworldschool.com/" target="_blank" rel="noopener noreferrer">pre-nursery school</a>, where the emphasis is on helping children become comfortable with learning and with routines/social interaction in their first year at school. Those parents interested in Gurgaon's pre-nursery schools should find schools that incorporate play-based learning, creativity, communication, physical activities, and early concepts into a safe and caring environment.</p>
+
+      <p>Choosing the right preschool becomes an important decision, as the first year will give children a sense of comfort in learning, socializing, and routine. It's helpful for parents to know what a child will be going through in the first year of nursery education when they are considering pre-nursery schools in Gurgaon.</p>
+
+      <p>This is mostly about play-based learning, communication, social skills, motor skills, creativity, and independence, with little emphasis on academic studies in general and a low emphasis on academics in particular, in the pre-nursery years. Around the age of three years, the majority of <a href="https://kualakubsworldschool.com/why-kualakubs" target="_blank" rel="noopener noreferrer">preschools in Gurgaon</a> begin to teach the children a routine.</p>
+
+      <div class="mb-5 mt-4" style="border-radius: 16px; overflow: hidden; background-color: #f8f9fa; text-align: center;">
+        <img src="/blog/blog 26.jpeg" class="img-fluid" style="max-height: 500px; object-fit: contain;" alt="Pre-Nursery Schools in Gurgaon: What to Expect in the First Year" />
+      </div>
+
+      <h2>What is Learnt in Pre-Nursery?</h2>
+
+      <p>The initial year will be spent mainly on settling children into school. A good programme could contain:</p>
+
+      <ul>
+        <li><strong>Language development:</strong> Stories, rhymes, conversations and vocabulary building activities</li>
+        <li><strong>Early numeracy skills:</strong> Use play to practice early numeracy skills involving numbers, shapes, patterns, sorting and counting.</li>
+        <li><strong>Motor Skills:</strong> Drawing/Colouring, blocks, puzzles and movement</li>
+        <li><strong>Social skills:</strong> Sharing, taking turns and interacting with classmates</li>
+        <li><strong>Creative expression:</strong> Art, music, dance and imaginative play</li>
+        <li><strong>Independence:</strong> Feeding, arranging possessions and simple routines.</li>
+        <li><strong>Social development:</strong> Making an effort to include others in play and to socialize with others.</li>
+      </ul>
+
+      <p>Hands-on and exploration learning are popular methods in early-years programmes as they are a child's way of learning.</p>
+
+      <h2>Expectations for the First Year</h2>
+
+      <div class="table-responsive my-4">
+        <table class="table table-bordered table-striped" style="width: 100%; border-collapse: collapse;">
+          <thead>
+            <tr style="background-color: #f1f5f9;">
+              <th style="padding: 12px; border: 1px solid #dee2e6;">Area</th>
+              <th style="padding: 12px; border: 1px solid #dee2e6;">What Your Child May Experience</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="padding: 10px; border: 1px solid #dee2e6;"><strong>Daily routine</strong></td>
+              <td style="padding: 10px; border: 1px solid #dee2e6;">Circle time, activities, stories, meals and outdoor play</td>
+            </tr>
+            <tr>
+              <td style="padding: 10px; border: 1px solid #dee2e6;"><strong>Learning</strong></td>
+              <td style="padding: 10px; border: 1px solid #dee2e6;">Basic language, numbers, shapes, colours and concepts</td>
+            </tr>
+            <tr>
+              <td style="padding: 10px; border: 1px solid #dee2e6;"><strong>Social development</strong></td>
+              <td style="padding: 10px; border: 1px solid #dee2e6;">Group play, sharing and taking turns</td>
+            </tr>
+            <tr>
+              <td style="padding: 10px; border: 1px solid #dee2e6;"><strong>Creativity</strong></td>
+              <td style="padding: 10px; border: 1px solid #dee2e6;">Art, music, craft and imaginative activities</td>
+            </tr>
+            <tr>
+              <td style="padding: 10px; border: 1px solid #dee2e6;"><strong>Physical development</strong></td>
+              <td style="padding: 10px; border: 1px solid #dee2e6;">Indoor and outdoor movement activities</td>
+            </tr>
+            <tr>
+              <td style="padding: 10px; border: 1px solid #dee2e6;"><strong>Independence</strong></td>
+              <td style="padding: 10px; border: 1px solid #dee2e6;">Following routines and managing simple tasks</td>
+            </tr>
+            <tr>
+              <td style="padding: 10px; border: 1px solid #dee2e6;"><strong>Parent communication</strong></td>
+              <td style="padding: 10px; border: 1px solid #dee2e6;">Regular updates about the child's progress</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>How does the Best School for pre-nursery in Gurgaon approach the concept of Approach to Learning?</h2>
+
+      <p>The top Gurgaon pre-nursery schools should provide more than just worksheets and memorisation. Parents should seek an environment that allows children to communicate, explore, and learn at their own speed.</p>
+
+      <p><strong>Here are some factors you should consider when choosing a school to attend:</strong></p>
+
+      <ul>
+        <li>Curriculum and activities used are age-appropriate</li>
+        <li>Quality and supportive staff - excellent</li>
+        <li>Safe, hygienic, and child-friendly classrooms</li>
+        <li>Class sizes that are appropriate – small or manageable</li>
+        <li>Creating opportunities for children to play indoors and outdoors.</li>
+        <li>Parents are regularly informed</li>
+        <li>Opportunities to be creative and sensory learners</li>
+        <li>Convenient location and suitable timings</li>
+      </ul>
+
+      <p>Parents should consider a variety of aspects when comparing preschools in Gurgaon, such as safety, hygiene, teacher quality, class size, and parent communication.</p>
+
+      <h2>Supporting Your Child in <a href="https://kualakubsworldschool.com/our-campuses" target="_blank" rel="noopener noreferrer">Pre-Nursery</a></h2>
+
+      <h3>Helping Your Child Adjust to Pre-Nursery</h3>
+
+      <p>This may take some time to get used to. Parents can contribute by establishing a simple program at home and maintaining a positive attitude towards school.</p>
+
+      <p><strong>Some tips you can use are:</strong></p>
+
+      <ul>
+        <li>Practice brief separations prior to admission.</li>
+        <li>Support independent feeding and self-care.</li>
+        <li>Read books and articles about school.</li>
+        <li>Come on a pre-visit to the school.</li>
+        <li>Do not expect the child to have academic learning pressure.</li>
+        <li>Allow the child to get to know teachers and classmates.</li>
+      </ul>
+
+      <h2>The Best Choice of Pre-Nursery School in Gurgaon</h2>
+
+      <p>Another practical factor is the location. Distance may not be a significant factor, although you can use finding a best preschool near me to help cut down on your options.</p>
+
+      <p>Get to know schools and visit the classroom. Talk about the daily routine, number of children each teacher cares for, school program, safety, outdoor play, and how the school documents a child's progress.</p>
+
+      <p>The ideal pre-school should provide a safe, nurturing, and stimulating environment, where the children are happy and feel comfortable in school and gradually become more confident and independent.</p>
+
+      <h2>Conclusion</h2>
+
+      <p>When choosing the best schools in Gurgaon for pre-nursery you can't just give only facilities and facilities. Parents should consider the following factors: Teaching approach, Teacher-child relationship, Safety, Daily routine, and opportunities for overall development. Families can have the opportunity to visit shortlisted schools to determine which schools will offer a safe, happy, confident, and learning environment for their children.</p>
+
+      <p>You can also connect with <a href="https://kualakubsworldschool.com/blogs" target="_blank" rel="noopener noreferrer">Kualakubs World School</a> through social media like <a href="https://www.instagram.com/kualakubsworldschool?igsh=bXRlNTJ4eHh4Z2Mw" target="_blank" rel="noopener noreferrer">Instagram</a> and <a href="https://www.facebook.com/share/1EhDbJwp5s/" target="_blank" rel="noopener noreferrer">Facebook</a>.</p>
+    `,
+    faq: [
+      {
+        question: "At what age can children attend pre-nursery?",
+        answer: "Children are accepted to most schools from 2.5 years to 4 years, based on the admission criteria."
+      },
+      {
+        question: "What do children learn in pre-nursery?",
+        answer: "Language, social, motor, creative, and early learning skills are developed through play-based activities."
+      },
+      {
+        question: "What is taught in pre-nursery?",
+        answer: "Play-based activities develop language skills, social skills, motor skills, creative skills, and early learning skills."
+      },
+      {
+        question: "Which are the best pre-nursery schools in Gurgaon?",
+        answer: "Consider the School's curriculum, teachers, safety, facilities, learning approach, and overall environment."
+      },
+      {
+        question: "What is in the first year for parents?",
+        answer: "Children become more confident, independent, develop communication skills, and become aware of school routines."
+      },
+      {
+        question: "What ways can I find the best preschool near me?",
+        answer: "Begin to narrow down schools in the area, visit and evaluate schools to see how they teach, what they have to offer, and the learning environment."
+      }
+    ]
   }
 ];
